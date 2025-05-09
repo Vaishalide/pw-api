@@ -1,0 +1,24 @@
+# Wrangler configuration for Cloudflare Workers
+name = "pw-thor"
+compatibility_date = "2023-01-01"
+
+# Bind your Cloudflare Variable for data
+# You'll create this using Cloudflare Dashboard or wrangler CLI
+[vars]
+# You'll set this value using the Cloudflare Dashboard or wrangler CLI
+# Example: DATA_JSON = '{"batches": {...}}'
+# DATA_JSON = ''  # Will be set through Cloudflare Dashboard
+
+# Routes configuration
+# These define which requests get sent to which Workers
+[routes]
+pattern = "/api/*"
+script = "api"
+
+[routes.video]
+pattern = "/video*"
+script = "video"
+
+# Trigger file for Cloudflare Pages
+[triggers]
+pages = ["*"]
