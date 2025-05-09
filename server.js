@@ -1,73 +1,59 @@
-// server.js
 const express = require('express');
 const path = require('path');
-const cors = require('cors');
-const fetch = require('node-fetch');
-
+const fetch = require('node-fetch'); // Make sure to install: npm install node-fetch
 const app = express();
 
-// Enable CORS
-app.use(cors());
-
-// Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Proxy target
 const API_BASE = 'https://sorry-junie-ishaautofilterbot-a45d8912.koyeb.app';
 
-// Proxy routes
+// Proxy: GET /data
 app.get('/data', async (req, res) => {
   try {
     const response = await fetch(`${API_BASE}/data`);
-    const data = await response.json();
-    res.json(data);
+    const json = await response.json();
+    res.json(json);
   } catch (err) {
-    console.error('Error fetching /data:', err);
     res.status(500).json({ error: 'Failed to fetch data' });
   }
 });
 
+// Proxy: GET /data/batches/:batchId/subjects
 app.get('/data/batches/:batchId/subjects', async (req, res) => {
   try {
     const response = await fetch(`${API_BASE}/data/batches/${req.params.batchId}/subjects`);
-    const data = await response.json();
-    res.json(data);
+    const json = await response.json();
+    res.json(json);
   } catch (err) {
-    console.error('Error fetching subjects:', err);
     res.status(500).json({ error: 'Failed to fetch subjects' });
   }
 });
 
+// Proxy: GET /data/batches/:batchId/subjects/:subjectId/topics
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) => {
   try {
     const response = await fetch(`${API_BASE}/data/batches/${req.params.batchId}/subjects/${req.params.subjectId}/topics`);
-    const original = await response.json();
+    const topics = await response.json();
 
-    // Normalize lectures, notes, dpps to always be arrays
-    const topics = original.map(topic => ({
+    // Normalize structure
+    const normalized = topics.map(topic => ({
       ...topic,
-      lectures: Array.isArray(topic.lectures)
-        ? topic.lectures
-        : Object.values(topic.lectures || {}),
-      notes: Array.isArray(topic.notes)
-        ? topic.notes
-        : Object.values(topic.notes || {}),
-      dpps: Array.isArray(topic.dpps)
-        ? topic.dpps
-        : Object.values(topic.dpps || {})
+      lectures: Array.isArray(topic.lectures) ? topic.lectures : Object.values(topic.lectures || {}),
+      notes: Array.isArray(topic.notes) ? topic.notes : Object.values(topic.notes || {}),
+      dpps: Array.isArray(topic.dpps) ? topic.dpps : Object.values(topic.dpps || {})
     }));
 
-    res.json(topics);
+    res.json(normalized);
   } catch (err) {
-    console.error('Error fetching topics:', err);
     res.status(500).json({ error: 'Failed to fetch topics' });
   }
 });
 
-// SPA fallback
+// SPA Fallback
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
