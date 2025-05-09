@@ -113,7 +113,7 @@ function renderBatches() {
 
 async function loadBatches() {
   document.getElementById('batchLoader').classList.remove('hidden');
-  const res = await fetch('/proxy/data');
+  const res = await fetch('/data');
   const json = await res.json();
   allBatches = Object.entries(json.batches).map(([key, val]) => ({ key, ...val }));
   renderBatches();
@@ -124,7 +124,7 @@ async function loadSubjects(batchId) {
   showView('subjects');
   subjectsDiv.innerHTML = '';
 
-  const res = await fetch(`/proxy/data/batches/${batchId}/subjects`);
+  const res = await fetch(`/data/batches/${batchId}/subjects`);
   const subjects = await res.json();
 
   document.getElementById('subjectLoader').classList.add('hidden');
@@ -145,7 +145,7 @@ async function loadTopics(batchId, subjectId) {
   showView('topics');
   topicsDiv.innerHTML = '';
 
-  const res = await fetch(`/proxy/data/batches/${batchId}/subjects/${subjectId}/topics`);
+  const res = await fetch(`/data/batches/${batchId}/subjects/${subjectId}/topics`);
   const topics = await res.json();
 
   const topicButtonsContainer = document.createElement('div');
@@ -266,7 +266,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 </div>
 
 <script>
-fetch('/proxy/data')
+fetch('/data')
   .then(response => response.json())
   .then(data => {
     if (data.popup && data.popup.show) {
@@ -281,4 +281,3 @@ fetch('/proxy/data')
 
 </body>
 </html>
-
