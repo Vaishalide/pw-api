@@ -38,43 +38,48 @@
                   "title": "Electric Charges and Fields : DPP 07 || Parishram 2026"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ed2a3304-e706-486f-ad4a-62e817458ae5.png",
                   "title": "Electric Charges and Fields 01 : Introduction To Class XII Physics || Electric Charges and its Properties",
                   "videoUrl": "https://clean-evita-ishaautofilterbot-3f8fb642.koyeb.app/watch/86/2i5bk4x7wdf14hd0r3ja.mp4?hash=AgAD7W"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/955eee0b-65f6-4591-8177-0f4e0dab0f06.png",
                   "title": "Electric Charges and Fields 02 : Methods of Charging || Coulomb's Law",
                   "videoUrl": "  vvbcgcgg"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/808e7a77-f060-441c-8a24-cac9e9ea37ff.png",
                   "title": "Electric Charges and Fields 03 : Vector Form of Coulomb's Law || Superposition Principle",
                   "videoUrl": "cvbcgbcbc"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/99426cfc-17d0-473c-b733-7337459e4e84.png",
                   "title": "Electric Charges and Fields 04 : Electric Field || Electric Field Lines",
                   "videoUrl": "cbcgbgg"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ca087418-01e3-4e7e-abe5-d90a7aaf7dbf.png",
                   "title": "Electric Charges and Fields 05 : Continuous Charge Distribution || Electric Dipole || Extra Live Lecture",
                   "videoUrl": "ggbgbfgb"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d6fc9d07-f84a-4c5d-a126-7f8a4ebd36e5.png",
                   "title": "Electric Charges and Fields 06 : Dipole in Uniform EF || Torque || NO DPP",
                   "videoUrl": "vnggg"
                 },
-                {
+                "6": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fed935ec-d747-41b4-b030-3f29446dde2d.png",
                   "title": "Electric Charges and Fields 07 : Electric Flux and Gauss Theorem || NO DPP || Rescheduled @05:15 PM",
                   "videoUrl": "gggbbgb"
+                },
+                "-OPnmUiCth7jBYx5Ba2f": {
+                  "thumbnail": "tytrytrytry",
+                  "title": "frtytry",
+                  "videoUrl": "rtyrtyrtytry"
                 }
-              ],
+              },
               "name": "Electric Charges and Fields",
               "notes": [
                 {
@@ -410,6 +415,176 @@
         },
         "-OPkmpFcNCbgiDnjPFSt": {
           "name": "Inorganic Chemistry"
+        },
+        "-OPnMZWsDlm2iFuQn0uC": {
+          "name": "Physics",
+          "topics": {
+            "-OPnOVhaf6yFMDTNWRFH": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f5f33c23-7ee1-40f5-b8af-d13ac5392484.png",
+                  "title": "Units and Dimension 01 : Introduction to Physics and Unit || Physical Quantities || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4a35a471-4f04-41c3-b75d-f8599c7fbe45.png",
+                  "title": "Units and Dimension 02 : Unit and System of units || Dimension and Dimension Formula || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4980bdac-7801-4f56-9fea-09556bb53146.png",
+                  "title": "Units and Dimension 03 : Dimension Formula of different phy. quant. || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/66f6697f-ab3c-4fa6-85a4-502171f75391.png",
+                  "title": "Units and Dimension 04 : Dimensional Formula and Its Correctness",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/63cfaf24-65c9-472d-b53d-666314d4483d.png",
+                  "title": "Units and Dimension 05 : Dimensional Formula and Its Correctness (Part 02) || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2dd6ce8c-b340-4366-bec7-9e6109e16b77.png",
+                  "title": "Units and Dimension 06 : Question Practice to find D.F of unknown Physical Quantity || Rescheduled @06:15 PM",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5e36e94c-5a33-44ee-ab29-119ec373e618.png",
+                  "title": "Units and Dimension 07 : Question Practice || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0baca7bf-4eaa-44f3-9e7b-49d032ff3721.png",
+                  "title": "Units and Dimension : Home Work Discussion || NO DPP || Extra Lecture || Recorded",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ac27f782-2119-4e19-b85e-7b0656db504a.png",
+                  "title": "Units and Dimension 08 : To derive the D.F of Physical Quantity",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4d531826-cf0d-45fb-828d-2eb06fc944c9.png",
+                  "title": "Units and Dimension 09 : To find the relation between Physical Quantities || Unit Conversion",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7c3045d7-9729-4078-acbd-b60567528f9e.png",
+                  "title": "Units and Dimension 10 : Application of Dimensional Analysis",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch 01: Units and Dimension",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "10 : Class Notes"
+                }
+              ]
+            },
+            "-OPnOvbsgF1hzpMpu_9E": {
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/438e22fc-0095-489b-87f6-47e513e35469.png",
+                  "title": "Basic Maths 01 : Basic Trigonometric Ratio || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6b6031cf-552b-4abe-b119-e5f012434868.png",
+                  "title": "Basic Maths 02 : Basic Trigonometric Ratio (Part 02) || NO DPP",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch 02 : Basic Maths",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                }
+              ]
+            }
+          }
         }
       }
     },
@@ -923,8 +1098,755 @@
                   "title": "02 : Class Notes"
                 }
               ]
+            },
+            "-OPnKyx10IG7IHc7bMEk": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "10 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "11 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/56dcc13a-ccef-4c23-8745-13d84f4481e1.png",
+                  "title": "Solutions 01 : Concentration Terms || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c666b3b-8098-4efe-83e5-f3d7b1102b7c.png",
+                  "title": "Solutions 02 : Concentration Terms (Part Two)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f70d1d5d-a72b-4cc1-b187-373be1b4d533.png",
+                  "title": "Solutions 03 : Concentration Terms (Part Three)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a7ccad59-9a42-4f8f-8993-3e59a4c13fc8.png",
+                  "title": "Solutions 04 : Concentration Terms (Part Four)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/40bc7ef3-b5bc-4427-b961-5ff083bd3c8a.png",
+                  "title": "Solutions 05 : Concentration Terms (Part Five) || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/89cc427c-282d-4d7b-a136-e31d9bcd6179.png",
+                  "title": "Solutions 06 : Vapour Pressure",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ebc0d732-3088-4148-b937-41cc6b1588a4.png",
+                  "title": "Solutions 07 : Vapour Pressure (Part Two)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b3b1a928-371f-4953-96a4-b5e68427f759.png",
+                  "title": "Solutions 08 : Vapour Pressure (Part Three) || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/519a36ef-ae2e-4084-80e6-364d2661b52a.png",
+                  "title": "Solutions 09 : Mixture of Non-Volatile Solute in a Volatile Solvent || Mixture of Volatile Solute in a Volatile Solvent both are Miscible",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9905dc43-1a49-4e5d-95a4-79650dd7b046.png",
+                  "title": "Solutions 10 : Mixture of Non-Volatile Solute in a Volatile Solvent || Mixture of Volatile Solute in a Volatile Solvent both are Miscible (Part Two)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/60abe46d-ee03-446c-8a68-745a94aa9696.png",
+                  "title": "Solutions 11 : Ideal Solutions || Non Ideal Solutions || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/afaf44e0-f1a3-472d-80c3-0ebed04a64b7.png",
+                  "title": "Solutions 12 : Ideal Solutions || Non Ideal Solutions || Distillation || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a79cdc87-5045-40eb-825b-b0a2d6baf224.png",
+                  "title": "Solutions 13 : Non Ideal Solution || Azeotropes || Colligative Properties",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c2ceb311-4353-4ad6-a09e-ddfc72ff5df6.png",
+                  "title": "Solutions 14 : Oswalt-Walker Experiment || Elevation in B.P || Depression in F.P",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/008febd0-fd7f-4d08-97b9-9e7f881cbc14.png",
+                  "title": "Solutions 15 : Depression in F.P || Osmotic Pressure || Van't Hoff Factor",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dd3a7b5e-18ca-417d-b283-71eb5a30368c.png",
+                  "title": "Solutions 16 : Depression in F.P || Osmotic Pressure || Van't Hoff Factor (Part Two) || NO DPP || Extra Class",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/781c499a-c5fd-47d4-94f9-a222f7326c8f.png",
+                  "title": "Solutions 17 : Van’t Hoff Factor || Henry’s Law",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-01 : Solutions",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "10 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "11 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "12 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "13 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "14 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "15 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "16 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "17 : Class Notes"
+                }
+              ]
+            },
+            "-OPnLi7w24i4cNn6ifin": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ccee1247-eccf-4adf-8c53-96a064cec5b1.png",
+                  "title": "Chemical Kinetics 01 : Rate of reaction || NO DPP",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1d6bb288-6029-42ee-b6e1-1d99d9a63881.png",
+                  "title": "Chemical Kinetics 02 : Rate of Reaction (Part Two)",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-02 : Chemical Kinetics",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                }
+              ]
             }
           }
+        },
+        "-OPnLtM_obw3cxVd80M4": {
+          "name": "Inorganic Chemistry"
+        },
+        "-OPnLyU7rBZJXI-tL97B": {
+          "name": "Organic Chemistry"
+        }
+      }
+    },
+    "-OPnPS6D2W652NxrP8cd": {
+      "image": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c89c4a74-374c-44e5-9041-ffe88aa3746a.jpg",
+      "name": "Arjuna NEET 2026",
+      "subjects": {
+        "-OPnPg88ZyL7wep-BUiL": {
+          "name": "Physics",
+          "topics": {
+            "-OPnRyMMouYvLbb5uB1B": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2392f8bc-a2b0-478a-9517-e92d652c6a2e.png",
+                  "title": "Mathematical Tools 01 : Fractions and Decimals || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fe618da7-4c53-4344-b2e9-70f55dff50e3.png",
+                  "title": "Mathematical Tools 02 : Binomial Approximation || Squares and Cubes",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/758e2f88-3075-41ed-8617-9f8cc124aa48.png",
+                  "title": "Mathematical Tools 03 : Log || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/43bba8b7-ff3d-44b5-afb2-35d7710049f9.png",
+                  "title": "Mathematical Tools 04 : Logarithms || (Rescheduled @ 04:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/28c13f34-6e43-4867-a89e-e5f0521c6a80.png",
+                  "title": "Mathematical Tools 05 : Graphs || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e09707a6-43ba-4684-a25e-f5b3678f9964.png",
+                  "title": "Mathematical Tools 06 : Graphs (Part-2)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e7ece1bf-558b-464f-b827-0ce9a065348e.png",
+                  "title": "Mathematical Tools 07 : Graphs (Part-3) || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/460ed943-2aad-4dec-ab8e-f9799a6797f8.png",
+                  "title": "Mathematical Tools 08 : Geometric Progressions",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c50824ce-d224-42d0-96a2-655db641ce24.png",
+                  "title": "Mathematical Tools 09 : Arithmetic Progressions || (NO DPP) || (Rescheduled @ 06:15 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8b3879fd-d5c7-460b-b896-f6d84dab661f.png",
+                  "title": "Mathematical Tools 10 : Trigono-Verse Part-1",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-01 : Mathematical Tools",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "10 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPnPjTbg5JSi6wYoje-": {
+          "name": "Botany",
+          "topics": {
+            "-OPnTiFTvqFCHqT_zdO5": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1619e887-3f41-4e90-8c1b-ed000a073edf.png",
+                  "title": "Cell - The Unit of Life 01 : What is a Cell ? || Discovery of a Cell",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8038a9c9-9fe6-41d1-a371-4ce30f25a08a.png",
+                  "title": "Cell - The Unit of Life 02 : Overview of a Cell",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/225f8f43-496e-4e4d-8cce-f2bcac2ad373.png",
+                  "title": "Cell - The Unit of Life 03 : Prokaryotic Cell || Mesosomes",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2b027082-d5eb-4cc5-94f9-9275962a78d6.png",
+                  "title": "Cell - The Unit of Life 04 : Inclusion Bodies || Flagella",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6ddce3b2-336c-4711-a390-28df6e6f658d.png",
+                  "title": "Cell - The Unit of Life 05 : Cell Envelope || Modifications of Cell Envelope",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b0063af5-2e85-4246-b9c9-6ccf2621b5eb.png",
+                  "title": "Cell - The Unit of Life 06 : Introduction to Eukaryotic Cell || (Extra Lecture)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/41574947-b2ec-4747-b71c-f6bb847ba436.png",
+                  "title": "Cell - The Unit of Life 07 : Cell Membrane Components || Fluid Mosaic Model || (Rescheduled @ 06:23 PM)",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-01 : Cell - The Unit of Life",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPnPmLp00CsJQ7K-IXe": {
+          "name": "Zoology",
+          "topics": {
+            "-OPnaVMTHFw3b50kW1k3": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13df39af-dbc8-4880-adee-d5ebbd6fb8a5.png",
+                  "title": "Structural Organization in Animals 01 : Introduction || Tissues || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e921d6c-f751-4274-bc6f-89f8d25cf979.png",
+                  "title": "Structural Organization in Animals 02 : Epithelial Tissue -1 || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/31657863-97d1-4742-a52c-1ee0bba89984.png",
+                  "title": "Structural Organization in Animals 03 : Types of Epithelial || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0802aa2a-65f1-4750-a3d9-3ec6472d8b42.png",
+                  "title": "Structural Organization in Animals 04 : Types of Simple Epithelium-2",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7ac9cfb4-0026-4709-8fd1-42b8a26f659d.png",
+                  "title": "Structural Organization in Animals 05 : Glandular Epithelium",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/725db555-df04-442c-a889-a08ea3c64015.png",
+                  "title": "Structural Organization in Animals 06 : Cell Junction || Connective Tissue-1 || (NO DPP) || (Extra Lecture)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9f485038-ac2e-442e-ab27-2d569870ae7d.png",
+                  "title": "Structural Organization in Animals 07 : Connective Tissue-1 (Part-2)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0bbe8b28-2e5c-44a5-8859-a39dad548785.png",
+                  "title": "Structural Organization in Animals 08 : Connective Tissue-2",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-01 : Structural Organization in Animals",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPnPqyoCEhKqMaxqyih": {
+          "name": "Physical Chemistry",
+          "topics": {
+            "-OPnZJQm0-XGDms05Ry4": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c074759b-f862-486d-9ad2-2aa6412a6041.png",
+                  "title": "Some Basic Concepts of Chemistry 01 : Introduction || Matter and its Classification || (NO DPP)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/516a346c-dfb6-4f90-b92d-40a19375df78.png",
+                  "title": "Some Basic Concepts of Chemistry 02 : Atomic Number and Mass Number || (NO DPP) || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0aaf02f1-5f9c-4d50-8f3f-fb3157103053.png",
+                  "title": "Some Basic Concepts of Chemistry 03 : Iso Terms || Average Atomic Mass || (Rescheduled @ 06:13 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e830861e-f9af-471f-ad63-1dbfbb76076d.png",
+                  "title": "Some Basic Concepts of Chemistry 04 : Dalton's Atomic Theory || (NO DPP) || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b389d0bd-1e84-4a6f-8182-add03d499eb1.png",
+                  "title": "Some Basic Concepts of Chemistry 05 : Numerical Prefixes || Rounding Off || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fdb3cdb7-725a-4849-bce5-c47a429f2b74.png",
+                  "title": "Some Basic Concepts of Chemistry 06 : Dimensional Analysis || Precision and Accuracy || (NO DPP) || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8c5e79b1-5fad-4951-bf70-1a4702b9063c.png",
+                  "title": "Some Basic Concepts of Chemistry 07 : Mole Concept (Part-1) || (NO DPP) || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d880c8a4-1404-42d2-ad64-a68e9f77f514.png",
+                  "title": "Some Basic Concepts of Chemistry 08 : Mole Concept (Part-2) || (Rescheduled at 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6af63504-3758-4051-ada1-271fd705c32d.png",
+                  "title": "Some Basic Concepts of Chemistry 09 : Mole Concept (Part-3) || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1714f32d-c9d4-4a06-a90e-033419ef575b.png",
+                  "title": "Some Basic Concepts of Chemistry 10 : Laws of Chemical Combinations || (Rescheduled @ 06:10 PM)",
+                  "videoUrl": "xyz"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/70bb2914-6ac0-46b3-81b6-a19eb11f69cd.png",
+                  "title": "Some Basic Concepts of Chemistry 11 : Minimum Molecular Mass || (NO DPP) || (Rescheduled @ 06:15 PM)",
+                  "videoUrl": "xyz"
+                }
+              ],
+              "name": "Ch-01 : Some Basic Concepts of Chemistry",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "07  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "08  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "09  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "10  : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "11  : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPnPw-lolnwipXLWssW": {
+          "name": "Organic Chemistry"
+        },
+        "-OPnPzMlkko7IAPgE_Av": {
+          "name": "Inorganic Chemistry"
+        }
+      }
+    },
+    "-OPnb9CF84IwleMm3nhw": {
+      "image": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f8044c91-1f35-4b29-9dde-b4dca8d3e75e.jpg",
+      "name": "Lakshya NEET 2026",
+      "subjects": {
+        "-OPnbq2hy_Q3x-WDb2Hy": {
+          "name": "Physics"
+        },
+        "-OPnbtqH4__jA2CCqC1X": {
+          "name": "Botany "
+        },
+        "-OPnbwKuzrREJEUBk53f": {
+          "name": "Zoology"
+        },
+        "-OPnc0x0BKtsRWhMJ9Ng": {
+          "name": "Physical Chemistry"
+        },
+        "-OPnc4AWi3IZ2Xukie3F": {
+          "name": "Organic Chemistry"
+        },
+        "-OPnc7QlRpaKi1quG38c": {
+          "name": "Inorganic Chemistry"
         }
       }
     }
