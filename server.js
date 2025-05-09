@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
-const fetch = require('node-fetch'); // Make sure to install: npm install node-fetch
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+ // Make sure to install: npm install node-fetch
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
