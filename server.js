@@ -1,56 +1,54 @@
 const express = require('express');
 const path = require('path');
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
- // Make sure to install: npm install node-fetch
 const app = express();
 
+// Load local data
+const data = require('./data.json');
+
+// Serve static files from "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-const API_BASE = 'https://sorry-junie-ishaautofilterbot-a45d8912.koyeb.app';
-
-// Proxy: GET /data
-app.get('/data', async (req, res) => {
-  try {
-    const response = await fetch(`${API_BASE}/data`);
-    const json = await response.json();
-    res.json(json);
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to fetch data' });
-  }
+// Route: GET /data (list of batches)
+app.get('/data', (req, res) => {
+  res.json(data);
 });
 
-// Proxy: GET /data/batches/:batchId/subjects
-app.get('/data/batches/:batchId/subjects', async (req, res) => {
-  try {
-    const response = await fetch(`${API_BASE}/data/batches/${req.params.batchId}/subjects`);
-    const json = await response.json();
-    res.json(json);
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to fetch subjects' });
+// Route: GET /data/batches/:batchId/subjects
+app.get('/data/batches/:batchId/subjects', (req, res) => {
+  const batch = data.batches[req.params.batchId];
+  if (!batch || !batch.subjects) {
+    return res.status(404).json({ error: 'Batch or subjects not found' });
   }
+
+  const subjects = Object.entries(batch.subjects).map(([key, subject]) => ({
+    key,
+    ...subject
+  }));
+
+  res.json(subjects);
 });
 
-// Proxy: GET /data/batches/:batchId/subjects/:subjectId/topics
-app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) => {
-  try {
-    const response = await fetch(`${API_BASE}/data/batches/${req.params.batchId}/subjects/${req.params.subjectId}/topics`);
-    const topics = await response.json();
+// Route: GET /data/batches/:batchId/subjects/:subjectId/topics
+app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
+  const batch = data.batches[req.params.batchId];
+  const subject = batch?.subjects?.[req.params.subjectId];
 
-    // Normalize structure
-    const normalized = topics.map(topic => ({
-      ...topic,
-      lectures: Array.isArray(topic.lectures) ? topic.lectures : Object.values(topic.lectures || {}),
-      notes: Array.isArray(topic.notes) ? topic.notes : Object.values(topic.notes || {}),
-      dpps: Array.isArray(topic.dpps) ? topic.dpps : Object.values(topic.dpps || {})
-    }));
-
-    res.json(normalized);
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to fetch topics' });
+  if (!subject || !subject.topics) {
+    return res.status(404).json({ error: 'Subject or topics not found' });
   }
+
+  const topics = Object.entries(subject.topics).map(([key, topic]) => ({
+    key,
+    ...topic,
+    lectures: Array.isArray(topic.lectures) ? topic.lectures : Object.values(topic.lectures || {}),
+    notes: Array.isArray(topic.notes) ? topic.notes : Object.values(topic.notes || {}),
+    dpps: Array.isArray(topic.dpps) ? topic.dpps : Object.values(topic.dpps || {})
+  }));
+
+  res.json(topics);
 });
 
-// SPA Fallback
+// SPA fallback to index.html
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
