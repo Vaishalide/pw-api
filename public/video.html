@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Player</title>
+  <style>
+    body {
+      background-color: #0e0f1b;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    video {
+      width: 90%;
+      max-width: 800px;
+      border: 4px solid #ffc107;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #ffc10788;
+    }
+
+    h2 {
+      color: #ffc107;
+      margin-bottom: 2rem;
+    }
+
+    .error {
+      color: red;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 id="videoTitle">Loading...</h2>
+  <video id="videoPlayer" controls autoplay></video>
+  <div id="errorMessage" class="error"></div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const videoUrl = params.get('videoUrl');
+    const title = params.get('title');
+
+    const titleEl = document.getElementById('videoTitle');
+    const videoEl = document.getElementById('videoPlayer');
+    const errorEl = document.getElementById('errorMessage');
+
+    if (videoUrl) {
+      titleEl.textContent = decodeURIComponent(title || 'Untitled Lecture');
+      videoEl.src = decodeURIComponent(videoUrl);
+    } else {
+      titleEl.textContent = 'Video Not Found';
+      errorEl.textContent = 'Missing videoUrl parameter in URL.';
+    }
+  </script>
+
+</body>
+</html>
