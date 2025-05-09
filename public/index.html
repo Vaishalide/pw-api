@@ -173,7 +173,7 @@ async function loadTopics(batchId, subjectId) {
 
       const lecturesHtml = (topic.lectures || []).map(lecture => `
         <div style="margin-bottom: 2rem;">
-          <a href="video.html?videoUrl=${encodeURIComponent(lecture.videoUrl)}&title=${encodeURIComponent(lecture.title)}">
+          <a href="video.php?videoUrl=${encodeURIComponent(lecture.videoUrl)}&title=${encodeURIComponent(lecture.title)}">
             <img src="${lecture.thumbnail}" style="width:100%; max-width:400px; border-radius:10px; display:block; margin:1rem auto;" />
           </a>
           <div style="text-align:center;">${lecture.title}</div>
