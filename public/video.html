@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title id="videoPageTitle">Lecture Video</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0e0f1b; /* Dark background from index.html */
+      color: white;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .header {
+      background-color: #1a1b2f; /* Header background from index.html style */
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      color: #ffc107; /* Gold color from index.html */
+      flex-shrink: 0;
+    }
+    .back-button {
+      color: #ffc107; /* Gold color */
+      text-decoration: none;
+      font-size: 1.5rem; /* Consistent with index.html style */
+      margin-right: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.375rem; /* rounded-md */
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #2a2e4b; /* Hover effect */
+    }
+    .video-title {
+      font-size: 1.25rem; /* text-xl */
+      font-weight: 500; /* font-medium */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .iframe-container {
+      flex-grow: 1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem; /* Add some padding around the iframe */
+      box-sizing: border-box;
+    }
+    iframe {
+      width: 100%;
+      height: 100%; /* Make iframe take full height of its container */
+      border: none;
+      border-radius: 0.5rem; /* rounded-lg */
+      background-color: #000000; /* Black background for iframe before load */
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .video-title {
+        font-size: 1rem;
+      }
+      .iframe-container {
+        padding: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a class="back-button" href="javascript:history.back()" aria-label="Go back to previous page">
+      &larr; </a>
+    <h1 id="videoTitleHeader" class="video-title">Lecture Video</h1>
+  </header>
+
+  <main class="iframe-container">
+    <iframe id="videoFrame" allowfullscreen title="Video Player"></iframe>
+  </main>
+
+  <script>
+    // Function to get URL parameters
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Get videoUrl and title from URL
+    const videoUrl = getQueryParam('videoUrl');
+    const title = getQueryParam('title');
+
+    // Set the page title and header title
+    if (title) {
+      document.title = decodeURIComponent(title);
+      document.getElementById('videoTitleHeader').textContent = decodeURIComponent(title);
+    }
+
+    // Set the iframe source if videoUrl is present
+    if (videoUrl) {
+      document.getElementById('videoFrame').src = decodeURIComponent(videoUrl);
+    } else {
+      // Optionally, display an error or a message if videoUrl is missing
+      document.getElementById('videoFrame').parentElement.innerHTML = '<p class="text-red-500 text-center">Video URL not provided.</p>';
+    }
+
+    // Security: Prevent embedding in other sites (optional, Cloudflare might have settings for this too)
+    if (window.self !== window.top) {
+        // If not the top-level window, redirect or show an error.
+        // For simplicity, we'll just log it, but you could clear the body.
+        console.warn("Content is being framed by another site.");
+        // document.body.innerHTML = '<p>Access denied.</p>'; // Example
+    }
+  </script>
+
+</body>
+</html>
+```
+
+Next, here's the updated `index.html`. This version fetches `data.json` directly and handles all data processing on the client side. Remember to place `data.json` in the same directory as this `index.html` file (e.g., your `public` folder).
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PW THOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for a cleaner look */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e2036;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ffc107;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #e0a800;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0e0f1b;
+      color: white;
+    }
+    /* Header and card styles from original, adapted for Tailwind where possible or kept if specific */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem; /* Tailwind: gap-4 */
+      padding: 1rem; /* Tailwind: p-4 */
+      justify-content: center;
+    }
+    .card {
+      background-color: #1e2036; /* Tailwind: bg-slate-800 (approx) */
+      padding: 1rem; /* Tailwind: p-4 */
+      border-radius: 10px; /* Tailwind: rounded-lg */
+      width: 250px; /* Fixed width, consider responsive alternatives if needed */
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .card:hover {
+      background-color: #2a2e4b; /* Darker shade for hover */
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(255, 193, 7, 0.1); /* Subtle gold shadow on hover */
+    }
+    .card img {
+      width: 100%;
+      height: 150px; /* Fixed height for images */
+      object-fit: cover; /* Ensure images cover the area well */
+      border-radius: 10px; /* Tailwind: rounded-lg */
+    }
+    .card-title {
+      margin-top: 0.5rem; /* Tailwind: mt-2 */
+      font-weight: 600; /* Tailwind: font-semibold */
+      text-align: center;
+      color: #e5e7eb; /* Lighter text for titles */
+    }
+    .section {
+      padding: 1rem; /* Tailwind: p-4 */
+    }
+    .btn {
+      background-image: linear-gradient(to right, #ffc107, #ff9800);
+      color: #11132a; /* Dark text on gold button */
+      font-weight: 600; /* Tailwind: font-semibold */
+      padding: 0.6rem 1.2rem; /* Tailwind: py-2 px-4 (approx) */
+      border-radius: 6px; /* Tailwind: rounded-md */
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 193, 7, 0.5);
+    }
+    .hidden {
+      display: none;
+    }
+    input[type="text"] { /* More specific selector */
+      background-color: #15162b;
+      color: white;
+      border: 1px solid #3a3d5c;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border-radius: 8px; /* Tailwind: rounded-lg */
+      width: 80%;
+      max-width: 400px;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    input[type="text"]:focus {
+        border-color: #ffc107;
+        box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+        outline: none;
+    }
+
+    .loader {
+      border: 6px solid rgba(255, 255, 255, 0.1);
+      border-top: 6px solid #ffc107;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 0.8s linear infinite; /* Changed to linear for smoother spin */
+      margin: 3rem auto; /* More vertical margin */
+      box-shadow: 0 0 15px rgba(255, 193, 7, 0.3); /* Softer shadow */
+      display: block;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Styles for topic items and tabs */
+    .topic-item-card {
+        background-color: #2a2e4b;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        text-align: center;
+    }
+    .topic-item-thumbnail {
+        width: 100%;
+        max-width: 480px;
+        height: auto; /* Maintain aspect ratio */
+        max-height: 270px; /* Max height for consistency */
+        object-fit: contain; /* Use contain to see full thumbnail */
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto 1rem auto;
+        border: 2px solid #ffc10788; /* Softer gold border */
+    }
+    .topic-item-title {
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        color: #d1d5db; /* Tailwind gray-300 */
+    }
+    .topic-resource-link {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .topic-resource-link .btn {
+        display: inline-block;
+        margin: 0.5rem;
+    }
+    .empty-tab-message {
+        text-align: center;
+        padding: 2rem;
+        color: #9ca3af; /* Tailwind gray-400 */
+        font-style: italic;
+    }
+    .topic-tab-btn.active {
+        background-image: linear-gradient(to right, #e6ac00, #e08600);
+        box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+        color: #0e0f1b;
+    }
+    .topic-tab-content {
+        padding-top: 1rem;
+    }
+    .topic-tab-content.active {
+        display: block;
+    }
+    .topic-tab-content:not(.active) {
+        display: none;
+    }
+    #backBtn {
+        color: #ffc107;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 1rem;
+        transition: color 0.3s;
+    }
+    #backBtn:hover {
+        color: #e0a800;
+    }
+    /* Popup Style */
+    #popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #1e2036;
+      color: white;
+      padding: 25px; /* Increased padding */
+      box-shadow: 0 5px 25px rgba(255, 193, 7, 0.4); /* Enhanced shadow */
+      z-index: 10000; /* Ensure it's on top */
+      width: 90%;
+      max-width: 350px; /* Max width for popup */
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #ffc10755; /* Subtle border */
+    }
+    #popup img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px; /* Space below image */
+    }
+    #popup p {
+      margin: 15px 0;
+      line-height: 1.6; /* Improved readability */
+    }
+    #popup a.btn { /* Style the link as a button */
+      margin-top: 10px;
+    }
+    #popupCloseBtn {
+      position: absolute;
+      top: 10px; /* Adjusted for better placement */
+      right: 10px; /* Adjusted for better placement */
+      background: transparent;
+      border: none;
+      font-size: 24px; /* Larger close icon */
+      color: #ffc107;
+      cursor: pointer;
+      padding: 5px;
+      line-height: 1;
+    }
+    #popupCloseBtn:hover {
+      color: #e0a800;
+    }
+
+  </style>
+</head>
+<body>
+
+<header style="display: flex; align-items: center; justify-content: center; gap: 1rem; padding: 1.5rem; background-color: #11132a;">
+  <img src="https://placehold.co/60x60/FFC107/0E0F1B?text=LOGO" alt="PW THOR Logo" style="height: 50px; border-radius: 50%;" />
+  <h1 style="color: #ffc107; font-size: 2rem; margin: 0; font-weight: 600;">PW THOR</h1>
+</header>
+
+<div id="backBtn" class="hidden">&larr; Back</div>
+<div id="searchBarWrapper" style="padding: 1rem; text-align: center;">
+  <input type="text" id="searchInput" placeholder="Search batch by name..." class="mx-auto">
+</div>
+
+<div id="batchLoader" class="loader hidden"></div>
+<div id="subjectLoader" class="loader hidden"></div>
+<div id="topicLoader" class="loader hidden"></div>
+
+<div class="grid" id="main"></div>
+<div class="grid hidden" id="subjects"></div>
+<div class="section hidden" id="topics">
+    </div>
+
+
+<script>
+  // Global variable to store all data
+  let allSiteData = null;
+  let allBatchesArray = []; // To keep the array form for searching and pagination
+
+  // Existing variables
+  let batchOffset = 0;
+  const batchLimit = 10; // Number of batches to load at a time
+  let isLoading = false; // Flag to prevent multiple simultaneous loads
+
+  // DOM Elements
+  const mainDiv = document.getElementById('main');
+  const subjectsDiv = document.getElementById('subjects');
+  const topicsDiv = document.getElementById('topics');
+  const backBtn = document.getElementById('backBtn');
+  const searchBarWrapper = document.getElementById('searchBarWrapper');
+
+  let currentView = 'main'; // Tracks the current visible section
+  let prevState = []; // Stores the history of views for back button functionality
+
+  // --- Utility Functions ---
+  function showLoader(loaderId, show) {
+    const loader = document.getElementById(loaderId);
+    if (loader) loader.classList.toggle('hidden', !show);
+  }
+
+  function showView(view) {
+    mainDiv.classList.add('hidden');
+    subjectsDiv.classList.add('hidden');
+    topicsDiv.classList.add('hidden');
+    searchBarWrapper.style.display = view === 'main' ? 'block' : 'none'; // Show search only on main view
+
+    if (view === 'main') mainDiv.classList.remove('hidden');
+    else if (view === 'subjects') subjectsDiv.classList.remove('hidden');
+    else if (view === 'topics') topicsDiv.classList.remove('hidden');
+
+    backBtn.classList.toggle('hidden', view === 'main');
+    currentView = view;
+    window.scrollTo(0, 0); // Scroll to top on view change
+  }
+
+  backBtn.onclick = () => {
+    const lastView = prevState.pop();
+    if (lastView) {
+        showView(lastView.view);
+        // If returning to a specific state, like topics, restore its content
+        if (lastView.view === 'topics' && lastView.content) {
+            topicsDiv.innerHTML = lastView.content;
+             // Re-attach event listeners if necessary, or ensure they are delegated
+        } else if (lastView.view === 'subjects' && lastView.content) {
+            subjectsDiv.innerHTML = lastView.content;
+        }
+        // If going back to 'main', re-filter based on search input
+        if (lastView.view === 'main') {
+            applySearchFilter();
+        }
+    } else {
+        showView('main'); // Default to main if no history
+        applySearchFilter();
+    }
+  };
+  
+  function applySearchFilter() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const cards = mainDiv.getElementsByClassName('card');
+    Array.from(cards).forEach(card => {
+        const title = card.querySelector('.card-title').textContent.toLowerCase();
+        card.style.display = title.includes(searchTerm) ? '' : 'none';
+    });
+  }
+
+
+  // --- Data Loading and Rendering ---
+  async function initializeApp() {
+    showLoader('batchLoader', true);
+    try {
+      // IMPORTANT: Make sure data.json is in the same folder as index.html or provide the correct path.
+      const res = await fetch('data.json');
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status} - Could not load data.json`);
+      allSiteData = await res.json();
+
+      allBatchesArray = Object.entries(allSiteData.batches).map(([key, val]) => ({ key, ...val }));
+      
+      renderBatches(true); // Initial render, clear previous
+      setupPopup();
+    } catch (error) {
+      console.error("Failed to load data.json:", error);
+      mainDiv.innerHTML = `<p class="text-red-500 text-center p-4">${error.message}</p>`;
+    } finally {
+      showLoader('batchLoader', false);
+    }
+  }
+
+  function setupPopup() {
+    if (allSiteData && allSiteData.popup && allSiteData.popup.show) {
+      const popup = document.getElementById('popup');
+      document.getElementById('popupImage').src = allSiteData.popup.image;
+      document.getElementById('popupText').textContent = allSiteData.popup.text;
+      document.getElementById('popupLink').href = allSiteData.popup.link;
+      popup.style.display = 'block';
+    }
+  }
+
+  function renderBatches(isInitialLoad = false) {
+    if (isLoading && !isInitialLoad) return;
+    isLoading = true;
+    if(isInitialLoad) {
+        mainDiv.innerHTML = ''; // Clear only on initial load or search
+        batchOffset = 0;
+    }
+    showLoader('batchLoader', true);
+
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const filteredBatches = allBatchesArray.filter(batch => batch.name.toLowerCase().includes(searchTerm));
+
+    const end = batchOffset + batchLimit;
+    const slice = filteredBatches.slice(batchOffset, end);
+
+    if (slice.length === 0 && batchOffset === 0 && isInitialLoad) {
+         mainDiv.innerHTML = '<p class="text-center text-gray-400 p-4">No batches found matching your search.</p>';
+    }
+
+    slice.forEach(data => {
+      const div = document.createElement('div');
+      div.className = 'card';
+      div.innerHTML = `
+        <img src="${data.image}" alt="${data.name}" onerror="this.onerror=null; this.src='https://placehold.co/250x150/1e2036/FFFFFF?text=Image+Missing';">
+        <div class="card-title">${data.name}</div>
+      `;
+      div.onclick = () => {
+        prevState.push({view: currentView, content: mainDiv.innerHTML});
+        loadSubjects(data.key);
+      };
+      mainDiv.appendChild(div);
+    });
+
+    batchOffset = end;
+    isLoading = false;
+    showLoader('batchLoader', false);
+  }
+
+  function loadSubjects(batchKey) {
+    showLoader('subjectLoader', true);
+    subjectsDiv.innerHTML = ''; // Clear previous subjects
+
+    const batch = allSiteData.batches[batchKey];
+    if (!batch || !batch.subjects) {
+      subjectsDiv.innerHTML = '<p class="text-red-500 text-center p-4">Subjects not found for this batch.</p>';
+      showLoader('subjectLoader', false);
+      showView('subjects');
+      return;
+    }
+
+    const subjectsArray = Object.entries(batch.subjects).map(([key, subject]) => ({ key, ...subject }));
+
+    if (subjectsArray.length === 0) {
+      subjectsDiv.innerHTML = '<p class="text-center text-gray-400 p-4">No subjects available for this batch.</p>';
+    } else {
+      subjectsArray.forEach(subject => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        // Subject cards typically don't have images in this data structure
+        div.innerHTML = `<div class="card-title">${subject.name}</div>`;
+        div.onclick = () => {
+          prevState.push({view: currentView, content: subjectsDiv.innerHTML});
+          loadTopics(batchKey, subject.key);
+        };
+        subjectsDiv.appendChild(div);
+      });
+    }
+    showLoader('subjectLoader', false);
+    showView('subjects');
+  }
+
+  function loadTopics(batchKey, subjectKey) {
+    showLoader('topicLoader', true);
+    topicsDiv.innerHTML = ''; // Clear previous topics
+
+    const subject = allSiteData.batches[batchKey]?.subjects?.[subjectKey];
+    if (!subject || !subject.topics) {
+      topicsDiv.innerHTML = '<p class="text-red-500 text-center p-4">Topics not found for this subject.</p>';
+      showLoader('topicLoader', false);
+      showView('topics');
+      return;
+    }
+
+    const topicsArray = Object.entries(subject.topics).map(([key, topicData]) => ({
+      key,
+      ...topicData,
+      lectures: (Array.isArray(topicData.lectures) ? topicData.lectures : Object.values(topicData.lectures || {})).filter(item => item !== null),
+      notes: (Array.isArray(topicData.notes) ? topicData.notes : Object.values(topicData.notes || {})).filter(item => item !== null),
+      dpps: (Array.isArray(topicData.dpps) ? topicData.dpps : Object.values(topicData.dpps || {})).filter(item => item !== null)
+    }));
+
+    const topicButtonsContainer = document.createElement('div');
+    topicButtonsContainer.className = 'grid'; // Use grid for topic buttons
+
+    const topicContentDisplay = document.createElement('div');
+    topicContentDisplay.className = 'section topic-content-display'; // For styling and selection
+    topicContentDisplay.style.display = 'none'; // Initially hidden
+
+    if (topicsArray.length === 0) {
+      topicButtonsContainer.innerHTML = '<p class="text-center text-gray-400 p-4">No topics available for this subject.</p>';
+    } else {
+      topicsArray.forEach(topic => {
+        const button = document.createElement('div');
+        button.className = 'card'; // Style topic buttons like cards
+        button.innerHTML = `<div class="card-title">${topic.name}</div>`;
+        button.onclick = () => {
+          topicButtonsContainer.style.display = 'none';
+          topicContentDisplay.style.display = 'block';
+          renderTopicContent(topic, topicContentDisplay);
+        };
+        topicButtonsContainer.appendChild(button);
+      });
+    }
+
+    topicsDiv.appendChild(topicButtonsContainer);
+    topicsDiv.appendChild(topicContentDisplay);
+    showLoader('topicLoader', false);
+    showView('topics');
+  }
+  
+  function renderTopicContent(topic, container) {
+    const tabs = `
+        <div class="flex justify-center gap-4 mb-4 flex-wrap">
+            <button class="btn topic-tab-btn" data-tab="lectures">Lectures</button>
+            <button class="btn topic-tab-btn" data-tab="notes">Notes</button>
+            <button class="btn topic-tab-btn" data-tab="dpps">DPPs</button>
+        </div>
+    `;
+    container.innerHTML = `<h2 class="text-2xl font-semibold text-center mb-6 text-amber-400">${topic.name}</h2>` + tabs;
+
+    const validLectures = (topic.lectures || []).filter(l => l && l.videoUrl && l.title);
+    const validNotes = (topic.notes || []).filter(n => n && n.fileUrl && n.title);
+    const validDpps = (topic.dpps || []).filter(d => d && d.fileUrl && d.title);
+
+    const lecturesHtml = validLectures.length > 0 ? validLectures.map(l => `
+        <div class="topic-item-card">
+            <a href="video.html?videoUrl=${encodeURIComponent(l.videoUrl)}&title=${encodeURIComponent(l.title)}">
+                <img src="${l.thumbnail}" alt="${l.title}" class="topic-item-thumbnail" onerror="this.onerror=null; this.src='https://placehold.co/400x225/2a2e4b/FFFFFF?text=Thumbnail+Error';">
+            </a>
+            <div class="topic-item-title">${l.title}</div>
+        </div>`).join('') : '<p class="empty-tab-message">No lectures available.</p>';
+
+    const notesHtml = validNotes.length > 0 ? validNotes.map(n => `
+        <div class="topic-resource-link">
+            <a href="${n.fileUrl}" target="_blank" class="btn">${n.title}</a>
+        </div>`).join('') : '<p class="empty-tab-message">No notes available.</p>';
+
+    const dppsHtml = validDpps.length > 0 ? validDpps.map(d => `
+        <div class="topic-resource-link">
+            <a href="${d.fileUrl}" target="_blank" class="btn">${d.title}</a>
+        </div>`).join('') : '<p class="empty-tab-message">No DPPs available.</p>';
+
+    container.innerHTML += `
+        <div id="topicLecturesTab" class="topic-tab-content">${lecturesHtml}</div>
+        <div id="topicNotesTab" class="topic-tab-content">${notesHtml}</div>
+        <div id="topicDppsTab" class="topic-tab-content">${dppsHtml}</div>
+    `;
+
+    // Add event listeners to new tab buttons
+    container.querySelectorAll('.topic-tab-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            switchTopicTab(this, this.dataset.tab, container);
+        });
+    });
+    // Default to lectures tab
+    switchTopicTab(container.querySelector('.topic-tab-btn[data-tab="lectures"]'), 'lectures', container);
+}
+
+
+  window.switchTopicTab = function(btnElement, tabName, contentParent) {
+    if (!contentParent) contentParent = document.querySelector('.topic-content-display'); // Fallback if not passed
+
+    contentParent.querySelectorAll('.topic-tab-btn').forEach(btn => btn.classList.remove('active'));
+    btnElement.classList.add('active');
+
+    contentParent.querySelectorAll('.topic-tab-content').forEach(content => content.classList.remove('active'));
+    const activeContent = contentParent.querySelector(`#topic${tabName.charAt(0).toUpperCase() + tabName.slice(1)}Tab`);
+    if (activeContent) activeContent.classList.add('active');
+  };
+
+
+  // --- Event Listeners ---
+  document.getElementById('searchInput').addEventListener('input', function () {
+    // For 'main' view, filter directly. For other views, this search bar is hidden.
+    if (currentView === 'main') {
+        renderBatches(true); // Re-render batches with search term, clearing previous
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    if (currentView !== 'main' || isLoading) return;
+    // Load more batches if user scrolls near the bottom
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 300) {
+      renderBatches(); // Append more batches
+    }
+  });
+
+  // --- Initial Load ---
+  initializeApp();
+
+  // --- Security (Right-click and DevTools detection) ---
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
+  (function () {
+    const devtools = { open: false };
+    const threshold = 160; // Pixel difference to trigger detection
+    const redirectURL = "https://www.google.com"; // URL to redirect to
+
+    function detectDevTools() {
+      const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+      const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+
+      if (widthThreshold || heightThreshold) {
+        if (!devtools.open) {
+          devtools.open = true;
+          // Optional: Clear the page or show a message before redirecting
+          // document.body.innerHTML = "DevTools detected. Redirecting...";
+          // window.location.href = redirectURL;
+          console.warn("DevTools detected. Redirection is commented out for testing.");
+        }
+      } else {
+        devtools.open = false;
+      }
+    }
+    // Check frequently
+    // setInterval(detectDevTools, 1000); // Commented out for ease of development
+  })();
+</script>
+
+<div id="popup">
+  <button id="popupCloseBtn" onclick="document.getElementById('popup').style.display='none'">&times;</button>
+  <img id="popupImage" src="" alt="Promotion">
+  <p id="popupText"></p>
+  <a id="popupLink" href="#" target="_blank" class="btn">Join Now</a>
+</div>
+
+</body>
+</html>
