@@ -1851,9 +1851,11 @@
       }
     }
   },
-  "popupNotification": {
-    "message": "site is under development",
+  "popup": {
     "show": true,
-    "telegramLink": "your telegram link"
+    "text": "Join our Telegram channel for updates!",
+    "link": "https://t.me/your_channel_name",
+    "image": "https://example.com/popup-image.jpg"
   }
 }
+
