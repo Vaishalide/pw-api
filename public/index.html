@@ -38,7 +38,7 @@
 <body>
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; padding: 1.5rem;">
-  <img src="logo.png" alt="PW THOR Logo" style="height: 60px;" />
+  <img src="ChatGPT Image May 7, 2025, 08_57_25 PM.png" alt="PW THOR Logo" style="height: 60px;" />
   <h1 style="color: #ffc107; font-size: 2rem; margin: 0;">PW THOR</h1>
 </div>
 
@@ -113,7 +113,7 @@ function renderBatches() {
 
 async function loadBatches() {
   document.getElementById('batchLoader').classList.remove('hidden');
-  const res = await fetch('/api/data');
+  const res = await fetch('/data');
   const json = await res.json();
   allBatches = Object.entries(json.batches).map(([key, val]) => ({ key, ...val }));
   renderBatches();
@@ -124,7 +124,7 @@ async function loadSubjects(batchId) {
   showView('subjects');
   subjectsDiv.innerHTML = '';
 
-  const res = await fetch(`/api/data/batches/${batchId}/subjects`);
+  const res = await fetch(`/data/batches/${batchId}/subjects`);
   const subjects = await res.json();
 
   document.getElementById('subjectLoader').classList.add('hidden');
@@ -145,7 +145,7 @@ async function loadTopics(batchId, subjectId) {
   showView('topics');
   topicsDiv.innerHTML = '';
 
-  const res = await fetch(`/api/data/batches/${batchId}/subjects/${subjectId}/topics`);
+  const res = await fetch(`/data/batches/${batchId}/subjects/${subjectId}/topics`);
   const topics = await res.json();
 
   const topicButtonsContainer = document.createElement('div');
@@ -173,7 +173,7 @@ async function loadTopics(batchId, subjectId) {
 
       const lecturesHtml = (topic.lectures || []).map(lecture => `
         <div style="margin-bottom: 2rem;">
-          <a href="/video?videoUrl=${encodeURIComponent(lecture.videoUrl)}&title=${encodeURIComponent(lecture.title)}">
+          <a href="video.php?videoUrl=${encodeURIComponent(lecture.videoUrl)}&title=${encodeURIComponent(lecture.title)}">
             <img src="${lecture.thumbnail}" style="width:100%; max-width:400px; border-radius:10px; display:block; margin:1rem auto;" />
           </a>
           <div style="text-align:center;">${lecture.title}</div>
@@ -228,7 +228,7 @@ loadBatches();
 // Disable right-click
 document.addEventListener('contextmenu', event => event.preventDefault());
 
-// Updated DevTools detection
+// Detect DevTools and redirect
 (function () {
   const devtools = { open: false };
   const threshold = 160;
@@ -266,7 +266,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 </div>
 
 <script>
-fetch('/api/data')
+fetch('/data')
   .then(response => response.json())
   .then(data => {
     if (data.popup && data.popup.show) {
