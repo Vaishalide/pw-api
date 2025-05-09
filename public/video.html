@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Video Player</title>
+  <title>Embedded Site</title>
   <style>
     body {
       background-color: #0e0f1b;
@@ -12,9 +12,9 @@
       padding: 2rem;
     }
 
-    video {
+    iframe {
       width: 90%;
-      max-width: 800px;
+      height: 80vh;
       border: 4px solid #ffc107;
       border-radius: 10px;
       box-shadow: 0 0 20px #ffc10788;
@@ -34,7 +34,7 @@
 <body>
 
   <h2 id="videoTitle">Loading...</h2>
-  <video id="videoPlayer" controls autoplay></video>
+  <iframe id="embeddedSite" frameborder="0"></iframe>
   <div id="errorMessage" class="error"></div>
 
   <script>
@@ -43,14 +43,14 @@
     const title = params.get('title');
 
     const titleEl = document.getElementById('videoTitle');
-    const videoEl = document.getElementById('videoPlayer');
+    const iframeEl = document.getElementById('embeddedSite');
     const errorEl = document.getElementById('errorMessage');
 
     if (videoUrl) {
-      titleEl.textContent = decodeURIComponent(title || 'Untitled Lecture');
-      videoEl.src = decodeURIComponent(videoUrl);
+      titleEl.textContent = decodeURIComponent(title || 'Untitled Site');
+      iframeEl.src = decodeURIComponent(videoUrl);
     } else {
-      titleEl.textContent = 'Video Not Found';
+      titleEl.textContent = 'Site Not Found';
       errorEl.textContent = 'Missing videoUrl parameter in URL.';
     }
   </script>
