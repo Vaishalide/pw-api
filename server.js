@@ -1,12 +1,10 @@
 const express = require('express');
-const path = require('path');
 const app = express();
-
-// Load local data
 const data = require('./data.json');
 
-// Serve static files from "public" directory
-app.use(express.static(path.join(__dirname, 'public')));
+// Optional: Restrict CORS to proxy domain
+const cors = require('cors');
+app.use(cors({ origin: 'https://physicswallahapi.onrender.com' }));
 
 // Route: GET /data (list of batches)
 app.get('/data', (req, res) => {
@@ -37,30 +35,22 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
     return res.status(404).json({ error: 'Subject or topics not found' });
   }
 
- // Helper function to normalize to array
-const normalizeToArray = (input) => {
-  if (Array.isArray(input)) return input;
-  if (input && typeof input === 'object') return Object.values(input);
-  return [];
-};
+  const normalizeToArray = (input) => {
+    if (Array.isArray(input)) return input;
+    if (input && typeof input === 'object') return Object.values(input);
+    return [];
+  };
 
-const topics = Object.entries(subject.topics).map(([key, topic]) => ({
-  key,
-  ...topic,
-  lectures: normalizeToArray(topic.lectures),
-  notes: normalizeToArray(topic.notes),
-  dpps: normalizeToArray(topic.dpps)
-}));
-
+  const topics = Object.entries(subject.topics).map(([key, topic]) => ({
+    key,
+    ...topic,
+    lectures: normalizeToArray(topic.lectures),
+    notes: normalizeToArray(topic.notes),
+    dpps: normalizeToArray(topic.dpps)
+  }));
 
   res.json(topics);
 });
 
-// SPA fallback to index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
