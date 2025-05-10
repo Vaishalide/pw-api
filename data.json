@@ -38,43 +38,48 @@
                   "title": "Electric Charges and Fields : DPP 07 || Parishram 2026"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ed2a3304-e706-486f-ad4a-62e817458ae5.png",
                   "title": "Electric Charges and Fields 01 : Introduction To Class XII Physics || Electric Charges and its Properties",
                   "videoUrl": "https://pwthor.lcubots.news/watch/14/file.mkv?hash=AgAD7W"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/955eee0b-65f6-4591-8177-0f4e0dab0f06.png",
                   "title": "Electric Charges and Fields 02 : Methods of Charging || Coulomb's Law",
                   "videoUrl": "  https://pwthor.lcubots.news/watch/22/file.mkv?hash=AgADJB"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/808e7a77-f060-441c-8a24-cac9e9ea37ff.png",
                   "title": "Electric Charges and Fields 03 : Vector Form of Coulomb's Law || Superposition Principle",
                   "videoUrl": "https://pwthor.lcubots.news/watch/25/file.mkv?hash=AgADwB"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/99426cfc-17d0-473c-b733-7337459e4e84.png",
                   "title": "Electric Charges and Fields 04 : Electric Field || Electric Field Lines",
                   "videoUrl": "https://pwthor.lcubots.news/watch/16/file.mkv?hash=AgADuB"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ca087418-01e3-4e7e-abe5-d90a7aaf7dbf.png",
                   "title": "Electric Charges and Fields 05 : Continuous Charge Distribution || Electric Dipole || Extra Live Lecture",
                   "videoUrl": "https://pwthor.lcubots.news/watch/18/file.mkv?hash=AgADDh"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d6fc9d07-f84a-4c5d-a126-7f8a4ebd36e5.png",
                   "title": "Electric Charges and Fields 06 : Dipole in Uniform EF || Torque || NO DPP",
                   "videoUrl": "https://pwthor.lcubots.news/watch/20/file.mkv?hash=AgADkB"
                 },
-                {
+                "6": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fed935ec-d747-41b4-b030-3f29446dde2d.png",
                   "title": "Electric Charges and Fields 07 : Electric Flux and Gauss Theorem || NO DPP || Rescheduled @05:15 PM",
                   "videoUrl": "https://pwthor.lcubots.news/watch/23/file.mkv?hash=AgAD1h"
+                },
+                "-OPsZGT4OMFljrIKZYGj": {
+                  "thumbnail": "gfhfhggh",
+                  "title": "vbncgfhghh",
+                  "videoUrl": "gfhfghgh"
                 }
-              ],
+              },
               "name": "Electric Charges and Fields",
               "notes": [
                 {
