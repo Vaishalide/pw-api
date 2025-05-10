@@ -12,12 +12,12 @@ app.get('/api/batches', (req, res) => {
 });
 
 // Route: GET /data (optional for direct testing)
-app.get('/data', (req, res) => {
+app.get('/api', (req, res) => {
   res.json(data);
 });
 
 // Route: GET /data/batches/:batchId/subjects
-app.get('/data/batches/:batchId/subjects', (req, res) => {
+app.get('/api/batches/:batchId/subjects', (req, res) => {
   const batch = data.batches[req.params.batchId];
   if (!batch || !batch.subjects) {
     return res.status(404).json({ error: 'Batch or subjects not found' });
@@ -32,7 +32,7 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
 });
 
 // Route: GET /data/batches/:batchId/subjects/:subjectId/topics
-app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
+app.get('/api/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
   const subject = data.batches?.[batchId]?.subjects?.[subjectId];
 
@@ -58,7 +58,7 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
 });
 
 // Route: GET /data/batches/:batchId/subjects/:subjectId/topics/:topicId
-app.get('/data/batches/:batchId/subjects/:subjectId/topics/:topicId', (req, res) => {
+app.get('/api/batches/:batchId/subjects/:subjectId/topics/:topicId', (req, res) => {
   const { batchId, subjectId, topicId } = req.params;
   const topic = data.batches?.[batchId]?.subjects?.[subjectId]?.topics?.[topicId];
 
