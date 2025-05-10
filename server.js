@@ -1,10 +1,27 @@
 const express = require('express');
-const cors = require('cors');
 const app = express();
 const data = require('./data.json');
 
-// Enable CORS for all origins (removed proxy-specific restriction)
-app.use(cors());
+// ✅ Only allow this domain
+const allowedOrigin = 'http://pwthor.ct.ws'; // Replace with your actual domain
+
+// 🔒 CORS Middleware to restrict access
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (origin === allowedOrigin) {
+    res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+  } else {
+    res.status(403).json({ ok: 'fetch' });
+  }
+});
+
+// ✅ Support preflight CORS requests
+app.options('*', (req, res) => {
+  res.sendStatus(200);
+});
 
 // Route: GET /api/batches (used by frontend)
 app.get('/data/batches', (req, res) => {
