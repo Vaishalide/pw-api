@@ -3,8 +3,8 @@ const app = express();
 const data = require('./data.json');
 
 // Optional: Restrict CORS to proxy domain
-const cors = require('cors');
-app.use(cors({ origin: 'https://physicswallahapi.onrender.com' }));
+//const cors = require('cors');
+//app.use(cors({ origin: 'https://physicswallahapi.onrender.com' }));
 
 // Route: GET /data (list of batches)
 app.get('/data', (req, res) => {
