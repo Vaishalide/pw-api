@@ -37,13 +37,21 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
     return res.status(404).json({ error: 'Subject or topics not found' });
   }
 
-  const topics = Object.entries(subject.topics).map(([key, topic]) => ({
-    key,
-    ...topic,
-    lectures: Array.isArray(topic.lectures) ? topic.lectures : Object.values(topic.lectures || {}),
-    notes: Array.isArray(topic.notes) ? topic.notes : Object.values(topic.notes || {}),
-    dpps: Array.isArray(topic.dpps) ? topic.dpps : Object.values(topic.dpps || {})
-  }));
+ // Helper function to normalize to array
+const normalizeToArray = (input) => {
+  if (Array.isArray(input)) return input;
+  if (input && typeof input === 'object') return Object.values(input);
+  return [];
+};
+
+const topics = Object.entries(subject.topics).map(([key, topic]) => ({
+  key,
+  ...topic,
+  lectures: normalizeToArray(topic.lectures),
+  notes: normalizeToArray(topic.notes),
+  dpps: normalizeToArray(topic.dpps)
+}));
+
 
   res.json(topics);
 });
