@@ -1,12 +1,17 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const data = require('./data.json');
 
-// Optional: Restrict CORS to proxy domain
-//const cors = require('cors');
-//app.use(cors({ origin: 'https://physicswallahapi.onrender.com' }));
+// Enable CORS for all origins (removed proxy-specific restriction)
+app.use(cors());
 
-// Route: GET /data (list of batches)
+// Route: GET /api/batches (used by frontend)
+app.get('/api/batches', (req, res) => {
+  res.json(data); // includes batches and optional popup
+});
+
+// Route: GET /data (optional for direct testing)
 app.get('/data', (req, res) => {
   res.json(data);
 });
@@ -25,30 +30,11 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
 
   res.json(subjects);
 });
-app.get('/data/batches/:batchId/subjects/:subjectId/topics/:topicId', (req, res) => {
-  const { batchId, subjectId, topicId } = req.params;
-  const topic = data.batches?.[batchId]?.subjects?.[subjectId]?.topics?.[topicId];
-
-  if (!topic) return res.status(404).json({ error: 'Topic not found' });
-
-  const normalizeToArray = (input) => {
-    if (Array.isArray(input)) return input;
-    if (input && typeof input === 'object') return Object.values(input);
-    return [];
-  };
-
-  res.json({
-    name: topic.name,
-    lectures: normalizeToArray(topic.lectures),
-    notes: normalizeToArray(topic.notes),
-    dpps: normalizeToArray(topic.dpps)
-  });
-});
 
 // Route: GET /data/batches/:batchId/subjects/:subjectId/topics
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
-  const batch = data.batches[req.params.batchId];
-  const subject = batch?.subjects?.[req.params.subjectId];
+  const { batchId, subjectId } = req.params;
+  const subject = data.batches?.[batchId]?.subjects?.[subjectId];
 
   if (!subject || !subject.topics) {
     return res.status(404).json({ error: 'Subject or topics not found' });
@@ -69,6 +55,27 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   }));
 
   res.json(topics);
+});
+
+// Route: GET /data/batches/:batchId/subjects/:subjectId/topics/:topicId
+app.get('/data/batches/:batchId/subjects/:subjectId/topics/:topicId', (req, res) => {
+  const { batchId, subjectId, topicId } = req.params;
+  const topic = data.batches?.[batchId]?.subjects?.[subjectId]?.topics?.[topicId];
+
+  if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+  const normalizeToArray = (input) => {
+    if (Array.isArray(input)) return input;
+    if (input && typeof input === 'object') return Object.values(input);
+    return [];
+  };
+
+  res.json({
+    name: topic.name,
+    lectures: normalizeToArray(topic.lectures),
+    notes: normalizeToArray(topic.notes),
+    dpps: normalizeToArray(topic.dpps)
+  });
 });
 
 const PORT = process.env.PORT || 3000;
