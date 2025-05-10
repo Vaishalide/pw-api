@@ -3,7 +3,7 @@ const app = express();
 const data = require('./data.json');
 
 // ✅ Only allow this domain
-const allowedOrigin = 'http://pwthor.ct.ws'; // Replace with your actual domain
+const allowedOrigin = 'https://pwthor.ct.ws'; // Replace with your actual domain
 
 // 🔒 CORS Middleware to restrict access
 app.use((req, res, next) => {
