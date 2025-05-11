@@ -78,6 +78,11 @@
                   "thumbnail": "gfhfhggh",
                   "title": "vbncgfhghh",
                   "videoUrl": "gfhfghgh"
+                },
+                "-OPxGza7AcsXGDbf9qeD": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7edb55a4-902b-420a-8e20-fe4e83b731a0.png",
+                  "title": "Electric Charges and Fields 18 : Questions on Gauss Law",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/123/file.mkv?hash=AgAD9x"
                 }
               },
               "name": "Electric Charges and Fields",
@@ -159,11 +164,7 @@
                 }
               ],
               "lectures": [
-                {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/615523f4-00b7-4f2a-9db9-4234ebafc61e.png",
-                  "title": "Basic Mathematics 01 : General Talks and Guidance || Do's and Don'ts || Number System || Identities || NO DPP",
-                  "videoUrl": "https://www.youtube.com/watch?v=rnTQ90PKn74&pp=ygUKQXJqdW5hIEpFRQ%3D%3D"
-                },
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/50ebc939-74ba-43ba-82a1-8bfa9635c7eb.png",
                   "title": "Basic Mathematics 02 : Number System || Identities || Question Solving || Rescheduled @06:15 PM",
@@ -282,16 +283,8 @@
                 }
               ],
               "lectures": [
-                {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3926af1c-b281-4694-a6e7-5cb15e588da2.png",
-                  "title": "Mole Concept 01 : How to study Physical Chemistry Effectively ?? || Introduction || Matter and its classificatio",
-                  "videoUrl": "dtrtrteer"
-                },
-                {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3b0a6cba-1d83-4a02-bf0a-7504edd95eef.png",
-                  "title": "Mole Concept 02 : Matter and its classification || Physical Classification || Chemical Classification || Properties and their",
-                  "videoUrl": "ttereyy"
-                },
+                null,
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b4b48d02-d6bd-47f6-98fb-7936a8003894.png",
                   "title": "Mole Concept 03 : Homework Discussion || Properties and their measurement || Physical quantities and units |",
@@ -409,12 +402,6 @@
               ]
             }
           }
-        },
-        "-OPkmafb_AJpjENKWyCw": {
-          "name": "Organic Chemistry"
-        },
-        "-OPkmpFcNCbgiDnjPFSt": {
-          "name": "Inorganic Chemistry"
         },
         "-OPnMZWsDlm2iFuQn0uC": {
           "name": "Physics",
@@ -548,22 +535,22 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/438e22fc-0095-489b-87f6-47e513e35469.png",
                   "title": "Basic Maths 01 : Basic Trigonometric Ratio || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/84/file.mkv?hash=AgADbx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6b6031cf-552b-4abe-b119-e5f012434868.png",
                   "title": "Basic Maths 02 : Basic Trigonometric Ratio (Part 02) || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/86/file.mkv?hash=AgADVR"
                 }
               ],
               "name": "Ch 02 : Basic Maths",
               "notes": [
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/62eb5e5c-2f57-460a-8970-b3b3bde0b00d.pdf",
                   "title": "01 : Class Notes"
                 },
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c5932bc4-31e8-4a83-843d-4990e657107c.pdf",
                   "title": "02 : Class Notes"
                 }
               ]
@@ -626,108 +613,125 @@
                   "title": "11 : Class DPP (of lec 16)"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6fd1dacf-f9fb-4b70-b06b-297ba702da17.png",
                   "title": "Electric Charges and Fields 01 : Electric Charges || Properties of Charges || Questions || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/88/file.mkv?hash=AgADVX"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8f489c69-276d-4841-9d90-3f83ed243746.png",
                   "title": "Electric Charges and Fields 02 : Questions on Charges || Method of Charging a Body || Coulomb's Law || Important Analysis",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/96/file.mkv?hash=AgADah"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6ddb2d87-0816-4557-8563-d6a513c37720.png",
                   "title": "Electric Charges and Fields 03 : Coulomb's Law || Important Analysis || Questions",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/92/file.mkv?hash=AgAD9R"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6cc0bac9-b611-480e-a0e3-bbba1ca82fed.png",
                   "title": "Electric Charges and Fields 04 : Charges in Medium, || Vector Form of Coulomb's Law || Questions",
                   "videoUrl": "xyz"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ec42de9-d176-4419-a8a2-5175b3fa3b43.png",
                   "title": "Electric Charges and Fields 05 : Question on Coulomb's Law",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/91/file.mkv?hash=AgAD1h"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6443d9aa-5b42-4b10-be1b-f30ed0d23123.png",
                   "title": "Electric Charges and Fields 06 : Question on Coulomb's Law (Part Two)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/98/file.mkv?hash=AgAD5R"
                 },
-                {
+                "6": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/780a5f34-7f3d-4c1b-b81b-eac1456a9302.png",
                   "title": "11th Basic Revision 01 : Some Basics of SHM || NO DPP || Extra Lecture || Recorded",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/126/file.mkv?hash=AgADLB"
                 },
-                {
+                "7": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2040cc6f-095e-420f-a393-b622f39597c0.png",
                   "title": "Electric Charges and Fields 07 : Question on Coulomb's Law (Part Three) || NO DPP || Extra Lecture",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/102/file.mkv?hash=AgADJR"
                 },
-                {
+                "8": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/92c22327-52de-4aef-98a7-ae7c7f51d3fc.png",
                   "title": "Electric Charges and Fields 08 : Questions on Coulomb's Law || Introduction to Electric Field || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/128/file.mkv?hash=AgADbx"
                 },
-                {
+                "9": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/06dec3c2-df07-40d8-b762-94676208cda0.png",
                   "title": "Electric Charges and Fields 09 : Electric Field Intensity || Charges in Electric Field || Questions",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/100/file.mkv?hash=AgAD4B"
                 },
-                {
+                "10": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/06e5f383-d368-428b-92bb-5e03707afa2b.png",
                   "title": "Electric Charges and Fields 10 : Questions on Electric Field Intensity || Electric Field in Vector & Cartesian Form || Electric Field Lines",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/130/file.mkv?hash=AgADgR"
                 },
-                {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8ab7cebe-7fdb-404d-8f99-79bad60cf4b1.png",
-                  "title": "Guidance Session : By Rajwant Sir || Extra Lecture || Recorded",
-                  "videoUrl": "xyz"
-                },
-                {
+                "12": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ac4b36de-7c18-491c-81cd-081f86fb3147.png",
                   "title": "Electric Charges and Fields 11 : Question on Electric Field Intensity || NO DPP || Extra Lecture",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/132/file.mkv?hash=AgADFh"
                 },
-                {
+                "13": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f773fdaa-97d2-49f9-aac6-6829839d22dc.png",
                   "title": "Electric Charges and Fields 12 : Electric Field Lines || Properties of Electric Field Lines || Questions || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/134/file.mkv?hash=AgADCh"
                 },
-                {
+                "14": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d795649d-576a-4645-89bb-23bf559d44d1.png",
                   "title": "Electric Charges & Fields 13 : Questions on Electric Field Lines || Area Vector and Electric Flux || NO DPP || Extra Class",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/136/file.mkv?hash=AgADCh"
                 },
-                {
+                "15": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a0baaba0-c8b9-4cfa-9c4d-fcd85a1b4eb5.png",
                   "title": "Electric Charges and Fields 14 : Electric Flux || Calculation of Electric Flux",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/138/file.mkv?hash=AgADAh"
                 },
-                {
+                "16": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d60c43f5-49ad-443b-8d05-2001a217b2fe.png",
                   "title": "DOT Product 01 : DOT Product : Flux Calculation, Work & Process || Application of Dot Product || NO DPP || Extra Class || Recorded",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/146/file.mkv?hash=AgADaR"
                 },
-                {
+                "17": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9e195f40-bf13-4b9b-ba25-888e886e500b.png",
                   "title": "Electric Charges and Fields 15 : Advanced questions on force and field || NO DPP || Extra Lecture ",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/144/file.mkv?hash=AgADI3"
                 },
-                {
+                "18": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ff6d98c7-d767-4cb7-8ef5-da8254e2fab9.png",
                   "title": "Electric Charges and Fields 16 : Calculation of Electric Flux || Projection rule and It's Questions || Gaussian Surface and Important Points",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/142/file.mkv?hash=AgADWR"
                 },
-                {
+                "19": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/10a39d6e-ad39-45f0-8503-c48457f3be09.png",
                   "title": "Electric Charges and Fields 17 : Question on Projection Rules || Gaussian Surface and Important Points || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/140/file.mkv?hash=AgADAx"
+                },
+                "-OPxHUDUPpUo3pQd3AWl": {
+                  "dpps": [
+                    {
+                      "fileUrl": "dfgdfgdf",
+                      "title": "fgdfg"
+                    }
+                  ],
+                  "notes": [
+                    {
+                      "fileUrl": "fdgdfgdfg",
+                      "title": "fgfgdgdfgg"
+                    }
+                  ],
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7edb55a4-902b-420a-8e20-fe4e83b731a0.png",
+                  "title": "Electric Charges and Fields 18 : Questions on Gauss Law",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/123/file.mkv?hash=AgAD9x"
+                },
+                "-OPxIDNh0MjR579Wu7cJ": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/77e1430e-7187-4e00-a81f-92b70fbff29f.png",
+                  "title": "Electric Charges and Fields 19 : Questions on Gauss Law || Application of Gauss Law || NO DPP || Extra Class || Recorded",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/121/file.mkv?hash=AgADLR"
                 }
-              ],
+              },
               "name": "Ch01 : Electric Charges and Fields",
               "notes": [
                 {
@@ -806,55 +810,30 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f44b2b68-91c7-4c53-8736-8f72b7f1c0e5.png",
                   "title": "11th Revision 01 : Cube root of unity || Relation between Roots and Coefficients of a Polynomial Equation || Factors of a Polynomial || AM-GM-HM Inequality || The Legendary Gola Method || NO DPP || Extra Class",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/150/file.mkv?hash=AgADRB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/583da26e-8760-460c-9ece-0d8122ef4bc9.png",
                   "title": "11th Revision 02 : Trigonometry Identities Revision || Graphs of Trigonometric Functions || Range of y-asinx+bcosx || NO DPP || Extra Class || Rescheduled @ 05:35 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/152/file.mkv?hash=AgADcR"
                 }
               ],
               "name": "Class 11th Revision",
               "notes": [
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://pwthor.lcubots.news/watch/156/file.mkv?hash=AgADQh",
                   "title": "11th Revision 01 : Class Notes || Lakshya JEE 2026"
                 },
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://pwthor.lcubots.news/watch/154/file.mkv?hash=AgADbR",
                   "title": "11th Revision 02 : Class Notes || Lakshya JEE 2026"
-                }
-              ]
-            },
-            "-OPmlVlvBLD6WW64D-34": {
-              "lectures": [
-                {
-                  "thumbnail": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b6622113-a00b-4ab9-a82d-28f009176996.png",
-                  "title": "Determinant 01 : NCERT Discussion || (Recorded)",
-                  "videoUrl": "xyz"
-                },
-                {
-                  "thumbnail": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ab236158-a9bc-41f3-a84e-6f658e396b2f.png",
-                  "title": "Determinant 02 : NCERT Discussion || (Recorded)",
-                  "videoUrl": "xyz"
-                }
-              ],
-              "name": "NCERT Discussion",
-              "notes": [
-                {
-                  "fileUrl": "xyz",
-                  "title": "01 : Class Notes"
-                },
-                {
-                  "fileUrl": "xyz",
-                  "title": "02 : Class Notes"
                 }
               ]
             },
             "-OPmnpdhWNiZsUWDxiZk": {
               "dpps": [
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://pwthor.lcubots.news/watch/178/file.mkv?hash=AgADSh",
                   "title": "01 : Class  DPP"
                 },
                 {
@@ -882,62 +861,62 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8ea84c53-d005-4a06-bee9-542b7e2d2d3b.png",
                   "title": "Determinants 01 : Marg Darshan || Defining Determinants & Expansion of Determinant || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/158/file.mkv?hash=AgADfm"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/10d7e8a6-5ced-48c1-8d12-fa3f68c8773e.png",
                   "title": "Determinants 02 : Minor of an Elements || Cofactor of an Element || Expansion of Determinants in Terms of Cofactors || Area of Triangle || Properties of Determinants",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/166/file.mkv?hash=AgADTx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ae9fe7b4-3be6-42aa-bcdc-120f64b82c83.png",
                   "title": "Determinants 03 : Properties of Determinant || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/160/file.mkv?hash=AgADKh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cb537135-f313-46c3-9149-3408ed13d02a.png",
                   "title": "Determinants 04 : Properties of Determinants || Practice Problems || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/168/file.mkv?hash=AgADFB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c7c6f02-3c3d-436a-82ef-6648d98dd891.png",
                   "title": "Determinants 05 : Practice Problems || Some Special Determinants || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/162/file.mkv?hash=AgADGh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/36cc94e0-34fa-4173-a945-d5d13ccad4ba.png",
                   "title": "Determinants 06 : More Question Practice on Properties of Determinants || Multiplication of Determinants",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/164/file.mkv?hash=AgADJR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/05b1debf-f213-45e5-ad30-3cdabfe317c4.png",
                   "title": "Determinants 07 : Question Practice on Multiplication of Determinants || An Important Property || More Question Practice on Properties of Determinants",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/167/file.mkv?hash=AgADqR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/25628858-345a-4816-8a7c-5d540dfba003.png",
                   "title": "Determinants 08 : Cramer's Rule || Question Practice || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/170/file.mkv?hash=AgADch"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9543b8ea-da81-4f31-87c9-dd3f7c463fd1.png",
                   "title": "Determinants 09 : Question Practice on Cramer's Rule",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/172/file.mkv?hash=AgADJx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/78d73fae-706a-405b-899c-c05938ccdc88.png",
                   "title": "Determinants 10 : Advance Question Practice || NO DPP || Extra Lecture",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/174/file.mkv?hash=AgADmB"
                 }
               ],
               "name": "Ch-01 : Determinants",
               "notes": [
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://pwthor.lcubots.news/watch/180/file.mkv?hash=AgADjh",
                   "title": "01 : Class Notes"
                 },
                 {
-                  "fileUrl": "xyz",
+                  "fileUrl": "https://pwthor.lcubots.news/watch/182/file.mkv?hash=AgADSR",
                   "title": "02 : Class Notes"
                 },
                 {
@@ -993,38 +972,48 @@
                   "title": "04 : Class DPP"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/353fd308-2f84-45b4-b6fb-406a5c590680.png",
                   "title": "Matrices 01 : Introduction to Matrices || Special Type of Matrices || Determinant of a Square Matrix || Algebra of Matrices || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/210/file.mkv?hash=AgAD5R"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4ccb8f1-1055-4237-bfe0-33140793b32f.png",
                   "title": "Matrices 02 : Algebra of Matrices || Trace of a Matrix || Multiplication of Matrices || Properties of Matrix Multiplication || Rescheduled @ 06:10 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/198/file.mkv?hash=AgADOh"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/55b62a61-dd3d-4208-bd11-d7736b400ec8.png",
                   "title": "Matrices 03 : Practice Problems || Properties of Matrix Multiplication || Higher Power of Square Matrix",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/208/file.mkv?hash=AgADTh"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/60d8e9b9-2091-4294-9148-7bab2f4b5e75.png",
                   "title": "Matrices 04 : More Question & PYQ on Matrix Multiplication || Higher Powers of Square Matrix || Practice Problems",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/200/file.mkv?hash=AgADOB"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/29a0d1ea-8c1a-4915-8df7-e2baee2a2ce8.png",
                   "title": "Matrices 05 : Types of Square Matrices Based on Higher Powers || Practice Problems || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/201/file.mkv?hash=AgADO3"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/71ae75a6-04f1-426b-8186-41433ee9d50d.png",
                   "title": "Matrices 06 : Transpose of a Matrix || Symmetric & Skew Symmetric Matrices || Practice Problems",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/204/file.mkv?hash=AgADth"
+                },
+                "-OPxeEBWXt4E4H9IcVwX": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/39bb4ad0-50ad-4abc-afac-03e1ac74d833.png",
+                  "title": "Matrices 07 : Practice Problems || Orthogonal Matrix || Adjoint of a Matrix || NO DPP || Rescheduled @ 06:10 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/206/file.mkv?hash=AgADIx"
+                },
+                "-OPxeORvrmlRwVKi3x-Y": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/32fc9868-cc56-4a0a-a695-7cb1df622d57.png",
+                  "title": "Matrices 08 : Revising P & C || P & C Based Problems on Matrices || Practice Problems || NO DPP || Extra Class",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/209/file.mkv?hash=AgADWR"
                 }
-              ],
+              },
               "name": "Ch-02 : Matrices",
               "notes": [
                 {
@@ -1058,31 +1047,6 @@
         "-OPmq-xIu6lbtAjGbwnQ": {
           "name": "Physical Chemistry",
           "topics": {
-            "-OPmqf7KCCbPesArPknn": {
-              "lectures": [
-                {
-                  "thumbnail": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/678b46e9-7ac2-46eb-a13b-6dbba202a3c5.png",
-                  "title": "Solutions 01 : NCERT Discussion || (Recorded)",
-                  "videoUrl": "xyz"
-                },
-                {
-                  "thumbnail": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/dcc75416-33b5-4fcf-a3a2-a1a25ef364ef.png",
-                  "title": "Solutions 02 : NCERT Discussion || (Recorded)",
-                  "videoUrl": "xyz"
-                }
-              ],
-              "name": "NCERT Discussion",
-              "notes": [
-                {
-                  "fileUrl": "xyz",
-                  "title": "01 : Class Notes"
-                },
-                {
-                  "fileUrl": "xyz",
-                  "title": "02 : Class Notes"
-                }
-              ]
-            },
             "-OPnKyx10IG7IHc7bMEk": {
               "dpps": [
                 {
@@ -1134,87 +1098,87 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/56dcc13a-ccef-4c23-8745-13d84f4481e1.png",
                   "title": "Solutions 01 : Concentration Terms || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/214/file.mkv?hash=AgADMh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c666b3b-8098-4efe-83e5-f3d7b1102b7c.png",
                   "title": "Solutions 02 : Concentration Terms (Part Two)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/229/file.mkv?hash=AgADnR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f70d1d5d-a72b-4cc1-b187-373be1b4d533.png",
                   "title": "Solutions 03 : Concentration Terms (Part Three)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/226/file.mkv?hash=AgADJx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a7ccad59-9a42-4f8f-8993-3e59a4c13fc8.png",
                   "title": "Solutions 04 : Concentration Terms (Part Four)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/218/file.mkv?hash=AgADvB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/40bc7ef3-b5bc-4427-b961-5ff083bd3c8a.png",
                   "title": "Solutions 05 : Concentration Terms (Part Five) || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/216/file.mkv?hash=AgAD-h"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/89cc427c-282d-4d7b-a136-e31d9bcd6179.png",
                   "title": "Solutions 06 : Vapour Pressure",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/219/file.mkv?hash=AgADmR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ebc0d732-3088-4148-b937-41cc6b1588a4.png",
                   "title": "Solutions 07 : Vapour Pressure (Part Two)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/222/file.mkv?hash=AgAD-R"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b3b1a928-371f-4953-96a4-b5e68427f759.png",
                   "title": "Solutions 08 : Vapour Pressure (Part Three) || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/223/file.mkv?hash=AgADZB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/519a36ef-ae2e-4084-80e6-364d2661b52a.png",
                   "title": "Solutions 09 : Mixture of Non-Volatile Solute in a Volatile Solvent || Mixture of Volatile Solute in a Volatile Solvent both are Miscible",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/225/file.mkv?hash=AgADvx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9905dc43-1a49-4e5d-95a4-79650dd7b046.png",
                   "title": "Solutions 10 : Mixture of Non-Volatile Solute in a Volatile Solvent || Mixture of Volatile Solute in a Volatile Solvent both are Miscible (Part Two)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/232/file.mkv?hash=AgAD8x"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/60abe46d-ee03-446c-8a68-745a94aa9696.png",
                   "title": "Solutions 11 : Ideal Solutions || Non Ideal Solutions || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/237/file.mkv?hash=AgADSR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/afaf44e0-f1a3-472d-80c3-0ebed04a64b7.png",
                   "title": "Solutions 12 : Ideal Solutions || Non Ideal Solutions || Distillation || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/233/file.mkv?hash=AgADSB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a79cdc87-5045-40eb-825b-b0a2d6baf224.png",
                   "title": "Solutions 13 : Non Ideal Solution || Azeotropes || Colligative Properties",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/235/file.mkv?hash=AgAD9R"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c2ceb311-4353-4ad6-a09e-ddfc72ff5df6.png",
                   "title": "Solutions 14 : Oswalt-Walker Experiment || Elevation in B.P || Depression in F.P",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/236/file.mkv?hash=AgAD5B"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/008febd0-fd7f-4d08-97b9-9e7f881cbc14.png",
                   "title": "Solutions 15 : Depression in F.P || Osmotic Pressure || Van't Hoff Factor",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/239/file.mkv?hash=AgADPB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dd3a7b5e-18ca-417d-b283-71eb5a30368c.png",
                   "title": "Solutions 16 : Depression in F.P || Osmotic Pressure || Van't Hoff Factor (Part Two) || NO DPP || Extra Class",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/243/file.mkv?hash=AgADLx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/781c499a-c5fd-47d4-94f9-a222f7326c8f.png",
                   "title": "Solutions 17 : Van’t Hoff Factor || Henry’s Law",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/245/file.mkv?hash=AgADyR"
                 }
               ],
               "name": "Ch-01 : Solutions",
@@ -1300,12 +1264,12 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ccee1247-eccf-4adf-8c53-96a064cec5b1.png",
                   "title": "Chemical Kinetics 01 : Rate of reaction || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/250/file.mkv?hash=AgAD-m"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1d6bb288-6029-42ee-b6e1-1d99d9a63881.png",
                   "title": "Chemical Kinetics 02 : Rate of Reaction (Part Two)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/248/file.mkv?hash=AgADT3"
                 }
               ],
               "name": "Ch-02 : Chemical Kinetics",
@@ -1321,12 +1285,6 @@
               ]
             }
           }
-        },
-        "-OPnLtM_obw3cxVd80M4": {
-          "name": "Inorganic Chemistry"
-        },
-        "-OPnLyU7rBZJXI-tL97B": {
-          "name": "Organic Chemistry"
         }
       }
     },
@@ -1364,52 +1322,52 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2392f8bc-a2b0-478a-9517-e92d652c6a2e.png",
                   "title": "Mathematical Tools 01 : Fractions and Decimals || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/252/file.mkv?hash=AgADAS"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fe618da7-4c53-4344-b2e9-70f55dff50e3.png",
                   "title": "Mathematical Tools 02 : Binomial Approximation || Squares and Cubes",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/265/file.mkv?hash=AgADOB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/758e2f88-3075-41ed-8617-9f8cc124aa48.png",
                   "title": "Mathematical Tools 03 : Log || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/264/file.mkv?hash=AgADWx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/43bba8b7-ff3d-44b5-afb2-35d7710049f9.png",
                   "title": "Mathematical Tools 04 : Logarithms || (Rescheduled @ 04:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/272/file.mkv?hash=AgADfx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/28c13f34-6e43-4867-a89e-e5f0521c6a80.png",
                   "title": "Mathematical Tools 05 : Graphs || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/254/file.mkv?hash=AgADZh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e09707a6-43ba-4684-a25e-f5b3678f9964.png",
                   "title": "Mathematical Tools 06 : Graphs (Part-2)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/256/file.mkv?hash=AgAD3h"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e7ece1bf-558b-464f-b827-0ce9a065348e.png",
                   "title": "Mathematical Tools 07 : Graphs (Part-3) || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/258/file.mkv?hash=AgAD1x"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/460ed943-2aad-4dec-ab8e-f9799a6797f8.png",
                   "title": "Mathematical Tools 08 : Geometric Progressions",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/260/file.mkv?hash=AgAD7h"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c50824ce-d224-42d0-96a2-655db641ce24.png",
                   "title": "Mathematical Tools 09 : Arithmetic Progressions || (NO DPP) || (Rescheduled @ 06:15 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/262/file.mkv?hash=AgADqS"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8b3879fd-d5c7-460b-b896-f6d84dab661f.png",
                   "title": "Mathematical Tools 10 : Trigono-Verse Part-1",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/268/file.mkv?hash=AgADah"
                 }
               ],
               "name": "Ch-01 : Mathematical Tools",
@@ -1492,43 +1450,48 @@
                   "title": "07 : Class DPP"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1619e887-3f41-4e90-8c1b-ed000a073edf.png",
                   "title": "Cell - The Unit of Life 01 : What is a Cell ? || Discovery of a Cell",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/280/file.mkv?hash=AgADPx"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8038a9c9-9fe6-41d1-a371-4ce30f25a08a.png",
                   "title": "Cell - The Unit of Life 02 : Overview of a Cell",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/276/file.mkv?hash=AgAD5B"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/225f8f43-496e-4e4d-8cce-f2bcac2ad373.png",
                   "title": "Cell - The Unit of Life 03 : Prokaryotic Cell || Mesosomes",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/286/file.mkv?hash=AgADrR"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2b027082-d5eb-4cc5-94f9-9275962a78d6.png",
                   "title": "Cell - The Unit of Life 04 : Inclusion Bodies || Flagella",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/289/file.mkv?hash=AgAD4x"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6ddce3b2-336c-4711-a390-28df6e6f658d.png",
                   "title": "Cell - The Unit of Life 05 : Cell Envelope || Modifications of Cell Envelope",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/278/file.mkv?hash=AgAD9R"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b0063af5-2e85-4246-b9c9-6ccf2621b5eb.png",
                   "title": "Cell - The Unit of Life 06 : Introduction to Eukaryotic Cell || (Extra Lecture)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/281/file.mkv?hash=AgADfh"
                 },
-                {
+                "6": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/41574947-b2ec-4747-b71c-f6bb847ba436.png",
                   "title": "Cell - The Unit of Life 07 : Cell Membrane Components || Fluid Mosaic Model || (Rescheduled @ 06:23 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/284/file.mkv?hash=AgADch"
+                },
+                "-OPxkJMS9Ww3iYq8z7SS": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f9e43f3f-7c08-4e97-a2c3-b2f6721db6e5.png",
+                  "title": "Cell - The Unit of Life 08 : Functions of Cell Membrane",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/287/file.mkv?hash=AgADgR"
                 }
-              ],
+              },
               "name": "Ch-01 : Cell - The Unit of Life",
               "notes": [
                 {
@@ -1593,42 +1556,42 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13df39af-dbc8-4880-adee-d5ebbd6fb8a5.png",
                   "title": "Structural Organization in Animals 01 : Introduction || Tissues || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/292/file.mkv?hash=AgADux"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e921d6c-f751-4274-bc6f-89f8d25cf979.png",
                   "title": "Structural Organization in Animals 02 : Epithelial Tissue -1 || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/293/file.mkv?hash=AgADjB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/31657863-97d1-4742-a52c-1ee0bba89984.png",
                   "title": "Structural Organization in Animals 03 : Types of Epithelial || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/294/file.mkv?hash=AgADSx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0802aa2a-65f1-4750-a3d9-3ec6472d8b42.png",
                   "title": "Structural Organization in Animals 04 : Types of Simple Epithelium-2",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/295/file.mkv?hash=AgADyx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7ac9cfb4-0026-4709-8fd1-42b8a26f659d.png",
                   "title": "Structural Organization in Animals 05 : Glandular Epithelium",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/300/file.mkv?hash=AgADcR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/725db555-df04-442c-a889-a08ea3c64015.png",
                   "title": "Structural Organization in Animals 06 : Cell Junction || Connective Tissue-1 || (NO DPP) || (Extra Lecture)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/301/file.mkv?hash=AgADfh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9f485038-ac2e-442e-ab27-2d569870ae7d.png",
                   "title": "Structural Organization in Animals 07 : Connective Tissue-1 (Part-2)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/302/file.mkv?hash=AgADOB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0bbe8b28-2e5c-44a5-8859-a39dad548785.png",
                   "title": "Structural Organization in Animals 08 : Connective Tissue-2",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/303/file.mkv?hash=AgADzB"
                 }
               ],
               "name": "Ch-01 : Structural Organization in Animals",
@@ -1699,57 +1662,53 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c074759b-f862-486d-9ad2-2aa6412a6041.png",
                   "title": "Some Basic Concepts of Chemistry 01 : Introduction || Matter and its Classification || (NO DPP)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/308/file.mkv?hash=AgADHh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/516a346c-dfb6-4f90-b92d-40a19375df78.png",
                   "title": "Some Basic Concepts of Chemistry 02 : Atomic Number and Mass Number || (NO DPP) || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/324/file.mkv?hash=AgADqh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0aaf02f1-5f9c-4d50-8f3f-fb3157103053.png",
                   "title": "Some Basic Concepts of Chemistry 03 : Iso Terms || Average Atomic Mass || (Rescheduled @ 06:13 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/316/file.mkv?hash=AgADnR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e830861e-f9af-471f-ad63-1dbfbb76076d.png",
                   "title": "Some Basic Concepts of Chemistry 04 : Dalton's Atomic Theory || (NO DPP) || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/312/file.mkv?hash=AgADEx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b389d0bd-1e84-4a6f-8182-add03d499eb1.png",
                   "title": "Some Basic Concepts of Chemistry 05 : Numerical Prefixes || Rounding Off || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/310/file.mkv?hash=AgADEC"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fdb3cdb7-725a-4849-bce5-c47a429f2b74.png",
                   "title": "Some Basic Concepts of Chemistry 06 : Dimensional Analysis || Precision and Accuracy || (NO DPP) || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/321/file.mkv?hash=AgADGR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8c5e79b1-5fad-4951-bf70-1a4702b9063c.png",
                   "title": "Some Basic Concepts of Chemistry 07 : Mole Concept (Part-1) || (NO DPP) || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/314/file.mkv?hash=AgAD3h"
                 },
-                {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d880c8a4-1404-42d2-ad64-a68e9f77f514.png",
-                  "title": "Some Basic Concepts of Chemistry 08 : Mole Concept (Part-2) || (Rescheduled at 06:10 PM)",
-                  "videoUrl": "xyz"
-                },
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6af63504-3758-4051-ada1-271fd705c32d.png",
                   "title": "Some Basic Concepts of Chemistry 09 : Mole Concept (Part-3) || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/318/file.mkv?hash=AgADNh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1714f32d-c9d4-4a06-a90e-033419ef575b.png",
                   "title": "Some Basic Concepts of Chemistry 10 : Laws of Chemical Combinations || (Rescheduled @ 06:10 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/319/file.mkv?hash=AgADTh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/70bb2914-6ac0-46b3-81b6-a19eb11f69cd.png",
                   "title": "Some Basic Concepts of Chemistry 11 : Minimum Molecular Mass || (NO DPP) || (Rescheduled @ 06:15 PM)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/326/file.mkv?hash=AgADxR"
                 }
               ],
               "name": "Ch-01 : Some Basic Concepts of Chemistry",
@@ -1801,12 +1760,6 @@
               ]
             }
           }
-        },
-        "-OPnPw-lolnwipXLWssW": {
-          "name": "Organic Chemistry"
-        },
-        "-OPnPzMlkko7IAPgE_Av": {
-          "name": "Inorganic Chemistry"
         }
       }
     },
@@ -2395,20 +2348,14 @@
               ]
             }
           }
-        },
-        "-OPnc4AWi3IZ2Xukie3F": {
-          "name": "Organic Chemistry"
-        },
-        "-OPnc7QlRpaKi1quG38c": {
-          "name": "Inorganic Chemistry"
         }
       }
     }
   },
   "popup": {
     "image": "data:image/jpeg;base64,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",
-    "link": "https://t.me/your_channel_name",
+    "link": "https://t.me/pw_thor",
     "show": true,
-    "text": "hello our site is under maintaince wait i you found any error"
+    "text": "if you want any other batch added contact us on telegram"
   }
 }
