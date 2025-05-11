@@ -38,53 +38,43 @@
                   "title": "Electric Charges and Fields : DPP 07 || Parishram 2026"
                 }
               ],
-              "lectures": {
-                "0": {
+              "lectures": [
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ed2a3304-e706-486f-ad4a-62e817458ae5.png",
                   "title": "Electric Charges and Fields 01 : Introduction To Class XII Physics || Electric Charges and its Properties",
                   "videoUrl": "https://pwthor.lcubots.news/watch/14/file.mkv?hash=AgAD7W"
                 },
-                "1": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/955eee0b-65f6-4591-8177-0f4e0dab0f06.png",
                   "title": "Electric Charges and Fields 02 : Methods of Charging || Coulomb's Law",
                   "videoUrl": "  https://pwthor.lcubots.news/watch/22/file.mkv?hash=AgADJB"
                 },
-                "2": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/808e7a77-f060-441c-8a24-cac9e9ea37ff.png",
                   "title": "Electric Charges and Fields 03 : Vector Form of Coulomb's Law || Superposition Principle",
                   "videoUrl": "https://pwthor.lcubots.news/watch/25/file.mkv?hash=AgADwB"
                 },
-                "3": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/99426cfc-17d0-473c-b733-7337459e4e84.png",
                   "title": "Electric Charges and Fields 04 : Electric Field || Electric Field Lines",
                   "videoUrl": "https://pwthor.lcubots.news/watch/16/file.mkv?hash=AgADuB"
                 },
-                "4": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ca087418-01e3-4e7e-abe5-d90a7aaf7dbf.png",
                   "title": "Electric Charges and Fields 05 : Continuous Charge Distribution || Electric Dipole || Extra Live Lecture",
                   "videoUrl": "https://pwthor.lcubots.news/watch/18/file.mkv?hash=AgADDh"
                 },
-                "5": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d6fc9d07-f84a-4c5d-a126-7f8a4ebd36e5.png",
                   "title": "Electric Charges and Fields 06 : Dipole in Uniform EF || Torque || NO DPP",
                   "videoUrl": "https://pwthor.lcubots.news/watch/20/file.mkv?hash=AgADkB"
                 },
-                "6": {
+                {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fed935ec-d747-41b4-b030-3f29446dde2d.png",
                   "title": "Electric Charges and Fields 07 : Electric Flux and Gauss Theorem || NO DPP || Rescheduled @05:15 PM",
                   "videoUrl": "https://pwthor.lcubots.news/watch/23/file.mkv?hash=AgAD1h"
-                },
-                "-OPsZGT4OMFljrIKZYGj": {
-                  "thumbnail": "gfhfhggh",
-                  "title": "vbncgfhghh",
-                  "videoUrl": "gfhfghgh"
-                },
-                "-OPxGza7AcsXGDbf9qeD": {
-                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7edb55a4-902b-420a-8e20-fe4e83b731a0.png",
-                  "title": "Electric Charges and Fields 18 : Questions on Gauss Law",
-                  "videoUrl": "https://pwthor.lcubots.news/watch/123/file.mkv?hash=AgAD9x"
                 }
-              },
+              ],
               "name": "Electric Charges and Fields",
               "notes": [
                 {
@@ -114,6 +104,311 @@
                 {
                   "fileUrl": "rtert",
                   "title": "Electric Charges and Fields 07 : Class Notes || Parishram 2026"
+                }
+              ]
+            }
+          }
+        },
+        "-OPyL6KAiQwAgZXI76T5": {
+          "name": "Chemistry",
+          "topics": {
+            "-OPyMG0knbVjqS-Z2FSE": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a8b3985d-5199-4004-9f33-ddb9ac06e8c2.png",
+                  "title": "Solutions 01 : Types of Solutions || NO DPP",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/430/file.mkv?hash=AgADgW"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9144c8d7-267c-4362-8fc7-23e8e02e4ac3.png",
+                  "title": "Solutions 02 : Concentration Terms - Part I",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/428/file.mkv?hash=AgADwR"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1c8e98d3-3ec9-44d4-afe8-e0348d1babb9.png",
+                  "title": "Solutions 03 : Concentration Terms - Part II",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/432/file.mkv?hash=AgADER"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d1067ec5-7654-49bb-ae7e-6e2fea9d6f7b.png",
+                  "title": "Solutions 04 : Numerical Practice and Solubility of Solids and Gases in Liquids - Part I || NO DPP",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/434/file.mkv?hash=AgADGx"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9bbe0311-8b7a-482a-a65f-204a2b8aed8c.png",
+                  "title": "Solutions 05 : Henry's Law, Its Application and Limitations",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/424/file.mkv?hash=AgADNB"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1a027929-5bde-416c-81af-e347339c7075.png",
+                  "title": "Solutions 06 : Doubts, PYQs || Vapour Pressure and Factors Affecting It || NO DPP",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/426/file.mkv?hash=AgADTx"
+                }
+              ],
+              "name": "Solutions",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPyMPEGifWZPOzff7up": {
+          "name": "Biology",
+          "topics": {
+            "-OPyNQYQAN_3uEwsSWIN": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ad251d1-21ae-48a2-8928-d8ffab7b23b7.png",
+                  "title": "Human Reproduction 01 : Introduction and The Male Reproductive System",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/444/file.mkv?hash=AgADuw"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/288be1a5-bbf7-4c27-a4e0-f845c2a4c0ca.png",
+                  "title": "Human Reproduction 02 : The Male Reproductive System - 02 || NO DPP",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/438/file.mkv?hash=AgAD9x"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6395b9a8-848d-45fc-9aca-263f49dac0ed.png",
+                  "title": "Human Reproduction 03 : Female Reproductive System",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/445/file.mkv?hash=AgADfB"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ed676fe2-85d9-4801-b908-e636e10cd08f.png",
+                  "title": "Human Reproduction 04 : Female Reproductive System - 02 || NO DPP",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/436/file.mkv?hash=AgAD1h"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/03457cdc-9ead-4629-9146-902250d2110f.png",
+                  "title": "Human Reproduction 05 : Gametogenesis Part 01 - Spermatogenesis",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/439/file.mkv?hash=AgADgx"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/38ea9737-d4d4-45ce-af04-e3650d607beb.png",
+                  "title": "Human Reproduction 06 : Gametogenesis Part 02 - Oogenesis",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/442/file.mkv?hash=AgADHR"
+                }
+              ],
+              "name": "Human Reproduction",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPyNg0gKKJlop2144uR": {
+          "name": "Mathematics",
+          "topics": {
+            "-OPyOeyz7O5cQ8ymKFn4": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/56207cc5-ad51-4a21-a3b2-63de3d443343.png",
+                  "title": "Matrices 01 : Introduction to Matrices || Types of Matrices || Rescheduled @05:30 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/454/file.mkv?hash=AgADQX"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7c8a7b33-758b-4c95-98e5-f701e690dbb7.png",
+                  "title": "Matrices 02 : Types of Matrices || Equality of Matrices",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/452/file.mkv?hash=AgAD9B"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/447203a5-be32-4511-b800-92739f1a416e.png",
+                  "title": "Matrices 03 : Operations on Matrices",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/458/file.mkv?hash=AgADfR"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5494069b-6f17-4b99-bb2a-893dbf8f03c9.png",
+                  "title": "Matrices 04 : Transpose of Matrix || Rescheduled @03:00 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/456/file.mkv?hash=AgADNh"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bcb4ce46-a759-4f29-8755-479cb4762748.png",
+                  "title": "Matrices 05 : Symmetric And Skew Symmetric Matrix || Rescheduled @07:45 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/450/file.mkv?hash=AgADSh"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eb874565-ef5d-45c9-80d1-847bbe878559.png",
+                  "title": "Matrices 06 : Inverse of Matrix || NO DPP || Rescheduled @07:45 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/448/file.mkv?hash=AgADHh"
+                }
+              ],
+              "name": "Matrices",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "06 : Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "-OPyOvhIETyO8lVj6ZZ_": {
+          "name": "English",
+          "topics": {
+            "-OPyPdv4a7QJKpEkd-ZC": {
+              "dpps": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class DPP"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5d1a9050-c2d0-4cda-8eea-c01ddb6dc5aa.png",
+                  "title": "Flamingo 01 : The Last Lesson (Part - 01)",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/461/file.mkv?hash=AgADux"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d49651c-b0b6-4bfc-b4bb-01dabbee6d25.png",
+                  "title": "Flamingo 02 : The Last Lesson (Part - 02)",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/464/file.mkv?hash=AgADxR"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d75cbc06-64a5-4e69-bc41-fa988718dea1.png",
+                  "title": "Flamingo 03 : My Mother At Sixty Six || Rescheduled @03:15 PM",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/460/file.mkv?hash=AgADTh"
+                }
+              ],
+              "name": "Flamingo",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
                 }
               ]
             }
@@ -1805,67 +2100,67 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/63a0ae44-cb1a-477f-bd1c-99f5b3d6f997.png",
                   "title": "Electric Charges and Fields 01 : Feel of electric charge || Properties of Charge || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/338/file.mkv?hash=AgADnR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4d8e4300-4f91-4cf2-944a-55f4ea3f9ac2.png",
                   "title": "Electric Charges and Fields 02 : Properties of charge || Conductor and Insulator || Method of Charging || Rescheduled @06:25 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/332/file.mkv?hash=AgADvx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0b81d57f-0bd6-4424-a529-7bced9992562.png",
                   "title": "Electric Charges and Fields 03 : Method of charging || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/328/file.mkv?hash=AgADGR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9c1d2426-c251-4fcc-b07d-bb5dbd02bb35.png",
                   "title": "Electric Charges and Fields 04 : Method of charging || Coulombs Law || Gold Leaf Electroscope || NO DPP || Extra Lecture || Rescheduled @04:10 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/342/file.mkv?hash=AgADEx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f9953132-3399-4357-955a-659e17490806.png",
                   "title": "Electric Charges and Fields 05 : Questions on Coulombs Law || Superposition Theorem",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/330/file.mkv?hash=AgADsx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6ed18c61-1d65-422a-aeb0-cac810c1651e.png",
                   "title": "Electric Charges and Fields 06 : Questions on Coulombs Law || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/333/file.mkv?hash=AgADvR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2302bc30-ec5f-495d-8d69-c7c845522906.png",
                   "title": "Electric Charges and Fields 07 : H/W || Nature of Equilibrium || Pendulum Problem || Vector form of Coloumb's Law",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/336/file.mkv?hash=AgADGx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/085d1678-b14d-471f-89c9-707959123138.png",
                   "title": "Electric Charges and Fields 08 : Pendulum problem || Vector form of Coulomb Law || Electric Field",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/340/file.mkv?hash=AgAD8x"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5fb82c3b-eb52-4bbc-b3e5-6cd8a138a781.png",
                   "title": "Electric Charges and Fields 09 : Electric Field Intensity",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/339/file.mkv?hash=AgADth"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/18edd9dd-00c6-41ad-9a77-393ed5c22ede.png",
                   "title": "Electric Charges and Fields 10 : Electric field due to Ring and Half Ring || Electric field Lines || NO DPP || Rescheduled @06:20 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/350/file.mkv?hash=AgADQw"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d9dc6e7c-6065-4d3c-b3a6-09b433d3f92b.png",
                   "title": "Electric Charges and Fields 11 : Electric field lines || Extra Lecture",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/344/file.mkv?hash=AgAD9x"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7d655275-b164-40ab-a672-8d017b278186.png",
                   "title": "Electric Charges and Fields 12 : Motion of Charge Particle in Electric field || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/348/file.mkv?hash=AgADkh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c9723232-b213-475d-ae0f-03110a7b267e.png",
                   "title": "Electric Charges and Fields 13 : NEET2025 (Paper Analysis) || Electric dipole moment || Electric field due to electric dipole || Rescheduled @06:10 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/349/file.mkv?hash=AgADwR"
                 }
               ],
               "name": "Ch-01 : Electric Charges and Fields",
@@ -1968,62 +2263,62 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/06a09920-e141-4c05-8ff8-33978b042ee9.png",
                   "title": "Sexual Reproduction in Flowering Plant 01 : Flower || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/360/file.mkv?hash=AgADCi"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cff692a2-2358-4374-9384-3ba0f8bd2b0e.png",
                   "title": "Sexual Reproduction in Flowering Plant 02 : Stamen || Microsporangia",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/367/file.mkv?hash=AgADsx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9754f966-bdcd-4f08-99d8-261234fed200.png",
                   "title": "Sexual Reproduction in Flowering Plant 03 : Pollen grain || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/356/file.mkv?hash=AgADMB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d2a8388a-7142-41fa-9108-2ba21d190640.png",
                   "title": "Sexual Reproduction in Flowering Plant 04 : Pollen Grain (Food, Allergy, Viability, Bank)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/368/file.mkv?hash=AgADrh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/39391f14-ab0c-4fde-bb08-8e5630784c03.png",
                   "title": "Sexual Reproduction in Flowering Plant 05 : Gynoecium || Megasporangium || NO DPP || Rescheduled at 06:10 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/358/file.mkv?hash=AgADTx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/52fb7ff6-b881-40f4-baf5-024a9d1068b4.png",
                   "title": "Sexual Reproduction in Flowering Plant 06 : Formation of Embryosac || Rescheduled @ 06:15 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/362/file.mkv?hash=AgADJh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/430065a7-7dba-4887-a5b9-ca36cd33c82c.png",
                   "title": "Sexual Reproduction in Flowering Plant 07 : Pollination",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/364/file.mkv?hash=AgADYx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/79db74a2-34be-4dc7-841c-c500152d91e0.png",
                   "title": "Sexual Reproduction in Flowering Plant 08 : Types of pollination",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/366/file.mkv?hash=AgAD9B"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9ebae073-d6f2-4ff3-a511-198d244e11df.png",
                   "title": "Sexual Reproduction in Flowering Plant 09 : Pollen Pistil interaction || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/377/file.mkv?hash=AgAD1B"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/437a0e7d-cf0d-4387-b0ec-5efc6dba91b4.png",
                   "title": "Sexual Reproduction in Flowering Plant 10 : Artificial Hybridisation || NCERT",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/372/file.mkv?hash=AgADyB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9b79b189-1e19-4e79-91a1-ea7d0593e3a5.png",
                   "title": "Sexual Reproduction in Flowering Plant 11 : Endosperm || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/373/file.mkv?hash=AgADTR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c142fdb6-1064-4239-95f2-bd9c31721b76.png",
                   "title": "Sexual Reproduction in Flowering Plant 12 : Embryo",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/376/file.mkv?hash=AgADGx"
                 }
               ],
               "name": "Ch-01 : Sexual Reproduction in Flowering Plant",
@@ -2106,43 +2401,48 @@
                   "title": "05 : Class DPP"
                 }
               ],
-              "lectures": [
-                {
+              "lectures": {
+                "0": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/041f37c7-2780-4e68-af98-147dfc01349f.png",
                   "title": "Human Reproduction 01 : Introduction || Male Reproductive System || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/391/file.mkv?hash=AgAD3g"
                 },
-                {
+                "1": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/39a957e2-0341-46c6-a37b-c459d40e0267.png",
                   "title": "Human Reproduction 02 : Male reproductive system-1",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/384/file.mkv?hash=AgADMx"
                 },
-                {
+                "2": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ab64379a-429c-43d7-a25e-06a9625ae629.png",
                   "title": "Human Reproduction 03 : Male reproductive system-2 || NO DPP || Rescheduled @04:30 PM",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/380/file.mkv?hash=AgADvx"
                 },
-                {
+                "3": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eb9622eb-70d4-44b2-9306-182d78cf6f1e.png",
                   "title": "Human Reproduction 04 : Male reproductive system-3 || Spermatogenesis",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/392/file.mkv?hash=AgADfR"
                 },
-                {
+                "4": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7607e837-2de2-4e8d-b1a3-0c93ce2e9e9d.png",
                   "title": "Human Reproduction 05 : Spermatogenesis, Sperm",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/382/file.mkv?hash=AgADqR"
                 },
-                {
+                "5": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f53fe432-53ca-4de2-bf1c-5ba4cdcda6ca.png",
                   "title": "Human Reproduction 06 : Structure of sperm || Female reproductive system",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/386/file.mkv?hash=AgADHh"
                 },
-                {
+                "6": {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1f202261-70ab-4a67-9057-960a25ff410c.png",
                   "title": "Human Reproduction 07 : Female reproductive system-2",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/388/file.mkv?hash=AgADIx"
+                },
+                "-OPybO5ZjFqwgrEjlPid": {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2930b073-f33e-428e-8e50-bc53c2d685d3.png",
+                  "title": "Human Reproduction 08 : Female external genitalia, Mammary gland, lactation",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/390/file.mkv?hash=AgADqw"
                 }
-              ],
+              },
               "name": "Ch-01 : Human Reproduction",
               "notes": [
                 {
@@ -2219,72 +2519,72 @@
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a19d48d3-27c7-4b72-beee-7bb58a811cfb.png",
                   "title": "Solution 01 : Solutions || Types of Solutions || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/405/file.mkv?hash=AgADGR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e35be4b6-6e37-421c-9f54-22100da800fd.png",
                   "title": "Solution 02 : Concentration Terms (Part-1)",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/396/file.mkv?hash=AgADiR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dac7ca97-1e76-40bc-8b78-f9af62ae1b0b.png",
                   "title": "Solution 03 : Concentration Terms (Part-2) || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/410/file.mkv?hash=AgADjB"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/183705be-603a-4528-9cc2-e637b4c627ce.png",
                   "title": "Solution 04 : Normality || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/416/file.mkv?hash=AgADGR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f469f250-f1d7-4f1f-9d27-387959043dc2.png",
                   "title": "Solution 05 : Solubility || Solubility of Solid in Liquid || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/398/file.mkv?hash=AgADkh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6840c00d-da8c-4784-a4cb-2dfadb8039f4.png",
                   "title": "Solution 06 : Solubility of gas in Liquid",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/400/file.mkv?hash=AgAD4R"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/88dde081-ed35-4473-807f-422f971aef17.png",
                   "title": "Solution 07 : Applications of Henry's Law || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/402/file.mkv?hash=AgADGh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4855e174-fa60-4c4b-a44e-1280ed83eddc.png",
                   "title": "Solution 08 : Liquid - Liquid Solutions",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/404/file.mkv?hash=AgADhx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3700f747-ed99-4974-9f19-df90b8127ff4.png",
                   "title": "Solution 09 : Raoult’s Law || Types of Solutions",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/408/file.mkv?hash=AgADXx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/07476a84-af7a-41b9-bd24-ef4419303f39.png",
                   "title": "Solution 10 : Azeotropes || Raoult’s law is a special case of Henry’s law || Relative Lowering of Vapour Pressure || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/409/file.mkv?hash=AgADIx"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c53ee6bb-9b83-48e7-9ae3-9a726c3ec81e.png",
                   "title": "Solution 11 : Colligative properties",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/414/file.mkv?hash=AgADuh"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/112e8e91-ebcc-4543-9c80-43ad167bb31c.png",
                   "title": "Solution 12 : Osmotic pressure",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/417/file.mkv?hash=AgAD6B"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7a2bb4f3-e943-48f1-abae-86338ecc40fb.png",
                   "title": "Solution 13 : Van’t Hoff factor",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/415/file.mkv?hash=AgADjR"
                 },
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a455e8ce-621e-4cb9-80e1-059f1254f3bb.png",
                   "title": "Solution 14 : Question practice || NO DPP",
-                  "videoUrl": "xyz"
+                  "videoUrl": "https://pwthor.lcubots.news/watch/419/file.mkv?hash=AgADPh"
                 }
               ],
               "name": "Ch-01 : Solution",
