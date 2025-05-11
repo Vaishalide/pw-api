@@ -164,7 +164,7 @@
                 }
               ],
               "lectures": [
-            
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/50ebc939-74ba-43ba-82a1-8bfa9635c7eb.png",
                   "title": "Basic Mathematics 02 : Number System || Identities || Question Solving || Rescheduled @06:15 PM",
@@ -438,8 +438,8 @@
                 }
               ],
               "lectures": [
-              
-              
+                null,
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4980bdac-7801-4f56-9fea-09556bb53146.png",
                   "title": "Units and Dimension 03 : Dimension Formula of different phy. quant. || NO DPP",
@@ -1694,7 +1694,7 @@
                   "title": "Some Basic Concepts of Chemistry 07 : Mole Concept (Part-1) || (NO DPP) || (Rescheduled @ 06:10 PM)",
                   "videoUrl": "https://pwthor.lcubots.news/watch/314/file.mkv?hash=AgAD3h"
                 },
-              
+                null,
                 {
                   "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6af63504-3758-4051-ada1-271fd705c32d.png",
                   "title": "Some Basic Concepts of Chemistry 09 : Mole Concept (Part-3) || (Rescheduled @ 06:10 PM)",
