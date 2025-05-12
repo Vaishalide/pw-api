@@ -765,6 +765,50 @@
                   "title": "14 Class Notes"
                 }
               ]
+            },
+            "-OQ2eFjt6JQYi8YIg8pM": {
+              "lectures": [
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/19ba10de-034e-4dba-b755-8df7ae41dfd1.png",
+                  "title": "Mole Concept : Homework Discussion (of lec 11) || Extra Lecture || Recorded",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/544/file.mkv?hash=AgAD4x"
+                },
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/836c543c-cb59-497c-92e2-ee7bdaa71a15.png",
+                  "title": "Mole Concept : Homework Discussion (of lec 12) || Extra Lecture || Recorded",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/548/file.mkv?hash=AgADFh"
+                },
+                null,
+                null,
+                {
+                  "thumbnail": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8b37f72c-8666-4e05-b6dc-2e5c3325bb75.png",
+                  "title": "Mole Concept : Homework Discussion (of lec 15) || Extra Lecture || Recorded",
+                  "videoUrl": "https://pwthor.lcubots.news/watch/546/file.mkv?hash=AgADYB"
+                }
+              ],
+              "name": "Homework Discussion",
+              "notes": [
+                {
+                  "fileUrl": "xyz",
+                  "title": "01 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "02 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "03 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "04 : Class Notes"
+                },
+                {
+                  "fileUrl": "xyz",
+                  "title": "05 : Class Notes"
+                }
+              ]
             }
           }
         },
