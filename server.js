@@ -3,13 +3,19 @@ const app = express();
 const data = require('./data.json');
 
 // ✅ Only allow this domain
-const allowedOrigin = 'https://pwthor.ct.ws'; // Replace with your actual domain
+// ✅ Allow multiple domains
+const allowedOrigins = [
+  'https://pwthor.ct.ws',
+  'https://powerstudy.ct.ws',
+  'https://anotherdomain.com'
+];
+ // Replace with your actual domain
 
 // 🔒 CORS Middleware to restrict access
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  if (origin === allowedOrigin) {
-    res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     next();
@@ -17,6 +23,7 @@ app.use((req, res, next) => {
     res.status(403).json({ ok: 'fetch' });
   }
 });
+
 
 // ✅ Support preflight CORS requests
 app.options('*', (req, res) => {
