@@ -1105,6 +1105,1841 @@
           }
         }
       }
+    },
+    "Udaan 2026 (Class 10th)": {
+      "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2398653e-9826-4541-b28e-b2cd83b37d1f.png",
+      "name": "Udaan 2026 (Class 10th)",
+      "subjects": {
+        "Artificial Intelligence": {
+          "name": "Artificial Intelligence"
+        },
+        "Biology": {
+          "name": "Biology",
+          "topics": {
+            "Control and Coordination": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Control and Coordination 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTI4MjhjYTgtMGUwMC00ZTAzLThmMWMtZTY4YjZkYTc0ZGYwIiwiZXhwIjoxNzQ4NTMwODkzfQ.zPWuwVlcGgaPeLSOpM5tm4oW0BtPn16mpU4Y1bbw3L8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Control and Coordination",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/580664fb-64bc-41cc-b4cb-29ba33faeb88.pdf",
+                  "title": "Control and Coordination 01"
+                }
+              ]
+            },
+            "Life Processes": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/52209d72-077b-4cc4-b21a-8e9f4664547e.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/198adcb6-a4fd-4b04-ac10-ea1dff908fe5.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/10635d82-11c2-408f-9f3b-2564a5537c3e.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/336ef273-54bd-48d8-bff8-0797982305b6.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e7ae8e8-eb64-4c1f-b950-b9bc6f9d6a65.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6d265d44-7ef7-4f4d-a20c-3b7da40a43d8.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/df8f541c-aef9-464f-ada8-952d84351f14.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0617a2b8-f834-4009-a687-a32499607b95.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f2720649-947f-4aa4-9e8e-61aa8e2ee3a3.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/14da4d7b-842c-4ba3-8b84-953d87e7c6a5.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d0b792f1-7fe9-4f87-84a1-a5c26df3fc38.pdf",
+                  "title": "Life Processes"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGI4ZTJiZmYtMzdmYy00MGU0LTk0MWItZmFiNzVjYjc3Y2M1IiwiZXhwIjoxNzQ4NTMwODkzfQ.r6viz3b9p9MfNT4AWM1pFQ5veMoAEujQiD9X0qzFIv0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzA2NGE0NDYtMWE5NC00OTQxLTg4YzItZTAzMWVhY2RmMzc5IiwiZXhwIjoxNzQ4NTMwODkzfQ.AFBPOiw7YizZ_33zXqaDpWn_qVmJiTfYV58Fcw_JT9c/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGU1MjQyYmYtMDdmNi00M2EzLWE5YTQtYTc1NGFlN2RmM2Q5IiwiZXhwIjoxNzQ4NTMwODkzfQ.u0PUd12jmy82P9wJyV3P3PY8shyPENkw2dIQkdvCWhM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzU4NDAxYzAtNzg2NC00MjI4LTk5YWQtNWZiYTM0ZTFkYzRmIiwiZXhwIjoxNzQ4NTMwODkzfQ.BTMavKGbjkWoY3loWkom-t9TwNZyiEvRPzI7jlcMLVI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmYwOTgzYjMtYjQ4ZC00MmFkLWFjODctYTA4NmViNDY0MGVjIiwiZXhwIjoxNzQ4NTMwODkzfQ.2w8EH9c-hVXS6ByLkvf5WPulyDgoOuCPQDHYPSUGwc4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDMwYTc2NmItZGIxYi00ZDI4LThkMGEtOTIwYmU4NjE2NjUwIiwiZXhwIjoxNzQ4NTMwODkzfQ.dvmRdW1MgaIgnlq_d0GdmCwnLQdvY_ZKOat67t_T_0A/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTU0MGJkNDMtMDg2OS00YTlkLTgzZGEtOWU4OTU0ZWRhNzFkIiwiZXhwIjoxNzQ4NTMwODkzfQ.vNxRtj9XmSW5tP3iW0WwG_pEr2HqcfgKbVSs36-ifc8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzU1YTNkN2EtNTRiYi00ZTQ0LWIxNGItYjIxMDdkZDNiZmUzIiwiZXhwIjoxNzQ4NTMwODkzfQ.pLguTn0uTHnCoMrZ_PX3wnm0jixxD3MMrGPpsbTWn0w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGJmMDkwNTktYWNiYy00YWU2LWExMWMtYjZmZmMyMWZhYmJhIiwiZXhwIjoxNzQ4NTMwODkzfQ.Tbsa9v32MEQk9cu0MKyORtKH5PIGcZTHDEra0pUrl2s/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWU5ZjU4NzktNjEzZC00YThiLWIzZTUtODljZjkyMzI5YjM4IiwiZXhwIjoxNzQ4NTMwODkzfQ.Id4p3LT9fg-Gze94jniAynCSdjSrK59U8KJ6Mc3ZSEw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 11",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWUyNTQzMTUtNTgwOS00NWE1LTgzMDQtMDM0NGQ4MGQwNGQyIiwiZXhwIjoxNzQ4NTMwODkzfQ.EP7wGha-Fy2X_A8-Oi6TMafnVcyVFQkot8OQrNp3iMc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Life Processes 12",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2QxZDRlZjUtOTVlMi00MDY1LWE3ODAtYTM5NzQ5ZWY1ZmE2IiwiZXhwIjoxNzQ4NTMwODkzfQ.JMzotic2_y36n4ibQOxNbphh16utYGCMB3hQ1_PXngw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Life Processes",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4127713-ec00-463d-972b-f328810c249b.pdf",
+                  "title": "Life Processes 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f8607735-563f-48de-b66c-05c9086ff81a.pdf",
+                  "title": "Life Processes 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/41acdfc2-4aaa-483d-8a36-fe349ef7e906.pdf",
+                  "title": "Life Processes 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e65915ab-fd26-4c57-b003-21e39f14ecdf.pdf",
+                  "title": "Life Processes 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a509ae1e-679a-4359-aa52-827be9a5308c.pdf",
+                  "title": "Life Processes 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/51423a38-1eb9-4c24-a77b-5b4c4d225cf6.pdf",
+                  "title": "Life Processes 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/35ca6b69-db41-473d-8b5f-e13d24873189.pdf",
+                  "title": "Life Processes 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e91c2cb4-0fd5-4a12-a22e-6caf2adcc399.pdf",
+                  "title": "Life Processes 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/56c61382-af1b-40b4-8860-90282220de7d.pdf",
+                  "title": "Life Processes 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5014b604-ab8d-4a92-a2b1-ec705e3ab2e5.pdf",
+                  "title": "Life Processes 10"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/825fe1c9-13d1-4ad7-9969-f2284268f333.pdf",
+                  "title": "Life Processes 11"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7408e761-8a45-4099-bc9e-bf4e68da1e78.pdf",
+                  "title": "Life Processes 12"
+                }
+              ]
+            },
+            "NCERT Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NCERT Discussion 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODNmZGQ5NWItMzNiNi00NzYyLTk2OTEtYWE5ODI5Y2ExOWFkIiwiZXhwIjoxNzQ4NTMwODkzfQ.HMeahwolE2A7b0q9B10fBTNLPoWKFA0bW-Q16E1jCbE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NCERT Discussion 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGFjZDBhMTEtMjJkNy00MzZlLWEwMzMtNDRiNjI0OTZlNjdjIiwiZXhwIjoxNzQ4NTMwODkzfQ.zlGZcMTpERixfuyK3MiM8xIQw5eRsKXegPFhxDMoTYk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "NCERT Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f794f310-5820-4c2c-9a9f-89b286b23c9c.pdf",
+                  "title": "NCERT Discussion 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4497cd32-632d-49cd-9f17-c6b7469971c2.pdf",
+                  "title": "NCERT Discussion 02"
+                }
+              ]
+            },
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f822d00e-f454-4d08-9324-82dde2f202da.pdf",
+                  "title": "Science"
+                }
+              ]
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ae196bfd-0527-4d1c-a72f-780e3d341817.pdf",
+                  "title": "Life Processes"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8b149c5f-d35c-45b3-8d43-1f22b4033ef9.pdf",
+                  "title": "Control and Coordination"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ffb73d56-c1ff-4c3b-90c4-3e0535d20e91.pdf",
+                  "title": "How Do Organisms Reproduce"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/272f96c3-1f9d-4e97-a4a5-f65c5f55aa63.pdf",
+                  "title": "Heredity and Evolution"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5eeb2525-1821-4a0d-9635-5727dc3995c5.pdf",
+                  "title": "Our Environment"
+                }
+              ]
+            }
+          }
+        },
+        "Chemistry": {
+          "name": "Chemistry",
+          "topics": {
+            "Chemical Reactions and Equations": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/631caf64-2477-4d18-b351-7761fc3c772c.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/21ef341a-b932-4ae9-beb2-b8d1f42d26c8.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e2055f77-e86c-4739-a97c-b9c5673ff86b.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2a560115-1beb-4de4-bfcd-caee05843f0c.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8d1e4830-d25f-40fa-af5b-7b9511e63dc1.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bd357fbd-dad6-4968-90e1-814b69a8e01e.pdf",
+                  "title": "Chemical Reactions and Equations"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmY0NmRiYjctNWQ3ZC00ZDZkLTljNTctOWQ4OWU5YzgzMTMzIiwiZXhwIjoxNzQ4NTMwODkzfQ.q0o3sbeZJljAGT7m4jFIslFSlWfCYyimp0wN7rW38jk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTNkM2VhZjYtZmM4Ni00ZDNjLWJmMzQtMzk4NDQzZTZmNzhkIiwiZXhwIjoxNzQ4NTMwODkzfQ.efyYIohJ8D-7DHMM_S4CSa35yjr7a9qr-V_V9q9Tx0U/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGY2ZGZhNmYtZmVmOC00NTNlLTkxNWQtODVlZjExYmU4ODIwIiwiZXhwIjoxNzQ4NTMwODkzfQ.soZ10PE3ibiBtRHBH5J1oWHeNwZJ49kzjkvPKBlFPqM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTBhMGY0MjEtZGU3Yi00Mjk1LTk1MDMtYjFmMjgxNzZjNzA0IiwiZXhwIjoxNzQ4NTMwODkzfQ.suIIbRg-w2vorO2zlro5ULyTSKtqwnjCleY6HGtY_PQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGZkYWI1MmYtYzA0Ni00N2JkLTlhYzMtNWQyMmZhODY5MWM0IiwiZXhwIjoxNzQ4NTMwODkzfQ._hZLSVfK1VsmnmGHDGKqxZH3hEaYGcnBgKKV-SOECOE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDEwNmIxYmItMjdhNi00ZWY5LWJhZDQtZTdkZjdmNmIzMmQ2IiwiZXhwIjoxNzQ4NTMwODkzfQ.VmPslevuyR0C-uVDTc-xUA6Qrs1xQRfJzAzrSVdoCu4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjM2ODNiOTAtNWE4ZC00OGZhLTlmYTktNzA3Y2NmYWNmNWYxIiwiZXhwIjoxNzQ4NTMwODkzfQ.srhEOoOck9u_59u5PD_WYYM5K1WfizjPdZ5_Bj-UZV4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Reactions and Equations 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDdhYmJmNjktOTYzYy00YmQyLTkzMjYtMjlhMTJjODc3YzYwIiwiZXhwIjoxNzQ4NTMwODkzfQ.WG_aKvjzhesDhQTJosOxDBN6VEXY9lTcW97W45w4FK0/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Chemical Reactions and Equations",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0fbe31b7-7545-4bd0-a383-9626b9f4cd0b.pdf",
+                  "title": "Chemical Reactions and Equations 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bcfcef60-1c22-4f8a-b662-41c76e1d3087.pdf",
+                  "title": "Chemical Reactions and Equations 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3cee5760-a864-4600-b82f-8d1b5ec49e9b.pdf",
+                  "title": "Chemical Reactions and Equations 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/51f9270f-233b-4d79-ae33-9f46cde48b8e.pdf",
+                  "title": "Chemical Reactions and Equations 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8ddf3d86-192a-4fcd-a711-fd34aa7163c0.pdf",
+                  "title": "Chemical Reactions and Equations 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8efcc395-57b3-4926-92a0-c727048a348a.pdf",
+                  "title": "Chemical Reactions and Equations 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d2d3ceeb-0503-410f-ae14-02cb0c3df30f.pdf",
+                  "title": "Chemical Reactions and Equations 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2fdd76cc-aa3e-47bb-8910-0a26741a48c8.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e60dbffb-1c6b-4442-8dd6-f0187bd52ddd.pdf",
+                  "title": "Chemical Reactions and Equations 08"
+                }
+              ]
+            },
+            "Essential Chemistry Basics for Class 10": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/738ed2e7-2979-46f8-ba9d-414e112d8ef6.pdf",
+                  "title": "Essential Chemistry Basics for Class 10"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Essential Chemistry Basics for Class 10 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjVjMjg1ZmMtNDlhNy00Zjg5LWJiNjgtMjczZDk2MTAwYjAxIiwiZXhwIjoxNzQ4NTMwODkzfQ.igcuWj8cbN4fYUBOudsX9ZXhWPADTYA-IpBm3_GCQcc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Essential Chemistry Basics for Class 10 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDMzMzFiMWEtNDFmMy00ZGI3LTg0ZDUtZWZmMGY3ZjAwYmQzIiwiZXhwIjoxNzQ4NTMwODkzfQ.CMKuVIG6fqvyuaaRSzrxERFH1OPBt0ZfaDC8cLPey7E/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Essential Chemistry Basics for Class 10",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/14ed28ab-d016-4863-abfe-d951f3beeeaa.pdf",
+                  "title": "Essential Chemistry Basics for Class 10 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8024cdac-dd2e-4e95-a595-c0b30f2c7c03.pdf",
+                  "title": "Essential Chemistry Basics for Class 10 02"
+                }
+              ]
+            },
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e79b7b6e-93ec-4ab3-a2e0-c2c185bd267f.pdf",
+                  "title": "Science"
+                }
+              ]
+            },
+            "SUNIL BHAIYA CREATIONS": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sunil Bhaiya Creations",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWI3YzExNWUtZmUxNC00YWNmLWE1MjQtMWJjNjZiMTIyZGM0IiwiZXhwIjoxNzQ4NTMwODkzfQ.Zc82pDTANDy5qdH-HuNx9UQkJC5s15j07otwCJnMDL8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sunil Bhaiya Creations",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWI3YzExNWUtZmUxNC00YWNmLWE1MjQtMWJjNjZiMTIyZGM0IiwiZXhwIjoxNzQ4NTMwODkzfQ.Zc82pDTANDy5qdH-HuNx9UQkJC5s15j07otwCJnMDL8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Concept Recap and Game of Balancing Chemical Equations || Video Only || Recorded",
+                  "videoUrl": "//d1d34p8vz63oiq.cloudfront.net/765b3b44-c758-4c50-83a1-454628bb4c4b/master.mpd"
+                }
+              ],
+              "name": "SUNIL BHAIYA CREATIONS"
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/60574e65-1789-46c9-8e61-3b373dc85be2.pdf",
+                  "title": "Chemical Reactions and Equations"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ad105eb5-556d-4150-afdd-2e7eeafc2def.pdf",
+                  "title": "Acids, Bases and Salts"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4fa2754d-fde4-460a-9208-87a40506ed93.pdf",
+                  "title": "Metals and Non - Metals"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ca32e656-a32f-4625-962e-6dd6b9430263.pdf",
+                  "title": "Carbon and its Compounds"
+                }
+              ]
+            }
+          }
+        },
+        "Computer Applications-": {
+          "name": "Computer Applications."
+        },
+        "English (Communicative)": {
+          "name": "English (Communicative)",
+          "topics": {
+            "Grammar": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/60795106-ed4a-446d-a474-197f06ac61e4.pdf",
+                  "title": "Grammar"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6331586e-7b63-4686-b92d-aa0542f7d596.pdf",
+                  "title": "Grammar"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0d51321a-9b76-460d-a986-14881aaf8316.pdf",
+                  "title": "Grammar"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjdlMzI1ZmItYWNlMC00ODU1LThlNmYtNWRjM2I3OTlkNDcwIiwiZXhwIjoxNzQ4NTMwODkzfQ.YBi-DzknM40YCDzMRL2rcCPvvFKHM7AUrVjpz_7OHNY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDBjN2E2N2QtZWFiMi00MTMwLWI5ODYtMWVkM2YyNjM1Zjk2IiwiZXhwIjoxNzQ4NTMwODkzfQ.LffeYfzNCC2rctsmb1qHL3vHLiBF6vm0J5KDfc5de5w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjRmY2YyNjAtYzA0Mi00N2MzLTg4MzctMzM1Zjg1ODA2ZDJmIiwiZXhwIjoxNzQ4NTMwODkzfQ.DaEtCoxNLxWA-j45ESipCXTJTJTorHpdYJ861ZDcDm4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Grammar",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/557c7e3e-189d-465b-acc5-1d9234e1aee3.pdf",
+                  "title": "Grammar 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f7f3940e-9d37-4769-823f-1a0fd2e13f87.pdf",
+                  "title": "Grammar 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1efaf8be-b1bc-4e3d-9467-517a670b9fce.pdf",
+                  "title": "Grammar 03"
+                }
+              ]
+            },
+            "Literary Devices-": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/885de0b7-7fc8-45e8-942a-48f8901b5474.pdf",
+                  "title": "Literary Devices"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Literary Devices",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDk3NWEzNjAtODllNC00ZjlhLTkxNDYtOGI5MmRlMmIzNGM3IiwiZXhwIjoxNzQ4NTMwODkzfQ.5Vg44Bo0rVjVV8uYjpMf0H-6eilVayrBjah01hi4xYA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Literary Devices.",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/411c2382-e6aa-4c15-b0ea-82b54ccc5a17.pdf",
+                  "title": "Literary Devices"
+                }
+              ]
+            },
+            "Literature": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b29ec169-4050-4d56-8c0d-026b68d0983c.pdf",
+                  "title": "Literature"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eafe8dba-6f62-4b90-b991-7144088866e1.pdf",
+                  "title": "Literature"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Literature 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzIyNGRlNDctNzZhMi00Zjg0LWFkMjItMDVhMWI1ODVmNmFjIiwiZXhwIjoxNzQ4NTMwODkzfQ.SjZ7kZPaebLG2hD28YRGk3KAyKT_TZlKunkvXB-eYws/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Literature 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGRlOWE0ZGYtNjI5NS00MDkwLThlYWItOTIwMmVkZDBhOGFjIiwiZXhwIjoxNzQ4NTMwODkzfQ.Wf0SnkidczTsSYXl2hZp9cC2vQGkxYy33krjnrter5I/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Literature",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b5cddfee-dc7a-40b6-8eec-f3842c68c6f7.pdf",
+                  "title": "Literature 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/08e5f80e-172e-4b6e-bfb8-41da1ee8e389.pdf",
+                  "title": "Literature 02"
+                }
+              ]
+            },
+            "Writing Section": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Writing Section 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzMzMGZkM2ItOTdhMi00NDFmLTgxMzEtMjViNDAzYjgxYTZhIiwiZXhwIjoxNzQ4NTMwODkzfQ.tsTV3JQKMkyhBb4zF8Pt-UJnHUka6D_F3Jr0awWI0iQ/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Writing Section",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/199be0c9-7a85-4ce4-9ddb-d012e27adf08.pdf",
+                  "title": "Writing Section 01"
+                }
+              ]
+            }
+          }
+        },
+        "English (Language & Literature)": {
+          "name": "English (Language & Literature)",
+          "topics": {
+            "First Flight : Poetry": {
+              "dpps": [
+                {
+                  "fileUrl": "DHA 01 || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9a32fc25-b0cd-4f13-8beb-6c819bf9ddcc.pdf",
+                  "title": "First Flight"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "First Flight",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWJmM2U2OGEtNTVkMi00YTU4LWE5NDMtNzA4ZTFlZTcxYTIzIiwiZXhwIjoxNzQ4NTMwODkzfQ.if49gJu26O7kh499_NM6j1SYGswn1KXs2hIUFIjz7pk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "First Flight : Poetry",
+              "notes": [
+                {
+                  "fileUrl": "Class Notes || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ab835d7a-baba-4efd-9ec5-7b893e0b8bee.pdf",
+                  "title": "First Flight"
+                }
+              ]
+            },
+            "First Flight : Prose": {
+              "dpps": [
+                {
+                  "fileUrl": "DHA 01 || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/40ef4f54-082f-49d6-b900-239ad3449f84.pdf",
+                  "title": "First Flight"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "First Flight",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWJmM2U2OGEtNTVkMi00YTU4LWE5NDMtNzA4ZTFlZTcxYTIzIiwiZXhwIjoxNzQ4NTMwODkzfQ.if49gJu26O7kh499_NM6j1SYGswn1KXs2hIUFIjz7pk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "First Flight : Prose",
+              "notes": [
+                {
+                  "fileUrl": "Class Notes || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d993caf7-d2d8-4b30-a11b-e4c9b75680d6.pdf",
+                  "title": "First Flight"
+                }
+              ]
+            },
+            "Footprints Without Feet : Prose": {
+              "dpps": [
+                {
+                  "fileUrl": "DHA 01 || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/31507e9f-3456-453b-86ab-9ef6237b1923.pdf",
+                  "title": "Footprints Without Feet"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Footprints Without Feet",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDIwNDY5MzYtMjE2OS00OTJmLTgxYWMtOWVhZDBlZTEwZWI4IiwiZXhwIjoxNzQ4NTMwODkzfQ.rGydS9tKG25jF8h7kPSoaVmVCtnk4nZmSguUjLwwcmw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Footprints Without Feet : Prose",
+              "notes": [
+                {
+                  "fileUrl": "Class Notes || Udaan 2026:https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ad749835-71b4-4450-8ff6-787156568760.pdf",
+                  "title": "Footprints Without Feet"
+                }
+              ]
+            },
+            "Grammar (English - Language and Literature)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e32faea-cb83-4fdf-8d06-dcc139d4516e.pdf",
+                  "title": "Grammar"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c907c754-9de5-494d-9a9e-18fafb14357b.pdf",
+                  "title": "Grammar"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13a7cf2b-0c23-4c82-ae82-e0b7f1d4fc60.pdf",
+                  "title": "Grammar"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjdlMzI1ZmItYWNlMC00ODU1LThlNmYtNWRjM2I3OTlkNDcwIiwiZXhwIjoxNzQ4NTMwODkzfQ.YBi-DzknM40YCDzMRL2rcCPvvFKHM7AUrVjpz_7OHNY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDBjN2E2N2QtZWFiMi00MTMwLWI5ODYtMWVkM2YyNjM1Zjk2IiwiZXhwIjoxNzQ4NTMwODkzfQ.LffeYfzNCC2rctsmb1qHL3vHLiBF6vm0J5KDfc5de5w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Grammar 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjRmY2YyNjAtYzA0Mi00N2MzLTg4MzctMzM1Zjg1ODA2ZDJmIiwiZXhwIjoxNzQ4NTMwODkzfQ.DaEtCoxNLxWA-j45ESipCXTJTJTorHpdYJ861ZDcDm4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Grammar (English - Language and Literature)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d39f1c77-d0b9-4e2a-991c-ad4b515beacf.pdf",
+                  "title": "Grammar 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eb8265f0-5470-4356-aadf-ce279c3d2ee7.pdf",
+                  "title": "Grammar 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/11d57521-f1c6-44f2-a055-3dcbbc200ae0.pdf",
+                  "title": "Grammar 03"
+                }
+              ]
+            },
+            "Literary Devices": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/769c6c5e-4a7d-4eea-a68a-9a8024da0eb6.pdf",
+                  "title": "Literary Devices"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Literary Devices",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDk3NWEzNjAtODllNC00ZjlhLTkxNDYtOGI5MmRlMmIzNGM3IiwiZXhwIjoxNzQ4NTMwODkzfQ.5Vg44Bo0rVjVV8uYjpMf0H-6eilVayrBjah01hi4xYA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Literary Devices",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/411c2382-e6aa-4c15-b0ea-82b54ccc5a17.pdf",
+                  "title": "Literary Devices"
+                }
+              ]
+            },
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d290cc86-37be-431c-a4d1-904e0c102c52.pdf",
+                  "title": "English"
+                }
+              ]
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7df92868-cec3-438f-9a58-54d6b4c2d0b2.pdf",
+                  "title": "The Book That Saved the Earth"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3a11adaa-a134-429c-8c49-9a9f24b68174.pdf",
+                  "title": "Reported Speech"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7fd1abc9-d1e5-4b1b-814a-28d1af6df1a5.pdf",
+                  "title": "Subject Verb Agreement"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/0f1fa60f-9005-49e6-afa0-395b5e0aac43.pdf",
+                  "title": "Modals"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/122f7e72-0142-4539-afb5-10983f29fe3f.pdf",
+                  "title": "Tenses"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6317db5d-4777-473f-a550-b3cec7219c0f.pdf",
+                  "title": "A Question of Trust"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7369e85d-ecd5-4d7b-87b7-4577750707f4.pdf",
+                  "title": "Bholi"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/20b64abc-f16d-41da-8c28-e4e185fe1ca0.pdf",
+                  "title": "The Necklace"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d4b68434-8b42-42bd-95d7-cf680a6044d8.pdf",
+                  "title": "The Making of a Scientist"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/73aff77a-5534-4c4c-8c23-ef12e158a65e.pdf",
+                  "title": "Foot Prints Without Feet"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d8464ea7-e7f3-400a-8d28-d1b4ca2b862d.pdf",
+                  "title": "The Ball Poem"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7a60a7a3-89b8-48d3-8f75-3b6ccc7d6eef.pdf",
+                  "title": "A Triumph of Surgery"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b04fe202-527d-4f5b-b38b-ef3c9d4e1de9.pdf",
+                  "title": "The Midnight Visitor"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/39d71691-76c5-4e92-91c7-f79ea9c247af.pdf",
+                  "title": "The Thief's Story"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f5698245-2301-4c9f-833d-a0344d583996.pdf",
+                  "title": "For Anne Gregory"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d969f06d-4d69-4099-aae5-07dd22a984a2.pdf",
+                  "title": "Fog"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/1705e3a0-c8a5-4b18-96ac-def202c771d1.pdf",
+                  "title": "The Trees"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/012e35e7-d5ab-468f-bcd2-76972b5a2d6b.pdf",
+                  "title": "Amanda"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/005632fb-f43a-491e-99c2-85923c56f02f.pdf",
+                  "title": "How to Tell Wild Animals"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b0e25264-6bcc-45ef-aae8-d7141ea332cf.pdf",
+                  "title": "Fire and Ice"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/83e15efb-8eb1-46fc-aca0-ff9c95929f8e.pdf",
+                  "title": "A Tiger in the Zoo"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a21f85a5-ab65-4492-8a3b-24880693eba3.pdf",
+                  "title": "Dust of Snow"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4fbc98a1-084c-4037-904e-b665e679752e.pdf",
+                  "title": "A Letter to God"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/879b279d-1b10-4c8b-bcea-777971176ec3.pdf",
+                  "title": "Glimpses of India"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a5c8ca52-eda2-4743-9cf4-556f14a50b73.pdf",
+                  "title": "The Proposal"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/32f982d6-4517-4ad1-ba26-15beb6a36759.pdf",
+                  "title": "The Sermon at Benares"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/44ff5585-6e08-430c-8a79-a75558033624.pdf",
+                  "title": "Madam Rides the Bus"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6933319f-bfc0-4e0e-9333-a9ccca87f426.pdf",
+                  "title": "Mijbil the Otter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8e4f2ae4-cb8b-45da-9564-5f2881ea47df.pdf",
+                  "title": "From the Diary of Anne Frank"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/0a1beab4-db5a-4b5c-aee4-3266db9dea5b.pdf",
+                  "title": "Nelson Mandela - Long Walk to Freedom"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ca655591-82d9-4c2b-9479-5a3d4f712982.pdf",
+                  "title": "Two Stories About Flying"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a144fe4f-c32d-4754-ad49-e08aaac1900a.pdf",
+                  "title": "Determiners"
+                }
+              ]
+            }
+          }
+        },
+        "Hindi Course A": {
+          "name": "Hindi Course A",
+          "topics": {
+            "गद्य खंड - कृतिका": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/726cb562-54f4-4f71-88fc-4bafd3324065.pdf",
+                  "title": "गद्य खंड - कृतिका"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4b6bb62-788c-4e06-9d8a-015c3566609d.pdf",
+                  "title": "गद्य खंड - कृतिका"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f8b46ff9-6caf-41e6-b811-44b2916711ac.pdf",
+                  "title": "गद्य खंड - कृतिका"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड - कृतिका 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmQxNWZkZmYtZjJlYy00YzU2LWI5YWItNDY5YTk5NGJhM2JhIiwiZXhwIjoxNzQ4NTMwODkzfQ.rUg-Pkl6BpD_fqXvjuG7FJCtE3huzbw7ECbko08T8Vw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड - कृतिका 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTQ2ZDIxYmQtZTc3ZS00MDMyLTg0YzQtNjEzYmFmN2YwNmJjIiwiZXhwIjoxNzQ4NTMwODkzfQ.Dolp2fOaAIHVV0sN6Ti0fHhJGjU6XWeYgn9llJ6penA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड - कृतिका 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGU2Njc4ZGUtNjhhOC00ZTg2LWJhZjktYmRmMDJjMjM2ZmRhIiwiZXhwIjoxNzQ4NTMwODkzfQ.v5E6bm99RjYiZi2KUXCcHptA2n0TtqqfC_C1jt1v_mo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड - कृतिका 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWQ2ZTI4OGQtMzExZC00YmUzLTg3OTAtZTFhMWExMGIxNTgwIiwiZXhwIjoxNzQ4NTMwODkzfQ._OaFRD27vKzsh-8FxPWCjDR_9JJzTFXxWFUY8lY_DLs/hls/720/main.m3u8"
+                }
+              ],
+              "name": "गद्य खंड - कृतिका",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/37d552dc-34fb-4835-9578-17eab2778a41.pdf",
+                  "title": "गद्य खंड - कृतिका 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/68331f5f-8550-4066-8f40-f9576e84c7d2.pdf",
+                  "title": "गद्य खंड - कृतिका 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e08005b1-b363-4d1c-af0b-c14c2adfdce6.pdf",
+                  "title": "गद्य खंड - कृतिका 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/288276a4-f9f7-439b-94bd-c61c222179dc.pdf",
+                  "title": "गद्य खंड - कृतिका 04"
+                }
+              ]
+            },
+            "व्याकरण": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e2dfa674-ba36-4c67-bfd0-77a5a295b4b2.pdf",
+                  "title": "व्याकरण"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7402a913-a645-4546-84be-72212e7f72e1.pdf",
+                  "title": "व्याकरण"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "व्याकरण 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmY0YTgzZTUtYTgwNS00NTcxLTk0MDEtNTY0NDUxNjM5N2U3IiwiZXhwIjoxNzQ4NTMwODkzfQ.9EhwcE0oD-GHoCM5bwcH1ZHUJsp14WmdONHokyGV31w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "व्याकरण 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWFkMmJlNmMtMjQ1Mi00NWYwLWE2MmUtMmVjNTQ5YTZmMWZkIiwiZXhwIjoxNzQ4NTMwODkzfQ.ymmrhPcXZL46bC4hjrcgq258JY-jAhOhTvz6mZZbUSI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "व्याकरण",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e97bb7aa-78e6-44b7-be63-288a6de8bdb5.pdf",
+                  "title": "व्याकरण 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ade7132a-6013-494f-9b38-402096d2657f.pdf",
+                  "title": "व्याकरण 02"
+                }
+              ]
+            }
+          }
+        },
+        "Hindi Course B": {
+          "name": "Hindi Course B",
+          "topics": {
+            "गद्य खंड": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/53dd57c9-0ab2-4c0e-8694-09b04de26e39.pdf",
+                  "title": "गद्य खंड"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a30b3ad1-f351-437e-9eb3-b0c12ba6850f.pdf",
+                  "title": "गद्य खंड"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGVlOWZiMTMtYTkxMy00NjlhLWJlY2MtMTNmYTdlNTBiNmUwIiwiZXhwIjoxNzQ4NTMwODkzfQ.O1d0DIupR7mkOMTuyRUPIqkqDrDNjNUrbl3Snqe9c9M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODJkZjUwNmQtYTY0Yy00OTA1LWI3MjItNDUxYWQ3YjY5ZjFlIiwiZXhwIjoxNzQ4NTMwODkzfQ.Cp5JDrw2NE3k9EiWM6J1lnOnLGmITYUoTJXXjXcqZ7g/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "गद्य खंड 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWIzMDM2NTItN2Q4OS00MDA3LWFmNjMtMjMwZDk2NGM0ZDk4IiwiZXhwIjoxNzQ4NTMwODkzfQ.OYXKsWq2ARLgS22dv48WmtzOqPrFM4b-w8hOFf-TD68/hls/720/main.m3u8"
+                }
+              ],
+              "name": "गद्य खंड",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/17729ff6-72a4-47f0-adc2-e8c5b4f4c33e.pdf",
+                  "title": "गद्य खंड 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d600ba13-a05b-4eaf-94cd-c93ec8af58d4.pdf",
+                  "title": "गद्य खंड 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f422206-9067-4b41-a00a-7d6da08fbe46.pdf",
+                  "title": "गद्य खंड 03"
+                }
+              ]
+            },
+            "व्याकरण (भाग 1)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/72928999-6a0e-41f6-afcf-639a51bb0ed6.pdf",
+                  "title": "व्याकरण (भाग 1)"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/95ce35ae-1c5b-4476-ad90-56a7d7bfee2a.pdf",
+                  "title": "व्याकरण (भाग 1)"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "व्याकरण (भाग 1) 01",
+                  "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/cfbe33e3-3c7e-40b4-8fa6-9e4506ccb2ee/master.mpd"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "व्याकरण (भाग 1) 02",
+                  "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/1d9eab3e-16a3-4d1e-bb60-cf1b83427ee0/master.mpd"
+                }
+              ],
+              "name": "व्याकरण (भाग 1)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1a6f0a87-e4d7-4943-ab08-5c9cffaf59db.pdf",
+                  "title": "व्याकरण (भाग 1) 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ea34fb41-68a9-4b0b-ae60-dcd861f0a4d3.pdf",
+                  "title": "व्याकरण (भाग 1) 02"
+                }
+              ]
+            }
+          }
+        },
+        "Information Technology": {
+          "name": "Information Technology"
+        },
+        "Maths": {
+          "name": "Maths",
+          "topics": {
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/acb774de-63cb-4e71-96d5-57dc37b1d9ad.pdf",
+                  "title": "Maths"
+                }
+              ]
+            },
+            "Pair of Linear Equation in Two Variables": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d8b686e4-172f-4920-b138-dbf12bb5916e.pdf",
+                  "title": "Pair of Linear Equation in Two Variables"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fff2581b-4dc3-493f-8d56-8e1d5e73994b.pdf",
+                  "title": "Pair of Linear Equation in Two Variables"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/78ce50f2-d5cd-45ae-9355-931adc281a88.pdf",
+                  "title": "Pair of Linear Equation in Two Variables"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pair of Linear Equation  in Two Variables 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTMxMDMxOGItNzgyZS00MmQ3LWE2ZTUtZWZmYzYwZGRhOGJiIiwiZXhwIjoxNzQ4NTMwODkzfQ.xByEPiE7Z0o81k4B7TWSFRmIQG8NuIgJzUDyTStSw5c/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pair of Linear Equation in Two Variables 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWI2Y2NlZDYtMGIzOS00OWNiLTgyNzctYWY1YzI2MGE0MWJjIiwiZXhwIjoxNzQ4NTMwODkzfQ.95f9T8LZBQTwEBohaO2F4MHTxsOq36cMRnYb-XbIUZA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pair of Linear Equation in Two Variables 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjliMjA4OTMtNmZmMi00MjI2LTg1NjItMzBkOWU0NjY2NGIzIiwiZXhwIjoxNzQ4NTMwODkzfQ.WLrpJY4VLQwK5WM07mbqCPTWKGC7DYTBceilynFemY4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pair of Linear Equation in Two Variables 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzIwMDI1OWMtZDU3Zi00YzRmLWJlZjItOTUzMTkwOWNiNmIxIiwiZXhwIjoxNzQ4NTMwODkzfQ.uq73cvV2GiuH-n3579HP1jug_B3z59iaPoqN4gGcysk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Pair of Linear Equation in Two Variables",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4b4117f3-5516-4f50-83fc-6993f1dac3c1.pdf",
+                  "title": "Pair of Linear Equation in Two Variables 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/370200b3-5d86-4e8b-8917-bc3e33726f95.pdf",
+                  "title": "Pair of Linear Equation in Two Variables 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e6092f2d-e6ba-4fd7-93e3-f7afd53378d9.pdf",
+                  "title": "Pair of Linear Equation in Two Variables 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/486f73f3-724d-405e-96b2-0901c93e1679.pdf",
+                  "title": "Pair of Linear Equation in Two Variables 04"
+                }
+              ]
+            },
+            "Polynomials": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/80405264-e0e0-4ee9-b478-b79b4c59bea2.pdf",
+                  "title": "Polynomials"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/891af272-5ea3-4480-a578-7aa64a91afd4.pdf",
+                  "title": "Polynomials"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9e9d56c4-dd42-44f1-8146-185cfd3d86a0.pdf",
+                  "title": "Polynomials"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e64c00b5-d30b-4446-8b97-8f79fa99a11c.pdf",
+                  "title": "Polynomials"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2a645cc7-4665-42a2-9397-d40b7bc406f7.pdf",
+                  "title": "Polynomials"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDUyNjQ4NzEtZDI0ZC00YjBiLTgxYWMtZWJlOWEwYTJmYWNiIiwiZXhwIjoxNzQ4NTMwODkzfQ.BlcwD_H9OfbwltTx173D1c9VqVvb4nruv6UwjEMbWTg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTRlZjJiZTUtMjJjZS00MDZkLThhNTYtYWMxNzk2NWJiNThmIiwiZXhwIjoxNzQ4NTMwODkzfQ.T9G5IgN8n_rq4SqRHhthFpZhT965jtrGZ9itzBzQfw8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjcxMTE3YjAtZDY5MS00ZjYxLWFiMjQtMDQxNzQwZDk1NTM0IiwiZXhwIjoxNzQ4NTMwODkzfQ.0hT_s1gr6j4fDJ0NyA2oNW1eElFIOU8VcTEFHXR7IEU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjU3MjA0N2EtYWI0Zi00ZDZhLThmNTctMGVmZTE4Y2I5N2YyIiwiZXhwIjoxNzQ4NTMwODkzfQ.2HmpdheCOq6sl0VnoYj1lKH3gmlW2e_Hfbt-pyVLHlM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzEwM2ExYmMtMWM4MC00ZGQ0LWEwMWEtYWFiZjdmZjg0YWQwIiwiZXhwIjoxNzQ4NTMwODkzfQ.DWrRecDILcgCTQ1g0lJ7MTa6IIqFmsVVsNcGtDGPKPs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Polynomials 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjgyYTgzZDMtZWM5NS00YTY5LTlmMDUtMTJjMDAwZDg2MmM0IiwiZXhwIjoxNzQ4NTMwODkzfQ.Nu2ofjbiaAHQTpBz1diaxG-bV0xhaoHzImuhlN6q7sA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Polynomials",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d98d78e-f048-4e62-81fc-605559c9b9cf.pdf",
+                  "title": "Polynomials 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/08f2342f-7cf2-48a0-9c73-3926a1b9a64a.pdf",
+                  "title": "Polynomials 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b7b05921-f0b0-49a9-9045-6ef469672a80.pdf",
+                  "title": "Polynomials 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5063734d-d057-4f4d-8de3-20a10b5c4f70.pdf",
+                  "title": "Polynomials 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9449407b-ca75-4bd7-b8bd-7c148cf879dd.pdf",
+                  "title": "Polynomials 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5020d6ef-f23a-4ade-896c-9f26aa10eb6b.pdf",
+                  "title": "Polynomials"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/195a6f0d-4cb4-4ad5-b976-58e438c5f406.pdf",
+                  "title": "Polynomials 06"
+                }
+              ]
+            },
+            "Real Numbers": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5407570a-4b57-43c2-9353-6b5f5c1baec3.pdf",
+                  "title": "Real Numbers"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c738fcc2-80a9-44f7-8668-847dd141abfa.pdf",
+                  "title": "Real Numbers"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2079616d-88c5-4fc0-b71b-37fa34524bdd.pdf",
+                  "title": "Real Numbers"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d5d1064-7078-4baa-8295-0ef1dad8bc79.pdf",
+                  "title": "Real Numbers"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjNkNjZlYjctNDQ0Ny00YjQ5LTg3OGMtNzQwM2M4Mzk1NTBiIiwiZXhwIjoxNzQ4NTMwODkzfQ.TACRJu_EPDfOfDmEMSGRAQGFtpJ4wM4R103Vgdun0O4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTM4MTA2ODEtZWJhNS00ODhlLWJkNmUtNDE5ZDU0OTIzMWExIiwiZXhwIjoxNzQ4NTMwODkzfQ.pHUh6T3IFoqLsEW5WaRXcjJ6-uBXhF1xPtMAqemSpcw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODA1OWY2M2QtMTIxZS00YWZjLWJmNTktYjgzZTY5ZjQxMmNkIiwiZXhwIjoxNzQ4NTMwODkzfQ.ohg2hs21Mf3nWatQaBaOTVJ7uedB1wFZ-IzPPZdliz4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmM5YjdkMjktYmQ4OC00NWY5LTk0ZDgtNTcwY2NmMTgyZTk0IiwiZXhwIjoxNzQ4NTMwODkzfQ.VgM7v2iTWW_zMJ8HAK4XO7rfcyDeqZ7jZ3dX4otXSNw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzlkMGNiNTMtNjAyMS00YzA3LTlhZDAtODQ1NDU4NGVmZDRiIiwiZXhwIjoxNzQ4NTMwODkzfQ.fsXVM4lzyTX0yJ84XuctEjpa48HLzJnNPJDFX2K-oT4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Real Numbers 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDc1MjQyNTItYjZhYi00ZmJlLWFmOWEtNGYwMzNkMWNjNDliIiwiZXhwIjoxNzQ4NTMwODkzfQ.FDhkHOXgEbAV7txs1e16jtl7EwdRIjC2AcnCaG5wv4I/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Real Numbers",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e29d9e60-9cc7-4e27-8aed-b80ab763a2a5.pdf",
+                  "title": "Real Numbers 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f127b8d8-0fdd-4bb5-96e4-1b841f8ae8e8.pdf",
+                  "title": "Real Numbers 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bf87bcc7-2295-4601-be73-3777993e4934.pdf",
+                  "title": "Real Numbers 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b9969a7f-119c-42e5-98b2-a6d2be83404a.pdf",
+                  "title": "Real Numbers 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4fa0af9f-0d8f-494d-bffa-cfaa12e59b0c.pdf",
+                  "title": "Real Numbers 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ec124232-5a83-4bf3-b29c-34c3122ab1c8.pdf",
+                  "title": "Real Numbers"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/18f5e420-7bcb-4699-a65f-c23756065e6a.pdf",
+                  "title": "Real Numbers 06"
+                }
+              ]
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5c7515b9-5f8a-4100-8a07-e99a8decd381.pdf",
+                  "title": "Real Numbers"
+                },
+                {
+                  "fileUrl": "//d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/03fbdd28-41a3-422b-bf69-191bcf374eed.pdf",
+                  "title": "Polynomials  Short Notes"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e49e7b6d-d0a9-45cc-bb6a-afe633a499c6.pdf",
+                  "title": "Linear Equation in Two Variables"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b35b1883-2708-4e16-8497-91796ee4aece.pdf",
+                  "title": "Quadratic Equation"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/221fb8d9-8357-4dd4-8c95-fed6cddac9e4.pdf",
+                  "title": "Arithmetic Progressions"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/09bafb73-7c29-4e96-9d4a-713b844cb1ff.pdf",
+                  "title": "Triangles"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/fe7c57ab-e2e9-4e19-9788-d83fcea09a0f.pdf",
+                  "title": "Coordinate Geometry"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/bed17265-d1a2-4c32-89fc-ab0725a1d96d.pdf",
+                  "title": "Trigonometry"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/97ecb1d5-1126-450c-9b51-d37fb591955a.pdf",
+                  "title": "Applications of Trigonometry"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/1ec4f2e1-2efa-4d3a-b1ca-5183ca65ee5a.pdf",
+                  "title": "Circles"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/98e785d0-5a0a-4541-b262-d3324816173d.pdf",
+                  "title": "Areas Related to Circles"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ecccb02d-821f-41c0-8c18-c8106cf2009d.pdf",
+                  "title": "Surface Area and Volume"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9e76b397-107e-466d-84b1-30e33b730e12.pdf",
+                  "title": "Statistics"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5797dcac-d1e0-4008-acfd-d148d6410682.pdf",
+                  "title": "Probability"
+                }
+              ]
+            }
+          }
+        },
+        "Physics": {
+          "name": "Physics",
+          "topics": {
+            "Human Eye and the Colorful World": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7fa04f4a-3c62-4899-89fb-c5712c441a2e.pdf",
+                  "title": "Human Eye and the Colorful World"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/806d7b2c-f94e-476f-883b-f6e650431e50.pdf",
+                  "title": "Human Eye and the Colorful World"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/771a2737-dbcb-4e95-8af1-66d02d291132.pdf",
+                  "title": "Human Eye and the Colorful World"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Human Eye and the Colorful World 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWY2NWIyNTAtN2RiMS00ZWU5LWE1ODYtZWJiZGFkNjk2OTRkIiwiZXhwIjoxNzQ4NTMwODkzfQ.xXJiJi80TavS3YWup1gzgFULPMBsZcecv6ssbML52mA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Human Eye and the Colorful World 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGVhODM4YTEtZjZmMy00NWVkLTg1MWQtZGEwNTIyMjE5YzRhIiwiZXhwIjoxNzQ4NTMwODkzfQ.U2L0pgEephdSauG3K3qj_4E9VyOjHoUpjri11Sjwen4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Human Eye and the Colorful World 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjc1NTdlYmYtZmM2OS00ZGY4LWI4NDgtNzMzMDNhMDE1YzZmIiwiZXhwIjoxNzQ4NTMwODkzfQ.tipRf2_Q3b_PHhZyZh1oyqGUa3fafbl9W_hYPTDOiB8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Human Eye and the Colorful World",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/22ff9abd-0f31-4391-8a80-b968ac592350.pdf",
+                  "title": "Human Eye and the Colorful World 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/35ca46f9-5a5a-491e-9c5c-0f92c9138c1b.pdf",
+                  "title": "Human Eye and the Colorful World 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/14e20290-ae15-409a-9e5e-fec046f0948f.pdf",
+                  "title": "Human Eye and the Colorful World 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/018a37eb-dff1-49fd-843a-9ff6da43ab85.pdf",
+                  "title": "Human Eye and the Colorful World"
+                }
+              ]
+            },
+            "Light - Reflection and Refraction": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e67cdc9-6653-4703-a325-42e33e0502f6.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/16486989-6510-4ce8-88da-61537be83ede.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f06dad40-0252-4c10-9f57-b5a494b42ae4.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c00a6fbf-b9db-45dc-81d5-eca5a38a3ec6.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ce51e61-9365-47e2-8982-5f22f6b8a851.pdf",
+                  "title": "Light - Reflection and Refraction"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODFlMDUwODgtYjliYy00MDJmLWJhNzEtNDc4MjJkMjk5NzI1IiwiZXhwIjoxNzQ4NTMwODkzfQ.4UD4wS6xgbGBTXjLlV0NbM7baeE-msud2ITOgrDV7pk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzg3ZTVlODEtZTRjMC00NWJiLWEwY2EtZTFjODk5ZTc2MjUxIiwiZXhwIjoxNzQ4NTMwODkzfQ.cupjHXNx3N90981SVmwizWchLg-bfd1JG7Q4TLVAQ-c/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDZiYWJhYTMtOGM3ZC00OTE0LWE3NzQtNzRkMGY3ODI0YzM5IiwiZXhwIjoxNzQ4NTMwODkzfQ.kIC3TCajjx_1k71ApslPTGCtZ5pRpn3gFJMQCHU_DSo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDUwYmEyMjEtOWVmMS00ZTM0LWFiMGMtZjcyYjRjN2JiODUxIiwiZXhwIjoxNzQ4NTMwODkzfQ.Mr8u_Q7FKKxhwgYq9BBHzm_be_ro0BDao2TzCaPRqFU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWU4ZWE4MTQtNGNjOC00NGNkLTgxOWQtOGUwZmRlMmI3NzlhIiwiZXhwIjoxNzQ4NTMwODkzfQ.zt3dRsqY11b0U6Wmdp-ii2V2DssOYjUJtSX49MV69HQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmQ5YjhmN2ItYmJmZS00MTdjLThlYWEtNWJiOGEyNDRjNGE4IiwiZXhwIjoxNzQ4NTMwODkzfQ.c51GgLETvnIxkISdepvFa5t8ErZ-kRTNuUatuhl0hAg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Light - Reflection and Refraction 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzE3YzQ3MTgtMGE2MC00NGUzLTljNWMtOGQ5Mjk5ODI1MTUxIiwiZXhwIjoxNzQ4NTMwODkzfQ.Oo3pM_ia5rFsCBk2xOGGo3J_aWcm2oJu-XFMJkdWki4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Light - Reflection and Refraction",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7df845f6-0387-48e3-8010-01e3e19cd586.pdf",
+                  "title": "Light - Reflection and Refraction 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9931caab-f2f8-4ba6-a029-d6677727044e.pdf",
+                  "title": "Light - Reflection and Refraction 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/48bf9061-7767-4fb0-b8ce-d53072f37c8d.pdf",
+                  "title": "Light - Reflection and Refraction 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4d4d7f25-c32e-4cbc-9aab-17d71fd2ebb8.pdf",
+                  "title": "Light - Reflection and Refraction 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/73da2ad9-4b1c-4728-a819-14d4968e0e96.pdf",
+                  "title": "Light - Reflection and Refraction 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d0173689-9af0-4c77-8de9-9416764bcdd2.pdf",
+                  "title": "Light - Reflection and Refraction 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2ca4e215-717a-46c7-bf1c-38d64c1f9f26.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/537e0b6f-b565-4f01-9d6a-5aefda7dba21.pdf",
+                  "title": "Light - Reflection and Refraction 07"
+                }
+              ]
+            },
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/78a27798-2844-4302-ae3f-d830098d94a6.pdf",
+                  "title": "Science"
+                }
+              ]
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/21bc80e0-87d5-41df-b1a9-6b0ec93a2060.pdf",
+                  "title": "Light - Reflection and Refraction"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e7ad40c1-d529-4d1e-93e7-28351dedd0d1.pdf",
+                  "title": "Human Eye and Colorful World"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/58461342-789c-42d0-b17b-795d1b2bc5e2.pdf",
+                  "title": "Electricity"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/211a61da-30f1-48f6-90ab-420462cfc4a2.pdf",
+                  "title": "Magnetic Effects of Electric Current"
+                }
+              ]
+            }
+          }
+        },
+        "SST": {
+          "name": "SST",
+          "topics": {
+            "PYQs - (Only PDF)": {
+              "name": "PYQs || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2d271607-bf71-48e8-9f4c-a4cbddd7ea9c.pdf",
+                  "title": "SST"
+                }
+              ]
+            },
+            "Power Sharing (Political Science)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/92e555e5-df3c-4bf0-a833-043627e09314.pdf",
+                  "title": "Political Science - Power Sharing"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6748e895-cbc7-42ee-ab0e-e186dcdc2882.pdf",
+                  "title": "Political Science - Power Sharing"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Political Science - Power Sharing 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGQxMDM4YzMtNmQ1ZS00MjVkLTg5NjktYWMxYmNmZmQ5YTEwIiwiZXhwIjoxNzQ4NTMwODkzfQ.APXLuVzQZa-VeX7uwdaYc_fXtrXwadAKX5gIBzPTcFQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Political Science - Power Sharing 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjE0YzJlMjItZDVjNi00NmNhLWFlN2MtNjhiNmRlMjM4ODE2IiwiZXhwIjoxNzQ4NTMwODkzfQ.bvJptPPAgAY7COW6bAZmvQMro2U8TgGEq9dS0MlcU48/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Power Sharing (Political Science)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e8dca585-46f0-4bfb-ac63-46958b2e8e2e.pdf",
+                  "title": "Political Science - Power Sharing 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/504fe5ce-c438-48df-a3e9-acb9643efa51.pdf",
+                  "title": "Political Science - Power Sharing"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ab861aa8-f2c9-4863-ad6c-e5dd54d53bed.pdf",
+                  "title": "Political Science - Power Sharing"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9a8dfcb6-fa84-4205-8da6-70c40e51e39d.pdf",
+                  "title": "Political Science - Power Sharing 02"
+                }
+              ]
+            },
+            "Resources and Development (Geography)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/215d206f-263c-4caa-b49a-5fc4b7e12c96.pdf",
+                  "title": "Geography - Resources and Development"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e43fa98-19a4-408f-a884-505e09b73b7c.pdf",
+                  "title": "Geography - Resources and Development"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b56c2f31-5ef5-46e3-9098-060e9e171d34.pdf",
+                  "title": "Geography - Resources and Development"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/988f1959-3b6a-4d81-a63e-2848bb1c0cce.pdf",
+                  "title": "Geography - Resources and Development"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geography - Resources and Development 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzRlNDcxZjgtNDU0Yy00MDk2LWExYTYtYjNkNDg0MGRmOGIwIiwiZXhwIjoxNzQ4NTMwODkzfQ.Z60EVPqp_CgzbcQ--rLri6LRGRFupqgTxCV_4zp9uy4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geography - Resources and Development 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGY1NThhNzAtMWYxMC00ZWNjLTgwMzEtYzhkZjkzZjZjN2Q4IiwiZXhwIjoxNzQ4NTMwODkzfQ.WGKC3IGEYVaVg4NIZQxdwokDaXB6CL2NpZx6h_CJET0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geography - Resources and Development 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDIwN2Q0MjUtMmU0YS00NDU2LWE0OGYtNGIxODJlYzU3MTc3IiwiZXhwIjoxNzQ4NTMwODkzfQ.7JEeZM_pcHXBTkyXZUQzLm6SYL3Z3PVDIwsRkeTs6Tc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geography - Resources and Development 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDJjMjQwNDMtYTc1ZS00YmE2LWJkMGItYjcxZDQ2NmNhY2U4IiwiZXhwIjoxNzQ4NTMwODkzfQ.calZ6FW7VTgHqNGW9QoW2OQjOCcKmxQxjfbWvw1Tcpk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Resources and Development (Geography)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eba12c63-35f9-4122-be90-79290809f6e5.pdf",
+                  "title": "Geography - Resources and Development 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a3ab64a5-042e-47c9-b6d6-3f134aa3c4b0.pdf",
+                  "title": "Geography - Resources and Development 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9fd20592-35e9-4c5a-aa7e-5dccc1207c45.pdf",
+                  "title": "Geography - Resources and Development 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c8f579d-1ea1-4c31-8d39-7151e2d2877d.pdf",
+                  "title": "Geography - Resources and Development"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8c2f56fc-7c3f-4e76-950c-6fea46146d00.pdf",
+                  "title": "Geography - Resources and Development"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/89fce200-794b-4fca-bf08-7c4f380bc7e1.pdf",
+                  "title": "Geography - Resources and Development 04"
+                }
+              ]
+            },
+            "Short Notes - (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7ed18639-8712-4a3e-8d2b-2479be682309.pdf",
+                  "title": "Resources and Development"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e49cbd71-ee18-496f-8670-ea80285b8f5b.pdf",
+                  "title": "The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d505dca3-240f-4022-ab7c-c4844972db3e.pdf",
+                  "title": "Forest and Wildlife Resources"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/35afa87d-83dd-48aa-8b58-1bf789d06bad.pdf",
+                  "title": "Power Sharing"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f62f2ea7-dcbc-4612-8daf-65d3a4e038a0.pdf",
+                  "title": "Federalism"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/69b0d734-d274-4dd7-85ca-cb5f6f5deb40.pdf",
+                  "title": "Development"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a69c1d1c-ea97-42f4-b526-0c27d94c46c6.pdf",
+                  "title": "Water Resources"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/72af19c7-6ef2-4af3-a19a-996ea39a8b90.pdf",
+                  "title": "Sectors of the Indian Economy"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a70a146a-053f-49de-8748-75311420ec99.pdf",
+                  "title": "Agriculture"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/975013b1-1b1d-497b-86f8-57b528625f9e.pdf",
+                  "title": "Nationalism in India"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/44af31f1-4f65-4f0d-b4da-cf77ed8846e4.pdf",
+                  "title": "The Making of a Global World"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/0f7d2479-5079-4f6e-8e75-bcc3d65ea4e3.pdf",
+                  "title": "Print Culture and the Modern World"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c4329f83-53ad-4161-9a2a-0e6a60ce9f2a.pdf",
+                  "title": "Minerals and Energy Resources"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/abb147ff-4ce7-434f-897c-216cde85417f.pdf",
+                  "title": "Manufacturing Industries"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/42c3c8cc-69ff-4389-b57d-06277a1bcc81.pdf",
+                  "title": "The Age of Industrialisation"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5544dbb0-6312-41da-b500-b95021952553.pdf",
+                  "title": "Gender, Religion and Caste"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cd75d225-ac0e-4a49-aef9-c4f5f19762a0.pdf",
+                  "title": "Political Parties"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7443707c-b2d0-42c4-8294-19b8a7ff1f15.pdf",
+                  "title": "Lifelines of National Economy"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2177b497-72f1-4ce5-9f1d-d5fed8487ae5.pdf",
+                  "title": "Money and Credit"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a53ac81b-7880-485f-abc3-f932718ec733.pdf",
+                  "title": "Globalisation and Indian Economy"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4ed0d003-7ab6-4960-a75b-506e668ae212.pdf",
+                  "title": "Outcomes of Democracy"
+                }
+              ]
+            },
+            "The Rise of Nationalism in Europe (History)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d93b2f3-8101-42f1-b7a6-8f8a86db9d4c.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b4f09ad9-cd3b-4d45-ae5b-26be4a8552b9.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/787e5d12-0d4b-4cfa-b02e-22f73d3e845c.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1f8dfd01-8549-4dd1-9b94-268b701eecea.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/88af4942-aa79-4f57-b083-63dec5f0f77c.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMThiYWYzZTUtYTE3NC00ZDljLThiYWUtMTM3NjY3ODY5YTMxIiwiZXhwIjoxNzQ4NTMwODkzfQ.-WafRsyctGljLGlVCDJLSYN-zoMKIhNRJR6xBdTpLgg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTIyZTNmZjctZDcyYy00YTZhLTgxODItMTU3YWZiN2MyYTE3IiwiZXhwIjoxNzQ4NTMwODkzfQ.QK1XrARxfSKRHIY8pTerW7yaTIkAEvaZmjGbDrHCy4Y/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzgxYjRkNWUtY2QwZi00ZWRiLTk4OWYtYjUxZGE3YTc3ODBjIiwiZXhwIjoxNzQ4NTMwODkzfQ.cSlspZodXdhioGXLnOcWkOnWh9DQvi0AiFO6cCoAeCE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzQ2YjNmNDEtYzQ1ZC00ZjIzLWJiYjItZDUxMzQ2MTQ2MTVmIiwiZXhwIjoxNzQ4NTMwODkzfQ.8HSFnTs9IR-Ezxu4738J3QLXw7fIjflfVtdh3sdBX14/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGEwN2Y0NGItMjVlZS00YjNjLWIwZTgtZGQxMjU3NWIzNTdjIiwiZXhwIjoxNzQ4NTMwODkzfQ.6h7KEiHSx7KluaVODK6EGQxCf3xt0uhvKbeHj5tDoe8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "History - The Rise of Nationalism in Europe 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzczZGZmMDktNWQyZi00OGJhLWI5MjgtY2JiYjdkMGM3MTBmIiwiZXhwIjoxNzQ4NTMwODkzfQ.Yfv1_YuLdf53BGb0iUsPBLhWinqghUstMI4puBHC7yM/hls/720/main.m3u8"
+                }
+              ],
+              "name": "The Rise of Nationalism in Europe (History)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ca2a5ae9-b7fd-4866-aa36-15840a4f4f3b.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7832ca2f-44ad-435e-ad8a-2e6bc38fe10f.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/851af19c-e1ee-48ce-a774-d16101be5f37.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f42d3048-bf25-4a60-afd9-1f0b6b68d7f8.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f87725a9-5aa3-4474-a1d1-48d1ef13888d.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f734f608-35a9-436a-93b8-8baa6ec437a2.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0ea827a1-e0a4-457d-b821-019a814e8e49.pdf",
+                  "title": "History - The Rise of Nationalism in Europe"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8fc9d0ae-1668-410c-990a-9051ad0e998c.pdf",
+                  "title": "History - The Rise of Nationalism in Europe 06"
+                }
+              ]
+            }
+          }
+        },
+        "Sanskrit": {
+          "name": "Sanskrit"
+        }
+      }
     }
   },
   "popup": {
