@@ -1106,6 +1106,2665 @@
         }
       }
     },
+    "Lakshya JEE 2026": {
+      "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/1d081fad-0a86-46f3-bc22-d12f89fb9225.png",
+      "name": "Lakshya JEE 2026",
+      "subjects": {
+        "Inorganic Chemistry": {
+          "name": "Inorganic Chemistry",
+          "topics": {
+            "Mind Maps || Only PDF": {
+              "name": "Mind Maps || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/99c2b8f5-f572-464b-b091-ad238042476d.pdf",
+                  "title": "Coordination Compounds"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b04f6529-492b-481e-b3fc-a6773c7f3496.pdf",
+                  "title": "Metallurgy"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/eac4a085-10d9-4ce7-8b8f-abf04529ec9e.pdf",
+                  "title": "The p-Block Elements"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/24376d14-ce8b-4293-b71b-0709ac775341.pdf",
+                  "title": "d & f Blocks Elements"
+                }
+              ]
+            },
+            "PYQ Practice Sheet || (Only PDF)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b39fa6d5-76d2-408f-8d65-b7d41de20bb1.pdf",
+                  "title": "Periodic Classification"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/43b49c2d-c3f5-40f9-9146-1bd4abcc79f0.pdf",
+                  "title": "Chemical Bonding and Molecular Structure"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2bbf585f-3f3e-45bf-b2cd-9066207570da.pdf",
+                  "title": "The p-Block Elements"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/06758a52-b713-4852-9583-9c8b74311b40.pdf",
+                  "title": "The d and f-Block Elements"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/139c3e03-3a12-4f38-b51e-ff231e5c8e28.pdf",
+                  "title": "Coordination Compounds"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/397e2a8c-b083-40c8-bda7-1261638365a4.pdf",
+                  "title": "Salt Analysis"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6c3e1095-210d-497a-a4b8-f06f444651ba.pdf",
+                  "title": "The p-Block Elements (Group 13 to 14)"
+                }
+              ],
+              "name": "PYQ Practice Sheet || (Only PDF)"
+            },
+            "Short Notes || Only PDF": {
+              "name": "Short Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7ef1b12f-e3b1-43cc-9ae0-fa2b271097d3.pdf",
+                  "title": "Coordination Compound"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a749f67c-bd96-4c40-a1da-8ae34d59d60c.pdf",
+                  "title": "Salt Analysis"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b7f1c06a-2c1d-497f-8257-ef6824f11c50.pdf",
+                  "title": "The p-Block Elements"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7241e512-339d-400e-9fef-bcadcf768625.pdf",
+                  "title": "d & f Blocks Elements"
+                }
+              ]
+            }
+          }
+        },
+        "Maths": {
+          "name": "Maths",
+          "topics": {
+            "Ch-01 : Determinants": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/438b1349-6438-4f63-b02b-f18fea53bd7b.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7bfee7a8-6393-4c8b-b848-8769d4adfe0f.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dce9ef6f-5d06-4ece-b1ab-e9253de8ce3e.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/89aa0f5f-c189-4f9a-9bc5-a8bca3aefe72.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c5e93069-0252-4dbb-a1be-90d77a7baf28.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/044c79d7-1f4a-4854-92c3-8c748051de6d.pdf",
+                  "title": "Determinants"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTMyY2ZiMmQtYTdmYS00MzVkLWFhYmMtZGNlZmZiYmM2OTcwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.L8GA7zQNJniTWGOuq8WS-0F-iWUUmZfFx53ZydaoDiw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTMwNmNiOTEtY2JjNi00Yjc3LThmOGEtYTY3YWM5YzgyZmE5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.e_I0ZVMxAalnThg4InKFJmv8HKBZ75JI-_fyXKFv3yY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWQ3OWY0NjEtMDY4OS00M2MxLTgwZWYtZTQ2YTRlNzZjNjNiIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.aKUX6GUm8dJkQVtkpuRhHc1IBiOrMyFM99OeL50_bWc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjVjMTZmNDYtODA5ZS00ODk3LTk4ZDgtYjZhNzNiYTlhNjZjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.-rev_d5Ss9kCROOG1HLalYdczfdcNYXxnFbh1n8ffdw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjg5MDgzODItM2JhNi00MmY0LWE0NzctN2JmM2NlNWI2MjM5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ._9-5XKBkWMCUnKs1Fhs7kDD49fgF8tq6d5tr_1BOltM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODIzOTY1NGUtOTJkNy00YTJkLTg3NmQtODdkNDdlMmU2MjMzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.D9m8pmRgJRb6Y_F0Elp69PWyFHRdpeKg7QJsKUStNcU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODMwY2M2MzItNzA2Ni00OGIyLWEyMjUtZGMyYjczMGFkY2UyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.FSrS_7-rltcGl85rURNMHugAL_F0DjIC5jaF-ujrmRw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTg3YWQ3MTgtZWMzNS00OWMyLWFiYzUtNjI0MGE2YTRkMDdjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.V6zu3HSl1bhuYW5QH0MTfmT55bH76QTEJ4sHazRcPZA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiY2EyOGZlZmMtOWJlZS00YmU4LWE0NTMtMzdkMzYxY2FiYzM1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.GSLLGh-3yASqqOs6z6nEVd7MGm7DH-HMtYDD9T1h9pc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinants 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNThjM2FmY2ItZDg2MC00N2Y2LWJlNWItMTIyY2FkMGY2YTAzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.elHSF-OPV2DwSjJAVSV99P5pl67iRjOUMojSwWQVnyk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-01 : Determinants",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ec515e68-bf22-4019-a13f-7bd03eb171f2.pdf",
+                  "title": "Determinants 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9420dd4a-0c8c-47ac-b993-f1f81a49fb16.pdf",
+                  "title": "Determinants 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1c6ac4b0-8688-4093-ab84-72cdf3787f9c.pdf",
+                  "title": "Determinants 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/74fd34a2-6d11-46ae-a74c-ac589ae736b6.pdf",
+                  "title": "Determinants 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/20586a27-8757-452a-9da6-dedd1741a9c5.pdf",
+                  "title": "Determinants 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/29d3c2c2-281b-4224-af51-56c9912121a6.pdf",
+                  "title": "Determinants 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d1151177-91cf-404c-bd8b-ad5f98d2cfca.pdf",
+                  "title": "Determinants 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c985a2ab-1d86-4303-ba36-ed746ce7abb0.pdf",
+                  "title": "Determinants 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a6dd0669-8455-4353-8d7b-71d128992eda.pdf",
+                  "title": "Determinants 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e740d2ec-0295-4272-9b0d-2b27b74f7f07.pdf",
+                  "title": "Determinants 10"
+                }
+              ]
+            },
+            "Ch-02 : Matrices": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9b1bad73-61d9-4abc-b4bf-2d0bfecd016e.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e4d3cd67-1b3b-4227-aeb7-c0f1fbb51030.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8af0c3a1-47b3-4afe-a7f3-fdbeb4ae690f.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/37d243ce-b32c-4751-be50-9dc6dc885180.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cd0821b9-6ba7-4f12-ae56-647ffaff79c6.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/044a5812-2338-471c-bfe0-ffbe18c1f468.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/650b414c-1b1b-4007-986e-f1318468eb61.pdf",
+                  "title": "Matrices"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjEyNDljOTgtZTdhYS00ZmY2LTlkODYtZjhmNWZlYjUwNDg4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.dQAMVNrncVttCZ1aFBGHe2KM2VTkEqVrUQsFGzBOhJ8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDAzMzlhMDctMGI0Ny00ZWViLWE5NWMtM2FhODM1Y2I5OGVmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ynZBYA1gl0hfBFGYb4BnB559PZwMnJiHKuMD1KPDe1c/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjVlOTQyNWItOGUxYi00MDhmLWIxOWItMzU3YmNhMTIwNjAwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Vgd-frjUmue2FaCnQuBEZ7vSkl-QHm9zC2na8EFfamM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzk5YmNkOWMtZjlkZC00ZGZlLWIwNTMtNmNkZjA4YjU5YzhjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.bxRyUdXwt_NwhWBBRn9lOXBEYncxCGVH_busDEjuLM0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWVkOWQ0ZTktNDA1YS00NDFmLWE4MGItY2JmYWU4NGViYTEwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.DNivOgqHMRTd10wDZHAM0VTnP7K2pN3Uw9W8x_AEYMk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTcyMDcxOWUtZDlmOC00Y2I5LTgzYTYtMGIwNTE3MmYwNTIxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.DhcoGqOdLL2rYIKHHvBKjMCxCFU68Ara-rThi6D7NDo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWVmNjVjNjQtYTQ0Yi00NTg4LWJiYWEtZmZmYjYyYWU2N2YzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.MZJFbXdwIVu2vikJiRDoUlRrGh-6cBklIAh-Owj7lXI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjA5YTliNGQtYjY5OC00NTY4LWJiYTUtMzk2MjE3MzFiOWMwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.00jgaj3Ak_VmO77Ft5vUl2bvUGTcamQmnhwmyKknBZw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjM1Y2U4OGEtZDhlMS00Yzk4LTg2MDYtMDNlYmFlOTBkNTA4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.MctUeEyUf3Z2aMf7QRIIIkR_aa6RU6DVOWUfJXO6rWs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWNhMjhmNzEtNTQ1Yi00NmMzLWJjYTYtNDFkM2ExYTY5YzdkIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.gtGMoCyfMSVsIeiSzBLXakGBGsIn2fjVm-PBw2CdYXU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 11",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjM2ZjQ3ZWMtMDhiOS00ODU4LWExYjAtOTBjZGNlMTRjMGNmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.go7l4oVSDdCEo93mrvlijqEMDK0y-aspRWMCUSLn1G8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 12",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTJkMDUzMTEtMThjZC00YWM3LWI2NzMtYzIyNDVmNDM5NjRkIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.JTP6WVfMr405WNFNQU_aLQvdl0aBA984x2NgB3mHJPY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 13",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODkyY2ZkY2YtMjRkNC00NDc2LTgwYjEtOTM2ODA2ZWIxMGZlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.KcGBDSaZ24pl0Oezr8pTKjN7vpB5ZdKuuV83B8oomEg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 14",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzVkNDQ3NTAtMzlhMi00ODNhLTk3OTMtN2Y4ODgwMzNkZTY1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.bbNzly9APYfB91XhXJThLHCcRfF_ojs7futwi_51VB0/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-02 : Matrices",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a8cf02eb-3e55-4395-a7d9-10a59165e62c.pdf",
+                  "title": "Matrices 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/185fe014-082d-4dd3-a941-85a7e81b28fd.pdf",
+                  "title": "Matrices 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4c04998-d3ed-4554-96eb-8d51e5acd89f.pdf",
+                  "title": "Matrices 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b57d798e-778b-4962-b15d-1ee72372a815.pdf",
+                  "title": "Matrices 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cfce9259-b916-4cdb-846c-d8723008ee8e.pdf",
+                  "title": "Matrices 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/24bacda8-4d68-43e8-a17c-704aaa1c9ed1.pdf",
+                  "title": "Matrices 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4f87a9dd-9a48-4fff-bd34-e453c6e91887.pdf",
+                  "title": "Matrices 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9b0b3333-f8d5-4db5-9e8f-b17a393406b5.pdf",
+                  "title": "Matrices 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cb202749-12e0-4746-a656-8cd5bb1c9b6a.pdf",
+                  "title": "Matrices 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2b3c29f4-7649-4a43-be1b-272c4c66ef9d.pdf",
+                  "title": "Matrices 10"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3776b695-beaf-4766-a200-e079c7b844d3.pdf",
+                  "title": "Matrices 11"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/77083f22-a783-41db-8bac-da674807d209.pdf",
+                  "title": "Matrices 12"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8edd4062-cdda-43aa-b308-dafda11b8cbf.pdf",
+                  "title": "Matrices 13"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/602608c1-a968-459f-bef8-ce44cc1c6b28.pdf",
+                  "title": "Matrices 14"
+                }
+              ]
+            },
+            "Ch-03 : Relations and Functions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bc9d7cf1-deea-4549-a36f-50982584673c.pdf",
+                  "title": "Relations and Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d4050b38-77f2-4ee8-b8bf-8afc3236a548.pdf",
+                  "title": "Relations and Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3b14e6f7-f978-4fda-9a82-34b905c9fc93.pdf",
+                  "title": "Relations and Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/890b1f2a-001a-4412-9674-6bc8cdb02a5c.pdf",
+                  "title": "Relations and Functions"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGVlZDdiNTEtNWY1OC00NTcxLWE0OTItMTQ5MjRjYTYyNWYyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.hUTRoICwkM3tbOyq0mwKVimG8OWGc67k7OqpUjqL1iY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDc5NDQ1ZGMtNjY2Mi00ZGFlLThhNWUtNTkwOWU0YmUzNzc1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.IlfChbO3O48rAHqqI_Ehc_bLGCfIyrw-JlWSAg-el4w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWRhYTZhYjMtMzI3ZS00MTUzLTkyMTAtYjA1MDNhNDdjYTY0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.umPe5HKkALQE1RZTAMFrAEQnzYokHMwwXC-x4neqLZE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGY5YWUxZWYtZjIyYy00YmMwLTljOGYtZDk0NTQxYWFjOTI5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.w34G_JpHiwCDkNfBjaZZuUNV_bq9IQiE-P8xqqUZCZ0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjMyNzZhMGYtNjNlZC00NDNlLTg3MGItY2RjODk5YmFiMTQzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.iBjVsPMFcweOHZsgiToqAKcU68-f5IsZE73xFLJPufE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDIyMWYzNzAtODNlZC00ZTZiLTg2M2UtMDVjMjZiNWY3MTQ5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.IKX2W2uThY_AlwZMQdLuNL0_w12yIR6lVSu3ON-0HZE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjU1YjFlOWUtYWY1Mi00MTc2LWE5ZjYtMTNkNjU1NTllNDk1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.tV9a2d-5mao2hn6-6-w0X-v9Y3a1u05DAIXNgmvecW8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Relations and Functions 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWIzZTY0YTYtMzA3Mi00MzMxLTk4ZWUtOTQ0ZmJmOTBmNGExIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.DJfGLytij4_q9GwDOrV76AUtj-RO4PUBNML1wivWRY8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-03 : Relations and Functions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/312ed027-bb65-4f42-82c9-e3bb162458f0.pdf",
+                  "title": "Relations and Functions 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4d91c929-ac3a-455d-806f-03d485cd56a5.pdf",
+                  "title": "Relations and Functions 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9148f33d-c9c3-4962-96eb-32ac8930abb5.pdf",
+                  "title": "Relations and Functions 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4335295-e4f5-46d6-ac04-e98ac303c719.pdf",
+                  "title": "Relations and Functions 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/58d26dc5-e65d-4de2-bb58-0b28395bf826.pdf",
+                  "title": "Relations and Functions 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e3c75465-f285-4708-ab68-acd256693885.pdf",
+                  "title": "Relations and Functions 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ad0b792b-8152-4ba6-81b6-03578b218fe8.pdf",
+                  "title": "Relations and Functions 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ce710c63-4d9d-433b-bdba-73a6287aa1da.pdf",
+                  "title": "Relations and Functions 08"
+                }
+              ]
+            },
+            "Class 11th Revision": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "11th Revision 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzg0OWQzYTktN2E3Ni00YWQwLTgxYWEtM2RiODBjZTE0OWVhIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.VqfFt22iFIm5Bm56fMUq-euw8wUMATwNaYzMzlXZzZ8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "11th Revision 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiM2VmZjE0YzEtN2Y2NC00MmQ1LWEzZGYtMjE1ZDZhZTQyMDU0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.3DyFcHPgU7BXy-xLf60RoNIEbp2kJZDB3ZB_kuuq7mM/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Class 11th Revision",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8521d0d9-2d96-4b48-a083-4365a3c7f470.pdf",
+                  "title": "11th Revision 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f22ace5d-d6c4-423e-9f2f-91949288b3ee.pdf",
+                  "title": "11th Revision 02"
+                }
+              ]
+            },
+            "Complete XII NCERT By Ashish Sir || Only PDF": {
+              "name": "Complete XII NCERT By Ashish Sir || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2b4146a0-c11a-48c0-ab7c-350a1ae97c83.pdf",
+                  "title": "Complete XII"
+                }
+              ]
+            },
+            "Excellence Sheet || Only PDF": {
+              "name": "Excellence Sheet || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ae325a71-5ddc-44c1-bf77-2c9896d6a021.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9b998a76-d124-4f6e-9dd4-4ddc93da6f80.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            },
+            "Formula Sheets || Only PDF": {
+              "name": "Formula Sheets || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7368a334-08ab-4f9e-8d56-a2d926ad36de.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/42167203-f97f-46fb-9a6e-7e90717f2e3e.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            },
+            "Handwritten Notes By Ashish Sir || Only PDF": {
+              "name": "Handwritten Notes By Ashish Sir || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3233d505-fd7f-468b-980f-dbd72069caf0.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/26157e55-8fd8-4861-a139-30869adea0e1.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            },
+            "Handwritten Notes || Only PDF": {
+              "name": "Handwritten Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/641bcee0-0ff4-4d35-96e6-8aebe6d30e10.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/23a0b6a0-eeb4-4ede-bf66-707f70aaf1e3.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            },
+            "Mind Maps || Only PDF": {
+              "name": "Mind Maps || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/70ee4cb5-2cc1-4d59-a16a-c8c56483bba1.pdf",
+                  "title": "Relations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/5e77b3aa-a151-4264-a7aa-fb1c4e7e2b23.pdf",
+                  "title": "Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8c766923-d75b-470b-b62f-53dfc9946d91.pdf",
+                  "title": "Inverse Trigonometric Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/405c70d4-10db-438b-bc38-305df069f653.pdf",
+                  "title": "Determinant"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a3a3ed81-65f7-437e-96ef-ec9435b087ca.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/128ab58c-e872-4676-8c25-0dac566b08a6.pdf",
+                  "title": "Continuity & Differentiability"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3624806b-bf1f-4136-ae2e-976a7ab06e2f.pdf",
+                  "title": "Limit"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/fce16dfe-e4e2-44b5-a4ce-2e013a5dee5f.pdf",
+                  "title": "Differentiation"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a2c3ff3f-6026-4945-bda6-955fefe19654.pdf",
+                  "title": "Application of Derivatives"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/dda76ae0-73f4-4afd-a0a7-f9dab9cdd6cc.pdf",
+                  "title": "Indefinite Integration"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/21c6804f-6e60-4fdf-99fa-131b55897c4d.pdf",
+                  "title": "Definite Integration & AOI"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c9218254-d185-4921-8774-70107bd76a5c.pdf",
+                  "title": "Differential Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e34d1a05-ec68-49bd-bc3a-f3a589c440c3.pdf",
+                  "title": "Vectors Algebra"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8455c560-0223-41e0-8d40-6165f51c2776.pdf",
+                  "title": "Three Dimensional Geometry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/929cfb8b-8927-4488-936f-b0fece350d7c.pdf",
+                  "title": "Probability"
+                }
+              ]
+            },
+            "NCERT Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinant 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjA0OWY1NzAtZmY1NS00YTZmLTllY2UtZmM4ZTJlZDIzMjQzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.3Wg62Gb793jTPgYJtaw219xiDC9tI0sr8D63n0aedl8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Determinant 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGRkNzAzYmYtODY0My00NTE2LWIyODEtNDM4YzcwY2U1ODFjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ezXU9K0tst2v0qi7S8fj5GMI-R4Mcch56_geBc8IR_Q/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjEyNDljOTgtZTdhYS00ZmY2LTlkODYtZjhmNWZlYjUwNDg4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.dQAMVNrncVttCZ1aFBGHe2KM2VTkEqVrUQsFGzBOhJ8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDAzMzlhMDctMGI0Ny00ZWViLWE5NWMtM2FhODM1Y2I5OGVmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ynZBYA1gl0hfBFGYb4BnB559PZwMnJiHKuMD1KPDe1c/hls/720/main.m3u8"
+                }
+              ],
+              "name": "NCERT Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e29ad6b-efa1-4a29-a610-95eb49ef659f.pdf",
+                  "title": "Determinant 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7870494c-e914-44a7-a43a-e44aa6826b3d.pdf",
+                  "title": "Determinant 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b826275e-7231-409d-a849-3406dc32c844.pdf",
+                  "title": "Matrices 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0496f4db-8667-4bb3-919a-06478c222d92.pdf",
+                  "title": "Matrices 02"
+                }
+              ]
+            },
+            "PYQ Practice Sheet || (Only PDF)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e45526d9-12f3-4bf6-a225-af178ad9bf37.pdf",
+                  "title": "Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b13f396b-403c-424e-9b95-ef2903dd6916.pdf",
+                  "title": "Set Theory and Relations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/01394ffc-ab52-4396-9d58-4f840cbadf89.pdf",
+                  "title": "Sequence and Series"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/027e09f4-cac8-4066-bcf6-5ba7db4576b3.pdf",
+                  "title": "Quadratic Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/04395740-c5fe-4313-8515-fe4eb97bc3dc.pdf",
+                  "title": "Basic Mathematics and Logarithm"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8b9662b7-ab0d-4666-98c5-67241be16568.pdf",
+                  "title": "Inverse Trigonometric Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/cbc7e0dc-b3ee-4b61-a7fa-ee5cc1a74dee.pdf",
+                  "title": "Binomial Theorem"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/27ec8210-05bb-4e78-8fa6-af6cb8b81253.pdf",
+                  "title": "Limits of Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9b1eb77f-5220-4f6e-b52f-467eb77530c9.pdf",
+                  "title": "Continuity"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/de11f629-a073-485e-94ec-c65e6e513dc6.pdf",
+                  "title": "Method of Differentiation"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/149895ec-dc24-41a9-bcc0-7a5db2b7c3c3.pdf",
+                  "title": "Trigonometric Ratios and Identities"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/728540ee-6041-4999-acfc-dcb34bff8a42.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3c5de571-ce71-4fdd-87c6-b5c2c64b06e5.pdf",
+                  "title": "Application of Derivatives"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9ba0e600-98cf-463a-9f75-8b0bd2564f66.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4c5c6515-c4b1-4241-91c7-24efdc02f6a1.pdf",
+                  "title": "Straight Lines"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/0d98300a-05c0-4223-b171-615472f48f90.pdf",
+                  "title": "Indefinite Integration"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/bdbf984d-be99-4ab7-8c10-f08072ea1116.pdf",
+                  "title": "Definite Integration"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/75ddc839-caba-498c-a3dd-608d2cc7fd9d.pdf",
+                  "title": "Circle"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/925fcf29-ba2b-45ea-a536-17f650efbb96.pdf",
+                  "title": "Application of Integrals"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e02d8ebf-a4e4-4ff4-8ff6-e06843a19614.pdf",
+                  "title": "Parabola"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/267b6163-be81-4d6c-b8d7-cdeb308e3b04.pdf",
+                  "title": "Differential Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/399bd3ed-f27e-4e41-b487-4e0782af6d32.pdf",
+                  "title": "Ellipse"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/59e76449-5b1b-4213-8b68-e58ac7e73d75.pdf",
+                  "title": "Hyperbola"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/87fa0937-0e62-485f-8317-c767fab7bf00.pdf",
+                  "title": "Complex Numbers"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/6afc740d-788a-4360-8ff0-ff059c754387.pdf",
+                  "title": "Permutations and Combinations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/5ba2b5b6-a5a1-4174-9513-51d9b81789d8.pdf",
+                  "title": "Probability"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a11931a6-3204-44e8-a919-31fbba772442.pdf",
+                  "title": "Statistics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/914a51f2-8a4b-473a-acb5-82c97853594a.pdf",
+                  "title": "Vector Algebra"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/644a26d8-572e-49a3-b8d9-7409e56d2f9f.pdf",
+                  "title": "Three Dimensional Geometry"
+                }
+              ],
+              "name": "PYQ Practice Sheet || (Only PDF)"
+            },
+            "Question Practice in 20 Minutes": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Question Practice in 20 Minutes",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWRlOGRiNWMtNjc0YS00ZDhkLTk1OGUtMDNmYzY1ZWZmZjZiIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.EQZ7orycUPsSDsWPJKw8WypEjHnwV8c8zfZv0FedAzE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Question Practice in 20 Minutes",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4d67cefa-554e-4045-99dd-184256017b09.pdf",
+                  "title": "Question Practice in 20 Minutes (One Shot)"
+                }
+              ]
+            },
+            "Question || Only PDF": {
+              "name": "Question || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b2277958-9577-4c6c-8b73-ef33c7141649.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a052f0cf-37f7-4e0a-84ef-36b3e4ca3ac5.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            },
+            "Short Notes || Only PDF": {
+              "name": "Short Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/40ca2031-2214-49a8-b463-aa7977b1bdcb.pdf",
+                  "title": "Relations and Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/98c7d2e9-eee5-4732-9373-8f3df5478dff.pdf",
+                  "title": "Inverse Trigonometric Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4ece2eab-a8df-4e3b-9a92-022d384a2f00.pdf",
+                  "title": "Matrices"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e1b3569c-6c4b-4ff8-b74e-1722fd5b1a3a.pdf",
+                  "title": "Determinant"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/081d1664-89f9-495f-a216-383845821fb3.pdf",
+                  "title": "Limits of Functions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c8a94c86-6809-44db-9548-902b360838df.pdf",
+                  "title": "Continuity and Differentiability, Methods of Differentiation"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2ca55ed7-72a5-493a-b7cb-6121a05873bd.pdf",
+                  "title": "Application of Derivatives"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9434da9c-4724-4fdf-9463-c315e2dfa6e3.pdf",
+                  "title": "Indefinite Integration"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f3cc0ac5-cb94-4d7e-ac34-a6d21ff36dbc.pdf",
+                  "title": "Definite Integration"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/311887c3-1e2a-4a4f-a71d-715c6498ef59.pdf",
+                  "title": "Application of Integral"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/975e6711-7c9c-4edb-8c9e-dfbce5a85c6d.pdf",
+                  "title": "Differential Equations"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ea6edd40-7e50-4151-a972-eba75f43c48d.pdf",
+                  "title": "Vectors Algebra"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4b244f07-73ba-4c3c-ae1a-42a675789b0e.pdf",
+                  "title": "Three Dimensional Geometry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e83495d7-4630-4c21-9194-e45e2cd49487.pdf",
+                  "title": "Probability"
+                }
+              ]
+            },
+            "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/718bc892-0196-4158-95d7-66cc7f206270.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2ec1c21a-22e0-4d41-a0bb-8eb02c63327f.pdf",
+                  "title": "Matrices"
+                }
+              ],
+              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf"
+            },
+            "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0617cbeb-6f98-4d4c-93ba-cdd1a55fa92b.pdf",
+                  "title": "Determinants"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3870b06c-87f8-477f-9e14-e19b949adddd.pdf",
+                  "title": "Matrices"
+                }
+              ],
+              "name": "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf"
+            },
+            "Study Modules || Only PDF": {
+              "name": "Study Modules || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e6619005-4e3d-44dd-95d9-406ae685a39f.pdf",
+                  "title": "Matrices and Determinants"
+                }
+              ]
+            },
+            "Summary Lecture ( By Ashish Sir)": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDAzMzlhMDctMGI0Ny00ZWViLWE5NWMtM2FhODM1Y2I5OGVmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ynZBYA1gl0hfBFGYb4BnB559PZwMnJiHKuMD1KPDe1c/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Summary Lecture ( By Ashish Sir)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/db966b57-a3a3-4c9e-be9b-116d28084154.pdf",
+                  "title": "Matrices"
+                }
+              ]
+            }
+          }
+        },
+        "Notices": {
+          "name": "Notices",
+          "topics": {
+            "AIR Test Result || Only PDF": {
+              "name": "AIR Test Result || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "//static.pw.live/5eb393ee95fab7468a79d189/ADMIN/97438574-9515-4f7c-ab32-cce77a4b5a2f.pdf",
+                  "title": "AIR Test Result || Lakshya JEE 2026"
+                }
+              ]
+            },
+            "Batch Demo Videos": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "How to Ask Doubt ?",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWQ0NWY1NGEtMWRlMi00OWU3LTgyZWYtZDRmNjQ5YzU2YjdmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.C7Pcp1ymoOuuxCPqHjhU4YFUjpo4GWj976E7szT_B10/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTNkMGQyYWQtZjc1My00ZTk3LTg3N2YtNjNjNzAxMGEwMWNlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Zw31nzdCdHgzEVMd1n_1AHXwFnSbTOHYY1rywzqKWFo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzhhZjNkZDEtZjRhOC00NGEzLTkxMTEtNWI0YzQwYzZjM2M1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.r3jEfPHGfX8YwJk2kxZ6eX0q6XY640fYky7fFQ8OES8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzhhZjNkZDEtZjRhOC00NGEzLTkxMTEtNWI0YzQwYzZjM2M1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.r3jEfPHGfX8YwJk2kxZ6eX0q6XY640fYky7fFQ8OES8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzhhZjNkZDEtZjRhOC00NGEzLTkxMTEtNWI0YzQwYzZjM2M1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.r3jEfPHGfX8YwJk2kxZ6eX0q6XY640fYky7fFQ8OES8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Important Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDhmMTdiNDItNWYwNC00NWYwLTlhODctN2U0ZWUyZDgzOGRjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.NHO9XpRP32HrC_Dh1xpyPJHvSI4I5GfTDQpDAJHkMtw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "KT Video - New Quality Options in Video Player",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGY5ZTRkM2ItZTk2NS00ZDUyLThlOTctZTNlNTljODVkZjIzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.WP-_5fwmGPx3py4sBfIXXl-pNbOikbKXTMK4j3CmH6Y/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Update",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTNkMGQyYWQtZjc1My00ZTk3LTg3N2YtNjNjNzAxMGEwMWNlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Zw31nzdCdHgzEVMd1n_1AHXwFnSbTOHYY1rywzqKWFo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Rajwant Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmY2NDMzYjMtN2M1Ni00Zjg5LTk4NjItYTA1NDk4YmFkMjQxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.-uxabdj_7jwd5P_yCoEepLr9_zOLSKmuh4bauWTKNdE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Ashish Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWRiY2NmYTUtNTY3Yy00NmE0LWI2YzAtMDY1ODhjZWE1OTJhIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.HIRsghBXvUpv_hIyNXzoFvqDstsEzBiuyJvBBSjC_eo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Rohit Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTA0MjRmZTktMGQ0NC00ODg5LWFiZGQtMjA4NDRlNmVmZDAzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.4eMxNaJAgOfUM4XYsUJfT7WFSUfBo-91Okx3RsIabrk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Rahul Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzU4ZjEyMTItMjEzNy00MTgzLWJiN2YtMmI3MDg5NTVjOTNiIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.t_CLwImVMDVJvDLTNuTp1DR1WnGHCrcx5dLx5BLYxKw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Faisal Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTY4M2E2ZjQtMjkxZi00OGYwLTk2NWEtMjE1YmE0ZGYwYTJjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.36u6XA2aQ4CL6wgo8awipfi83wNI3zflhl_MbTJRjtg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Batch Demo Videos"
+            },
+            "Class Schedule || Only PDF": {
+              "name": "Class Schedule || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3a00f173-f6c7-4511-b5ae-090e5d91fec5.pdf",
+                  "title": "Lakshya JEE 2026"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8e279aa3-0595-42d4-b223-31c75c1d3903.pdf",
+                  "title": "Lakshya JEE 2026"
+                }
+              ]
+            },
+            "Lecture Planner || Only PDF": {
+              "name": "Lecture Planner || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d96f4825-1273-4e70-98d7-7ca3c2253bb5.pdf",
+                  "title": "Lecture Planner"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/815ec4b1-a75f-4f51-9816-dc6acd715bb9.pdf",
+                  "title": "Lecture Planner"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e8e29d5-5b5b-4a7a-9482-42be24078ab5.pdf",
+                  "title": "Lecture Planner"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a58fa5be-2994-41ea-837c-f6ce9c417556.pdf",
+                  "title": "Lecture Planner"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8ac33d8a-4911-4c51-a488-6a999302542b.pdf",
+                  "title": "Lecture Planner"
+                }
+              ]
+            },
+            "Live Interaction Session": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Live Interaction Session By Rohit Sir & Ashish Sir",
+                  "videoUrl": "//d1d34p8vz63oiq.cloudfront.net/f26c6647-a722-421a-ae3a-136bed9be0a7/master.mpd"
+                }
+              ],
+              "name": "Live Interaction Session",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dc1121f5-b1fb-497d-966b-8dcd9e708b50.pdf",
+                  "title": "Live Interaction Session"
+                }
+              ]
+            },
+            "Samwaad with Alakh Sir": {
+              "name": "Samwaad with Alakh Sir"
+            },
+            "Telegram Group Link || Only PDF": {
+              "name": "Telegram Group Link || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3cbc542f-99da-49d7-b433-c02e77236fea.pdf",
+                  "title": "Lakshya JEE 2026"
+                }
+              ]
+            },
+            "Test Papers || Only PDF": {
+              "name": "Test Papers || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1b33d300-871a-4c46-967c-043cd667f137.pdf",
+                  "title": "Short Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/11e8710d-c9d0-49c9-8913-af79c5057967.pdf",
+                  "title": "Short Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f629197e-a152-4576-838c-ba243b097236.pdf",
+                  "title": "Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/36a7aa95-096a-42f3-a0bc-1710acf1f006.pdf",
+                  "title": "Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/17a43a02-3b96-4fd5-a6a4-ad232d6fedf1.pdf",
+                  "title": "Practice Test 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9aa64797-f811-45bd-8f94-59286bf0fa8f.pdf",
+                  "title": "Practice Test 02"
+                }
+              ]
+            },
+            "Test Planner || Only PDF": {
+              "name": "Test Planner || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/57b1f006-9c14-4fc4-8bf2-4f9f3c1aec62.pdf",
+                  "title": "Lakshya JEE 2026"
+                }
+              ]
+            },
+            "Test Syllabus || Only PDF": {
+              "name": "Test Syllabus || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/efbc5c2d-04c5-4f85-95da-f3e223351f72.pdf",
+                  "title": "Short Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/28022f14-6510-4d6f-8d10-780fc67e3c39.pdf",
+                  "title": "Practice Test 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fdfe53a2-bf74-4351-af15-72bc978a7608.pdf",
+                  "title": "Practice Test 02"
+                }
+              ]
+            }
+          }
+        },
+        "Organic Chemistry": {
+          "name": "Organic Chemistry",
+          "topics": {
+            "Mind Maps || Only PDF": {
+              "name": "Mind Maps || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3ca17bd7-5512-4cd8-9433-acaed815f73d.pdf",
+                  "title": "Phenol"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ec350675-ec2b-40ec-82cd-3d6238cf3366.pdf",
+                  "title": "Alcohols"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8d3367e1-0971-4ea0-97c5-93f94d0a02e7.pdf",
+                  "title": "Ketones"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2d9b909b-fd70-40bb-9882-08011c85007c.pdf",
+                  "title": "Chemistry In Everyday Life"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6ad006b2-137d-454f-9cea-889726b70e94.pdf",
+                  "title": "Esters"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8544b9f1-79ec-403e-9591-9616af68eddf.pdf",
+                  "title": "Acyl (Acid) Chloride"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/afe1291c-b6fd-412c-9021-986b689238ce.pdf",
+                  "title": "Amines"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a2e245e8-aa18-43a9-911a-a44ac83a630b.pdf",
+                  "title": "Polymer"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/5a8d3216-b301-452e-b00e-42a3ee000dab.pdf",
+                  "title": "Biomolecules"
+                }
+              ]
+            },
+            "PYQ Practice Sheet || (Only PDF)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/1a0cfef1-8398-4fc2-ba8f-cf085a29dfc8.pdf",
+                  "title": "Haloalkanes and Haloarenes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f9875df1-db53-4e3e-a835-c42f275e2fb6.pdf",
+                  "title": "Organic Chemistry-Some Basic  Principles and Techniques"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c28cdd3a-181a-4f12-81f3-90684ddad8fc.pdf",
+                  "title": "Alcohols, Phenols and Ethers"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6b9b3e78-5de8-4616-8b20-aa2c3e9f71ba.pdf",
+                  "title": "Aldehydes, Ketones and  Carboxylic Acids"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e994fb02-4e11-4796-84d0-3e91e6d4f2a0.pdf",
+                  "title": "Amines"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cff8fd8e-7481-444b-b02a-d2e1db9a3a1e.pdf",
+                  "title": "Hydrocarbons"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6978143b-fc95-488a-8ffa-b31859362c4a.pdf",
+                  "title": "Biomolecules"
+                }
+              ],
+              "name": "PYQ Practice Sheet || (Only PDF)"
+            },
+            "Short Notes || Only PDF": {
+              "name": "Short Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8f21bb3d-47af-4fea-80cb-8f8340d6543e.pdf",
+                  "title": "Haloalkanes and Haloarenes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/62901a6d-d7b5-4cc4-810d-51275a405420.pdf",
+                  "title": "Alcohol, Phenol And Ether"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/71ac7c51-d294-4b81-8563-baa11ec7dfba.pdf",
+                  "title": "Aldehydes, Ketones And Carboxylic Acids"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/5b86f8b5-a2ee-42f0-be8c-5852a81e6b62.pdf",
+                  "title": "Chemistry In Everyday Life"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e47e50d9-ac2b-4ae7-a22e-af1df603282e.pdf",
+                  "title": "Amines"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e7efc36b-258a-473b-996a-480cfa09e97e.pdf",
+                  "title": "Polymer"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/323cd2a5-b8c0-41d2-83bf-ce631c8adc89.pdf",
+                  "title": "Biomolecules"
+                }
+              ]
+            }
+          }
+        },
+        "Physical Chemistry": {
+          "name": "Physical Chemistry",
+          "topics": {
+            "Ch-01 : Solutions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3734eb7a-e634-4383-89c1-6eb422914a6f.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/05ddfad5-f4c7-4973-a80a-0e28dfe8f10b.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/21a3fe17-79b9-4e4e-ace3-0067737684aa.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f1e4145f-3f69-4e5e-a7de-11b0f708f8e1.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3cb143bc-787c-4651-9a7f-00205d4574c0.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f8e4894e-1219-4606-b8b7-5c804e2c5d3d.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d7177d5-5b8a-42eb-93a5-14ae35215432.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ecbcf66c-a404-435e-8431-2a640095519b.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a67a569b-251c-40bb-9a54-10b24209cdca.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1dc8dad9-4ad7-46fd-9720-9fb514b34e58.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/def92496-fca1-44ed-ab0d-f5628354454d.pdf",
+                  "title": "Solutions"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDdlYjVjY2ItNWUyNi00YTkwLWFmNWItZWQ2ZDg1OWYxMjRkIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.5ryKQ-iAoqeiDfgCbpMCjskwyZnaOuR71oI0zU25izQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODJmZjYxYWItYzMxYy00Mzk0LWIyZjItMTRhZjI4YjI1NDI4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.0QBstvghw9GwnVMPnXM7F70OpCof5K46A_lLb7Tx61M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTNiMmZkZWItMzFhZC00NzIxLTk3ZDYtOTVkY2ZjNzMyZmMxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.rW8Ah4arwCiPPhT5XFjebs8F6JbeUDJiJ5VwFc8eumo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmU3ZDQ3YmYtZmI1OC00MWQ5LTljNGYtNDQ0ODVhMjAwYzYyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.hXptNjMstL5DT2FMyJzy5aexicQKl6ASCIXSO8zr2J8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDcyZDE5YjEtZmQ1Ni00NjUxLTg3NmYtNjUyZjhjNTk0ZjY3IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.r_y9RCdUeXD4_Za34odr3U0Xp_pbKCBwQbYSXY_TG34/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDFhY2FlZjktNDllNi00YjE5LWJlNWQtNjE0YThkMDQ1YWI1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.zCukYQ4p1-OgJ6jpSJHWTi46EGv1pwEgv6Ag0GI0M8Q/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWE2OTFkZGUtYzc0Yi00YTg5LWExOWMtZjNmNDU3MzE5Mjg0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Uu5B0io_hKTxlr_61F_VzZauV6j33Qq01QlbWGaXI8o/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWE5Nzc4N2MtMzA4Mi00ZjNkLThkNjQtY2QyZjJiNzkyMjg1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ELxQR2VaSrIvPKviOZzAiUJWBOyMilUiJWvBsNkxyiA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjkwZGRkZTAtMjFmNC00YzQwLWIyYzItMDhmZjZmOGQ3Y2Y2IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.ULzlrenV87fmS5xIv-gi9EwRSgrtan5_jS9TuB8jgzY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTcwMWFjMGUtZmMzZi00MDhmLWI5Y2UtZjVkN2E0ZDU4OGMzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.my8xNv7IvDUvEK2mQdnDourcp5fzrXU5qCnA8xrt62M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 11",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzU0MWE2ZjMtNGNlMS00MGVkLWIzMzYtNTlmYTgxNDQ3NmRjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.dedA4I-oJFyu6OawLggBgIdglLMQHr8ShDz1K_6ivLw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 12",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmFkMDAzMGItOTBiNC00MTYxLThiZjQtMzMwYjA2NjJiMDA0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.esyXDDcDnj48Z-OhKkEJvrgl3XM3anL6xuyDx4o4yFw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 13",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODYwNDhkNjAtYzcwNi00NGE1LWE1YjctMTI3NDg0ZmU0YWM2IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.BhlRz8BF2AnSbun66OIuQJm8Evj0jBBuPOaGVOyrba8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 14",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWYxYmRjMTItNzYxYi00ZGQ5LTk5MTUtNTc0ZWNmNDE1MGUwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.3DyHjyPly0YTwt3cDDqGe-wFCIaX522HveAsC7ExDos/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 15",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzRkM2U0NGUtOWNhYS00OWY0LTg1NjctYjRjYjA3OTk2MDA2IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.6bRkaAZhnoKDK_HXvO0SiZxCT7TtYCnuGBKOcIPv6I8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 16",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTJlMTk4MzQtMzM2NC00NWYyLWExZGQtOTgwNzkxYTRiZTUzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.vY1HE_gUV88FuR9Z5bcT5JgMa-y2ORMn1c0loWaqvqQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 17",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTIyY2QxY2ItNDk5NC00MWVjLWFjZjAtZWI0MjE2NDZhNDM4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.EKHHQefIq1cJ9EfSqwen3wsnwcttQGIHelUIMzLy4A4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-01 : Solutions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a2b4f206-ab76-4962-bbb4-6f86134afbeb.pdf",
+                  "title": "Solutions 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5a8e3c19-137a-4dfd-ab3b-f1fba2c8afde.pdf",
+                  "title": "Solutions 02"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/6bd41683-66cc-43a1-8da5-5359319a9450.pdf",
+                  "title": "Solutions 03"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7c8d1d14-affd-43e6-bb2e-8d96e68499c3.pdf",
+                  "title": "Solutions 04"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/97e4f897-906e-4944-af9f-35b5844718cb.pdf",
+                  "title": "Solutions 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b57cce1c-080f-4a80-b830-91a68c7c03da.pdf",
+                  "title": "Solutions 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b74e0772-1abc-4438-a623-394021c3dae0.pdf",
+                  "title": "Solutions 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4e57ce93-dee3-40ec-8f0f-5f8e9d0060e1.pdf",
+                  "title": "Solutions 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f5682327-eda1-441c-87c3-7b84a0bb7b98.pdf",
+                  "title": "Solutions 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6a773d5f-069e-43e7-8783-3c90e9eb1e38.pdf",
+                  "title": "Solutions 10"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d1c50d4c-b32e-4637-9ec0-6ea8077f8177.pdf",
+                  "title": "Solutions 11"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/798de09a-c6f1-495e-9ab9-6354695dc330.pdf",
+                  "title": "Solutions 12"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c4851d5f-40e0-4465-b94b-b38f0b896a7d.pdf",
+                  "title": "Solutions 13"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/11abb0d5-b08c-4b00-bba7-c6d3ef8719dd.pdf",
+                  "title": "Solutions 14"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e1f865f5-153e-45c7-880c-2281ac9cb4f7.pdf",
+                  "title": "Solutions 15"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b4e14082-23bf-48e5-ad40-479bb7a38a26.pdf",
+                  "title": "Solutions 16"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a0b4d6a7-122a-4db8-a508-a0473f6d56fa.pdf",
+                  "title": "Solutions 17"
+                }
+              ]
+            },
+            "Ch-02 : Chemical Kinetics": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3568a171-8475-45d0-aea7-a3be7099289a.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/82b2b1a4-1030-4839-ba16-ca809a673194.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/074f8aee-5174-4a11-8282-2ad2dd1d209a.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f65cf443-eece-4124-8c64-a2cfae840db0.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3e8de23b-826e-4b64-8c04-61b6ea1ac1c7.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2f264dc8-8218-4ff3-9f16-7df7a5c0a7c8.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f33ad38d-5542-4930-9565-a23088d3b54e.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/929ea24d-cf6d-4be8-8020-3e54022471bf.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d9d728f3-4f2a-464c-9f94-29b229e2dec9.pdf",
+                  "title": "Chemical Kinetics"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODc0ZDBkYTItMmU4ZS00OTZiLTg1OTYtMWZlY2MxN2NlNzNmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.cTeS6M8l3YainEt6tazIbxG5EjP1SelOuu6hAs2Yxzg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzYyY2QyMTAtMmFiMC00Y2FiLTk5ZGYtMmVhNDYwNzFlMzIzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.IPByzDcMMivEgj-nL71SXidZS1knkDkWbK2RnEYWnY4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTNkYzk3ZDQtOGNkYi00MDc3LWJiY2UtMDQ0NGMyNDVhODE5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.7xtEgUXx13SRaGGM_xkSnJ-1Km-1r4DZpNpOhc87dWM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWMyNTU0OWQtZmU3MS00ZTA3LTgzNmMtODY0NjA2Y2ZhNTQ2IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.J8o1wToKkJTPvYLeqmh2EWhtVzi6PdqcyhWcIgD12pY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDRmMmVjNWItNzY5MC00MzZjLTgzNWQtM2MyYzM3ZGNjZTcxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.iSzj70IPK2GL3AEPcGyg175NwQQNllJBPs5JHd_eFgc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjFmOWUwYjEtNTcwYS00YzM1LTkzOGMtMjI4MjZiMTIwYmVkIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.mkLR5D-QuIB9fQS3IMVgYZ56_Sr5jPU0N8D-7GEIiSU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjk0ZDcyYzYtNDQ0Yi00ZjU2LTkyMDEtNWQ4YmQyYmI5MGM3IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.E-rv-wnrmG22A1CjuiXE6tySZMm4U9Q5LIun7WvScD0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiM2ExZGE1MjgtZjE5Yi00MTFiLTljMDUtODQyNDhiNWRkNTYwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.2LOXTzU4fcns5R7NmV7BJe7qDHBoz34UIrVfSh3CSUc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDdkYWNjZDMtZDI3ZS00ZTMwLWIxOTctY2I1MzAwMjMzMGQ2IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.CEl-l9m99bYvfi2JseAXDkE6Xkhf2P85z9L5e0RLIWQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjg4NmZiNDctYjM1Yy00YzM5LWIzYmItODI3NzE1NDE0NTNlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.B2NTf6VL9t3pvRfFwtiUrC53lz6xzwR4abme-e8KgTU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 11",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWY0OTkwZjEtYjcyNS00NzQ2LTkyZWYtZTlhNTViZTJkMjY1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.UuiPP80qfqhtvMgArxmN42HtFJNYwCrpwcLtMyCVwIQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 12",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDA5MmM0MWMtMzU5Mi00MzVhLTgzZTktMjQwNTM3ZmViOWE1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.xx7daAu4-YlF3bltFoWsGtJ5Yj9ZXCK2jy-pPF5EtMk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 13",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmI2M2QxM2QtYTcyZi00NzJkLTliOGQtZGYyMmRmYzZlN2ZjIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.0ycHepGQK0zpQLVDZqa93HanYpLd_sGl8_Z90EyiLWw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-02 : Chemical Kinetics",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e900d04-565b-43cc-a34c-4381ff927f6a.pdf",
+                  "title": "Chemical Kinetics 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2ef2f031-c40b-4d4c-9e50-a5a58e33c852.pdf",
+                  "title": "Chemical Kinetics 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/80a083a5-bddd-4b22-9008-7916c038ceb5.pdf",
+                  "title": "Chemical Kinetics 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/390c4214-985f-4563-b5c4-86ce9ffc6716.pdf",
+                  "title": "Chemical Kinetics 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c697feb-878a-4631-8760-24f0382a1b7b.pdf",
+                  "title": "Chemical Kinetics 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f64d4ca7-f88e-482b-989b-7428dfd9b6cc.pdf",
+                  "title": "Chemical Kinetics 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8b322c4f-9531-471c-ad79-c62573e8fb70.pdf",
+                  "title": "Chemical Kinetics 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/381d4bbb-c930-4ac9-ab97-9dc9b44f5f08.pdf",
+                  "title": "Chemical Kinetics 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/1abfb847-95b1-4f7e-a73f-7b6adac72e05.pdf",
+                  "title": "Chemical Kinetics 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dcb06602-c4cd-449a-8d83-54002794bcc9.pdf",
+                  "title": "Chemical Kinetics 10"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/791d7fcd-524a-4dfd-b725-2387f99d528a.pdf",
+                  "title": "Chemical Kinetics 11"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1155b9df-8551-4cf9-8dc5-0dcb0b3e0167.pdf",
+                  "title": "Chemical Kinetics 12"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/41632e32-f5f1-4a6f-ba07-4cf765a50c5d.pdf",
+                  "title": "Chemical Kinetics 13"
+                }
+              ]
+            },
+            "Ch-03 : Electrochemistry": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9b5f7cb5-f237-4e4b-aaa5-f705eebf2096.pdf",
+                  "title": "Electrochemistry"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electrochemistry 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2Q5M2JkNzQtNzQ0NC00MTExLThmZTMtNzUzZDgyNDk0MDUxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.0hBlPz5M2342hOWQt6Vbbm6QhcicEPs1HVii7tKrWJA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electrochemistry 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2EwNzY4ZDItMzYzMC00ZjI4LWI1NjYtYmI0YzJhYWFhOGEyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.h8qNdqWAkrie3mTYVTT8PWU3xoh83KRR-nGwCLLgOxs/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch-03 : Electrochemistry",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/db9d6a57-a055-4722-91d3-462e61b02dca.pdf",
+                  "title": "Electrochemistry 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cf34e2de-157f-40e8-b13d-4fcd649391cd.pdf",
+                  "title": "Electrochemistry 02"
+                }
+              ]
+            },
+            "Formula Sheets || Only PDF": {
+              "name": "Formula Sheets || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f474213-f27d-4f45-b26f-9d69c6cd222b.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d762150c-ce22-4968-adb3-b6aefe051174.pdf",
+                  "title": "Chemical Kinetics"
+                }
+              ]
+            },
+            "Handwritten Notes By Om Pandey Sir || Only PDF": {
+              "name": "Handwritten Notes By Om Pandey Sir || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2d2f8c2f-542c-447d-b25e-7f5f2954a25e.pdf",
+                  "title": "Solutions"
+                }
+              ]
+            },
+            "Handwritten Notes || Only PDF": {
+              "name": "Handwritten Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f65d3eb-d112-428e-aa50-fafeea260f02.pdf",
+                  "title": "Solutions"
+                }
+              ]
+            },
+            "Homework Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Homework Discussion 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzg0YWNiYTgtNjUyOC00Njg3LTg1MWYtMWRlMjkwODY1YzY1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.XnwnZOQ69lsl5s2rxBfgFlH7ez8nmQDGpeKXJenyeAM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Homework Discussion 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzMyNzhiMmItNDEyZS00ODY4LTg3YTAtYjQwZjZhYmY2ZjRiIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.u8f-3SKHe-68nL7vho6nKMwXzjnE5Ih9d_GsY4xGJuU/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Homework Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/23eef619-d124-4331-8b71-e09398ad7484.pdf",
+                  "title": "Homework Discussion 01"
+                }
+              ]
+            },
+            "JEE Advanced Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "JEE Advanced Discussion 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTI2OGNhNWMtNjBlNy00ZjI4LTgzNDMtMTU3NjIzMGI3ZjY0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.3aPuK_BBlvFDJ3z2NmEzPBoCCizzxDrivXEg7-uMBhw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "JEE Advanced Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c39ec110-2215-4eb4-817a-b18029b2faaf.pdf",
+                  "title": "JEE Advanced Discussion 01"
+                }
+              ]
+            },
+            "Mind Maps || Only PDF": {
+              "name": "Mind Maps || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f2ecc56c-999b-461e-b25d-3c863f49493d.pdf",
+                  "title": "Solution"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8de7ea74-62d9-42a4-bf65-18f90da620a1.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6076de2a-37c7-454c-993a-57aba90fd37c.pdf",
+                  "title": "Electrochemistry"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f4f836b0-4f8e-4a5f-95ad-1b0b3525eefc.pdf",
+                  "title": "Solid State"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/52fc5da2-2fe0-45fb-a16a-dc39d79c89cf.pdf",
+                  "title": "Surface Chemistry"
+                }
+              ]
+            },
+            "NCERT Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDdlYjVjY2ItNWUyNi00YTkwLWFmNWItZWQ2ZDg1OWYxMjRkIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.5ryKQ-iAoqeiDfgCbpMCjskwyZnaOuR71oI0zU25izQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solutions 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODJmZjYxYWItYzMxYy00Mzk0LWIyZjItMTRhZjI4YjI1NDI4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.0QBstvghw9GwnVMPnXM7F70OpCof5K46A_lLb7Tx61M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODc0ZDBkYTItMmU4ZS00OTZiLTg1OTYtMWZlY2MxN2NlNzNmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.cTeS6M8l3YainEt6tazIbxG5EjP1SelOuu6hAs2Yxzg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Chemical Kinetics 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzYyY2QyMTAtMmFiMC00Y2FiLTk5ZGYtMmVhNDYwNzFlMzIzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.IPByzDcMMivEgj-nL71SXidZS1knkDkWbK2RnEYWnY4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "NCERT Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3b178d76-1a66-47d3-879b-f579ae807173.pdf",
+                  "title": "Solutions 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b65ae46b-99eb-4482-ab56-b0420ab22180.pdf",
+                  "title": "Solutions 02"
+                }
+              ]
+            },
+            "PYQ Practice Sheet || (Only PDF)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8d1bc127-65b8-4d46-8f85-723e710664cb.pdf",
+                  "title": "Some Basic Concepts of Chemistry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/82d02ffa-d8a4-4e73-98ed-b37ab71a730b.pdf",
+                  "title": "Structure of Atom"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e96c3abe-d721-4f01-be16-efc07c440e85.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d5e5885b-cb7c-4a6f-ab15-701ff1b7bbc5.pdf",
+                  "title": "Chemical Kinetics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8b3e9b1d-29b0-4bd5-a74c-bfcbe7f4ffa0.pdf",
+                  "title": "Electrochemistry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/972656a9-b0d8-48ae-8dd1-3be784fc155b.pdf",
+                  "title": "Thermodynamics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/be10a677-299f-462a-ad83-5c1248018192.pdf",
+                  "title": "Redox Reactions"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cd84553e-38e7-48d2-bd9b-a9fa85486c0c.pdf",
+                  "title": "Equilibrium"
+                }
+              ],
+              "name": "PYQ Practice Sheet || (Only PDF)"
+            },
+            "Short Notes || Only PDF": {
+              "name": "Short Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/1c7c4629-f137-4168-998e-14f97804745a.pdf",
+                  "title": "The Solid State"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9e3c5d36-949d-4499-9105-7298ab380061.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f74f6576-e108-4ff2-b3d2-2879a9207234.pdf",
+                  "title": "Electrochemistry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/fd840631-068b-4e32-af5a-041e5f01ae69.pdf",
+                  "title": "Surface Chemistry"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b55f4b15-74c8-4f70-91bd-730587bb858c.pdf",
+                  "title": "Chemical Kinetics"
+                }
+              ]
+            },
+            "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/38c60229-aee0-4351-a272-c18bcf713660.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a26a8fc6-1577-4860-a2e7-ac0aea60428e.pdf",
+                  "title": "Chemical Kinetics"
+                }
+              ],
+              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf"
+            },
+            "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/122b926e-14e4-43f7-bbd0-be1d8d035117.pdf",
+                  "title": "Solutions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/be8bb2f6-3c39-4ff6-b598-08162a9336fc.pdf",
+                  "title": "Chemical Kinetics"
+                }
+              ],
+              "name": "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf"
+            },
+            "Study Modules || Only PDF": {
+              "name": "Study Modules || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ff804b33-2c03-49b0-bad7-57d61e69b560.pdf",
+                  "title": "Solutions"
+                }
+              ]
+            }
+          }
+        },
+        "Physics": {
+          "name": "Physics",
+          "topics": {
+            "11th Basic Revision": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "11th Basic Revision 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjgwN2U4MmMtYWUzOC00NDVkLTgxZTUtZTFmZmRkMjkyYWViIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Z0CsYCjP8IxavEO8kuxrmuc-9S9SlZEsaS2CNaQ9HjM/hls/720/main.m3u8"
+                }
+              ],
+              "name": "11th Basic Revision",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cc095d9c-326c-4dd0-bfe7-d137f34169e1.pdf",
+                  "title": "11th Basic Revision 01"
+                }
+              ]
+            },
+            "Ch - 01 : Electric Charges and Fields": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/666a89b9-6e75-4d69-9a5c-5162a72f3a9a.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a3f77b4b-4d3a-47b1-8bda-8f665261bfea.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/90bd456e-52ac-4558-a4dd-664289832064.pdf",
+                  "title": "Electric Charges & Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b7b950dd-0273-430d-a610-eeb17d6bf4c4.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d761e531-43d9-42d1-9b26-d9e10e6ef239.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/46bacae9-706b-45a9-8566-81f67747e741.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5fbc0322-0c3f-40d9-bfa8-daf4394c9dd4.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/aca04c03-d472-44a7-ae9e-dc84d3d2bce2.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/127ef735-7ff8-4f46-b25c-a284180dafa0.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d00d6f40-21d0-4df5-a8e7-dfb8dba834fd.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7b928d1b-560b-46c7-9f0a-2c1eed1ccd08.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cc928ffa-982a-42ba-b326-5767785216a6.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6c22cfa1-fc5a-4ae5-8452-d0530f09663a.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f32a8d3a-4c03-4fbc-8fd3-0c9d70770bd3.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6d435ceb-cefa-4916-b167-b9962147363d.pdf",
+                  "title": "Electric Charges and Fields"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzRjYTNhYmItMThjZi00NmFmLWE4MDEtNWZkMmI2MDFiOWEyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.FM3PMf7C81RZ1dk3xKBR91dQO677dwMWpIVE0QbqEx0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmI4OGE0NmQtZmFlYi00NDQ1LWFlZGItMTU0YzhmZWFjYzUyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.kl4v47pB4FtxxXwNSRdB0PaPUQR0y8yrTJFazdemCAg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDgzNmZlODQtZTdhNy00YzA2LWFkMGUtZGQwMjdiNTI1NGJlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.9UcYjRvFmRUwCsgW9ifhXSh99tgbDvvRJXjE8rIKbKQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWE3MDk4YzctZWE5OS00ZWJlLTlkNTgtZmJhNGFlMDM2NzE5IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.bwRLm3UyTkYsyU-c_CxO2KtZl2vAb2c6IIXe4Spgr-M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTM3MzBmNDQtZDQyNy00YzM5LWI4Y2YtYzJlODgyOGMxYjBiIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.jN_X19bDSK_UKHMo3XtjYKHVhuM9bIvVUIf6ZrkjY34/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWJjMzcyMGUtZjUyOC00ZjdmLTkzZmItZjg0ZTFiYjJlNTk4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.HstRcTik_kZdLKBZzHUCi61kV07IXQ-KQkgYxF_XEKg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWRiMmJiMGMtMTg4ZC00YzE1LTk2YmUtNzc4MDYwNDRkNTdhIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.7yfUJICyBFkr4C7-UC4ZPV5PsGu_fkkU34DtLuzCERs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTMxMDE4NzUtNjhmMC00ZGQ1LTk3OTAtMTg5ZmMyYzhmNmIxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.FqOX0rAcdJsWR0EZgt-pstaNdego-gCE_Eue3oTw16s/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTNlNjcxOTMtZmEwMC00NWFkLWJkZWEtN2ZkZjc3NzcwNzhlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.BugwmOUECdFL05adgu_O6-_-dcsw3Vf5MwJSeiA_9Ac/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 10",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTc0MzAwNTItZmUyOS00ZmQyLWIyMTUtZGNiY2Y4ZDNhNmYwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.D6uRY4uOzv-aU-fC6qwZdUA9iQLsFlTwtus09T4UN_U/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 11",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTI3YTdmZmEtYjIwNC00Y2NiLWE1MmQtYzVkNmExOGRkOWM1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.xyreoV_si01hNSgkunlgWi-DGyApWBEwVH9GtN1xDIY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 12",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzQ3YTQwZjEtZjYwYi00MDEwLTgyZjMtOTg4NTMwMmQwYTYwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.GtkqPe5ATk8RgjYa9CC31VU6krzO9ZdpkjK7egln0Rk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges & Fields 13",
+                  "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/153b6d36-6f25-4aac-b068-c1bc9b622f3e/master.mpd"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 14",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjBhMjkzY2QtNDI3Yy00YjFhLWFlYmQtNTczZDNlZjZlZDQzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.qzYaD4VLOS7khztcXkjGIJB_KPhNCkbQhoa2RQoKTdU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 15",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTBmMzg3NjQtMDhhMy00MjhlLTg4NjgtZWI0OTdhMjI4ZjRmIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.cR4B0crymuSD85-Y33sqU5ceW-Vzgfnk1vjyH2l4CRY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 16",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjdiMWRhYjktODFiZS00MzZiLWI3MDUtOTUyNTc0NTBiM2E1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.S8f_pcssp4W96kWTODEhGL0r2ZiC6oUZoADD0ftcPkQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 17",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTJiNDMzNDctMGEwNC00MWUxLTk2ZWUtNzc0MmYxZjAyYjNhIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.vhiHV8TgwkytfBi74Qad9b1Xbti8NpUw9TDWX8uOTO4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 18",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDM3OWM1NjgtMGRjMC00YmQ1LTlkNmQtNDU5NzFjY2ZlNGIwIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Fj0j0QMTd6vD67t9KjBI3qw9NtOTT8r8soeZ_qzuR-E/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 19",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODA1ODdlY2MtN2RjMi00OTZmLWE4M2EtMDc5NmIzNGVlNjliIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.nM0goVCth3jNhZbms3KvNWYkINUWcBfFSR4mF1ZDnts/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 20",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDY5NGFmOWEtNzVjNy00Yzk0LTg5NWUtNzJjYjMzNjkxNDU4IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.-47dZHIqd2JOodxZotbTQELA2AJD3wUdE5bPZ-X29I4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 21",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjU4YzJiNzUtY2IwOS00ODM3LTlhYzEtYzUxNTI3OGIyZjAzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.Goz3eVqX5dyrvAB4Dw5L_3o6phWRUuEi56gmD5p003o/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 22",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiM2Q0ZWJjYzctM2RhOC00MTE3LWE5MjctMTViODEyM2QyNWE1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.JqwyV2faaWa3ZtoHLVMj5hfBzRQgnh33VOLlafcOCHw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 23",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWM5MjgzNjYtZGYxZS00ZTBhLTk4MzItOWIzYTM0MmNhNjA1IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.GuWmv1FWPEpUc3fTcMWBMUnQ_-QmfEm_5sfHYWDxUdM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 24",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWFlOTE4YjYtMGNiNy00ZmVmLTlhOTgtN2M0NDM4ODhhZjQyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.84Q5Z76WoRQwkzvCJu8WKOxTfKk19KYavDszI4g4tLE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch - 01 : Electric Charges and Fields",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2cb776b8-5f7f-4d3b-8038-faa11eaaee46.pdf",
+                  "title": "Electric Charges & Fields 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7ae32662-53d2-4320-8653-64880560bfbe.pdf",
+                  "title": "Electric Charges and Fields 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3fefc735-06cb-471c-9a37-b6b8b427aa0a.pdf",
+                  "title": "Electric Charges and Fields 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8dee61e4-839d-417d-b85f-a46394a8a243.pdf",
+                  "title": "Electric Charges and Fields 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b72071c8-e585-4ef0-a3e1-b6ec9fd8c3b5.pdf",
+                  "title": "Electric Charges and Fields 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/8cd8f974-3f17-472f-a5e4-c5ad0dac4ec7.pdf",
+                  "title": "Electric Charges and Fields 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/63f6eac1-52ea-4592-bb54-8d109520e806.pdf",
+                  "title": "Electric Charges and Fields 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f48d874b-380d-445d-a8a6-3f7348d65f8c.pdf",
+                  "title": "Electric Charges and Fields 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/07a4abf7-98ef-447e-8dfd-406ed8e71798.pdf",
+                  "title": "Electric Charges and Fields 09"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d939b89d-5d42-4501-9f4d-fc3f8f084323.pdf",
+                  "title": "Electric Charges and Fields 10"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b7f92685-68ec-42c5-9766-8fd89a0e60f7.pdf",
+                  "title": "Electric Charges and Fields 11"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/fd27d882-a3a9-4f4d-a24e-a40ef697a64e.pdf",
+                  "title": "Electric Charges and Fields 12"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b99b4403-ef51-45e1-ae79-3d4af0b850d9.pdf",
+                  "title": "Electric Charges and Fields 13"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a63ba059-2f0e-4895-b348-61f728fe5423.pdf",
+                  "title": "Electric Charges and Fields 14"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/93ffc34a-6d94-4753-a77a-54bbae2c51e7.pdf",
+                  "title": "Electric Charges and Fields 15"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/65877f2f-5535-42a2-947b-041092b84878.pdf",
+                  "title": "Electric Charges and Fields 16"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/990c7d84-bdc5-4663-8221-a7736ab9b8be.pdf",
+                  "title": "Electric Charges and Fields 17"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6a56839b-fb6d-49d8-9247-f738261314d1.pdf",
+                  "title": "Electric Charges and Fields 18"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6c1dcc59-eff9-445e-88be-9149fb37e3c6.pdf",
+                  "title": "Electric Charges and Fields 19"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fd5119f2-33c1-4f6f-b6eb-2be5c777c4cf.pdf",
+                  "title": "Electric Charges and Fields 20"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2609954b-b772-44cd-9e46-eac6a23e4b1f.pdf",
+                  "title": "Electric Charges and Fields 21"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/dda44e80-b7a1-43ae-87c5-d59bd1ccf686.pdf",
+                  "title": "Electric Charges and Fields 22"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/12d33ced-69d3-4af4-a3fb-2716f462a278.pdf",
+                  "title": "Electric Charges and Fields 23"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/255d68d7-cca6-4e37-99bc-7beece5477bd.pdf",
+                  "title": "Electric Charges and Fields 24"
+                }
+              ]
+            },
+            "Ch - 02 : Electric Potential and Dipole": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/73a04caf-020b-495a-8f3c-1bfeca032ec6.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/20ff6551-a623-4ef9-91b4-6ace2ba8848d.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9527cfd2-9788-417c-bae0-23e6c8fd91f1.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/65f4e924-41b4-4ee2-a4f8-0da81ede3030.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/656382fd-de2b-4f4b-805f-1ddca0aec09b.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/462cad8b-44f5-495d-80d1-9180598c52b1.pdf",
+                  "title": "Electric Potential and Dipole"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5a0c5cd6-7086-4bad-a6ab-ef607064bcc5.pdf",
+                  "title": "Electric Potential and Dipole"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTZmOGMzZDQtMWY2MC00NDcwLWE0MTYtYTNiNmEwZDhlZGM3IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.54Hvn8igV7Dr2FuPNi6QZ2iYZp9hlSax-wmCu3U74vo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjhmNGViZWYtZTM1Zi00MWEyLWE2OWYtYTM5ODBkNTQyNjM0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.LtPTNv_y5ZLxvXgspK4FhWBI9E0UaoCQNrfgjltNGcM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWE5YjU4M2EtYWY4Zi00NGMzLTlmZWQtYjNmZjExZGEzZmY3IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.4wcutJlpdyXdGbcOM2Pm8msIzN5Um06KD2nQGFxeC5M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 04",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjAxNDMyNWYtNDNkZC00ZjM0LTg4ZGMtMjBiM2I2MThkNzQzIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.vYpemiwsGWj-y7hheCZkzi2ljiIx67qtb3nZTGB-jTE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 05",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWY3ZDliNTQtMjcwNC00NmRlLWI2ZTctNTc0MTVmYzI3NTk0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.QyXUs1LRm8aKGZ-AQ7wxZGfodeE2LIxKdg-hDmEdZg8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 06",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDUxOWMwMDQtMTJmYS00NTNjLWI2OGUtNzI1YTBjNWZmNmNlIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.3auHatB0mAsykt9gRrZfxneN7ufWl9Q9pYjGCIu4BjU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 07",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTg2ZDIwNDQtYjI2NC00MmRhLWFkZGEtYzRkMDc2ZjQwMGIxIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.MEfCqCUzGS-YlcTAPl9r2lk54PxiyYrB--EMPERQUn4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 08",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjNmYjVlZTAtZDQwMC00MGFmLTkwMjItMGVlYTczMzNmMjViIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.9Aty7Zwhmc0KBackpzOTaRjmjz08n1gGN706cxQfvEU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Potential and Dipole 09",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTExZjBlMzYtNjc5Yi00M2Y3LWEyOTEtNTRlMGY1NmU1NmVhIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.-rx1n1PHQISjadR4F6de5qHv-9HbJLreLLViSzI32kc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Ch - 02 : Electric Potential and Dipole",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fccca745-ddc1-4071-9255-edf146cb7307.pdf",
+                  "title": "Electric Potential and Dipole 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3c3fa4c3-a574-4c2b-a5d7-c24eac0c9eea.pdf",
+                  "title": "Electric Potential and Dipole 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ab460658-ace2-4305-8cc0-430661844f5f.pdf",
+                  "title": "Electric Potential and Dipole 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/efd72146-9d8e-44f8-8de4-1a6f9a027cb9.pdf",
+                  "title": "Electric Potential and Dipole 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/caa8fc0f-d592-413b-bd04-e6c7575977b6.pdf",
+                  "title": "Electric Potential and Dipole 05"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bca2d292-2460-41bf-855a-2532bde82b9a.pdf",
+                  "title": "Electric Potential and Dipole 06"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e60fab6-e713-497a-9c6f-4b0f6e355f38.pdf",
+                  "title": "Electric Potential and Dipole 07"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/29273c50-6a52-4ace-bcfb-ae9ac0b06612.pdf",
+                  "title": "Electric Potential and Dipole 08"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ba1b5531-56a1-45ed-aaa9-ef0df2017915.pdf",
+                  "title": "Electric Potential and Dipole 09"
+                }
+              ]
+            },
+            "DOT Product": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "DOT Product 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjRhN2M5ZGItNmNmOC00NWUwLWEzZTEtNDhjMzU5ZDcwYTU0IiwiZXhwIjoxNzQ4NTM4MjQ3fQ.kF-HKEUnh2e3_o5iRFxoGQlvPRNBH8AtF4PetsF83Nw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "DOT Product",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/49828d2f-1c4b-421e-ac5e-6e4f66731717.pdf",
+                  "title": "DOT Product 01"
+                }
+              ]
+            },
+            "Formula Sheets || Only PDF": {
+              "name": "Formula Sheets || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5b17c783-3dde-4ab3-acb1-9cb5404ceb4c.pdf",
+                  "title": "Electric Charges and Fields"
+                }
+              ]
+            },
+            "Guidance Session": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Guidance Session",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGYyNDYzOTctNDhmMS00NDBlLWFjNzEtMzU2YWQ1ZjJjNjExIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.vMikuCJXuh0vQlGJBEE9qR_5TJbwhS_WQX6HaVawhNI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Guidance Session",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/577d3fa0-dc29-4410-a462-71e18922d8b0.pdf",
+                  "title": "Guidance Session"
+                }
+              ]
+            },
+            "Handwritten Notes || Only PDF": {
+              "name": "Handwritten Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3a67662b-febb-4ebc-a11c-c2a62e7bf2f7.pdf",
+                  "title": "Electric Charges and Fields"
+                }
+              ]
+            },
+            "Mind Maps || Only PDF": {
+              "name": "Mind Maps || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9e0d1bf9-d421-4065-aea8-520eb0dc5e18.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ff07e22e-c716-4b37-afb0-8f681a992f1c.pdf",
+                  "title": "Capacitance"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/723e6f33-2af7-41ed-b1b8-d5c06b144cd7.pdf",
+                  "title": "Electrostatic"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c27f96a9-ee6c-4455-8570-7de55c9cf011.pdf",
+                  "title": "Current Electricity"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/9070e578-574f-4585-bcb5-e57e881811e3.pdf",
+                  "title": "Moving Charges & Magnetism"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/78f70e43-4392-4621-8b98-b66b213fedd4.pdf",
+                  "title": "Magnetism & Matter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c42eb35c-c715-444e-8cff-6dd7586392d5.pdf",
+                  "title": "Electromagnetic Induction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b2ca05cc-b5bd-47b0-95ef-aeac7e04e180.pdf",
+                  "title": "Alternating Current"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/07f9551d-9ba0-4f80-867e-b49ab419a1a1.pdf",
+                  "title": "Ray Optics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/841bad73-148a-4133-ba33-b2559ecf0eb7.pdf",
+                  "title": "Ray Optics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/30086eee-54c2-4d9d-ac7e-4f1a62dba7d0.pdf",
+                  "title": "Wave Optics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4bb5c302-6e2d-421d-8b35-384b25f66344.pdf",
+                  "title": "Dual Nature Of Matter & Radiation"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2d76da98-fd01-435f-8ba4-99f66681eaf8.pdf",
+                  "title": "Atoms"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b5ec6501-1a5f-4700-b74c-2d9b77b3885e.pdf",
+                  "title": "Nuclei"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a3b005f7-48c2-489a-a687-3f02f5a9e580.pdf",
+                  "title": "Semiconductors"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/d2df5280-c23d-4a57-a937-4c3b01ca8377.pdf",
+                  "title": "Electromagnetic Waves"
+                }
+              ]
+            },
+            "NCERT Discussion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzRjYTNhYmItMThjZi00NmFmLWE4MDEtNWZkMmI2MDFiOWEyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.FM3PMf7C81RZ1dk3xKBR91dQO677dwMWpIVE0QbqEx0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmI4OGE0NmQtZmFlYi00NDQ1LWFlZGItMTU0YzhmZWFjYzUyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.kl4v47pB4FtxxXwNSRdB0PaPUQR0y8yrTJFazdemCAg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "NCERT Discussion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0f3653c9-f19c-42a5-92c5-405e04be33a7.pdf",
+                  "title": "Electric Charges and Fields 01"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5c56425d-7055-4892-a4e0-511046395bdc.pdf",
+                  "title": "Electric Charges and Fields 02"
+                }
+              ]
+            },
+            "PYQ Practice Sheet || (Only PDF)": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7f697fa7-b014-47b6-8196-79c18e1ff639.pdf",
+                  "title": "Units and Dimensions"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a6cef6db-58fe-4071-b30e-937efce46c29.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/4fef4571-30cd-4198-a3c3-769cb2f8296a.pdf",
+                  "title": "Vector and Calculus"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/696bec40-42a1-40f6-a572-7421f470c1a2.pdf",
+                  "title": "Electrostatic Potential and Capacitance"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/0eccbede-4d7d-46f9-9464-0fba2b098a79.pdf",
+                  "title": "Motion in a Straight Line"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e97d8719-2f50-4f17-ae6a-89d4cc493483.pdf",
+                  "title": "Current Electricity"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/c5cbabde-424f-476c-a1bf-7f9d0666e45c.pdf",
+                  "title": "Moving Charges and Magnetism"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/b967d0a3-2757-47a7-b8d3-4e357183269c.pdf",
+                  "title": "Motion in 2D"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/db8f5bbc-ca24-4e45-8d66-71ffe7b5f672.pdf",
+                  "title": "Magnetism and Matter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/51078fbc-11a8-474a-8593-205d9b795d7a.pdf",
+                  "title": "Newton’s Laws of Motion"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/28cfad12-526f-402c-b365-e5e94468e906.pdf",
+                  "title": "Electromagnetic Induction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/16d81453-e70d-42d4-9efc-d17dca196343.pdf",
+                  "title": "Circular Motion"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/a3fae413-8668-4fdc-8298-09f10078cd81.pdf",
+                  "title": "Friction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f5d717c6-2cde-42be-a84f-43d76bd12724.pdf",
+                  "title": "Alternating Current"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/06044e9b-67e2-47d3-a4cb-81dd8fc93e2e.pdf",
+                  "title": "Electromagnetic Waves"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/e4c13865-8eff-4c13-976b-912bbfe49eca.pdf",
+                  "title": "Work, Power and Energy"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/bbe614f1-f7ca-4a2b-82fb-9fb8f6d1abf1.pdf",
+                  "title": "Motion of system of particle and COM"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3c86f791-04bf-4428-8ed0-65cb59f9b402.pdf",
+                  "title": "Ray Optics and Optical Instruments"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3ae3cd54-40e6-4b8d-bd6e-6f65e3a87ea8.pdf",
+                  "title": "Rotational Motion"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3f1d9378-1819-4c58-8bc4-40d2ad87cc8b.pdf",
+                  "title": "Wave Optics"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c6b6e7e7-3081-4c61-8ad1-2bb6fe67db22.pdf",
+                  "title": "Mechanical Properties of  Solids and Fluids"
+                },
+                {
+                  "fileUrl": "PYQ Practice Sheet:https://static.pw.live/5eb393ee95fab7468a79d189/4f8c5aa4-cd97-445e-840b-e7c13be1c05a.pdf",
+                  "title": "Semiconductor Electronics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ccda07de-082b-4a47-8401-e8c7c0368a1d.pdf",
+                  "title": "Atomic Physics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/072873f3-99a3-476b-963e-ef8069d489c1.pdf",
+                  "title": "Nuclear Physics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/72d5596d-116f-448c-bab9-e9b19ac281d8.pdf",
+                  "title": "Thermodynamics and Kinetic Theory of Gases"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/1c995a4e-6407-4d25-9286-d30fa7dad716.pdf",
+                  "title": "Gravitation"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/6d9917d4-91b5-48f2-91c9-a16ecc57b0c9.pdf",
+                  "title": "Dual Nature of  Radiation and Matter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/83403b32-5aba-42a1-88e8-66d78dc637bc.pdf",
+                  "title": "Simple Harmonic Motion"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/5d51d2bb-0547-47cc-a91c-29619ff7358f.pdf",
+                  "title": "Thermal Properties of Matter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/53b8cd8a-6773-44ee-8a75-295fa47d6ca4.pdf",
+                  "title": "Waves Motion"
+                }
+              ],
+              "name": "PYQ Practice Sheet || (Only PDF)"
+            },
+            "Short Notes || Only PDF": {
+              "name": "Short Notes || Only PDF",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7acd44b5-ce4e-45a4-9f6b-a7a55901a46d.pdf",
+                  "title": "Electric Charges and Fields"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/013714e1-7281-4aff-99f6-545b9fc6bc83.pdf",
+                  "title": "Electrostatic Potential and Capacitance"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/7a1aa2bd-7e7e-465b-a9b3-f4433aa19e41.pdf",
+                  "title": "Current Electricity"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f0aadb09-f756-408d-a51e-3e2c8581d8a4.pdf",
+                  "title": "Magnetism & Matter"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/2a80d69d-f5c6-46d2-9296-371e67a35d02.pdf",
+                  "title": "Electromagnetic Induction"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/71bacdb9-202c-418d-815a-a3e2e9e668d2.pdf",
+                  "title": "Alternating Current"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/894ad4cf-ce0e-4d48-97f4-488b3137ae79.pdf",
+                  "title": "Ray Optics and Optical Instruments"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/37c8ec6a-f6e3-475a-ba36-f9d5e263ccac.pdf",
+                  "title": "Wave Optics"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/0e5aafd3-64f0-43d1-8ed1-07c9812408cf.pdf",
+                  "title": "Dual Nature Of Matter & Radiation"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d3367b28-8d02-4e15-aa9a-3717dbd2ec7d.pdf",
+                  "title": "Atoms"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f592db2c-1b07-4d94-8495-61140cb28a18.pdf",
+                  "title": "Nuclei"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/f11182c6-9a04-4182-9715-4eb9f26cdca4.pdf",
+                  "title": "Electromagnetic Waves"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/3ea8602e-7d5e-4d90-b6dd-70dc35d5aa4f.pdf",
+                  "title": "Communication Systems"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/1c98a0ec-3d6b-4bbf-a997-79fbb1940f87.pdf",
+                  "title": "Semiconductors"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/33e6ecc9-ec5f-46c1-b44c-3c1ed8e50602.pdf",
+                  "title": "Moving Charges & Magnetism"
+                }
+              ]
+            },
+            "Standard Practice Sheet (JEE Main & Advanced)- Manthan & Abhedya || Only Pdf": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/21160514-b23d-4b72-8e14-5b33c6ce76a9.pdf",
+                  "title": "Electric Charges and Fields"
+                }
+              ],
+              "name": "Standard Practice Sheet (JEE Main & Advanced)- Manthan & Abhedya || Only Pdf"
+            },
+            "Summary Lecture (By Rajwant Sir)": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Electric Charges and Fields",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmI4OGE0NmQtZmFlYi00NDQ1LWFlZGItMTU0YzhmZWFjYzUyIiwiZXhwIjoxNzQ4NTM4MjQ3fQ.kl4v47pB4FtxxXwNSRdB0PaPUQR0y8yrTJFazdemCAg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Summary Lecture (By Rajwant Sir)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0663b1ec-dd10-4013-9652-6d66569ee708.pdf",
+                  "title": "Electric Charges and Fields"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
     "Udaan 2026 (Class 10th)": {
       "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2398653e-9826-4541-b28e-b2cd83b37d1f.png",
       "name": "Udaan 2026 (Class 10th)",
