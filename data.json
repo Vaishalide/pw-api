@@ -3765,6 +3765,2869 @@
         }
       }
     },
+    "NDA -II- Shaurya 2025": {
+      "name": "NDA -II- Shaurya 2025",
+      "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/14e57d1a-212f-4237-bdad-d0aaf308fa07.jpg",
+      "subjects": {
+        "Biology": {
+          "name": "Biology"
+        },
+        "Chemistry": {
+          "name": "Chemistry"
+        },
+        "Current Affairs": {
+          "name": "Current Affairs",
+          "topics": {
+            "February": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e273b4ee-9f19-4fc3-a3f8-05d48a0ba612.pdf",
+                  "title": "February  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f0bd2ef6-1148-4cab-b0a8-4812811e51b5.pdf",
+                  "title": "Defence_DPP 1 February 2025 -Week1and 2"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "February 03 - Current Affairs February 2025 -Week 03",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjc5NDA1ZjAtNzI0OS00MDJiLWI4NWItZDI1MjYxNjY2NjQ5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.cMKKR7KsoxVPcxCO94ysX3Frv-cx1n-uCpprSzmeQt0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "February 02 - Current Affairs February 2025 -Week 02- - Rescheduled @2-00 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWRkMzNjMDgtNDhkMS00MzZhLWEwZGItNTVkZGZhZjQ3ZmE2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.C0mHpiCT-1luktrtCGmUlYI3o304SYaTh4RKr55DFZM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "February 01 - Current Affairs February 2025 -Week 1- - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWFhNzIwZTYtZDM3Yy00ODVkLWFkZjYtZThmYjY1YzBmNDk3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.68p4XNRdBNKFB8ue2F1o6oedVP-OwyVPXMjHDa-T4_E/hls/720/main.m3u8"
+                }
+              ],
+              "name": "February",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f13f698d-ab71-4ea7-9a6a-f698b688208b.pdf",
+                  "title": "February 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/598dc8f7-4a75-4783-93b8-200ab749b936.pdf",
+                  "title": "February 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d8043629-a99c-462b-ae91-d66ed6a77101.pdf",
+                  "title": "February 01 _ Class Notes"
+                }
+              ]
+            },
+            "January": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/55f2571d-a12a-4233-a861-f4bd830a7010.pdf",
+                  "title": "Defence_DPP 2 - January 2025 -Week 2and3"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7352d27b-8487-4f56-b855-3eba9b1857ed.pdf",
+                  "title": "January 2025 -Week 1-_Current Affairs_NDA -II- Shaurya 2.0 2025_DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "January 03 - Current Affairs January 2025 -Week 03- - Rescheduled @7-40 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTNiNzQxY2YtOTYwMS00ODk0LWIzMTEtOWMzMDIxNDc5ODM2IiwiZXhwIjoxNzQ4NTkxNjcwfQ._JlxQquQv__OMNKGsnWiPtqu1j459J5NscgqhUebLYA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "January 02 - Current Affairs January 2025 -Week 02- - No MCQ Quiz - Rescheduled @ 08-30 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODlmNDI1ZWUtYmRiNC00YzNiLWE5ZTgtMzY3YTZjYTA4MzM0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.HlC175Odjl4lIlrnhVHmKi8BRbfib_M0eCFMw8aYM8o/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "January 01 - Current Affairs January 2025 -Week 01",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTAzNDhiZjgtZDdkMC00YTI5LTlmMGQtYjlkMGQ2OGYxMjgzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.vMezJhPl-Jgj-kFaSF68QCePIN-K61skbfmTyDujaHs/hls/720/main.m3u8"
+                }
+              ],
+              "name": "January",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d425a807-33c4-4ff2-ac78-20c8b0c644d1.pdf",
+                  "title": "January 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f21061a3-0a84-4628-b91f-0ce1d3f41820.pdf",
+                  "title": "January 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/255481ab-79a7-4b4f-b573-973ecf2c3efe.pdf",
+                  "title": "January 01 _ Class Notes"
+                }
+              ]
+            },
+            "March": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/67ff7ff9-8cc4-4068-975d-2edda0d276a3.pdf",
+                  "title": "March 2025_DPP 01 Current Affairs_DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "March 03 - Current Affairs March 2025 -Week 03- - Extra Class",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2FlMzQwMzItMDliNy00ODhhLThhYjctMjZjNjkzNmZjM2M1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.w6J0mQmOhR3XKG6gVFJ7xPEaM1Rzug0eWOTkiC8pWhE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "March 02 - Current Affairs March 2025 -Week 02- - NO MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTI0ZDkxNGMtOTMyMy00Nzg1LTk5YzYtZWQ3MDkyZmI1NmUyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.mRTQ1-Ydnmq1XJlbbl6QF3rjYEJ-hFTzJORLxAous38/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "March 01 - Current Affairs March 2025 -Week 01- - No MCQ Quiz - Rescheduled @8-00 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGRlNDY3OTQtMTY4Mi00Njc2LWE1ZmQtOTQ0YmU5NWRmMTY5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.YqIYBEqMxBI1F-KkTnDTUlMF3QxZvrqxIHgyLltNmnI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "March",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/275960fe-1d84-4b10-bd7b-fe7f27744fb8.pdf",
+                  "title": "March 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4b1ded70-6260-4af6-874b-57cb2f554920.pdf",
+                  "title": "March 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/83e6636c-9ffa-4060-a8d3-acbdda50a52c.pdf",
+                  "title": "March 01 _ Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "Economics": {
+          "name": "Economics"
+        },
+        "English": {
+          "name": "English",
+          "topics": {
+            "8 universal Rules": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2a4f917e-4167-45be-bb93-845e458514a1.pdf",
+                  "title": "8 universal rules -3_DPP 3"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/efea38e8-7b93-456a-a1e1-fc2f55852535.pdf",
+                  "title": "8 universal rules -2_DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f7223adf-35ba-444b-8035-25d30d5c32bf.pdf",
+                  "title": "Defence_8 universal Rules -1_DPP 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "8 Universal Rules 03 - 8 Universal Rules -3  - Rescheduled @3-45 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDk1NTUzYmMtZjM0NC00ZTE5LTlhMTEtOWNkZjhhZGY3OGM5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.ZNwFyU-38nDXXFUJzeucQ5rKVbHXw_isOxwUpjdSIEw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "8 Universal Rules 02 - 8 Universal Rules -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiY2Y1MGI1YjAtNDdjZi00OTk4LTg1OTEtOTllMDYxZmU4OGZmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ICpz0DcWD0YXpRP0qTswJ-nAk1QP_NiFImShPpqtwFs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "8 Universal Rules 01 - 8 Universal Rules  - Rescheduled @7-45 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDA3MDNhNGMtODI3Ni00YTZmLWIxYjUtMWRkZjEyY2UxZDM1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.IVpExi2sAm9pIhlW9zFM9G8ZT_60J0wYznzpgVzFaRY/hls/720/main.m3u8"
+                }
+              ],
+              "name": "8 universal Rules",
+              "notes": [
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/3e6a14e9-9d5a-49b3-b147-528dc2464cee.pdf",
+                  "title": "8 Universal Rules 03 - Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a4e264da-0e9c-4a3d-bbca-e3dae5bdc62e.pdf",
+                  "title": "8 Universal Rules 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f13cda21-b2aa-4d1e-baac-01572b640d06.pdf",
+                  "title": "8 Universal Rules 01  Class Notes"
+                }
+              ]
+            },
+            "Adjectives": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c558d32-2acc-4508-83fd-dbcf814eefda.pdf",
+                  "title": "Adjectives  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4710ee6e-a5d1-4cad-b6f4-eae141591aec.pdf",
+                  "title": "Adjectives  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Adjective 02 - Adjective -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjQzMTg5NTYtMGZlYS00ZGQwLTkzMmQtNTU5NGE0YTBhZjllIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4JEc5d9VhInxI6o9z0G-p7mMMQR1u5Z_0fBF6B-N-8w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Adjectives 01 - Adjectives -1 - Recorded",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjQ5MzNmNzYtZjYxNC00YjI4LTliNzMtZGRjYTY2MDcwNTNiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.2hxDfUBiYpRP2e79vWDcRcq-ayOE1yy3ztnWhPZZ4EM/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Adjectives",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a6f52c3b-683e-4106-a951-74716d1b975b.pdf",
+                  "title": "Adjectives 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0bafd969-f7cd-4cb0-a373-238fcb824650.pdf",
+                  "title": "Adjectives 01  Class Notes"
+                }
+              ]
+            },
+            "Adverbs": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d5e3f269-9fa2-47c8-bfaf-616aad337c67.pdf",
+                  "title": "Adverb 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4f6a686-738b-45d6-aadf-c44fa87779f7.pdf",
+                  "title": "Adverb 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Adverbs 02 - Adverbs - 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzY2YTQ0NjItNDdkYi00OTYyLWE1YWYtZTc2ODZkNjdlOWNiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.c9E0qetixdKCCWnYgbTuyqsLdvF-7E0SzwgxCpK9s9I/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Adverbs 01 - Adverbs - 1",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWYxYzMxOWEtOWFhNC00NmQ1LThkZmItZjc2ZGYxZjdjMTZhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.hzuWjWDN6pQJED0ouLz3L86sk85cD0Ios8yu5oNLeKE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Adverbs",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5f2be730-5c8b-4abe-8eb4-cc12aac1baaa.pdf",
+                  "title": "Adverbs 02  Class Notes -2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c08941e9-d78d-4ad3-8c90-b7c494ede9b5.pdf",
+                  "title": "Adverbs 01  Class Notes"
+                }
+              ]
+            },
+            "All about English in NDA & Strategy": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "All about English in NDA and Strategy -  One shot - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGI4MzNkYjQtM2YwMC00MmM0LWFjNTQtODliODY5YTUzYTc5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.y7VxPlVoaBjsDTeOF-3LaWn-Cij1YB7-HHZxYM2uto0/hls/720/main.m3u8"
+                }
+              ],
+              "name": "All about English in NDA & Strategy",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d96226a2-dbdd-455e-92c0-84954f9c4fcc.pdf",
+                  "title": "All about English in NDA and Strategy  Class Notes"
+                }
+              ]
+            },
+            "Antonyms": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1c216ea2-fea5-4afd-b519-57378efba8df.pdf",
+                  "title": "Antonyms  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Antonyms 01 - Antonyms - Rescheduled @7-55 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDJmMjgxYmMtZjUyMi00YjI4LWI5NGItNWVlODA4Nzc0ZmQzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.A60kuftnFbR3HU_X-2O7HpE-_048mmI33uiE3OBvIqU/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Antonyms",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/deec5809-3dbc-4b2c-a23b-e2db58a5933e.pdf",
+                  "title": "Antonyms Classnotes"
+                }
+              ]
+            },
+            "Articles": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/be365759-2350-4b45-8e1f-55dcbfd44807.pdf",
+                  "title": "Articles_DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/84737e60-6f57-4681-aa5c-17d065cb8d81.pdf",
+                  "title": "articles  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Articles 02 - Articles -2 - Rescheduled @ 05-35 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDRhNDEyZmQtYmY5OS00ZjI0LWJlODUtNDYwOGE0OGU5ZDI3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.xwJbeA4eB3I9hILTIGbMQhRB82q4KMuMtZeYYLe5lzQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Articles 01 - Articles - Rescheduled @7-45 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjI5OWIyM2EtYmZlNy00MGQwLWJhOGQtNjY1YzYxMTMxY2VkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.LyzORlk-DvYi-6hHqPiuK_GgEXkh4PqNC4Y7SHyoXIc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Articles",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/79a02ea5-4fb7-4a92-ad58-ea52da1a068d.pdf",
+                  "title": "Articles 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ea6fa06b-7d6e-488c-a9f6-7055d6265cf1.pdf",
+                  "title": "Articles 01  Class Notes"
+                }
+              ]
+            },
+            "Cloze test": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8689039b-b942-46e5-aa07-83f1d2addb1b.pdf",
+                  "title": "Cloze Test  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Cloze Test  01 - Cloze test",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmJlMDlkMjYtM2ZhMi00NTY3LTlhNzEtOTc3YjhmOWE1ODZkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.gyQlam-NThDDr8UjyrstA6nLaCm_tz5ug_-l9An9rHE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Cloze test",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8a5e174d-f8e1-436d-8d41-8b9bb7c81207.pdf",
+                  "title": "Cloze Test 01 Class Notes"
+                }
+              ]
+            },
+            "Conditionals": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f268e481-ae6a-40da-83b7-723a50b5307c.pdf",
+                  "title": "Conditional"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Conditionals 01 - Conditionals - Rescheduled @7-55 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjMzZDE3ZTAtYjUyYy00NWJiLWJlYmYtMzcxMzk2ZWM0OWM4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.EhzyZhApaSVCTEWt47IhZXTCvdts7T1BnIw1R5XZ7e0/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Conditionals",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bdb93473-0b6e-40b7-9cb6-073991d4ad02.pdf",
+                  "title": "Conditionals 01  Class Notes"
+                }
+              ]
+            },
+            "Conjunctions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3148d2db-688e-462d-a7e0-89141792b5ea.pdf",
+                  "title": "Conjunctions"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Conjunctions 01 - Conjunctions",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWZjZmVlNDQtNGQ4Zi00N2IzLWE5ZTctM2JhOGFhZjg0NGFjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.IO2nGxPX6whd4p-YJ-i4xkxN32QmViEhpauLcKAiOQA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Conjunctions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b40cdece-48af-4ec5-8c8f-1e07f223a4ea.pdf",
+                  "title": "Conjunctions 01  Class Notes"
+                }
+              ]
+            },
+            "Modals": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6cbab885-0629-49c9-8d17-2e5e2b7f51f6.pdf",
+                  "title": "Modals 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4a3f72be-c264-43ce-8467-ee4ff269cd02.pdf",
+                  "title": "Modals  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Modals 02 - Modals -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTRjYjBkMGQtNDQwMy00ODNiLWI3ZmQtYTM4N2U0ZTgwNDQ1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.4u3L-s99bmeXto34UFrVW41V0FCX7Lic0LEppaOtOwo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Modals 01 - Modals - Rescheduled @7-55 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzQ5MjBiZjAtYzQ5Zi00ZmRlLTk0OTgtYWQ5MWI1MmYwZGE4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.2rKqgc7fZBxzdAISm7UDKhtqC_kqmnOqJmEZOduqGAo/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Modals",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6f1c537c-a880-4cb6-bccc-4c1f45cd3067.pdf",
+                  "title": "Modals 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/83eb6ada-3e91-48cd-a6ee-62160c21b6fa.pdf",
+                  "title": "Modals 01 CLASSNOTES"
+                }
+              ]
+            },
+            "Nouns": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/587a4f80-8290-4bbc-bfe7-8aad34ca2705.pdf",
+                  "title": "Defence_DPP 2 -1"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/581081f1-9d1a-46cf-9ebb-87231f0e233a.pdf",
+                  "title": "Noun  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Noun 02 - Noun -2 - Rescchedule @7-40 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGM3NGFiMmEtM2ZlOS00MThkLWEwMGUtZDJjNDBkZWVmNDQzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.H1jHDjll8D_yr86a2s1FT9KbpLbVBzWi7_4nKMJpL9k/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Noun 01 - Noun -1 - Rescheduled @7-40 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTI4MDQ0ZDYtMzFhMi00MmE4LWFiY2MtM2I1ZTBkNmY4ZmNlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.RZQr45Kx_ODBFu0-7F3CgDq-J5EQFwp-QlZXFIRuSM4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Nouns",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8d6492ae-9ad1-4dd6-9db8-0b4e9926363c.pdf",
+                  "title": "Noun 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/066a1469-4f10-4f57-ac29-869af4bdfc5d.pdf",
+                  "title": "Noun 01  Class Notes"
+                }
+              ]
+            },
+            "PQRS": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c816c1a6-34af-4812-88bb-ae357dcfa42c.pdf",
+                  "title": "Defence PQRS_DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "PQRS 01 - PQRS",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjcwMWYwMjgtZGVkOC00M2QzLWFjYmEtMTE2Nzg0YmYzMjc0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.D-vrLlOPWOI4Bbh2cR_JeESs6rVVi7v5vRqp0X7vUM8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "PQRS",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0218a839-247f-41b4-8716-a5ecc4ca1852.pdf",
+                  "title": "PQRS 01  Class Notes"
+                }
+              ]
+            },
+            "Prepositions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f65c102d-1126-4285-9479-d8077f61a6f9.pdf",
+                  "title": "Prepositions  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/da37d408-f089-4836-bd76-c3173d72197c.pdf",
+                  "title": "Preposition  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/41807f7f-bb78-4d5a-9272-1b235ef08481.pdf",
+                  "title": "Preposition  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Prepositions 03 - Prepositions -3",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzE3ZmMzMTItYWZhMi00ZDc4LTg3Y2ItMTIzM2UwOTZjYWQ4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.nIAGnAVNlf7vr9hCM860eINB6H85MtqPt43NNh_qZgw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Prepositions 02 - Prepositions -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjM4YWFhNzUtNmZkYi00ZmZiLWExOTktYTFjMmU0M2UwNmU3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.cVECIvMhv0CA7AZTxOMLct9h1AP3LYXckOVPM1H-B4w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Prepositions 01 - Prepositions - 1",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjg2ODhlYTEtMWVjOS00NTQyLWJiZWYtYTJlZDdmY2MyOTRiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.l_hL30-ljM9BQvSk0vPpdtMjn_c38TG9McsMi-aSFOE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Prepositions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9627c499-028a-415f-bb89-87dbfb9c8778.pdf",
+                  "title": "Prepositions 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0925a413-e32d-4410-ba3d-2f72f8d5d3f0.pdf",
+                  "title": "Prepositions 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/83a8e538-be71-4fa0-84f3-e469fcca7ee2.pdf",
+                  "title": "Prepositions 01 Class Notes"
+                }
+              ]
+            },
+            "Pronouns": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/226db39b-99bc-4080-b556-60b3da8f3c73.pdf",
+                  "title": "Defence_DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/186f2839-94eb-4aa6-bc6f-80250134e5cb.pdf",
+                  "title": "Pronoun  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pronouns 02 - Pronouns -2 - Rescheduled @7-40",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmFlNDNkNzItM2VmZS00MTU3LTg3OGQtZjExNjM0ZTQzMzBhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.nKcdnCqYMKMH09I28kdGOpPeosEReN5hbYR2ZjFBgxE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pronouns 01 - Pronouns -1 - Rescheduled @9-00 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDVhY2FhYWEtZjQ1Ny00OGRkLTk2YzAtOTcyYzE4OWE1NTEzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.jSE9swE61cmlSYoBuwXZxJQRlmUl8aFWwI057AdV604/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Pronouns",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/33a76a1c-87c4-4e65-bd51-223a726afffa.pdf",
+                  "title": "Pronoun 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a62103db-6564-4d9b-840e-a56dc2f7cf3b.pdf",
+                  "title": "Pronoun 01  Class Notes"
+                }
+              ]
+            },
+            "Question Tag": {
+              "name": "Question Tag"
+            },
+            "Root Words": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1d2aa5f1-99f6-44fc-b1bd-98f9926b6741.pdf",
+                  "title": "Defence_Root words -2_DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8cc8d3c5-db42-4ab7-a0d2-841d8954aa29.pdf",
+                  "title": "Root words -1_DPP 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Root Words 02 - Root Words -2 - Rescheduled @7-40",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTBiZjY4ZTUtYmJiOC00YTM5LWE0ZTctNDNkNDBkODY3MzE1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.7y2XJj0l_1bFsQESa6Z9TNU_b6xHoWJE7nN4DJJ1qPo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Root Words 01 - Root Words -1",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWNkNWQ5ODItOTc3Ny00Mjg0LThiMjAtYmViN2M2YjhkYzNmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.zgmzfaH4IpfgH8KMawQD4GDHPRzYYMqf_Z_UFYR6FEA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Root Words",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a38dfbb7-bd1c-4e0f-a066-fda092f1ea84.pdf",
+                  "title": "Root Words 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/46b98e0e-8654-4b61-a228-294cf7bf1cec.pdf",
+                  "title": "Root words 01 classnotes"
+                }
+              ]
+            },
+            "Subject Verb Agreement": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c53ddd4-f0d8-40c3-9bfc-050bb96f87ad.pdf",
+                  "title": "Defence_Subject verb agreement -2_DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fa438e49-dcf0-4c10-bbae-7000f2c4bdf2.pdf",
+                  "title": "Defence_Subject verb agreement -1_DPP 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Subject Verb Agreement 02 - Subject verb agreement -2 - Rescheduled @3-35 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjIxNzRiYTktZmFkMi00ZWIwLWI5NWUtZGI1NWFlYWZiMGNmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.M43j-Gsu1VYjQ9GKfCCq_MDc1BfEcu96Whca1jXJOIo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Subject Verb Agreement 01 - Subject verb agreement -1 - Rescheduled @7-40 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjc0MDkzODAtZTUzMi00YjU5LTgzNjItYTc2NDRjNzBkZGNhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Tob4MeaohJhb-K7WuSJy1hULnmmArSB9HS2EqxljbsQ/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Subject Verb Agreement",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/872cf81d-005b-424c-ba39-39e1146c0c99.pdf",
+                  "title": "Subject Verb Agreement 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8e4ae32b-b74b-4edb-9428-1c56826730c4.pdf",
+                  "title": "Subject Verb Agreement classnotes"
+                }
+              ]
+            },
+            "Synonyms": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8a1e8e4e-02eb-43a4-bcda-686e714f6b9e.pdf",
+                  "title": "Synonyms"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Synonyms 01 - Synonyms",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmY2YmViYjctMjQ4MC00YWM4LTlkNjQtZDIxOGFkODIzOGQyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.AtgjaTRscsGmEZLql6wBuD3klEKIwD8mPTZ30gyKeHg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Synonyms",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/969d9222-65e6-497f-9eb3-26f990dea8bc.pdf",
+                  "title": "Synonyms  01  Class Notes"
+                }
+              ]
+            },
+            "Tenses": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/80149506-c846-4031-b17c-f3912d0b47a6.pdf",
+                  "title": "Defence_Tenses -4_DPP 4"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f78e8d33-ac42-4b91-8560-a7df756e7bd9.pdf",
+                  "title": "Defence_Tenses -3_DPP 3"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a4da0d72-71a7-4da8-8e43-91d76b393813.pdf",
+                  "title": "Tenses _ DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/63882070-4e45-4b2f-b5e9-b2a69c848ac8.pdf",
+                  "title": "Tenses -1_DPP 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Tenses 04 - Tenses -4",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODU5YmE2ZjItODViZi00MzJlLWJhODEtNGRiMTAzYjAzYjI4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.lUeYRBW7vnTsHKQ6UPEw74De5VWPS4scNg9sm5Sm1Pw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Tenses 03 - Tenses -3 - Rescheduled @3-00 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzBmM2Y3M2QtMjI1My00ZjUyLWI5YzYtNjUyM2NmNmM5NzE0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.DWgWTe7gUCNBZcx8Dqjo_58wX4v78EmxfO162di1XUM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Tenses 02 - Tenses -2  - Rescheduled @ 07-45 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTNkMDY4NDYtNzY0ZC00NDQ3LTgwMWUtY2FmZjE1NmQ1MmY3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.K2-Uwj9KFxIxHkSPcfw6DHa3pPbw3bKecmr6NzMHu-g/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Tenses 01 - Tenses -1 - Rescheduled @7-40 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzkwMzEzZjYtNWI2Mi00M2UwLWI2MDEtMTg1NjViNThjZTcxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.L42IdEQELk9krte95CLLKE60Lss7i_Yz98IWjcgUBGQ/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Tenses",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2c3785f4-5ab7-4632-9155-5cbe9bf292f7.pdf",
+                  "title": "Tenses 04 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/97d9856c-7165-4e69-aad4-a16206b51b60.pdf",
+                  "title": "Tenses 03  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d971dec3-c082-456c-b6b8-16cdedcdf198.pdf",
+                  "title": "Tenses 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ecc7989a-15b2-436b-8b89-e574fcb74c47.pdf",
+                  "title": "tenses 01  Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "Geography": {
+          "name": "Geography",
+          "topics": {
+            "Atmosphere": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/02a05235-d615-4704-8865-6b0e62e7f1d7.pdf",
+                  "title": "Defence_DPP 1- Atmosphere"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Atmosphere 01 - Atmosphere and PYQs",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmZmMTIxNDctMGJiNy00MmE2LWE0NmEtYTQ2ZGE5NDVhNzQ5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.RBTfBZqUDnpu3vcfwgLnuqjTDm_hNUiRoSPee5ZDuQI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Atmosphere",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/451f3d00-f3c7-4a71-bbc5-3da6b0937722.pdf",
+                  "title": "Atmosphere 01  classnotes"
+                }
+              ]
+            },
+            "Cyclone": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c3641b02-f1c1-4b77-8c4b-4e68f20afc86.pdf",
+                  "title": "Cyclone  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Cyclone 01 - Cyclone",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTMyZjg2MzctYmU3NC00MmU0LWE5MjYtYWFmNmIzZDM3ODcxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.T6Oxm-61EesfKB0pjNTnSRNQzMfzThQl8CgQbGGv8qE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Cyclone",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ac278402-8f5f-4dea-8df1-0d82fc14fafc.pdf",
+                  "title": "Cyclone 01 Class Notes"
+                }
+              ]
+            },
+            "Earthquake & Tsunami": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6ba4f54f-d792-4830-9f84-607fa8be23a4.pdf",
+                  "title": "Defence_DPP 1- - Earthquake- Tsunami"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Earthquake and Tsunami 01 - Earthquake and Tsunami",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmM1ODNhNWItODRiZS00NDlkLWE3NTEtNWYzYmRhZmM5MDgzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.s-QOkBkJenaL2jZNBarenZrU5brTr9mxo6E6wZQIc7c/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Earthquake & Tsunami",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/006c5163-e40a-4acf-9d6d-45e2f8338601.pdf",
+                  "title": "Earthquake and Tsunami 01  Class Notes"
+                }
+              ]
+            },
+            "Geomorphic Process": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6f2224fe-bf5f-4b5f-84ae-8210c3065f07.pdf",
+                  "title": "DPP 2 Geomorphic Process -Landforms"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d5a0c28-ee7f-4b36-952c-a56b373a0be2.pdf",
+                  "title": "DPP 1 Geomorphic Process - 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geomorphic Process 03 - Geomorphic process -3 - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmRkNDVlMmItZmY2Zi00ZWNhLWIzZDUtZTU4ZTUzMDU0ZWIzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.n5V8SXpcoeKqlsqACOaxbo-rUTsBPe1lS0xG7wRk6gg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geomorphic Process 02 - Geomorphic process -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWM3YzZjN2EtMDgzNC00MDgxLWJhMTctM2YyNTkxN2E0NjZmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.5zzCVgmklJluDV5FNXTCBiVyG92kE8-Yy3pgR1qct2A/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Geomorphic Process 01 - Geomorphic process -1",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDk3N2Q1OTctYmQ1MS00YzFiLTgzY2YtY2VhODZiZWY2MjY0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.iQgEnkzo875P8H56n35R58QbXvWvKhHgqNz3-5LzCDI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Geomorphic Process",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13b7b0c1-c984-4863-bbd4-7ce8c4e09dbc.pdf",
+                  "title": "Geomorphic Process 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/047d1670-209d-43f1-b96b-4504712cc881.pdf",
+                  "title": "Geomorphic Process 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8fadec3d-0ec3-4144-94f1-d1806c9a933b.pdf",
+                  "title": "Geomorphic process classnote"
+                }
+              ]
+            },
+            "Humidity Condensation and Precipitation": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7e133853-2b12-4b7e-993b-7862ac36cc04.pdf",
+                  "title": "Humidity Condensation and Precipitation  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Humidity Condensation and Precipitation 02 - Humidity Condensation and Precipitation - 2 - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODIzZGYzZTktMWI2Zi00ZDRmLWI4MGEtN2Q5OGEwM2ZhMGMzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ruJfPSj0Qqi71CnpGr6Fn0TDAQTOungdDf0geiyVQ3o/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Humidity Condensation and Precipitation 01 - Humidity Condensation and Precipitation - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTM5Mjg2ZTYtMjA1My00ZmI5LWFhZmItOTI5Zjg3NjFlNGFlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.x7fbjXx4NGmBTAoLLHmvjG2wVMMvBRwE1-2EGSH7T1M/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Humidity Condensation and Precipitation",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5df32784-f82c-4dce-9304-3fcc48513235.pdf",
+                  "title": "Humidity Condensation and Precipitation 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f62804a-506b-4e19-a7b5-1fc1a5ff0a40.pdf",
+                  "title": "Humidity Condensation and Precipitation classnotes"
+                }
+              ]
+            },
+            "Insolation & Temperature": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/231372bb-a15f-480b-856f-d88205546ca7.pdf",
+                  "title": "Defence_DPP 1- - Insolation and Temperature"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Insolation and Temperature 02 - Insolation and Temperature -2 - Recorded Extra Lecture - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmY0MjE1MWYtMjhlNi00ODg2LTk2OWUtMjkzZTA2NDVmYTJjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.aEAl-7YQJS_9vfL1T4jOvAR--bkUfp2vFhEX09LkgFE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Insolation and Temperature 01 - Insolation and Temperature",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjZiZGI1OTItNGIwYS00OGNlLWI2OTgtNzg5ZTZiMGFlNjEyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4O8TdrOe627pDMR5QAKRtr5qIodS_pkEdRZYPQ0jXqU/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Insolation & Temperature",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b003133b-583c-4792-9760-c9550e35da77.pdf",
+                  "title": "Insolation and Temperature 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13d9329a-4c70-4a68-9128-ede1021b84cc.pdf",
+                  "title": "Insolation and Temperature  01 classnotes"
+                }
+              ]
+            },
+            "Interior of the earth and Continent Formation": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8fb4edc2-a637-4c3b-a25d-809110343cc6.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Interior of the Earth and Continent Formation"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Interior of the earth and Continent Formation 01 - Interior of the earth and Continent Formation - Rescheduled @3-45 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGI4ZGEwOTQtMjhmYy00ODRkLTg0ZTAtNTVmYzk0N2VlY2ZkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4qnWE4qqpAdN4Xui2MHz18bYW2bD2OfH3o4sJXhfD68/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Interior of the earth and Continent Formation",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d1c91972-eed1-43bb-ae32-c16667cb1fd9.pdf",
+                  "title": "Interior of the earth and Continent Formation 01 classnotes"
+                }
+              ]
+            },
+            "Latitude and Longitude": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9aa04a55-67bc-4f76-8e2b-4c529bea66bf.pdf",
+                  "title": "DPP 1- Latitude and Longitude "
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Latitude and Longitude 02 - Latitude and Longitude -Part 2- - Extra Lecture - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWZkZTI3MjYtYTE0OC00YjBjLWI2ZDMtNzBjNGFjNzVlMmRhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.aqhz_2HLJUU7P5oLfhTF_KUCx3sBp0JKZBxcWjLdSTA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Latitude and Longitude 01 - Latitude and Longitude",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWJlMDFhM2ItNDJmMi00MjY0LWIxNjQtOTQzNTg1ZTUwMjU5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.j5OyVbdmiIaVgzwZLpfU_wbTDKHI3SVUGR-rChzK6Do/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Latitude and Longitude",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4a06d44e-fd8e-4a76-bd25-0851db442ff4.pdf",
+                  "title": "Latitude and Longitude 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8cfee46f-dfe8-4876-9122-2a417b4722f6.pdf",
+                  "title": "Latitude and Longitude 01  Class Notes"
+                }
+              ]
+            },
+            "Mountain Plateau and Plains": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5d029e12-4a42-46bc-8054-fe0b1075c2ca.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Mountain- Plateau and Plains"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mountain Plateau and Plains 01 - Mountain Plateau and Plains",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmRmZTcyM2UtMzdkMC00OGI0LWFlMjktZjE4ZjA3ZjZhNmY3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.mfm3UPLvOlA9Jtc4N6tiKISZ963dHRyDuHCSut9yuk8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Mountain Plateau and Plains",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c9dd8aad-b90f-4f40-985e-70fed14056a9.pdf",
+                  "title": "Mountain Plateau and Plains 01 Class Notes"
+                }
+              ]
+            },
+            "Physiography of India": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/aaa7cfe6-b9ff-496f-af3e-263c0d4a6301.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Physiography of India"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Physiography of India 03 - Physiography of India -3",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWEwNDRmNWYtZWFlNi00MTE5LWE2NWItMjRlMzAxN2YyOWVjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.385_dO1rZ9L9T-fZpJN_593EYw-ScNGL2W18K-HLnek/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Physiography of India 02 - Physiography of India -2 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTA5NTg3NmEtZjA2MC00ZDM0LWE4ODYtMzQ0NjI1NWJiZDM4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.vPew7oIJz1oAepAaUpcnE-mpVqbySH-p4kD12aj_y2w/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Physiography of India 01 - Physiography of India -1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWVjYzU1ZjgtNDI4OC00MTRhLWEzZjMtNjYzOTFkMmY0NWMzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.UAOXkX2dNamNbmyZNANlP33WMu_pU3szJ__CvLLh9_I/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Physiography of India",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f5395cd0-06ca-4260-949f-69d966187d1e.pdf",
+                  "title": "Physiography of India 03  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4eeedafc-db0e-43f7-8e46-aee16d69a99e.pdf",
+                  "title": "Physiography of India 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/14ac8f0d-abd9-45e9-990c-0ef4d92359fa.pdf",
+                  "title": "Physiography of India  01 Class Notes"
+                }
+              ]
+            },
+            "Post Continental drift and Plate Teactonic theory": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/af3f67b9-f946-4f7b-9cc6-c72e6d7ea63b.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Post Continental Drift and  Plate Tectonic Theory"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Post Continental drift and Plate Tectonic theory 01 - Post Continental drift and Plate Tectonic theory",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWRhNmZhNmQtMTYzMy00NWZlLThkMTUtN2FlMDFjZTVlZGEwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.yLrJLNPc-y75vIRRphxCd_jdBoyguf2DY0SEqNThagk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Post Continental drift and Plate Teactonic theory",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9d7d6040-d066-47a3-a28d-29cb1842f30c.pdf",
+                  "title": "Post Continental drift and Plate Tectonic theory 01  Class Notes"
+                }
+              ]
+            },
+            "Pressure Belts Winds": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bf32db9d-dd72-4147-b4d6-984f396a14de.pdf",
+                  "title": "Defence_DPP 1-  Pressure Belts- Winds"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pressure Belts Winds 02 - Pressure Belts Winds -2 - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjhhZmZmMTYtMjhiZC00N2Y1LTliNjYtNjQyMWM0ZjNkMGE4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.RN6tqpw_qRF8rs5_NlEOCGCDInecmMbM3ZxTenwRins/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Pressure Belts Winds 01 - Pressure Belts Winds - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTA1Mzk0NmUtNzRmZi00NWFhLWI2MzEtMDFkMTE5Yzk2NjVjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.86lTSCqDYhnRP3p3iBuQa35q4HunxdTvJYF7KJH2x-c/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Pressure Belts Winds",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9ed303be-9f96-4ce7-b992-6590ac1c3121.pdf",
+                  "title": "Pressure Belts Winds 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fc1c940f-7c8a-4d88-870d-d6d8920fb8c7.pdf",
+                  "title": "Pressure Belts Winds  01 classnotes"
+                }
+              ]
+            },
+            "Solar System": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f177dcdc-8df9-4ad2-89d2-61ada3b18f82.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Solar System"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solar System 02 - Solar System -Part - 2- - Extra Lecture - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTYyMzAxNWMtNTBlMy00MmNhLWJlYzQtNGYyN2EwNTEzNjZiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4qnzwL-NhCC5Ndi9ZSuIqhQ5WHeerqtPgr2XNzxKALE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Solar System 01 - Solar System",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjZjYThhM2UtNDBmNi00ZDQyLTk3MjktZjI0YzFjM2ZlYWM1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.XL3Y89FSNPFWJ9xq2pFmPqGD8MnjX0nsBacEu-rG7N8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Solar System",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4544aafb-fa1a-4f98-9389-b0cb92b388c0.pdf",
+                  "title": "Solar System 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6bfabede-7056-4597-a675-dded5f031e8e.pdf",
+                  "title": "Solar System 01  Class Notes"
+                }
+              ]
+            },
+            "Universe and Cosmology": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a797b04a-6ec7-4e8d-9da4-dfe0c2b216df.pdf",
+                  "title": "Defence_DPP 1- NDA -II- Shaurya 2025 - Universe and Cosmology- Solar System - 1"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Universe and Cosmology 01 - Universe and cosmology",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzhjN2IwZmYtZmUzYy00NmY3LTk0MjAtM2VmMzE1ZDhmNDNiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.mfEvPhgULd07H5x_jGRTm1ZxtfrsoSDBUx7DiUYvYCo/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Universe and Cosmology",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f988c28f-5946-4a43-aa6f-6ab71de329f5.pdf",
+                  "title": "Universe and Cosmology 01  Class Notes"
+                }
+              ]
+            },
+            "Volcano": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9cba6803-f78c-42c8-91cb-316d91292046.pdf",
+                  "title": "Defence_DPP 1-  Volcano"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Volcano 02 - Volcano -Part 2- - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTY3OGRlYjktZTRlYS00ZTY5LWJmMjMtNzk4NzAzNTM0N2FjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.JGQ2kW8n7cgJ2iXF3vQCyKUEyFjtF7tjqjWXFz_sv3M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Volcano 01 - Volcano - Rescheduled @5-05 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTJkMDNmOGEtNDQ2YS00NjFkLTlmZWQtZmQ3MDMxMzU4YjgyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.F-8i8VEVdliKAQq6kFwvhRAA7wBbMBkh6zjBjAzM0AY/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Volcano",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/52bdb503-fa25-48d1-828d-d8c3570565cc.pdf",
+                  "title": "Volcano 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c6742d83-5521-498e-b406-4713e23bb408.pdf",
+                  "title": "Volcano 01  Class Notes"
+                }
+              ]
+            },
+            "World climatic region": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6eb97062-49ca-466b-87bf-7093829dc9b7.pdf",
+                  "title": "World Climatic Region  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "World Climatic Region 02 - World Climatic Region -2 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjhhMjY4NDMtODQwYi00ZTZlLWI0NGQtNGU1OWJmNTVmNjkwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.iPvMDwPrdY7Q08AGiD88bqvWrCcKEYtBWaMyDa472cY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "World Climatic Region 01 - World Climatic Region-1",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGRiY2MyNGYtMjBlNC00OTExLTlhZWMtN2QyMWVjOTk0YzQ5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.xiE_1mv-SnyFyU3gBZuSyQxW_L9jDgKQVo0C25lcrJw/hls/720/main.m3u8"
+                }
+              ],
+              "name": "World climatic region",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/722d9c67-96db-4c38-b79f-6f680cfe378e.pdf",
+                  "title": "World Climatic Region 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/34e5759d-540f-41cd-97e5-27ad15a31bd6.pdf",
+                  "title": "World Climatic Region 01 Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "History": {
+          "name": "History",
+          "topics": {
+            "Establishment of Sultanate": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Establishment of Sultanate 01 - Establishment of Sultanate -1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmU1MTgzZjctM2RiYS00NzI2LTgxZWEtZjA4NjY1OTU0YTllIiwiZXhwIjoxNzQ4NTkxNjcwfQ.cT9S49MWyjWT-5hVx3bIvwJUbeDF_r2aATya42AlCME/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Establishment of Sultanate",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cf77c21e-8d46-4032-9170-7e6fc63435a2.pdf",
+                  "title": "Establishment of Sultanate 01 _ Class Notes"
+                }
+              ]
+            },
+            "Gupta Empire": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e2b269f5-530f-4448-9543-dc683cbe273c.pdf",
+                  "title": "Gupta Empire DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Gupta Empire 02 - Gupta Empire -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzViOGE5ZGItM2UyOS00MjhhLWE2OWMtMmUwMmU1ZjBmODFmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.mJpEB7v3px5xYyJ_cUCPXrRMGt3iBccNjvakkcFa4xc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Gupta Empire 01 - Gupta Empire -1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmU3YTY3Y2ItNWNkMy00YTg0LWI2ZDItMjY1YjgyNWFlODZmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Eay2_M8eWUkDTh3ZLS53KuSwNdPuCU6cCHkCGA6rx_M/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Gupta Empire",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/aa2826d4-9006-4ded-a173-a9fc43cfe7e0.pdf",
+                  "title": "Gupta Empire 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6094c581-3993-402d-a903-9112440466f5.pdf",
+                  "title": "Gupta Empire 01 _ Class Notes"
+                }
+              ]
+            },
+            "Indus Valley Civilization": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2f164b44-89bf-4224-93a6-9f2f296d6892.pdf",
+                  "title": "Indus Valley Civilization"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Indus Valley Civilization 02 -  Indus Valley Civilization - 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmRjODllMjMtMjFjOC00YjE4LTg5NDYtZjFkMWEyZWFlN2YxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Qx4s-BrqhTQsJytOy2OYrcrKxsrdsHKCFvp3Unfwfys/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Indus Valley Civilization 01 -  Indus Valley Civilization - 1  - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzhhYTY2NGUtNTg3Yy00MzVjLTgyZTUtYTIyMmQ4ODBiZDViIiwiZXhwIjoxNzQ4NTkxNjcwfQ.uf0OqFbbKmNK1v7xZyBc_yigeiyeHECQA1Wm8H1Kvhc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Indus Valley Civilization",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8d7a2ef4-4393-46b9-bc28-d51731221829.pdf",
+                  "title": "Indus Valley Civilization 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/851e24cb-bb2d-40ec-a3a4-d03c68ea8f04.pdf",
+                  "title": "Indus Valley Civilization 01 _ Class Notes"
+                }
+              ]
+            },
+            "Mahajanpadas & Foreign Invasions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cb5b4e23-f0c8-4090-b97a-dafb156deb92.pdf",
+                  "title": "Mahajanpada and Foreign Invasion"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mahajanpadas and foreign invasion 02 - Mahajanpadas and foreign invasion -Part 2- - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODVlYTYxZDktZGNkNC00ZmFkLTk5Y2ItMzgwZWQ4YjU0MWZkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.UMXsdjucjWd8AFXsUxdl7T-XkheR7GHIje6_A57BL08/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mahajanpadas and Foreign Invasions 01 - Mahajanpadas and Foreign Invasions - Recorded - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDZhOGU5YzYtZWRlYy00YTA1LTg0MGQtNjY3MTFlNjRhOWE1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.hLrHqYCNjKe3qEhCMMXrkBfChccn_nDJYWo9DQkcna4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Mahajanpadas & Foreign Invasions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5b1f3f32-a79e-4494-a4ff-e2985716debc.pdf",
+                  "title": "Mahajanpadas and foreign invasion 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/73afa658-368a-4cc7-98b9-6102582c79a5.pdf",
+                  "title": "Mahajanpadas and Foreign Invasions 01 CLASSNOTES"
+                }
+              ]
+            },
+            "Mauryan Empire": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ed86d41-5e58-47ff-9e6f-9381bcb3cd2f.pdf",
+                  "title": "Mauryan Empire"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mauryan Empire 03  - Mauryan Empire -3 - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGNjZjQxZTctMWZhZC00ZGIwLWFjZjktMWYyNWRhYmRmZGI5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.c6MTZN0Zz4xTXiejXjZkJKuhHRX56k1qg6O9yoRulXQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mauryan Empire 02  - Mauryan Empire -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiY2M4MDZmZDMtYWYxYi00ODU4LThmM2QtZWMwNmM4NzRkMThmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.jQMYF_W5eFGAxsHCNk2A1V6av3Uw3-i4sMdTWjt0GIc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Mauryan Empire 01  - Mauryan Empire - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjg3MmJhMjQtNzE2ZC00YzQ4LTkyZjYtNzhkMDJlNGYwZDU2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.hazn6Bcezo4KNvhkeTL8TLe6rLxcRh_AhDpsJI4rr2k/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Mauryan Empire",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cc36fb7e-7786-4a41-90c0-443ae1cb687e.pdf",
+                  "title": "Mauryan Empire 03 class notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bfc46563-0d94-4666-9082-097431222252.pdf",
+                  "title": "Mauryan Empire 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/55e6152d-d3bd-4da7-9bff-9cc8eaf82025.pdf",
+                  "title": "Mauryan Empire 01  _ Class Notes"
+                }
+              ]
+            },
+            "Origin of Human": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/01fd84cc-2ff0-423e-9519-bd02e402916b.pdf",
+                  "title": "NDA Shaurya II Origin of Humans"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Origin of Human 01 - Origin of Human - Rescheduled @3-40 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTAwN2VlODUtYTFkOC00MTA3LWE0ZDctZDUyNmJiZGIxMzBlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.of_7aheC1j-wAS7nRsocNbrU92u-_hyzsH0bvWJTj7E/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Origin of Human",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3dba4533-6721-46ec-a7ee-f7ad8c36ea22.pdf",
+                  "title": "Origin of Human 01 _ Class Notes"
+                }
+              ]
+            },
+            "Post Gupta age": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/de7b3236-77a3-4ae8-8fe5-35a6ed3e37c9.pdf",
+                  "title": "Post Gupta Age  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Post Gupta age 02 - Post Gupta Age -2 - Recorded",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmNhZjNiZjQtNWE2My00OWQ2LWEzZjYtMDkxNTg3MzdlYTQ5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.iMJUZmf3yhWmfua2ctevpovCrcv16cG5cqs9-rP4LWk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Post Gupta age 01 - Post Gupta Age -1 - NO MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTk3MTEyZGQtY2I1Ny00ZDM4LWI5YmMtMGY4MDAyOTNjZjk5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.AhuOBVXCrbYExQswBKpTUqhEb_Mb9ijjBcAMs6Rm-IQ/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Post Gupta age",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c25e6503-40f7-4f77-9c30-4982791d2b6b.pdf",
+                  "title": "Post Gupta age 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e263b5c7-7a27-4f58-b42b-36825c4ec95b.pdf",
+                  "title": "Post Gupta age 01 Class Notes"
+                }
+              ]
+            },
+            "Post Mauryan Age": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2496d0ff-0fe5-4339-813a-35a3a4571a05.pdf",
+                  "title": "Post Mauryan Age  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Post Mauryan Age 02 - Post Mauryan Age -2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTU5OTU5YTItNDM1ZS00NTEzLWIwNTYtMDdjOTY3NmQ2ZDhlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.OkLozc6aucE6ktaUPx5Hf2ncD0OWohlytYOR3nmdB5M/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Post Mauryan Age 01 - Post Mauryan Age -1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGFlZjFiODEtNTc4Ny00Njg0LTgzMTMtYjFmOWU4ZTVlNTJlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.-eyHV7G8Uww5vWXHABEQguCsV7Vg1QsBd9rsBVJYvug/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Post Mauryan Age",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fdfa966c-c27e-42f3-a9d1-63ba27296698.pdf",
+                  "title": "Post Mauryan Age 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bb59ff16-3307-466f-834f-02df0bf89cda.pdf",
+                  "title": "Post Mauryan Age 01 _ Class Notes"
+                }
+              ]
+            },
+            "Rajput Period": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6434d27f-b639-49af-a6fa-ba302c97b9c5.pdf",
+                  "title": "Rajput period 01  DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Rajput Period 02 - Rajput Period -2 - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjA0Njg5NWEtYjg5OC00MWE4LTg2NDAtYTVmYjUwYmMxNTg2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.Q0VLnBAOert5aaGxmWx1e_D3Um6kwcGFAOrc8fE4kQQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Rajput Period 01 - Rajput Period - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMmY2MzY2ZjUtNmFlYS00MDRmLWJkYTQtZjQ0NWUzMjUyZWU1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.C6pbscACGP-BB8DkR7SbM73pHnmcFd4F0UdIPP5hemc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Rajput Period",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e48fccf8-f4b1-47e3-b616-ea9666adde2e.pdf",
+                  "title": "Rajput Period 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/25dc2f76-f249-49ae-971f-bf2f4a7623be.pdf",
+                  "title": "Rajput period 01 _ Class Notes"
+                }
+              ]
+            },
+            "Religious Movement": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/893ee7b4-8b5b-4a06-b80d-b23c1aaf1379.pdf",
+                  "title": "NDA -II- Shaurya 2025 Religious Movement"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Religious Movement 02 - Religious Movement -2 - Extra lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjRjYjgxNWQtYjAxOS00NzZiLThlOTEtMTk0OTRiMjlhNjE2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.qjdpbjnTf5gMH7mepZj9Fj-x2JQMCu44-p7RPgc3N6k/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Religious Movement 01 - Religious Movement - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWVhZmJjNjgtYjI3OC00ZGQ4LWI5NTAtZGUxMDY2N2M4MGVkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4IIXlKJeY0PWqDaullEyNrfjz260qfdaHkiH_Nc-Pbs/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Religious Movement",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f0387f97-6a4b-44e3-a123-37c6ce33429b.pdf",
+                  "title": "Religious Movement 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0eeeafc9-fbb5-45b9-836e-7823804cbbd8.pdf",
+                  "title": "Religious Movement 01 _ Class Notes"
+                }
+              ]
+            },
+            "Sangam Era and Chola Empire": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ed1b013-fea5-4309-b326-8530367facc6.pdf",
+                  "title": "Sangam Era and Chola Empire  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sangam Era and Chola Empire 01 - Sangam Era and Chola Empire - Recorded",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmJlYjYyOGUtNmE5MS00MGQ2LThlMjMtZTM1MzQzNjI1NDBkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.LUF4XpCq3g5VDBIFLJ9233uOpEGpzUtkN2Qq3qBJGYg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Sangam Era and Chola Empire",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8a001e83-7dda-4902-b4ac-043c78ec9740.pdf",
+                  "title": "Sangam Era and Chola Empire 01  Class Notes"
+                }
+              ]
+            },
+            "Vedic Civilization": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/412dad5f-7672-4ece-a661-5cccd61c64d6.pdf",
+                  "title": "Vedic Civilization NDA -II- Shaurya 2025"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Vedic Civilization 02 - Vedic Civilization -2 - Rescheduled @6-00 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTg5NjY5ZmUtNjlkYy00Nzk1LWIwMTItMDBmNjhmYjk4NjIzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.O6NuTP8VGXAQUrKq6mTZD4IKnjHnTbQ9xsmwy-b7eZM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Vedic Civilization 01 - Vedic Civilization -1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmE3YjcxMGYtZDVlMi00YWQzLThiYWYtZjQ4ZWMzNDliMDkzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.nIbMdlf9uKD8df16u4IJ8sZe5iCMBiPLj1ZRTEt_Aww/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Vedic Civilization",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4caa0a04-e3d7-4168-8c81-90cd7ae079cb.pdf",
+                  "title": "Vedic Civilization 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/00d7c865-4825-4896-a993-3ea9cf5d36dc.pdf",
+                  "title": "Vedic Civilization 01 _ Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "Maths": {
+          "name": "Maths",
+          "topics": {
+            "Basic maths": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b1910556-89fb-431d-aa5c-9e43f0c984ec.pdf",
+                  "title": "Basic Maths  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Basic Maths 03 - Inequalities- Wavy Curve Method",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTRmNThhMGEtYWMzYi00MjZiLTgzMTUtOWZiZGY0NzhhODE2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.Q0mrVUQiyU8OsDZiKtu8JkwaKHz5_aEcRBvAmcfG6tY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Basic Maths 02 - HCF and LCM - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTkwNmNkOGMtMWU4ZS00ZjIzLWJhZjMtYzY2NDllMDMwYzI2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.n9GrUAvRhfIhZw2BQJp5dZRrC7ug8VqfUrlI5ivnAUg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Basic Maths 01 - Basic Algebra and Exponents and Strategy Discussion  - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDYyMTZiODMtOGU4YS00YjkyLWJmM2UtNTY4ZjU4ZmFhYWVkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Xrn9gFtN1C7SvEmJNB6PffZlOYt4Y8MeR5BnpvGDes4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Basic maths",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/aee07565-f821-427e-9935-aa0263c44cf1.pdf",
+                  "title": "Basic Maths 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/90999725-a2de-402e-875c-13e27715ee9e.pdf",
+                  "title": "Basic Maths 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/733b8e19-5a5d-4227-bc64-db2b068e3427.pdf",
+                  "title": "Basic Maths 01 _ Class Notes"
+                }
+              ]
+            },
+            "Binomial Theorem": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e31d2443-0395-4830-90c9-0bd332ed0d3d.pdf",
+                  "title": "Binomial Theorem  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/daa9da1a-0377-4b65-bbe3-4632dfb07cec.pdf",
+                  "title": "Binomial Theorem  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f28464ff-3e22-43c9-bad2-f5b74c5f4bbe.pdf",
+                  "title": "Binomial Theorem  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Binomial Theorem 04 - Binomial Series and Remainder Theorem  - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjRiMWI2MjMtM2RkOC00MDFmLThhOWQtZjAxYWMyNDJkZjQxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.avEmaEWp-i_CWzL-5sXQ0yPrPtg2rEWfgFFyd7KBQq8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Binomial Theorem 03 - Largest Term- Binomial Series- PYQs",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGIzMWI5NjEtOWY5YS00MGEyLWI2NjgtYTU2ZWRjYjUwOGVlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.tG0pwUrCK_aPu5cVEiEhkyuMpO_lyRVhpnVhpiYzqIY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Binomial Theorem 02 - Term from end - middle term. absolute term - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTE4MTNjZjgtMTczMS00OTI2LTkyYTItMWI3MDQ0OTI3YmYzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.SyxQ9K2vSNPBgu2n-KJUYz5n6RkZ44ki1PSnl4DfF1A/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Binomial Theorem 01 - Binomial Expansion- Number of Terms- General Terms",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjA2Mzg0MGMtNGRmZC00NmU4LTk1MDQtNjQxZDQxYjcyMzg2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.1a6fUH23i_GkUJ9Bm80V1sx6-zUa_6UiAS30ohbzya0/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Binomial Theorem",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c8777e24-c63c-4a1b-a9ce-9156c6e39247.pdf",
+                  "title": "Binomial Theorem 04 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/41c9ddf7-7494-4d66-98a1-13b7f3e01dee.pdf",
+                  "title": "Binomial Theorem 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/05eafdc4-aa46-45a5-9830-a070cbaf7f0a.pdf",
+                  "title": "Binomial Theorem 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9530e924-5b01-4236-bf85-12d50d2ae77c.pdf",
+                  "title": "Binomial Theorem 01 _ Class Notes"
+                }
+              ]
+            },
+            "Complex Numbers": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a9539e07-223b-4fb2-8697-602e2a8e29d6.pdf",
+                  "title": "Complex Numbers _ DPP 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e57e8de1-4b46-428f-b1ee-1e2cf6e4ed81.pdf",
+                  "title": "Complex Numbers  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d3a24601-efe5-46c3-a833-ce830139d99f.pdf",
+                  "title": "Complex Numbers  DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f312d3a-224e-497e-9e6c-6291ecd347d5.pdf",
+                  "title": "Complex Numbers  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 06 - Practice question - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTFhYjAwZGEtMTA3Yy00ZWJiLWE1MGEtMWFmYTAzMTJjNDkyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ftDkkFU-ucchDpDTFX9Vu3W8VWvgez0xfL9HLdYt0co/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 05 - Locus- PYQ - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiM2FmNmU0OWYtYTM3Yy00NGQxLWFjZTAtNTFjYTc0NWE1MDkxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.FAte2yp2PDh3fGvfRuzcM1Cs4lW0FWdsoSCX5PBEeHg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 04 - Maximum- Minimum locus",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWRiNjIwNDMtNWY5Ny00MDVmLTgyYjEtMjU5MDc1MWI1NTMyIiwiZXhwIjoxNzQ4NTkxNjcwfQ._mV24nvM1c_UA1bnRa-KljbAM6CcH4HsvJrfA0ANMeQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 03 - Eulerian form- square root- cube root of unity - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTFiMTA1NTAtM2Q3OS00M2FiLWExZmItYjhjZGE2ZDc0MTVlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.NdlgUB60QIqyk8LqNZ6dhm2QQj2OoPSd98IeUgwb2l8/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 02 - Conjugate and modulus- amplitude - polar form",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGFkMGNkZDQtM2MyMC00NjQ4LWExMWMtZTJiYWUzOThlMDZiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.fa_J60w1atBNFxh6ODHLy29efnPl7hySWeO-cWkhlLc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Complex Numbers 01 - Imaginary Number- Power of iota- Basics of complex",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzdkZTU3OWQtNjhiZC00NTc0LWJkNGEtMjkwMmFkNzhlODQzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.gMJLgQm3OYcMVAclxJJ7Vhqf0wVuXJUkqs9HI3a8Z-A/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Complex Numbers",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d2cc1166-6cc6-4c86-b319-626b39ba3f40.pdf",
+                  "title": "Complex Numbers 06 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/efc83b75-1832-4c3f-846f-5708b28ac8f5.pdf",
+                  "title": "Complex Numbers 05 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1b8a6d32-6c26-474f-957d-c6a89f6d5ee6.pdf",
+                  "title": "Complex Numbers 04  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/78baed32-892b-45e5-b934-0d4a533e9279.pdf",
+                  "title": "Complex Numbers 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7b46d9a4-13dd-484e-9f6d-835907dc80cc.pdf",
+                  "title": "Complex Numbers 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b8ab6958-a2c8-401b-85d1-33741fa2bc12.pdf",
+                  "title": "Complex Numbers 01 _ Class Notes"
+                }
+              ]
+            },
+            "Inverse Trigonomteric Functions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a695d17f-0365-4c55-806a-350d271eac60.pdf",
+                  "title": "Inverse Trigonomteric Functions  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Inverse Trigonomteric Functions 02 - Properties - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTZhOTQ4N2UtNzk1YS00ODM1LWEwMDItODkyZjUyMzE5ZDVlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.XAQrRm9k0geUwx5pNutHjY2uHTYEZzKzHD5gqBLLsMs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Inverse Trigonomteric Functions 01 - Basics formula",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzY2ZTA5MzQtZDg3YS00NWViLWE5NDMtMzNkZjFjMDI1MzE0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.zrJ_RcqibhgWpLjXwApe_uXo0YnCI_4oRsomL3mNEgI/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Inverse Trigonomteric Functions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3c2491b9-75fb-498b-9828-d51d5326835a.pdf",
+                  "title": "Inverse Trigonomteric Functions 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ba5ea96f-09b7-43b7-8829-a8a4301454ec.pdf",
+                  "title": "Inverse Trigonomteric Functions classnotes"
+                }
+              ]
+            },
+            "Logarithm": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0b832488-8057-4574-ac1a-03a29947549f.pdf",
+                  "title": "Logarithm_DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Logarithm 02 - MIQ and PIQ - No MCQ Quiz - Recorded - Rescheduled @7-30 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjlmOTcwNjAtNmY4YS00ZjNhLWFmYTktMGMzZGNlYzg0MTVmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.dU2oB0uYevcRWt77Rm84mtRTsgOlYfa52GVaEaUCMfg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Logarithm 01 - Basics and Important Properties",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmJlZGE3MDktYzI5YS00ZDJkLWJkNDYtNGNhZmRjYjAyOTJlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.l8XZIdyLynVqyOH8WuuIrAGir5QcAjaXp0fuWdr6kzY/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Logarithm",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e6a24c3-9580-405e-aad3-cfc78d4def35.pdf",
+                  "title": "Logarithm 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/37c72558-e0ab-4f14-857c-56c8d69f1157.pdf",
+                  "title": "Logarithm 01 _ Class Notes"
+                }
+              ]
+            },
+            "Matrices and Determinants": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/cf859320-11e5-42e6-8794-783fd20d49ae.pdf",
+                  "title": "Matrices and Determinants  DPP 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/eab5aa6f-28d1-4eaa-97a0-69f07c525b6b.pdf",
+                  "title": "Matrices and Determinants DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0be690b1-b6d0-41d8-b887-20d70cc7bd41.pdf",
+                  "title": "Matrices and Determinants  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/525ccbfb-92f3-45b5-9f76-20557cb874d0.pdf",
+                  "title": "Matrices and Determinants dpp 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices and Determinants 05 - Miscellaneous Question Practice 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2JmNGI5ZTgtNzczYy00NTJjLTkyY2EtOTFlYTlmMDQ4MTdmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Gb8t763lfhXU03emNw4tlkCMJZ48KzWE7FcKx_obyBk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices and Determinants 04 - Miscellaneous Question Practice 1 - NO MCQ Quiz - Recorded",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWJlNWZmOGYtYjdmNi00N2YyLWJlN2QtYTE4NWU2YjIxYjI4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.8bgyay5asjPgndYzk9HqWju4z5I2YDQq7Ofpp4rLdqo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices and Determinants 03 - Properties of determinant",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDdiNTZkZDUtMWE1OC00YzYwLTkxYzYtZDAzZGNkZmY5YjlhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.qRMmzPg_l3qRaVJoBPjpm81vWb6IDzY3_XDWydUVKB4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices and Determinants 02 - Minor cofactor- determinant",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzA0MTRmZWEtNGM5OS00NzNkLWE1YmUtOWQ3MWMxMjRjOWYyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.lnpzucWamzNmVyhCnr5DwJRnj2GCdqXxxmLN1awGFyw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Matrices and Determinants 01 - Basics of Matrices- Types- Operation",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzQxNjRiODMtMzYxZS00ZjEyLWIyM2ItNTBlMDkwYjE0MzYwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.HDYUoQ8hzIcCoC3wFMjNCKZSPDBBz8HO2uNjhnuJzHE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Matrices and Determinants",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5b5bb35d-28f9-42b8-a993-4ba10d287190.pdf",
+                  "title": "Matrices and Determinants 05 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/65a6af92-bba0-4f4f-8063-b5cc00efd262.pdf",
+                  "title": "Matrices and Determinants 04 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9fad20c2-1457-4842-ad30-371231bd56b9.pdf",
+                  "title": "Matrices and Determinants 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4430e13a-1e6f-413b-b666-bc55c57e03ed.pdf",
+                  "title": "Matrices and Determinants 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7cd71436-e7d8-481f-a48b-1fb889a2fb26.pdf",
+                  "title": "Matrices and Determinants 01 _ Class Notes"
+                }
+              ]
+            },
+            "Permutation and Combination": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/847c39a1-cde7-44d7-806d-1f1b6f288587.pdf",
+                  "title": "Permutation and Combination  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/63769fe4-0ff5-44b6-b435-0753303f1711.pdf",
+                  "title": "Permutation and Combination  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fd07ff26-8bf8-4080-98ac-d48ccd8185a2.pdf",
+                  "title": "Permutation and Combination 01  DPP"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Permutation and Combination 05 - Practice Question - Recorded - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzFmZGI5ZTgtNDBmOC00ZTlhLWEwNWItZDU4MjllNjRhN2RjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.eOXeM25J_0HejiZ5ts1DP_1oOjBo_X3KppLkSa3MXhI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Permutation and Combination 04 - Divisibility Rule- Divisor- Exponent of Prime",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZGEwZWQ1YWQtNDU1YS00NjYwLThiNGYtY2YxN2YwZTAzNWNkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.YJiJ4qyGdrUbXebeqCsmw2BLFU-K1uA7syzTMswaUrk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Permutation and Combination 03 - Combination- Group Formation - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzY1YzJjYWQtNjY4Ni00YjY2LWE1ZTgtMDUzMWJjYjA4NWE0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.IgrFZRec6nhCCtPUNoP8VaFRdCLokXl-AfcW3xt36xo/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Permutation and Combination 02 - Permutation- Dictionary - Rescchedule @5-40 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTViZGI2YTEtZGEyZS00MmM0LTgzM2MtNDdiMWU0OGI3MzU0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.0Ksc7s8mJM9kUzQM9-XoWrlEIPEPfAD6mV7b-UFgsek/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Permutation and Combination 01 - Factorial Notation- Principle of Counting - Recorded",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTk1NWNkODItOGEzZi00MmVhLWEyNzctMDBhNGFhY2IwN2EzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.CQkBG0UC7_GSet7yzb5CeSka4RklkTYv-q7EvcAX0Wk/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Permutation and Combination",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e6eb7a1-1abd-4e6d-aa26-5f6f362cc6d0.pdf",
+                  "title": "Permutation and Combination 05 Class Note"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a8243173-df61-4b6d-ba9d-3a5ea679a675.pdf",
+                  "title": "Permutation and Combination 04 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3ead14c3-9343-48eb-a0f4-7cc38990f85b.pdf",
+                  "title": "Permutation and Combination 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/973fd602-127d-4ede-add4-bacf1394897e.pdf",
+                  "title": "Permutation and Combination 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4c901f77-9f74-4644-97a1-4db2106b0b5f.pdf",
+                  "title": "Permutation and Combination 01  Class Notes"
+                }
+              ]
+            },
+            "Probability": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/84a8ac22-1682-4151-9578-250286610cab.pdf",
+                  "title": "Probability  DPP 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f50059c8-83b0-4403-ba9e-8ed18229e825.pdf",
+                  "title": "Probability  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/02f40d89-1c1a-4b57-960a-69caf7a05dfa.pdf",
+                  "title": "Probability  DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c9cbb002-8d5e-4898-81eb-ecbb1b1c01c3.pdf",
+                  "title": "Probability dpp 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Probability 05 -  Binomial distribution- random variables and doubts",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGZlOWM1MTgtYzRjNC00YmQwLWI4NzUtMjhlMzllZTU5MTNkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.wGONywHs7peMNf04K1yOJikjIgaE9-R63n57KX7hFgg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Probability 04 - Binomial theorem- Poisson distribution",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTIzZmU5MzQtYWE2MC00MDEwLTgwNmQtNDZiOTEyYTFmYzQwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.6ZeIDEYycimuMRn6RK-yxCBXs9DQA3hcRtEbDBN33sE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Probability 03 - Total Probability- Baye's theorem",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWU2YmU4MzMtNGI1ZS00OTU4LWE5ZjItMDg1NzhlMzk4M2M3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.HPHNrSjQjekguQH6Ohp6dwppbt21rc3-aPuTpYJSKcw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Probability 02 - Important Symbol and Conditional Probability - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTM3MmU2MDEtYWM1NC00OTQ4LThmYzktZmE2MDQzYjEwMTY4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.ijlu78uOWBi-wfF87jM9Q2ocr266jWSF2sF67plgDvg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Probability 01 - Basic Definition- Odds in Favour and Against",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTkxYzM0ZTktNGRmNi00NGMzLWJmMzItYjMwNDBkMWNmNTM1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.hK-_rR_E6YOx0mOoHrfEjCJ9q8xa1PPGoPocRGtkPcE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Probability",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/266391ec-0145-4120-abfd-626a3a50158a.pdf",
+                  "title": "Probability 05 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/994d1cbc-e715-4f96-a368-0bfa4c9be7dc.pdf",
+                  "title": "Probability 04 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d2c50dd3-5f51-47d0-879b-43f1cb848b3b.pdf",
+                  "title": "Probability 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f99ba6f1-1117-421e-bcb5-ec92af392e89.pdf",
+                  "title": "Probability 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/827106fc-59c2-4e91-bc57-539f3fa52b06.pdf",
+                  "title": "Probability 01 _ Class Notes"
+                }
+              ]
+            },
+            "Quadratic Equations": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a43cf392-6a1c-467b-9194-4d04d9d57754.pdf",
+                  "title": "DPP  _1742800902998"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d62449df-9eb8-4ad6-8181-e6e3f4c125e0.pdf",
+                  "title": "DPP  _1742629492427"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Quadratic Equation 04 - PYQ's and Doubts - NO MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiY2IwOTE5ZWItMzI0Ny00ODhkLTgxMmEtNjMyMTYyNWFkOTgxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.rQV9N4TG0RBq8yti5w3qL1LNbRA6W8RTiayem9czqXE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Quadratic Equations 03 - Miscellaneous question practice - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWZlZTk5ZWYtNjViZS00MjM2LTllNGYtODRlMjA5OGE2OTY4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.u6LXSP9OR-o3cFuHdt3BpTgW_JdYmPVBkB_5XJn_QFs/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Quadratic Equations 02 - Graph- Inequalities- Location of Roots",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWUwYWIzOGYtYTFhNy00ZThiLTkzYWItMjg2OTZkMzYxZDdiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.GJsDi2DrUiSOGWnIG8iRHGny_MeoaTaWI4_2fqaRaVc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Quadratic Equations 01 - Basics- Roots and Properties- Transformation - Rescheduled @3-30 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODI4Y2M2YmMtNmVkZS00ZGJhLWI0ZjctZjY4ZWQ0MmEyZDVhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.O6RJs6N3MmaL2bdLQapeodyXYwJWIKxiBmbUEnf3gxc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Quadratic Equations",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4f81c314-d27e-4e87-a04b-708b70fad535.pdf",
+                  "title": "Quadratic Equation 04  classnotes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/21c98bd9-eb4f-4ad7-abe0-ea4f235257d9.pdf",
+                  "title": "Quadratic Equations 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/62464e84-cb98-40e7-a6f4-840eb7fcfd69.pdf",
+                  "title": "Quadratic Equations 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/05f568f0-992d-4c82-9295-12af2abfada2.pdf",
+                  "title": "Quadratic Equations 01 _ Class Notes"
+                }
+              ]
+            },
+            "Sequence and Series": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2a92d82f-802d-4484-a619-9493cd86bc0b.pdf",
+                  "title": "Sequence and Series  DPP 3"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ce8dcb2a-0df0-42bb-a942-8603e5394e37.pdf",
+                  "title": "Sequence and Series  DPP 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a8bceadd-0288-485c-aedf-42139645a49a.pdf",
+                  "title": "Sequence and Series  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sequence and Series 05 - Miscellaneous question practice - Extra Lecture - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDZkNzgwYjEtYzI1NC00ODRjLWJiNTUtNjMzZjQ2ZmQ5ZTI4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.JCr2-h-UxRg3AwDar67t22ts0hfWwJluRnVqFbjt-ko/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sequence and Series 04 - Special Series 2- PYQs - Rescheduled @5-45 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGRlNjJjMzItYjBhNy00YTNkLWJhNDUtMjFmODVkN2I3YzhlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.iFFLGO2gZMH2SaJeu1LzWvGDkNpAHqgeWdrUyHtPufc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sequence and Series 03 - AGP- Result on Natural Number- Special Series - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTc5ZmZlOGYtZjQxNy00NjUyLWE4YjYtYzBjMDY3MGQxNjUyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ZrTnFQyFXduZSrurRhZvbXnlTBjHnFE29u4hLyC_xuk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sequence and Series 02 - GP and its Properties- HP",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmJjOThlNDAtNjk0Yi00YmY2LTkzMTYtZDFkNjZlYmFmNDA4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.ivMFmBM48nXipjsggui4zBtcXRnhQhLwJ6M6KsD0CZk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Sequence and Series 01 - Basic Definition- Ap and its properties",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDY5MjdhOTYtN2ZlOS00OGFkLTgzYTAtZWQwMzk0YjU5OTRkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Xd-3Y1uZjiDnn4Tzi6mhYzHGHKnZYDDAdeH-xjhQawo/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Sequence and Series",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7ad32019-9cdf-4f49-8f71-a040a9db430f.pdf",
+                  "title": "Sequence and Series 05  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/35d60382-5ba8-46f8-802e-1469fc970195.pdf",
+                  "title": "Sequence and Series 04 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b43842fb-5b29-4ec6-883e-b768950aa7c0.pdf",
+                  "title": "Sequence and Series 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/00efbf5f-0864-4e7d-8499-685e1febd1df.pdf",
+                  "title": "Sequence and Series 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9ff6a3c5-2236-4ad3-91b7-d0415aec1b03.pdf",
+                  "title": "Sequence and Series 01 _ Class Notes"
+                }
+              ]
+            },
+            "Set Theory": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4ec26a2a-ca8c-4b86-a626-9587002be38d.pdf",
+                  "title": "Set Theory 02  DPP"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0efd7efe-684a-4408-be9a-3aafaf282ab6.pdf",
+                  "title": "Set Theory dpp 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Set Theory 03 - PYQs and Doubts",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWNlMTdkNGQtYjY4OC00YjlmLWIyNzEtYTM5YzVlN2Q3YmM2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.qzdBPOFIbGS0FuPLbUY7CLIRubItNy3iSSGNi5HmJUk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Set Theory 02 - Types of Set - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWQ1YzdjODctOTI2NC00Nzc0LTkwYTMtYTliOGZkYzg3MTZjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.PiBjD9spCKrO-HaYk7Aqso_H5sT5w_1bFLhCJzwWVXU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Set Theory 01 - Basics- operation on sets",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjk5YWFlOTEtYjIxZi00ZThkLTlhZjgtM2IyZmY1MzVkYmRmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.andZJMCBO0uGycSV8B989lBT9EKlqujF2Mk2F0VXHBQ/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Set Theory",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d09e32d7-6de2-4818-a962-479ddef745f8.pdf",
+                  "title": "Set Theory 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9610715e-e88d-406f-9638-4911875afc02.pdf",
+                  "title": "Set Theory 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f2c5afda-1e12-4c83-aec1-b3e4867e0561.pdf",
+                  "title": "Set Theory 01 Class Notes"
+                }
+              ]
+            },
+            "Statistics": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fcde23fb-0f4a-474e-b129-ddd111a85603.pdf",
+                  "title": "Statistics  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0e3514aa-5906-4943-ac60-64ed3c1a13bf.pdf",
+                  "title": "Statistics  DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/17358d3c-3223-4131-8f8d-c4d5022e92b8.pdf",
+                  "title": "Statistics  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Statistics 04 - Miscellaneous Question Practice - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzU3NjFjOGEtOWJhYi00NWMwLWE4MmQtZmExZWI1NzllZDA2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.00IWNUx-vOtIValVzfzdGAcYfDNDZHD88_uMJ23xWFM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Statistics 03 - Correlation and Regressions",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODljOGI2ZGEtODNkMi00ODM1LWI2YWEtNTc4MjE5YWEyMGFiIiwiZXhwIjoxNzQ4NTkxNjcwfQ.GaV9jLL0k6GFQS2rvQ6AxtewgMQAMrmqxaOKChK7LWc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Statistics 02 - Measure of Dispersion",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzE2NTYzOTEtZWNmOC00MGEzLTg1ODktNmRkMjA0N2IwMmE3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.MBrNa5O5lU0INOZReu0K9ui6eGufoyukcMBvJlzkN08/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Statistics 01 - Measure of Central Tendencies",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjE4YzhjZTQtNzg3ZS00YjQ3LTk2NTUtOWVhZTU2MzljYWNkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.mJhJXl2xLusNqp38hEGLSx9Ih4dagg0Odo_Icdep3fc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Statistics",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d1ac95d6-364f-4e48-a310-ce89f1cb5885.pdf",
+                  "title": "Statistics 04 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/faa9d94f-0a5e-4b52-ad77-dcf699be207b.pdf",
+                  "title": "Statistics 03 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5205b528-37c8-44dc-b513-af00b865689c.pdf",
+                  "title": "Statistics 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/20991e08-8580-45e1-9022-1492ffd90944.pdf",
+                  "title": "Statistics 01 _ Class Notes"
+                }
+              ]
+            },
+            "Trigonometry": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/452df42f-94f0-4fb4-87cd-f6640120755a.pdf",
+                  "title": "Trigonometry  DPP 04"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5564067e-cd61-46f8-94f1-514887af5530.pdf",
+                  "title": "Trigonometry  DPP 03"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b91d95e2-a56f-4516-9bba-8dd525515cac.pdf",
+                  "title": "Trigonometry DPP 02"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/19e0abad-6c90-4b4b-ad6b-649357daa72f.pdf",
+                  "title": "Trigonometry DPP 02"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 06 - PYQs",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjcwYjZiOGEtNzk2OC00ZmJkLTk5YjAtMTA5YWIwZTMxODA0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.l2stDVA5yrjpwOd1o9TUdmw0iA6_5nJ3ZBcldtmQTDI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 05 - Trigonometric Equation 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmFkMDdkZjAtYTViMy00YmQyLTgxZWItOWZlY2NkNTcwZDA1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.FdceKno37gEdw-FPQX4_qKTmfYKp6BuIg7QjJ-ChV7A/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 04 - Trigonometric Equation 1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGIxOTE2ODMtMGMxZi00YzcwLWE4ODEtMTMxN2JhMzljMDZmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ROEUyJbfPkZH_8TjuT88Xz6UQ5uO6I_KE5bGO5h-fuI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 03 - Maximum Minimum - NO MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzNhZTgxZjUtYzY5OC00N2I3LWJmY2ItMzM0MjIyZTYzYTUwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.aSRMj8Xs80-6q-OYnYQANL1TvHlmjC5uhdrprkr6lSA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 02 - Graph Formula Conditional Identities",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZWZiMTJkMjUtN2IxNi00YjdmLTgzZWQtNGVhNTIxMDgzMmU5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.mBjNK_UnFi7nYjc5p5qOFIbnZQbSh6FQCuARBso9KMU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Trigonometry 01 - System of Measurement of Angles- Quadrants",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjM0MjE4MDQtMWQxNi00ODM0LTk1ODEtYzYwNzQ5NjM5Njk4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.lek1X9SUHGapJLWtxfcG7K8aIc2SDqzLBpAqGlBRZnE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Trigonometry",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/feceadd7-7d73-45b7-bc79-413e43e77d2e.pdf",
+                  "title": "Trigonometry 06 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5c47828a-8d16-4cbb-b0e6-5f69139ad831.pdf",
+                  "title": "Trigonometry 05  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/890a30c7-5eb9-47a7-8f52-b908857f0a03.pdf",
+                  "title": "Trigonometry 04  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9982514e-b466-4eb7-a3cf-b86dcaec2b8c.pdf",
+                  "title": "Trigonometry 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4e760226-cf52-4ab4-ab94-14d50616483b.pdf",
+                  "title": "Trigonometry 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c83fb11f-cab6-46ad-81b5-014307a88a34.pdf",
+                  "title": "Trigonometry 01 Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "Notices": {
+          "name": "Notices",
+          "topics": {
+            "Batch Demo Videos": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo lecture By Lokesh Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjE0NzEzNTgtMGQyMy00MGI0LWJjZmYtYjBjNjQ3YTdjNTFkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Hc1P5iWH1UwwxYFR_ab2j846ch6i6H2TxMSPpTSxjDE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Prathmesh Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2U5ODI3ZDUtNmIyMy00NmQ4LWI0NTUtODU5NTQwZjc5MTUwIiwiZXhwIjoxNzQ4NTkxNjcwfQ.wo-5gUqe5tmhAej3F2oqz63Q9zWsIWCWM5ErUudRe0o/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Vikrant Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTc0OTdlYmUtNTEyZS00ZGM0LWJjMzAtZmVlMTVlZjcwZGVjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.z82Kod-2WiC2oYAeC4wZqsSoVldTiQO2TOkMCVVFEjg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Soumya Ma'am",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmJhYTk5MDEtYjUwNC00NDlmLTllNTEtOTg4Y2RjN2Y3ZTZjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.yxjNmlzi0186MgsAcbtjYDWToCC4nGYhsc3jjpx3mkE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Rahul Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDg1NGE2N2QtODA2MS00MzM4LThhZjItYzE0ZTExZjMzY2FmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.otrXj9eB07u05kabPzBMac7r-xMC8mrs7gtpmcQJQ4U/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture by Deshraj Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmVlZjYxNjQtNjc4YS00NGRhLTg1ZTctZmIwYTRlYjVmZWQ5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.JrbW-0jIEjulo6KWoU2xS5j3g-Sa4S8TlGskdfzbqB0/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Vikrant Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYThiZDUxZjktNjQ3MS00NTc5LTkyYTMtZTUwYmZkNjNmM2RlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.EDqoxpWeNC3LO3LOG77fMam2v8Cq2qhKjHo8j9GS1Mk/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Danish Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTQ1NWIzMzMtNWU5OS00ZDFiLTgyYjQtZjBhMDJkZDU1ZWI0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.mLtQ_FCPIQrHkJmQ-1_aq0rJz5aTHCGv4QjOIIpINRU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Prathmesh Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzkxMWNkZTAtMDA0Zi00NWJhLWE3NWEtNjUzN2JkZGMyZGI4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.t8O0vRKZcLkWgmWyr1W6F-LZU-1hYJQkqTb2RIo3kds/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Demo Lecture By Raj Roshan Sir",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzkwYWUwMTctNDkyYS00NWQyLWFjYjgtNDUwOGEwZDA1NzgzIiwiZXhwIjoxNzQ4NTkxNjcwfQ.j9tto09UhNwnL0c3wSzEzzsafrGElcmOgTIg2fjHgJ4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Study Page - KT Video - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTNkMGQyYWQtZjc1My00ZTk3LTg3N2YtNjNjNzAxMGEwMWNlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.08L1gqXwv3HL5GzrdjcsFIObZ6GFGoeQAdsMYGtXqhY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update - Audio Mode - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzRhMmY2MzctMjg2OS00NjQzLTg0ZWYtZWY5MDBkZTg4NGRkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.poAWwJqufoFKLgez666VLH5zvqORNMMJgYy5q92ZCAE/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Update - Study Page -App- - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWFiODRkNjQtZmYxNC00ZDcyLTk2YjQtOWM1MTBiMjMyYTlhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.YGo3wL0jaAs3Ri59RfIhG8VA51OMFdXrzOetp4R84Js/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New feature update - Chat Template - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjU3ZmUwNDUtZDBhMC00NmFlLWFhMTYtOGE3MjIyMTEzNmI3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.HAdkg2FrvmcIsiyTMc9gG5m1eYhZEokNShV7LelkRIc/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update - New Quality Options in Video Player - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjRkOWFjNjctNjI5YS00ZWYxLWI0MTAtODYxM2IwMWM0OTVlIiwiZXhwIjoxNzQ4NTkxNjcwfQ.hkjI4EP_pigiTxUAUo5mcOr4U6EnFVMNpgI6zh1c5DI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "New Feature Update - Notes Feature in Video Player - -Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzhhZjNkZDEtZjRhOC00NGEzLTkxMTEtNWI0YzQwYzZjM2M1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.LR3647yCAI1NGQy_uQufXnneQ_LWouTWV9asx9nLbzU/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Batch Demo Videos"
+            },
+            "Class Schedule || (Only PDF)": {
+              "name": "Class Schedule || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b08c9d25-0594-495a-8fa6-f1db0577ff54.pdf",
+                  "title": "PostersSyllabus"
+                }
+              ]
+            },
+            "DW Social Media Links || (Only PDF)": {
+              "name": "DW Social Media Links || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/3f9cbacd-777e-4062-9ab7-f6557d62968b.pdf",
+                  "title": "NDA -II- Shaurya - 2025 _ DW Social Media Links"
+                }
+              ]
+            },
+            "Lecture Planner || (Only PDF)": {
+              "name": "Lecture Planner || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a46966f6-9b7a-4c74-893b-d539284d7c71.pdf",
+                  "title": "Copy of NDA -II- Shaurya 2025  - Economics"
+                }
+              ]
+            },
+            "Samvaad || (Only Video)": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Samvaad with Aasim Sir - Video Only",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjJiNjA5ZWYtNTE0Ny00NjZhLTg1ZDktNTRkM2ZmYTg0YTk2IiwiZXhwIjoxNzQ4NTkxNjcwfQ.vG3vL3cwnZ5m8Cn7Pz51IqW1GRMxYMlZOQw2h5bG18Y/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Samvaad || (Only Video)"
+            },
+            "Test Planner || (Only PDF)": {
+              "name": "Test Planner || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/122150da-fa7c-424f-a6f2-cc1495ad8789.pdf",
+                  "title": "NDA -II- Shaurya- 2025 _ Test Planner _ PDF Only"
+                }
+              ]
+            },
+            "Test Syllabus || (Only PDF)": {
+              "name": "Test Syllabus || (Only PDF)",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0bf7d340-8726-455b-a124-a82a3fc5941b.pdf",
+                  "title": "NDA -II- Shaurya 2025 Syllabus_Weekly Test 7"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/17c19076-549b-4d9b-854c-c2c09864ef99.pdf",
+                  "title": "Monthly Test 02 -Test Syllabus"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8c844650-6477-4e59-bb94-78c7c3831863.pdf",
+                  "title": "NDA -II- Shaurya 2025 Syllabus_Weekly Test 6"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/395e3b1f-a886-432c-b493-2d66de2e59f1.pdf",
+                  "title": "NDA -II- Shaurya 2025 Syllabus_Weekly Test 5"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/bd59f9c1-8274-40fb-8aca-37546877bb4a.pdf",
+                  "title": "NDA -II- Shaurya 2025_Weekly Test 4 -1"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2ff80898-120a-474e-a8af-9f9546ba7dec.pdf",
+                  "title": "NDA -II- Shaurya 2025 Syllabus_Monthly Test 1 -1"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/64256479-6036-4e23-9751-768a6d9420d2.pdf",
+                  "title": "NDA -II- Shaurya 2025_Weekly Test 3"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4bdb1c35-1cbc-41ce-9f49-6c75517a3320.pdf",
+                  "title": "NDA -II- Shaurya 2025_Weekly Test 2"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/498e9d10-ae87-4fe8-a021-72fb5821c8b3.pdf",
+                  "title": "NDA -II- Shaurya 2025 Syllabus_Weekly Test 1"
+                }
+              ]
+            }
+          }
+        },
+        "Physics": {
+          "name": "Physics",
+          "topics": {
+            "Gravitation": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a5ec5937-afb4-4a80-9a45-7a619192eea1.pdf",
+                  "title": "Gravitation DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Gravitation 03 - Gravitation -Part 3- - NO MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjFlNjc2ZDktOWM0Zi00MTFhLWE3MDItMjYzZGIwYjAwZThmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.1K3Rt0lX_j1bo6AWb8TQir5kMBcsbVXB44lSFiDRhdw/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Gravitation 02 - Gravitation -Part 2- - Extra Lecture - NO MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTYzODNkYjYtOTFkNy00NTcyLWE4ODktYTI1MDA2OTRmNmJkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.vrLefYJPHnlSMITvz2BEn9o0roIGOMd2HzXAkDz7GVY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Gravitation 01 - Gravitation",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjlhZmRiZTQtOTYwMi00MDQ0LWEwYTItMWUyMTI0Y2NhODU0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.AKLRohMwEIAelwysQY5SV6jRF5AIxCX0V82mvXbbJCg/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Gravitation",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7b14774d-82b4-44d2-b18b-2cbc93cb9c24.pdf",
+                  "title": "Gravitation 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1b5ba2b3-af61-46ae-bc36-37f006f5c039.pdf",
+                  "title": "Gravitation 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6514a336-b7b4-4995-bf1f-7db609d06195.pdf",
+                  "title": "Gravitation 01 classnotes"
+                }
+              ]
+            },
+            "Hydrodynamics": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/55dc0ccb-dd4f-4c05-a041-fa5a97eb1c36.pdf",
+                  "title": "Hydrodynamics DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Hydrodynamics 03 - Rotational motion and Hydrodynamics -Part 3- - NO MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjAzMGU0ZDQtY2Q2YS00MGNjLTkyZTctOGVjYmZlNWMxM2VkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.u9WpBDTccWnkgL5WswA3Ou3BxfLE1OvLqQ6sHBPndJg/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Hydrodynamics 02 - Properties of Fluid -2 - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWZjOGI0MGItMWVhMC00NWJjLTg0MTgtOWFkN2QyZTllNWI1IiwiZXhwIjoxNzQ4NTkxNjcwfQ.37tknVZr52iNHik0YUZxtGAzylwNMK6fMZwanSZCjfU/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Hydrodynamics 01 - Properties of Fluid Part-1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2UzNjJjOTUtY2NmNS00NmUzLWI0ZDEtZjhhNmY0NmQ1Y2JhIiwiZXhwIjoxNzQ4NTkxNjcwfQ.ToKzxOOe6Yep-ze3AB9ysxBuoHczbhrlzK-ICeE-aIA/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Hydrodynamics",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c3b1d2a4-c173-4f63-9579-0f34b5b7f28c.pdf",
+                  "title": "Hydrodynamics 03 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6bf2da7e-056b-4e8e-aac5-121eca8b675c.pdf",
+                  "title": "Hydrodynamics 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f63ce5c0-ef70-4dae-8552-7f8ef9f33bdd.pdf",
+                  "title": "Hydrodynamics "
+                }
+              ]
+            },
+            "Motion in 1D": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/45a5c0b4-19a6-4aaf-8710-55638d49cd9a.pdf",
+                  "title": "Motion in 1D DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Motion in 1D 02 - Motion in 1D -Part 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjAzYWU4OWYtNGM5ZC00MWU1LWJkOTQtMjFjNDM2Nzg0YWE3IiwiZXhwIjoxNzQ4NTkxNjcwfQ.3BE1mK1T37tG6amzl4r13BkJG5x13xcuibFKtHnjCTM/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Motion in 1D 01 - Motion in 1D - Part 1 - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTYwMzA4ZDUtZDYzOC00YmEyLWJhYzUtZmQyZjcxM2QzZGFmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.eLSxgTG3W0UA1Uw72nFh-YIU1Pysm5MpveeCgQnBAZc/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Motion in 1D",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9315f7af-cd36-4bc1-a8d9-76938973c7f5.pdf",
+                  "title": "Motion in 1D 02 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/707db037-2cb4-420d-a8b2-0f9e7ef1f3df.pdf",
+                  "title": "Motion in 1D 01 - Class Notes"
+                }
+              ]
+            },
+            "Motion in 2D": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b8fe3692-2d22-4512-a3d8-970b35dbe640.pdf",
+                  "title": "Test_1744620936939"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Motion in 2D 02 - Motion in 2D -Part 02",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTg2NzViNzMtMThkZS00ODIwLWIyODctMjNlNTk1ZTUyZTFkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.89Skr54RXlzBPu5-NK_eZmxXcvB0PxkY1JGqn6JhEd4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Motion in 2D 01 - Motion in 2D -Part 1- - Rescheduled @7-40 pm - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmM1YmJjNzMtZGU2ZC00MGI0LTk5YTItYWE1ODA4ZTg4ZDM5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.4fins-0ROtTra6Q5JebEC-Y-XDhfpfV5CYxnGSvs3kE/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Motion in 2D",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e362e84-fb87-4050-9f03-895fa0453347.pdf",
+                  "title": "Motion in 2D 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/1ea6f0b9-3007-4902-8c56-45382057feeb.pdf",
+                  "title": "Motion in 2D 01 - Class Notes"
+                }
+              ]
+            },
+            "NLM": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/70d732a7-6b97-44f5-a3bc-4839360f31bb.pdf",
+                  "title": "NLM  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NLM 05 - Newton's law of Motion -Part 5- - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiM2ZkMTNjZjItODA4OC00YmRhLWFiZTMtM2ZmODhhZWE4YTY5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.C5YpjsSzqPP40R8e_irT_XfnHpg9O-hxJQ6s2dfbO1c/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NLM 04 - Newton's law of Motion -Part 4- - No MCQ Quiz - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTkyZTlkNWMtYjI5My00YWUzLWEwN2UtYTU1ZDg0NjdiNTU0IiwiZXhwIjoxNzQ4NTkxNjcwfQ.IjUDe-GeZ1WsUb4TjLzU6OnbI-5pAqErT_pS7MuZcJ4/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NLM 03 - Newton's  law of  Motion -Part 3- - No MCQ Quiz  - Extra Lecture - Rescheduled @7-45 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTRlMTczZjgtMjE5Yy00OGQ0LThmYzEtOWUyNmU0NTE4NTlkIiwiZXhwIjoxNzQ4NTkxNjcwfQ.OP7Oma-VHcAc6k02rHmS2ifObgkOdh6DFDSc4Wq6XYQ/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NLM 02 - Newton's  law of  Motion -Part 2",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTE3ZmI2NjgtMjM4MS00MWQwLTlmMTktNjRiYjNjNzE0NGMxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.GMyE77xzjqIpbIlR7fFH8XkuuqvI-MeSjCWtEyLuwrI/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "NLM 01 - Newton's  law of  Motion - No MCQ Quiz - Rescheduled @ 07-40 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGM5ZGYzMWEtZWZhYi00MjQ3LTk1ZWItNDQ3NzU2NmZmYmM5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.cfk6Ly2gMH0rpKknZPg2F8t6I0SnjKo6a_PFJ0exlF4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "NLM",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6bbd1229-2c2b-4818-b37b-aa6d6f7c1d9d.pdf",
+                  "title": "NLM 05 _ Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/23ed04b2-bbd4-4586-bdcd-258dd5b72f26.pdf",
+                  "title": "NLM 04  Classnotes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/89e51ac1-e27b-40af-b359-ee7ed1878cc7.pdf",
+                  "title": "NLM 03  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/30ab9854-2477-40ee-bc75-873cfe8a39e4.pdf",
+                  "title": "NLM 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5a3973ae-6a82-4b96-9d95-398b6a9b6a03.pdf",
+                  "title": "NLM 01  Class Notes"
+                }
+              ]
+            },
+            "Properties of Matter": {
+              "name": "Properties of Matter"
+            },
+            "Rotational Motion": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Rotational Motion 01 - Rotational Motion - NO MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjE2MjU1ZmUtNjA5NS00MjQxLWIyNGMtNDI5ZTNhOTJjMDYxIiwiZXhwIjoxNzQ4NTkxNjcwfQ.Z46g23y9cwLpGpfocTvw8iru7Ik-gkYErE6tJnW5-H4/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Rotational Motion",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/87ff956e-2a46-4e3f-ab64-db6b1bd71876.pdf",
+                  "title": "Rotational Motion 01 classnotes"
+                }
+              ]
+            },
+            "Units and Dimensions": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2826ddd9-7c1f-441a-958b-d167b1e975fd.pdf",
+                  "title": "Units and Dimensions  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Units and Dimensions 02 - Dimensions - Rescheduled @ 07-45 PM",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDYzMThmZjktNGM2OS00ZWNjLWE2MmQtN2IyYjk5ZDYxM2IyIiwiZXhwIjoxNzQ4NTkxNjcwfQ.6vOLBczqzaMW9rkUqWjLxKwGviH_gnvSpJmFIxwmOFA/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Units and Dimensions 01 - NDA Physics Strategy and Units - No MCQ Quiz - Rescheduled @7-40 pm",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjcyNGM3ZTctMWEwMi00YTc4LThhYjctYzE3MTRkZjY1MzhmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.zQ5s5VKndEmL83jN3G0N-zGKrvVl8dOO8r1MRfdbA30/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Units and Dimensions",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9689efb3-5d80-439e-84ec-74262fcae828.pdf",
+                  "title": "Units and Dimensions 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/74e1c50c-7951-4939-8d0a-36f6c1bcf10d.pdf",
+                  "title": "Units and Dimensions 01 _ Class Notes"
+                }
+              ]
+            },
+            "WPE": {
+              "dpps": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/fda8d61d-aca5-4cc1-9cd4-4b155a5f44ae.pdf",
+                  "title": "WPE  DPP 01"
+                }
+              ],
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "WPE 02 - Work Power Energy -2 - Extra Lecture",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYjVhMTFhYjUtZDA4Mi00NmI3LWJkOTEtZmUzZDQxOWZhOWE5IiwiZXhwIjoxNzQ4NTkxNjcwfQ.opV2aUy0ud7ggcf_95Algq-J64SDd7o8z9OncSPJt7Y/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "WPE 01 - Work Power Energy - No MCQ Quiz",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOGUzZmFiNWEtYmE1OC00YTJmLWFjMmItMmRiN2M2Yjk4ODI4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.sGZicWdTTgzCVX6K2f7nRA8fu96gUQUNdX1tkJp9ZZo/hls/720/main.m3u8"
+                }
+              ],
+              "name": "WPE",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/afd5c462-8d87-44b5-af2b-fc4ad088f842.pdf",
+                  "title": "WPE 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/452d88b6-c48c-4e88-8fc7-912887d1191e.pdf",
+                  "title": "WPE 01  Class Notes"
+                }
+              ]
+            }
+          }
+        },
+        "Polity": {
+          "name": "Polity"
+        },
+        "SSB Sessions": {
+          "name": "SSB Sessions",
+          "topics": {
+            "Introduction to SSB Process": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "Introduction to SSB Process 01 - Introduction to SSB Process -Only Video",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNGI1YTI0NjAtYzZlZi00N2M3LWFmOWMtNWFjOTk4NDJkOGRmIiwiZXhwIjoxNzQ4NTkxNjcwfQ.4errOFiRG57QGAyouN0Nj4Vpefu4O_V6US6MfT6Qs4o/hls/720/main.m3u8"
+                }
+              ],
+              "name": "Introduction to SSB Process"
+            },
+            "OIR Lectures": {
+              "name": "OIR Lectures",
+              "notes": [
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d537a15e-88bc-44b5-b0ab-5bf1a9c165b8.pdf",
+                  "title": "Alphabet Test  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/24071924-66e4-4f63-ac9a-46712a699974.pdf",
+                  "title": "Mathematical Equations  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a57caf52-047d-4219-9555-09b149312f78.pdf",
+                  "title": "Number Series 01  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/06584a6b-84b4-40ac-9564-3f8b2e806cb4.pdf",
+                  "title": "Venn Diagram   Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/66225885-92da-42cb-b3cb-9352449f7334.pdf",
+                  "title": "Blood Relation 01 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/c009fc7a-7ef2-4bb5-a4d7-9cd3bd261749.pdf",
+                  "title": "Directions 01  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ef94622d-81eb-4774-b297-e22abc75d28a.pdf",
+                  "title": "Coding And Decoding 01  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7b5f9d07-8ab1-48d3-8bb4-2f61fc83d59d.pdf",
+                  "title": "Counting The Shapes Class Notes.f"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b2b4b762-0c95-467e-a594-b5c7ddab446e.pdf",
+                  "title": "Cube and Dice  Class Notes.f"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6d44478f-faa7-4ada-bc0e-90d316ec9684.pdf",
+                  "title": "Embedded Figure and Paper Folding- Cutting and Unfolding 02 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/85f4b9bf-73af-4cdb-ad32-826c532f63d5.pdf",
+                  "title": "Embedded Figure and Paper Folding- Cutting and Unfolding 01 Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8196cb2a-da4e-4e47-9494-15e86283f74a.pdf",
+                  "title": "Figure Analogy 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f0a89abb-b8bf-4b8d-9ef0-b96b2a19d6d7.pdf",
+                  "title": "Figure Analogy 01  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ea729069-30c9-4f88-affb-5304f8965d57.pdf",
+                  "title": "Odd One Out 02  Class Notes"
+                },
+                {
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4149b88a-676c-4524-b8c6-c98b22e991ff.pdf",
+                  "title": "Odd One Out 01  Class Notes"
+                }
+              ]
+            },
+            "PPDT": {
+              "lectures": [
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "PPDT 02 - Narration and Group Discussion -Only Video",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzEzNmRhNjktMTY0My00M2VkLWJkM2ItZjRkYzRjOGE5OTY4IiwiZXhwIjoxNzQ4NTkxNjcwfQ.Po6dRg2nHRWwdHINn1XyzoRlZMbC1vitRg4fO4f7irY/hls/720/main.m3u8"
+                },
+                {
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "title": "PPDT 01 - Story Writing -Only Video",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDdkMjc1YWItMGQwMC00Y2Q2LTlhMTAtNjlmMGFmZGExMjZjIiwiZXhwIjoxNzQ4NTkxNjcwfQ.oopXmVzwMK_v1N8HiNTv3yFZkvyMeVwI2fHJpXTA2E8/hls/720/main.m3u8"
+                }
+              ],
+              "name": "PPDT"
+            }
+          }
+        }
+      }
+    },
     "Udaan 2026 (Class 10th)": {
       "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2398653e-9826-4541-b28e-b2cd83b37d1f.png",
       "name": "Udaan 2026 (Class 10th)",
