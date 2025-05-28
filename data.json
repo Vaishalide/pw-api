@@ -1981,7 +1981,7 @@
                 }
               ]
             },
-            "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf": {
+            "Standard Practice Sheet (JEE Advanced)- Abhedya II\u00a0Only\u00a0Pdf": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/718bc892-0196-4158-95d7-66cc7f206270.pdf",
@@ -1992,9 +1992,9 @@
                   "title": "Matrices"
                 }
               ],
-              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf"
+              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II\u00a0Only\u00a0Pdf"
             },
-            "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf": {
+            "Standard Practice Sheet (JEE Main)- Manthan II\u00a0Only\u00a0Pdf": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0617cbeb-6f98-4d4c-93ba-cdd1a55fa92b.pdf",
@@ -2005,7 +2005,7 @@
                   "title": "Matrices"
                 }
               ],
-              "name": "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf"
+              "name": "Standard Practice Sheet (JEE Main)- Manthan II\u00a0Only\u00a0Pdf"
             },
             "Study Modules || Only PDF": {
               "name": "Study Modules || Only PDF",
@@ -2943,7 +2943,7 @@
                 }
               ]
             },
-            "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf": {
+            "Standard Practice Sheet (JEE Advanced)- Abhedya II\u00a0Only\u00a0Pdf": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/38c60229-aee0-4351-a272-c18bcf713660.pdf",
@@ -2954,9 +2954,9 @@
                   "title": "Chemical Kinetics"
                 }
               ],
-              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II Only Pdf"
+              "name": "Standard Practice Sheet (JEE Advanced)- Abhedya II\u00a0Only\u00a0Pdf"
             },
-            "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf": {
+            "Standard Practice Sheet (JEE Main)- Manthan II\u00a0Only\u00a0Pdf": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/122b926e-14e4-43f7-bbd0-be1d8d035117.pdf",
@@ -2967,7 +2967,7 @@
                   "title": "Chemical Kinetics"
                 }
               ],
-              "name": "Standard Practice Sheet (JEE Main)- Manthan II Only Pdf"
+              "name": "Standard Practice Sheet (JEE Main)- Manthan II\u00a0Only\u00a0Pdf"
             },
             "Study Modules || Only PDF": {
               "name": "Study Modules || Only PDF",
@@ -3586,7 +3586,7 @@
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/51078fbc-11a8-474a-8593-205d9b795d7a.pdf",
-                  "title": "Newton’s Laws of Motion"
+                  "title": "Newton\u2019s Laws of Motion"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/28cfad12-526f-402c-b365-e5e94468e906.pdf",
@@ -3766,8 +3766,8 @@
       }
     },
     "NDA -II- Shaurya 2025": {
-      "name": "NDA -II- Shaurya 2025",
       "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/14e57d1a-212f-4237-bdad-d0aaf308fa07.jpg",
+      "name": "NDA -II- Shaurya 2025",
       "subjects": {
         "Biology": {
           "name": "Biology"
@@ -6988,7 +6988,7 @@
                 }
               ]
             },
-            "Essential Chemistry Basics for Class 10": {
+            "Essential Chemistry Basics for\u00a0Class\u00a010": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/738ed2e7-2979-46f8-ba9d-414e112d8ef6.pdf",
@@ -7007,7 +7007,7 @@
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDMzMzFiMWEtNDFmMy00ZGI3LTg0ZDUtZWZmMGY3ZjAwYmQzIiwiZXhwIjoxNzQ4NTMwODkzfQ.CMKuVIG6fqvyuaaRSzrxERFH1OPBt0ZfaDC8cLPey7E/hls/720/main.m3u8"
                 }
               ],
-              "name": "Essential Chemistry Basics for Class 10",
+              "name": "Essential Chemistry Basics for\u00a0Class\u00a010",
               "notes": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/14ed28ab-d016-4863-abfe-d951f3beeeaa.pdf",
@@ -7486,95 +7486,95 @@
         "Hindi Course A": {
           "name": "Hindi Course A",
           "topics": {
-            "गद्य खंड - कृतिका": {
+            "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/726cb562-54f4-4f71-88fc-4bafd3324065.pdf",
-                  "title": "गद्य खंड - कृतिका"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f4b6bb62-788c-4e06-9d8a-015c3566609d.pdf",
-                  "title": "गद्य खंड - कृतिका"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f8b46ff9-6caf-41e6-b811-44b2916711ac.pdf",
-                  "title": "गद्य खंड - कृतिका"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e"
                 }
               ],
               "lectures": [
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड - कृतिका 01",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 01",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNmQxNWZkZmYtZjJlYy00YzU2LWI5YWItNDY5YTk5NGJhM2JhIiwiZXhwIjoxNzQ4NTMwODkzfQ.rUg-Pkl6BpD_fqXvjuG7FJCtE3huzbw7ECbko08T8Vw/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड - कृतिका 02",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 02",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTQ2ZDIxYmQtZTc3ZS00MDMyLTg0YzQtNjEzYmFmN2YwNmJjIiwiZXhwIjoxNzQ4NTMwODkzfQ.Dolp2fOaAIHVV0sN6Ti0fHhJGjU6XWeYgn9llJ6penA/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड - कृतिका 03",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 03",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGU2Njc4ZGUtNjhhOC00ZTg2LWJhZjktYmRmMDJjMjM2ZmRhIiwiZXhwIjoxNzQ4NTMwODkzfQ.v5E6bm99RjYiZi2KUXCcHptA2n0TtqqfC_C1jt1v_mo/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड - कृतिका 04",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 04",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWQ2ZTI4OGQtMzExZC00YmUzLTg3OTAtZTFhMWExMGIxNTgwIiwiZXhwIjoxNzQ4NTMwODkzfQ._OaFRD27vKzsh-8FxPWCjDR_9JJzTFXxWFUY8lY_DLs/hls/720/main.m3u8"
                 }
               ],
-              "name": "गद्य खंड - कृतिका",
+              "name": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e",
               "notes": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/37d552dc-34fb-4835-9578-17eab2778a41.pdf",
-                  "title": "गद्य खंड - कृतिका 01"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 01"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/68331f5f-8550-4066-8f40-f9576e84c7d2.pdf",
-                  "title": "गद्य खंड - कृतिका 02"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 02"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e08005b1-b363-4d1c-af0b-c14c2adfdce6.pdf",
-                  "title": "गद्य खंड - कृतिका 03"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 03"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/288276a4-f9f7-439b-94bd-c61c222179dc.pdf",
-                  "title": "गद्य खंड - कृतिका 04"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 - \u0915\u0943\u0924\u093f\u0915\u093e 04"
                 }
               ]
             },
-            "व्याकरण": {
+            "\u0935\u094d\u092f\u093e\u0915\u0930\u0923": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e2dfa674-ba36-4c67-bfd0-77a5a295b4b2.pdf",
-                  "title": "व्याकरण"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7402a913-a645-4546-84be-72212e7f72e1.pdf",
-                  "title": "व्याकरण"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923"
                 }
               ],
               "lectures": [
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "व्याकरण 01",
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 01",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmY0YTgzZTUtYTgwNS00NTcxLTk0MDEtNTY0NDUxNjM5N2U3IiwiZXhwIjoxNzQ4NTMwODkzfQ.9EhwcE0oD-GHoCM5bwcH1ZHUJsp14WmdONHokyGV31w/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "व्याकरण 02",
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 02",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWFkMmJlNmMtMjQ1Mi00NWYwLWE2MmUtMmVjNTQ5YTZmMWZkIiwiZXhwIjoxNzQ4NTMwODkzfQ.ymmrhPcXZL46bC4hjrcgq258JY-jAhOhTvz6mZZbUSI/hls/720/main.m3u8"
                 }
               ],
-              "name": "व्याकरण",
+              "name": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923",
               "notes": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e97bb7aa-78e6-44b7-be63-288a6de8bdb5.pdf",
-                  "title": "व्याकरण 01"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 01"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ade7132a-6013-494f-9b38-402096d2657f.pdf",
-                  "title": "व्याकरण 02"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 02"
                 }
               ]
             }
@@ -7583,82 +7583,82 @@
         "Hindi Course B": {
           "name": "Hindi Course B",
           "topics": {
-            "गद्य खंड": {
+            "\u0917\u0926\u094d\u092f \u0916\u0902\u0921": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/53dd57c9-0ab2-4c0e-8694-09b04de26e39.pdf",
-                  "title": "गद्य खंड"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a30b3ad1-f351-437e-9eb3-b0c12ba6850f.pdf",
-                  "title": "गद्य खंड"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921"
                 }
               ],
               "lectures": [
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड 01",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 01",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMGVlOWZiMTMtYTkxMy00NjlhLWJlY2MtMTNmYTdlNTBiNmUwIiwiZXhwIjoxNzQ4NTMwODkzfQ.O1d0DIupR7mkOMTuyRUPIqkqDrDNjNUrbl3Snqe9c9M/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड 02",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 02",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODJkZjUwNmQtYTY0Yy00OTA1LWI3MjItNDUxYWQ3YjY5ZjFlIiwiZXhwIjoxNzQ4NTMwODkzfQ.Cp5JDrw2NE3k9EiWM6J1lnOnLGmITYUoTJXXjXcqZ7g/hls/720/main.m3u8"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "गद्य खंड 03",
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 03",
                   "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMWIzMDM2NTItN2Q4OS00MDA3LWFmNjMtMjMwZDk2NGM0ZDk4IiwiZXhwIjoxNzQ4NTMwODkzfQ.OYXKsWq2ARLgS22dv48WmtzOqPrFM4b-w8hOFf-TD68/hls/720/main.m3u8"
                 }
               ],
-              "name": "गद्य खंड",
+              "name": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921",
               "notes": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/17729ff6-72a4-47f0-adc2-e8c5b4f4c33e.pdf",
-                  "title": "गद्य खंड 01"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 01"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d600ba13-a05b-4eaf-94cd-c93ec8af58d4.pdf",
-                  "title": "गद्य खंड 02"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 02"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7f422206-9067-4b41-a00a-7d6da08fbe46.pdf",
-                  "title": "गद्य खंड 03"
+                  "title": "\u0917\u0926\u094d\u092f \u0916\u0902\u0921 03"
                 }
               ]
             },
-            "व्याकरण (भाग 1)": {
+            "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1)": {
               "dpps": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/72928999-6a0e-41f6-afcf-639a51bb0ed6.pdf",
-                  "title": "व्याकरण (भाग 1)"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1)"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/95ce35ae-1c5b-4476-ad90-56a7d7bfee2a.pdf",
-                  "title": "व्याकरण (भाग 1)"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1)"
                 }
               ],
               "lectures": [
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "व्याकरण (भाग 1) 01",
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1) 01",
                   "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/cfbe33e3-3c7e-40b4-8fa6-9e4506ccb2ee/master.mpd"
                 },
                 {
                   "thumbnail": "https://envs.sh/v3Z.jpg",
-                  "title": "व्याकरण (भाग 1) 02",
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1) 02",
                   "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/1d9eab3e-16a3-4d1e-bb60-cf1b83427ee0/master.mpd"
                 }
               ],
-              "name": "व्याकरण (भाग 1)",
+              "name": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1)",
               "notes": [
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1a6f0a87-e4d7-4943-ab08-5c9cffaf59db.pdf",
-                  "title": "व्याकरण (भाग 1) 01"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1) 01"
                 },
                 {
                   "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ea34fb41-68a9-4b0b-ae60-dcd861f0a4d3.pdf",
-                  "title": "व्याकरण (भाग 1) 02"
+                  "title": "\u0935\u094d\u092f\u093e\u0915\u0930\u0923 (\u092d\u093e\u0917 1) 02"
                 }
               ]
             }
@@ -8460,6 +8460,654 @@
         },
         "Sanskrit": {
           "name": "Sanskrit"
+        }
+      }
+    },
+    "UDAY 2026 -Class 11th": {
+      "name": "UDAY 2026 -Class 11th",
+      "image": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/34ea905b-56ab-447c-aa20-d091281a87a4.png",
+      "subjects": {
+        "Notices": {
+          "name": "Notices",
+          "topics": {
+            "Batch Demo Videos": {
+              "name": "Batch Demo Videos",
+              "lectures": [
+                {
+                  "title": "Demo Lecture By Aarushi Ma'am -Zoology.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTFmN2FkZjctNzkzNS00ODU0LThkNTktMTQwZWRmMGU3MDJhIiwiZXhwIjoxNzQ4NTk0OTI2fQ.xMpCY9c8sv21cdezsycTBXwc69jsaisyotvgJfSGSd8/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Samridhi Maam -Botany.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzMzYWU3NzEtZDMwMy00OTExLTkyMWUtM2JkY2RhMDQwOTNhIiwiZXhwIjoxNzQ4NTk0OTI2fQ.k8NqxW1Y1qz4pViE4iGccw4YxbkFKaF5SRO8SYRzekQ/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Rakshak Sir -Physics.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDQzMTVhNGItMmEzNC00YTRhLTlmYmMtOTk3ZWM2OTNjYmUxIiwiZXhwIjoxNzQ4NTk0OTI2fQ.r-8yNMelBrAqXMaMb5CjGcLy5LcEOvT3NuMBC1MifPU/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Sunil Sir -Physical Chemistry.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOTAzNmRkZGUtNDNjNC00NTVlLWE4YjktZTNjODIyOTk1MjYxIiwiZXhwIjoxNzQ4NTk0OTI2fQ.GDIUz3rxWFEVxNF1hsOLIZ6L_jlgf-Zpo8c6G6IjexA/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Shourya Ma'am -Organic Chemistry.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDRhNzUwOTktY2Y2NS00YjFlLWIzZDctZmM2NDNjMDlmMjJhIiwiZXhwIjoxNzQ4NTk0OTI2fQ.3iasTYtSHgAyTO1UeeGEoyMYDePx2AoFmw9QXhASV0U/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Bijendra Sir -Inorganic Chemistry.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTJlZDhiMmItZmQwMy00OWFkLTk3OTctNjUzMjkyZDEyYjQ3IiwiZXhwIjoxNzQ4NTk0OTI2fQ.fRqY6SWDiVDwd9CFdl6mkpHXSOrct2UWnv7NIHWVOTg/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Ritik Sir -Maths.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTNhMWQzM2QtMDU2Ny00ZTAwLWJiYTUtY2FiNzJlOTk0M2RiIiwiZXhwIjoxNzQ4NTk0OTI2fQ.Ti7cxNw-O1f9oCyjzJe64RmVCsWIKvmWfC0w0dt5Djc/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Demo Lecture By Anurag Sir -English.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzkxYjBkOTEtNzQzMi00YTJlLWJmYjgtODk1Yjg1ZjAxY2RjIiwiZXhwIjoxNzQ4NTk0OTI2fQ.JlK4RbwLsJVSBr356S4v7VCsWgdqGiKMMkADK2RcNg4/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Feature Update - Notes Feature In Video Player.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzhhZjNkZDEtZjRhOC00NGEzLTkxMTEtNWI0YzQwYzZjM2M1IiwiZXhwIjoxNzQ4NTk0OTI2fQ.C2ehp95ZUHLD93OwUgblJK1aqle54U60wDTViDvZZbg/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Important Update - Dark Mode.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDhmMTdiNDItNWYwNC00NWYwLTlhODctN2U0ZWUyZDgzOGRjIiwiZXhwIjoxNzQ4NTk0OTI2fQ._ItEH8_82q1Pyl_ME7kryHrKpBiiNq5DwTFTCwhK-hE/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Feature Update - New Quality Options in Video Player.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjRkOWFjNjctNjI5YS00ZWYxLWI0MTAtODYxM2IwMWM0OTVlIiwiZXhwIjoxNzQ4NTk0OTI2fQ.N_KYf7R4nRxId9Pzl7s4DJEhwZO_jK8D4JgPn5SGsXk/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Feature Update - Chat Template - -Video Only.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMjU3ZmUwNDUtZDBhMC00NmFlLWFhMTYtOGE3MjIyMTEzNmI3IiwiZXhwIjoxNzQ4NTk0OTI2fQ.RkxvfFNhX6c84Jm-bIAVl0RoStMVV-NeQCp3T6zRzPU/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Update - Study Page -App- - -Video Only.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiOWFiODRkNjQtZmYxNC00ZDcyLTk2YjQtOWM1MTBiMjMyYTlhIiwiZXhwIjoxNzQ4NTk0OTI2fQ.VErmV7vRfDHIVTQAemu7i321HyedFrRMXnejDEbj6tM/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Feature Update - Audio Mode - -Video Only.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzRhMmY2MzctMjg2OS00NjQzLTg0ZWYtZWY5MDBkZTg4NGRkIiwiZXhwIjoxNzQ4NTk0OTI2fQ.Q5bIN-5IlqVxWHAPw0h0ZONCBH6m-fs9QS9Ek8FiRtU/hls/720/main.m3u8"
+                },
+                {
+                  "title": "New Study Page - KT Video - -Only Video.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYTNkMGQyYWQtZjc1My00ZTk3LTg3N2YtNjNjNzAxMGEwMWNlIiwiZXhwIjoxNzQ4NTk0OTI2fQ.0lys_56_tZlRyw79cb-CNazuS8GqOMlywweuvTJr9Rc/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [],
+              "dpps": []
+            },
+            "Lecture Planner || PDF Only": {
+              "name": "Lecture Planner || PDF Only",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Lecture Planner - Computer Science.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/13781c63-e779-4b92-8011-426a27fb7e89.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Test Planner || PDF Only": {
+              "name": "Test Planner || PDF Only",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Test Planner.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8aa2a2cd-f2fc-4ca8-a547-d96d6a908bba.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Class Schedule || PDF Only": {
+              "name": "Class Schedule || PDF Only",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Class Schedule - UDAY 2026.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8efce42b-82d6-475b-beb6-0c4b24c3ece0.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Telegram Group Link || PDF Only": {
+              "name": "Telegram Group Link || PDF Only",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Telegram Group  PDF.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/47e40273-bb35-46d0-ad1f-9eaa0c7f494f.pdf"
+                }
+              ],
+              "dpps": []
+            }
+          }
+        },
+        "Physics": {
+          "name": "Physics",
+          "topics": {
+            "Units and Dimension": {
+              "name": "Units and Dimension",
+              "lectures": [
+                {
+                  "title": "Units and Dimension 04 - Applications of Dimensional Analysis -Part 02.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZjI0NWNjM2YtZmRkYi00NzAzLWI5NzQtYTg0MDVkMzNjYzVhIiwiZXhwIjoxNzQ4NTk0OTI2fQ.ZRR0WfjHa5BRMzgJdQgxGzBotovBn5yXwj_GC3KlLKY/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Units and Dimension 03 - Dimensional Analysis - Application of Dimensional\u00a0Analysis.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTJmMTJhYTctNDQ5MC00Y2JkLThkNzUtZGNkZWRjZDMzMGQzIiwiZXhwIjoxNzQ4NTk0OTI2fQ.g4pnTpB2KDx2ueVKhfFSCI6K69nETKB6e1wSpR44Kbw/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Units and Dimension 02 - Dimensions and Dimensional Formula.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYmNlZmQwYjAtYTdhOS00OTdlLWI4YjktMDY0MWMwN2Y5YTIzIiwiZXhwIjoxNzQ4NTk0OTI2fQ.qwf_Io5_7RY0SJFYDeRlGNcmEj4rrPWN-_s6rWqTObU/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Units and Dimension 01 - Introduction to Physics - Units of Measurement - NO DPP.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZmFhMTU2ZTctNzNiYi00Mzc4LWI4NzgtNTg0ZjM3YmIyYzNlIiwiZXhwIjoxNzQ4NTk0OTI2fQ.6_KSaWVcEw36ddW6-uvbMJ7lufku3WFnDSzN3R1Ye_c/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Units and Dimension 04 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/4e0964eb-4d62-40c3-8ced-5ed36441b727.pdf"
+                },
+                {
+                  "title": "Units and Dimension 03 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e40d65ff-1722-45e8-8e14-0f7548938841.pdf"
+                },
+                {
+                  "title": "Units and Dimension 02 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f0b24697-6129-467a-bb36-b57837e10cde.pdf"
+                },
+                {
+                  "title": "Units and Dimension 01 - Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/7ba57f0c-7f8b-41b6-bc77-a85a4d984809.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Units and Dimension - DPP 03 -Of Lecture 04.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/26935795-fade-4f98-b0c7-1c7cd11f2f55.pdf"
+                },
+                {
+                  "title": "Units and Dimension - DPP 02 -Of Lecture 03.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9a3624ca-50cd-4869-8345-5efa1f505099.pdf"
+                },
+                {
+                  "title": "Units and Dimension - DPP 01 -Of Lecture 02.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/85990e5e-931d-4fea-a3b8-33d74f85ad82.pdf"
+                }
+              ]
+            },
+            "Practice Sheet || (Only PDF)": {
+              "name": "Practice Sheet || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Units and Measurements _Practice Sheet.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e81cd4eb-9034-4d6f-8eff-70410b3d4932.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Short Notes || (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Centre of Mass and System of Particles Short Notes.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2e1c00c5-f3f5-4a09-add7-01683e74b55b.pdf"
+                }
+              ],
+              "dpps": []
+            }
+          }
+        },
+        "Chemistry": {
+          "name": "Chemistry",
+          "topics": {
+            "Sunil Bhaiya Creations": {
+              "name": "Sunil Bhaiya Creations",
+              "lectures": [
+                {
+                  "title": "Sunil Bhaiya Creations - Plasma and Bose Einstein Condensate - Animated Video and Experiment - Video Only.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNzYwMmExMjEtMGU1MS00Zjc4LWIwZTAtZDUzNjVhZDg1NTNlIiwiZXhwIjoxNzQ4NTk0OTI2fQ.9XKnAs62z6Ykv6DqmES7CGquTorgU63f39KrtUMd4go/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [],
+              "dpps": []
+            },
+            "Some Basic Concepts of Chemistry (Physical Chemistry)": {
+              "name": "Some Basic Concepts of Chemistry (Physical Chemistry)",
+              "lectures": [
+                {
+                  "title": "Some Basic Concepts of Chemistry 05 - Significant Figures -Part 02- - Laws of Chemical Combinations.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTllN2VlMjYtMjAzMC00OTFkLTliNWQtMzM0ZjdlYWIzMTBjIiwiZXhwIjoxNzQ4NTk0OTI2fQ.dXbs6Nsqc3chN9ayrldYixLcSvp2h89foZa1ddY4yIs/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 04 - Significant Figures  -Part 01.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODQ0ZWUxNGYtOWMyNC00MTliLWFkNGQtNjRlNmUwYTRmZmVkIiwiZXhwIjoxNzQ4NTk0OTI2fQ.1g6qW9f1NjUrME4wsF3NqAPq8VELkAhRfs8gyXlbUoI/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 03 - Properties of Matter and Their Measurement -Part 02- - Scientific Notation.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjA4ZTg1NDctYzA2NC00Y2NmLTlhYzQtNmRkMDFlZWY3NDVjIiwiZXhwIjoxNzQ4NTk0OTI2fQ.LZNis4Fk-whipvK-3PfEttwRDK2nAEjP4J-YBKIOP-c/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 02 - Properties of Matter and Their Measurement -Part 01- - NO DPP - Rescheduled @05-15 PM.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMTNjYjQ2M2EtMDFkZS00ZjZmLThiNTItM2VmYTNmNzc3NDNmIiwiZXhwIjoxNzQ4NTk0OTI2fQ.Xj6DJyj_VUBb-FLkmpEDpyduzxdDE2IwCCZlkQ8aOv0/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 01 - Importance of Chemistry - Introduction to Matter - Physical and Chemical Classification of Matter - NO DPP.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiY2Q2Mjk1MTktMWJhNi00NWRkLTk1MmUtYjM2NGY2M2VjNGU1IiwiZXhwIjoxNzQ4NTk0OTI2fQ.ArfYzZJ5kOqX-iHvffC2SUMVDL-BYwWR1dab5iOxE0E/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Some Basic Concepts of Chemistry 05 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/9c426dc4-9c3c-4ba5-aa2b-d41429679461.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 04 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/49fd1390-5bfe-45fd-82eb-516da9c7c562.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 03 _ Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a23229c1-4748-4efb-bedf-5cab27b1052b.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 02 _ Class Notes _ Uday 2026 -Class 11th.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5bcff008-748e-4837-9817-f184dc08f839.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry 01 _ Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/edcd5f27-cb31-47e8-90c4-3dfe8c8756ed.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Some Basic Concepts of Chemistry - DPP 03 -Of Lecture 05.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e3e3c65e-ceec-4c09-a369-5b2c395e4eaf.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry - DPP 02 -Of Lecture 04.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/66eab2e7-f205-4438-a00e-bfed567f8d78.pdf"
+                },
+                {
+                  "title": "Some Basic Concepts of Chemistry - DPP 01 -Of Lecture 03- .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/106038c3-0f96-4956-a827-d9fda6e12d77.pdf"
+                }
+              ]
+            },
+            "Practice Sheet || (Only PDF)": {
+              "name": "Practice Sheet || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Some Basic Concepts of Chemistry  Practice Sheet.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a41cff8c-23c3-4222-a688-73ee07a43430.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Short Notes || (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Atomic Structure  Short Notes.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e06f3a46-d51a-4373-8ef6-386a757f2135.pdf"
+                }
+              ],
+              "dpps": []
+            }
+          }
+        },
+        "Biology": {
+          "name": "Biology",
+          "topics": {
+            "Cell - The Unit of Life (Botany)": {
+              "name": "Cell - The Unit of Life (Botany)",
+              "lectures": [
+                {
+                  "title": "Cell - The Unit of Life 06 - Plasma Membrane -Part 02- - Cell Membrane - NO DPP - Extra.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZDgxZTVjN2UtMGY0YS00Y2Y2LWE4ZjItNDQ3YTU0YWI1YTI0IiwiZXhwIjoxNzQ4NTk0OTI2fQ.l3rjth8yC86t4Sb1cNIBd_0wolAW2BreKPUCn0xAXcw/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Cell - The Unit of Life 05 - Eukaryotic Cell - Plasma Membrane.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNWM4MDMxMTQtNGNmMy00YjhiLWFlZTAtOGZlMWFhNWQ1ODg4IiwiZXhwIjoxNzQ4NTk0OTI2fQ.yFTSKYsHUq4y9YbUcmwPy5eTbhvuSAFJxkQVtYM01bY/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Cell - The Unit of Life 04 - Cell Enevelope and Its Modification - NO DPP.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODI3ZDU2MzEtZDBhNy00OTZlLWI0YzUtOTg0MTc1OTIzYzJlIiwiZXhwIjoxNzQ4NTk0OTI2fQ.gY15qbdbqz9ZAhgTWW5AGolie8uZAcvxLlUrvD-tpis/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Cell - The Unit of Life 03 - Prokaryotic Cell - NO DPP.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNjVhNTJjMDEtMDBiNC00ZTI4LWJlN2QtZmE4YzZkZjc1ODQ1IiwiZXhwIjoxNzQ4NTk0OTI2fQ.Bw96aDe-TQB3DigZvfVoBMdKHky6DixPfoV_GOlps78/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Cell - The Unit of Life 02 - Overview of a  Cell - MCQ Practice and Homework.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzlmYTE5ZjktYjdlYy00N2Y4LWEwYzMtYWJlNzUyMzdlMzc1IiwiZXhwIjoxNzQ4NTk0OTI2fQ.xl5zYKWUeeYYSnQ6sB5XLiguy0FPt6UOJS7FYaTJ848/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Cell - The Unit of Life 01 - Introduction to Cell - Cell Theory - Rescheduled @05-00 PM.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYWU0Yzg1YTQtYzM4NS00ZTM0LWJmZGItYmQ3NTI1YTM1NjJmIiwiZXhwIjoxNzQ4NTk0OTI2fQ.mqDnjRSYwXjiQ0ojBXb-6uKwsW42n6l7TvY5Z4kjKWY/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Cell - The Unit of Life 06 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/52c5b297-2d84-4aca-8f3a-780b83400012.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life 05 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/04a5d126-57b1-4abc-ac5a-e8357af06998.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life 04 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/6e62ec94-93c8-423a-87e6-cd4f57eff020.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life 03 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/582b7c9a-06f7-4cbd-aeb4-fd85ea40212d.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life 02  Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b4ddf811-d79d-44ff-ab86-6959a8bab86f.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life 01 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/893ecd94-2c14-4e4e-b0f9-4691ed5c5ead.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Cell - The Unit of Life - DPP 03 -Of Lecture 05.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/324148d8-f523-4d44-a920-4840b5a2aa27.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life - DPP 02 .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/854108b3-8b54-4ec6-9f74-73de36e78965.pdf"
+                },
+                {
+                  "title": "Cell - The Unit of Life - DPP 01.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/139c55f5-9d27-4b75-9f0a-7f62d4282e02.pdf"
+                }
+              ]
+            },
+            "Practice Sheet || (Only PDF)": {
+              "name": "Practice Sheet || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Cell - The Unit of Life  Practice Sheet.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/69610547-7ac6-4b00-b579-ca990ac0f859.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Short Notes || (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Cell The unit of Life  Short Notes.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e4f412a8-d969-4b73-9e88-14b698c05f13.pdf"
+                }
+              ],
+              "dpps": []
+            }
+          }
+        },
+        "Mathematics": {
+          "name": "Mathematics",
+          "topics": {
+            "Sets": {
+              "name": "Sets",
+              "lectures": [
+                {
+                  "title": "Sets 05 - Laws of Operations of Sets - Questions on Venn diagrams - NO DPP.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzY2NGE4MGEtZGJhOC00OWEwLWFmYTEtYzJiYTQwZWRhOGQxIiwiZXhwIjoxNzQ4NTk0OTI2fQ.dmbBAjLmqHRhWYmash2ghY3ArOCJ7C0QUe4rGNLzOrI/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Sets 04 - Venn Diagram - Operations\u00a0on\u00a0Sets - Reschedule @07-15 PM.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMDM1MjgxZWMtMjU3ZC00MTIzLWI4ZDgtODE1ZjYxYTBmOTI0IiwiZXhwIjoxNzQ4NTk0OTI2fQ.6YMt5DtO1GY9hEfFTlvAr1-Uw0AOaEEd3eM0Wf-zuIQ/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Sets 03 - Power Set - Interval as Subset of R - Universal Set.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiZTk2MDc2YTgtYWZjYi00YWM5LTlkMmMtZDc5MTUyMTlhNzgwIiwiZXhwIjoxNzQ4NTk0OTI2fQ.qWsCVf4wAnS7n6Em8iyR_-tQZ5JfINuPyTN-iemHYUs/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Sets 02 - Subsets.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNDk1OGNkM2ItOGVhMi00MDVhLWIyNTUtNTlmZGFjNzNhYTg2IiwiZXhwIjoxNzQ4NTk0OTI2fQ.wvN7k3Lcr4nLhqF02jLbmGjtqmqnJ58Lkh0rNeGpOiM/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Sets 01 - Sets - Representation of Sets - Types of Sets - The Empty Set - Finite and Infinite Sets\u00a0-\u00a0Equal\u00a0Sets.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiODdmNGEzZjYtNzY2NC00MzM5LWJhYTYtODQ0YTIyNjg2ZTcxIiwiZXhwIjoxNzQ4NTk0OTI2fQ.jlTSi8oLvINFJJddAFLnZE95TKXMmcNej_Hi5f02UyA/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Sets 05 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/e24d1b5d-f52e-4c31-b7fe-f1349250d003.pdf"
+                },
+                {
+                  "title": "Sets 04 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/53663ae7-126f-42d1-a659-6e800b0e1159.pdf"
+                },
+                {
+                  "title": "Sets 03 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b70d7bbc-a0ae-4c64-9bd7-836358f21264.pdf"
+                },
+                {
+                  "title": "Sets 02 - Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/edb8528d-166a-409a-894c-a8f95fefc288.pdf"
+                },
+                {
+                  "title": "Sets 01 - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/a5fc56f5-0870-47d6-bdf5-556c3cde10bd.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Sets - DPP 04.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/8cdc787f-5773-4b29-837c-99b65ac9b89e.pdf"
+                },
+                {
+                  "title": "Sets - DPP 03.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f1647e1c-2353-4b21-a840-7707186f7994.pdf"
+                },
+                {
+                  "title": "Sets - DPP 02.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/b23cc469-7235-4269-9386-5bbacc0f54dc.pdf"
+                },
+                {
+                  "title": "Sets - DPP 01.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/1d561d27-36f8-4199-aed5-fe5f38b20c80.pdf"
+                }
+              ]
+            },
+            "Practice Sheet || (Only PDF)": {
+              "name": "Practice Sheet || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Sets  Practice Sheet.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9b4ac30a-3a54-4eca-ac1e-452d6826460d.pdf"
+                }
+              ],
+              "dpps": []
+            },
+            "Short Notes || (Only PDF)": {
+              "name": "Short Notes || (Only PDF)",
+              "lectures": [],
+              "notes": [
+                {
+                  "title": "Basic Mathematics and Logarithm  Short Notes.pdf",
+                  "fileUrl": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/10bfef70-59c1-4aa5-b9b1-f509473de6a4.pdf"
+                }
+              ],
+              "dpps": []
+            }
+          }
+        },
+        "English": {
+          "name": "English",
+          "topics": {
+            "Hornbill : Prose": {
+              "name": "Hornbill : Prose",
+              "lectures": [
+                {
+                  "title": "Hornbill 02 - Prose 01 - The Portrait of a Lady -Part 02.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiN2MxNGI3ZTUtNjk4My00MGEzLWExYjQtZmFhM2ViOWRkNWYyIiwiZXhwIjoxNzQ4NTk0OTI2fQ._KacdCP2QNkvWcBDXyC4zHsmYJ_AHVC-5VgjcG5snoI/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Hornbill 01 - Prose 01 - The Portrait of a Lady.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzA3MGJlMjgtNDUxNi00NjY2LWIxYzctZWUzZTkwOGIyNGQ0IiwiZXhwIjoxNzQ4NTk0OTI2fQ.1-WHi9a3tOUDJTE-sjndtFhlto0twkHP5iBhi5gKP3w/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Hornbill - Prose - The Portrait of a Lady - Handwritten Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0b32fb50-92c3-4e68-a42e-9ecd2abb82ae.pdf"
+                },
+                {
+                  "title": "Hornbill 02 _ Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/535f0598-1a05-4aa7-8b6f-e2f351a1398f.pdf"
+                },
+                {
+                  "title": "Hornbill 01 - Prose 01 - The Portrait of a Lady - Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ec9add5f-c375-492d-aaa7-2c4f11b93464.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Hornbill - Prose - The Portrait of a Lady - DPP 02 .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0ef59be8-3bdd-448c-8f01-79326d78e62d.pdf"
+                },
+                {
+                  "title": "Hornbill - Prose - The Portrait of a Lady - DPP 01.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/214af516-bca4-4528-b5ae-37c560d645e2.pdf"
+                }
+              ]
+            },
+            "Snapshot : Prose": {
+              "name": "Snapshot : Prose",
+              "lectures": [
+                {
+                  "title": "Snapshot 02 - Prose 01 - The Summer of the Beautiful White Horse -Part 02- - Reschedule @05-10 PM.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiMzliMzU0Y2QtOTZkYi00MTM1LWIyYmQtYmI4NmVjODE0Yzk2IiwiZXhwIjoxNzQ4NTk0OTI2fQ.6cNQQjOEGmuOiuxD3ZQ7MnCrMDISScaIs7woT4MNKHk/hls/720/main.m3u8"
+                },
+                {
+                  "title": "Snapshot 01  - Prose 01 - The Summer of the Beautiful White Horse -Part 01.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiNTk3ZmQyZjUtOGRjOC00ZGM3LTkxZGQtOWVhNzBlN2VmOTdmIiwiZXhwIjoxNzQ4NTk0OTI2fQ.F2NcjnZk6ja3_fDLcU1ktnWdTp0l90vHWk9XSHmCtCA/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Snapshot - Prose - The Summer of the Beautiful White Horse  - Handwritten Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/07c01033-a465-46ff-91d6-3b4e47c730b4.pdf"
+                },
+                {
+                  "title": "Snapshot 02 - Prose 01 - The Summer of the Beautiful White Horse - Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/287db448-1928-4591-b74d-d6a8c4f4fdd8.pdf"
+                },
+                {
+                  "title": "Snapshot 01 - Prose 01 - The Summer of the Beautiful White Horse - Class Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/db28092a-96aa-4444-ac0f-e13f8d8b14c0.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Snapshot - Prose - The Summer of the Beautiful White Horse - DPP 02.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/441a924c-fd17-455a-bf60-e80ee9dbf1b7.pdf"
+                },
+                {
+                  "title": "Snapshot - Prose -  The Summer of the Beautiful White Horse - DPP 01.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/69d4ca00-6a9a-4f37-ace5-767e1f3e2404.pdf"
+                }
+              ]
+            },
+            "Figures of Speech": {
+              "name": "Figures of Speech",
+              "lectures": [
+                {
+                  "title": "Figures of Speech 01 - Literary Devices - Extra.mp4",
+                  "thumbnail": "https://envs.sh/v3Z.jpg",
+                  "videoUrl": "https://stream.pwjarvis.app/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aWRlb0lkIjoiYzgxZmE3YzQtYTMxZi00YjMwLWE4MzEtYjQ2NWE4ZjRlZmFiIiwiZXhwIjoxNzQ4NTk0OTI2fQ.T5YkjRPuZovV5Zp_ZAluAXL5tT57OnV2wbA12XESG30/hls/720/main.m3u8"
+                }
+              ],
+              "notes": [
+                {
+                  "title": "Figures of Speech - Literary Devices - Handwritten Notes.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/2fdde8d9-d713-4b23-8456-e5bb27393429.pdf"
+                },
+                {
+                  "title": "Figures of Speech 01 - Literary Devices - Class Notes .pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/696aa450-f530-4827-8799-af12d166007f.pdf"
+                }
+              ],
+              "dpps": [
+                {
+                  "title": "Figures of Speech - Literary Devices - DPP 01.pdf",
+                  "fileUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/ec5a1f91-da7f-4281-b6c3-cf710c302110.pdf"
+                }
+              ]
+            },
+            "Hornbill : Poetry": {
+              "name": "Hornbill : Poetry",
+              "lectures": [],
+              "notes": [],
+              "dpps": []
+            }
+          }
+        },
+        "Computer Science": {
+          "name": "Computer Science",
+          "topics": {}
+        },
+        "Physical Education": {
+          "name": "Physical Education",
+          "topics": {}
         }
       }
     }
