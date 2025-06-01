@@ -7,7 +7,7 @@ const data = require('./data.json');
 const allowedOrigins = [
   'https://pwthor.ct.ws',
   'https://powerstudy.ct.ws',
-  'https://anotherdomain.com'
+  'https://pwthor.site'
 ];
  // Replace with your actual domain
 
