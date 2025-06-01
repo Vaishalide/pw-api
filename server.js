@@ -6,7 +6,7 @@ const data = require('./data.json');
 // ✅ Allow multiple domains
 const allowedOrigins = [
   'https://pwthor.ct.ws',
-  'https://powerstudy.ct.ws',
+  'https://pw-thor-6781512f6f22.herokuapp.com',
   'https://pwthor.site'
 ];
  // Replace with your actual domain
