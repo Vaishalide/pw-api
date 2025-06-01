@@ -5,7 +5,7 @@ const data = require('./data.json');
 // ✅ Only allow this domain
 // ✅ Allow multiple domains
 const allowedOrigins = [
-  'https://www.powerstudyctwsindexhtml.xyz',
+  'https://pw-study-430394f4b260.herokuapp.com',
   'https://pw-thor-6781512f6f22.herokuapp.com',
   'https://pwthor.site'
 ];
