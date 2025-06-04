@@ -6,7 +6,7 @@ const { URL } = require('url');
 const data    = require('./data.json');
 
 const app = express();
-// In server.js, right after `const app = express()`: 
+// In server.js, right after `const app = express()`:
 const cors = require('cors');
 app.use(cors());
 
@@ -14,37 +14,7 @@ app.use(cors());
 // 1. MIDDLEWARE (CORS, JSON parsing, etc.)
 // ─────────────────────────────────────────────────────────────────
 
-// Allowed origins for CORS (adjust to your deployment domain)
-///const allowedOrigins = [
-////  'https://pw-thor-6781512f6f22.herokuapp.com',
-//  'https://pwthor.site',
-///  'pwthor.site',
-/////  'https://po.com',
-////  'http://po.com',
-////  'https://xyz.com',
-//  'http://xyz.com'
-///];
-
-//app.use((req, res, next) => {
-//  const origin = req.headers.origin;
-//  if (allowedOrigins.includes(origin)) {
-//    res.setHeader('Access-Control-Allow-Origin', origin);
-///    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
-////    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-//    next();
-///  } else {
-////    // If you want to allow non‐browser clients, you could call next() even when origin is not in this list.
-////    return res.status(403).json({ error: 'Forbidden' });
-//  }
-//});
-
-//app.options('*', (req, res) => {
-  // Respond to preflight CORS requests
-//  res.sendStatus(200);
-//});
-
 app.use(express.json());
-
 
 // ─────────────────────────────────────────────────────────────────
 // 2. BUILD videoMap (token → { url, mimeType })
@@ -82,15 +52,13 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
   });
 });
 
-
 // ─────────────────────────────────────────────────────────────────
-// 3. PAGINATED “BATCH SUMMARIES” ENDPOINT
-//    GET /data/batches?limit=<N>&offset=<M>
-//    Returns { total, offset, limit, batches: [ { key, name, image } … ] }
+// 3. GET /data/batches?limit=<N>&offset=<M>
+//    Returns paginated list of batches: { total, offset, limit, batches: [ { key, name, image } … ] }
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/data/batches', (req, res) => {
-  const limit  = parseInt(req.query.limit, 10)  || 10;
+  const limit = parseInt(req.query.limit, 10) || 10;
   const offset = parseInt(req.query.offset, 10) || 0;
 
   const allBatchKeys = Object.keys(data.batches || {});
@@ -111,7 +79,6 @@ app.get('/data/batches', (req, res) => {
   res.json({ total: totalBatches, offset, limit, batches: page });
 });
 
-
 // ─────────────────────────────────────────────────────────────────
 // 4. SERVER-SIDE SEARCH ENDPOINT
 //    GET /data/batches/search?q=<query>
@@ -119,78 +86,70 @@ app.get('/data/batches', (req, res) => {
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/data/batches/search', (req, res) => {
-  const q = String(req.query.q || '').trim().toLowerCase();
+  const q = (req.query.q || '').trim().toLowerCase();
   if (!q) {
     return res.json({ results: [] });
   }
 
-  const matches = Object.entries(data.batches || {})
-    .filter(([key, batchObj]) => {
-      const nameLower = String(batchObj.name || '').toLowerCase();
-      return nameLower.includes(q) || key.toLowerCase().includes(q);
-    })
-    .map(([key, batchObj]) => ({
-      key,
-      name:  batchObj.name,
-      image: batchObj.image
-    }));
+  const results = Object.entries(data.batches || {}).reduce((acc, [key, batchObj]) => {
+    if (batchObj.name.toLowerCase().includes(q)) {
+      acc.push({
+        key,
+        name:  batchObj.name,
+        image: batchObj.image
+      });
+    }
+    return acc;
+  }, []);
 
-  // Cache search results for 30 seconds
-  res.setHeader('Cache-Control', 'public, max-age=30');
-  res.json({ results: matches });
+  res.json({ results });
 });
 
-
 // ─────────────────────────────────────────────────────────────────
-// 5. FETCH A BATCH’S SUBJECTS
-//    GET /data/batches/:batchId/subjects
-//    Returns [ { key, name } … ]
+// 5. GET /data/batches/:batchId/subjects
+//    Returns { subjects: [ { key, name } … ] }
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/data/batches/:batchId/subjects', (req, res) => {
-  const batchId = req.params.batchId;
-  const batch   = data.batches?.[batchId];
-
-  if (!batch || !batch.subjects) {
-    return res.status(404).json({ error: 'Batch not found or has no subjects' });
+  const { batchId } = req.params;
+  const batchObj = data.batches[batchId];
+  if (!batchObj) {
+    return res.status(404).json({ error: 'Batch not found' });
   }
 
-  const subjects = Object.entries(batch.subjects).map(([key, subj]) => ({
-    key,
-    name: subj.name
+  const subjects = batchObj.subjects || {};
+  const list = Object.entries(subjects).map(([subjectId, subjObj]) => ({
+    key: subjectId,
+    name: subjObj.name
   }));
 
-  res.json({ subjects });
+  res.json({ subjects: list });
 });
 
-
 // ─────────────────────────────────────────────────────────────────
-// 6. FETCH A SUBJECT’S TOPICS (with Video‐URL Proxying)
-//    GET /data/batches/:batchId/subjects/:subjectId/topics
-//    Returns [ { key, name, lectures: […], notes: […], dpps: […] } … ]
-//    Each lecture.videoUrl is replaced by `/video/<BASE64_TOKEN>`
+// 6. GET /data/batches/:batchId/subjects/:subjectId/topics
+//    Returns { topics: [ { key, name, lectures: [ { title, videoUrl, … } … ], notes: [], dpps: [] } … ] }
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
-  const topicObj = data.batches?.[batchId]?.subjects?.[subjectId]?.topics;
-
-  if (!topicObj) {
-    return res.status(404).json({ error: 'Subject or topics not found' });
+  const batchObj = data.batches[batchId];
+  if (!batchObj) {
+    return res.status(404).json({ error: 'Batch not found' });
   }
 
-  // Ensure whatever is in lectures/notes/dpps is always returned as an array
-  const normalize = input => {
-    if (Array.isArray(input)) return input;
-    if (input && typeof input === 'object') return Object.values(input);
-    return [];
-  };
+  const subjObj = (batchObj.subjects || {})[subjectId];
+  if (!subjObj) {
+    return res.status(404).json({ error: 'Subject not found' });
+  }
 
-  const topics = Object.entries(topicObj).map(([topicKey, topic]) => {
-    // Normalize lectures into an array so we can index them
+  // Helper to normalize either array or object into []
+  const normalize = arrOrObj =>
+    Array.isArray(arrOrObj) ? arrOrObj : Object.values(arrOrObj || {});
+
+  const topics = Object.entries(subjObj.topics || {}).map(([topicKey, topic]) => {
     const lecturesArr = normalize(topic.lectures);
-
-    // For each lecture, override its videoUrl to point at our proxy
+    // For each lecture, lecture.videoUrl was overridden above to be `/video/<token>`
     const lecturesWithProxy = lecturesArr.map((lec, idx) => {
       const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
       const b64Token = Buffer.from(rawToken).toString('base64url');
@@ -212,7 +171,6 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   res.json({ topics });
 });
 
-
 // ─────────────────────────────────────────────────────────────────
 // 7. PROXY ENDPOINT: GET /video/:token(*)
 //    - If no “remainder” ⇒ fetch the upstream .m3u8, rewrite segment URIs ⇒ /video/<token>/…
@@ -220,7 +178,7 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/video/:token(*)', async (req, res) => {
-  const raw = req.params.token; 
+  const raw = req.params.token;
   // raw might be "<base64Token>" or "<base64Token>/chunk-0.ts"
   const [maybeToken, ...rest] = raw.split('/');
   const remainderPath = rest.join('/'); // e.g. "chunk-0.ts" or "" if none
@@ -253,6 +211,7 @@ app.get('/video/:token(*)', async (req, res) => {
     //    buffer it, rewrite segment URIs, and send it back
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
+
       let playlistText = '';
       upstreamRes.data.setEncoding('utf8');
       upstreamRes.data.on('data', chunk => {
@@ -263,18 +222,18 @@ app.get('/video/:token(*)', async (req, res) => {
           .split('\n')
           .map(line => {
             const trimmed = line.trim();
-            if (trimmed === '' || trimmed.startsWith('#')) {
-              return line;
-            }
-            // Rewrite something like "chunk-0.ts" ⇒ "/video/<maybeToken>/chunk-0.ts"
+            if (!trimmed || trimmed.startsWith('#')) return line;
+            // Rewrite “chunk-0.ts” ⇒ “/video/<token>/chunk-0.ts”
             return `/video/${maybeToken}/${trimmed}`;
           })
           .join('\n');
         res.send(rewritten);
       });
     } else {
-      // 5. Otherwise (TS segment or other), just pipe it back with the correct content-type
-      res.setHeader('Content-Type', mimeType);
+      // 5. Otherwise (TS segment or other), forward with the correct content-type
+      //    Prefer the actual upstream Content-Type, fallback to our stored mimeType
+      const actualContentType = upstreamRes.headers['content-type'] || mimeType;
+      res.setHeader('Content-Type', actualContentType);
       upstreamRes.data.pipe(res);
     }
   } catch (err) {
@@ -283,7 +242,6 @@ app.get('/video/:token(*)', async (req, res) => {
   }
 });
 
-
 // ─────────────────────────────────────────────────────────────────
 // 8. FALLBACK FOR UNKNOWN ROUTES
 // ─────────────────────────────────────────────────────────────────
@@ -291,7 +249,6 @@ app.get('/video/:token(*)', async (req, res) => {
 app.use((req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });
 });
-
 
 // ─────────────────────────────────────────────────────────────────
 // 9. START SERVER
