@@ -6,6 +6,9 @@ const { URL } = require('url');
 const data    = require('./data.json');
 
 const app = express();
+// In server.js, right after `const app = express()`: 
+const cors = require('cors');
+app.use(cors());
 
 // ─────────────────────────────────────────────────────────────────
 // 1. MIDDLEWARE (CORS, JSON parsing, etc.)
