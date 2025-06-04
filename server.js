@@ -6,20 +6,17 @@ const { URL } = require('url');
 const data    = require('./data.json');
 
 const app = express();
-// In server.js, right after `const app = express()`:
+// Enable CORS for all routes
 const cors = require('cors');
 app.use(cors());
 
-// ─────────────────────────────────────────────────────────────────
-// 1. MIDDLEWARE (CORS, JSON parsing, etc.)
-// ─────────────────────────────────────────────────────────────────
-
+// Parse JSON bodies (for POST/PUT requests, though not used here)
 app.use(express.json());
 
 // ─────────────────────────────────────────────────────────────────
-// 2. BUILD videoMap (token → { url, mimeType })
+// 1. BUILD videoMap (token → { url, mimeType })
 //    Walk through data.batches → subjects → topics → lectures
-//    For each lecture.videoUrl, generate a base64‐token and store its mapping.
+//    For each lecture.videoUrl, generate a URL‐safe base64 token and store its mapping.
 // ─────────────────────────────────────────────────────────────────
 
 const videoMap = {};
@@ -34,18 +31,19 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
         ? topicObj.lectures
         : Object.values(topicObj.lectures || {});
 
-      lecturesArr.forEach((lec, idx) => {
-        if (!lec.videoUrl) return;
-        // Create raw token (e.g. "BatchA__Math__Algebra__0")
+      lecturesArr.forEach((lecture, idx) => {
+        if (!lecture.videoUrl) return;
+
+        // Create a raw token string: e.g. "BatchA__Math__Algebra__0"
         const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
         // Convert to URL‐safe Base64
         const b64Token = Buffer.from(rawToken).toString('base64url');
 
         videoMap[b64Token] = {
-          url: lec.videoUrl,
-          mimeType: lec.videoUrl.endsWith('.m3u8')
+          url: lecture.videoUrl,
+          mimeType: lecture.videoUrl.endsWith('.m3u8')
             ? 'application/vnd.apple.mpegurl'
-            : 'video/MP2T'
+            : 'video/MP2T',
         };
       });
     });
@@ -53,7 +51,7 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 3. GET /data/batches?limit=<N>&offset=<M>
+// 2. GET /data/batches?limit=<N>&offset=<M>
 //    Returns paginated list of batches: { total, offset, limit, batches: [ { key, name, image } … ] }
 // ─────────────────────────────────────────────────────────────────
 
@@ -63,25 +61,24 @@ app.get('/data/batches', (req, res) => {
 
   const allBatchKeys = Object.keys(data.batches || {});
   const totalBatches = allBatchKeys.length;
-  const pageKeys     = allBatchKeys.slice(offset, offset + limit);
+  const pageKeys = allBatchKeys.slice(offset, offset + limit);
 
-  const page = pageKeys.map(key => {
+  const page = pageKeys.map((key) => {
     const batchObj = data.batches[key];
     return {
       key,
-      name:  batchObj.name,
-      image: batchObj.image
+      name: batchObj.name,
+      image: batchObj.image,
     };
   });
 
-  // Cache this response for 5 minutes
+  // Cache this response for 5 minutes (300 seconds)
   res.setHeader('Cache-Control', 'public, max-age=300');
   res.json({ total: totalBatches, offset, limit, batches: page });
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 4. SERVER-SIDE SEARCH ENDPOINT
-//    GET /data/batches/search?q=<query>
+// 3. SEARCH: GET /data/batches/search?q=<query>
 //    Returns { results: [ { key, name, image } … ] }
 // ─────────────────────────────────────────────────────────────────
 
@@ -95,8 +92,8 @@ app.get('/data/batches/search', (req, res) => {
     if (batchObj.name.toLowerCase().includes(q)) {
       acc.push({
         key,
-        name:  batchObj.name,
-        image: batchObj.image
+        name: batchObj.name,
+        image: batchObj.image,
       });
     }
     return acc;
@@ -106,7 +103,7 @@ app.get('/data/batches/search', (req, res) => {
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 5. GET /data/batches/:batchId/subjects
+// 4. GET /data/batches/:batchId/subjects
 //    Returns { subjects: [ { key, name } … ] }
 // ─────────────────────────────────────────────────────────────────
 
@@ -120,14 +117,14 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
   const subjects = batchObj.subjects || {};
   const list = Object.entries(subjects).map(([subjectId, subjObj]) => ({
     key: subjectId,
-    name: subjObj.name
+    name: subjObj.name,
   }));
 
   res.json({ subjects: list });
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 6. GET /data/batches/:batchId/subjects/:subjectId/topics
+// 5. GET /data/batches/:batchId/subjects/:subjectId/topics
 //    Returns { topics: [ { key, name, lectures: [ { title, videoUrl, … } … ], notes: [], dpps: [] } … ] }
 // ─────────────────────────────────────────────────────────────────
 
@@ -143,107 +140,114 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
     return res.status(404).json({ error: 'Subject not found' });
   }
 
-  // Helper to normalize either array or object into []
-  const normalize = arrOrObj =>
+  // Helper: normalize array‐or‐object into an array
+  const normalize = (arrOrObj) =>
     Array.isArray(arrOrObj) ? arrOrObj : Object.values(arrOrObj || {});
 
-  const topics = Object.entries(subjObj.topics || {}).map(([topicKey, topic]) => {
-    const lecturesArr = normalize(topic.lectures);
-    // For each lecture, lecture.videoUrl was overridden above to be `/video/<token>`
-    const lecturesWithProxy = lecturesArr.map((lec, idx) => {
-      const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
-      const b64Token = Buffer.from(rawToken).toString('base64url');
-      return {
-        ...lec,
-        videoUrl: `/video/${b64Token}` // Proxy URL
-      };
-    });
+  const topics = Object.entries(subjObj.topics || {}).map(
+    ([topicKey, topicObj]) => {
+      const lecturesArr = normalize(topicObj.lectures);
+      // For each lecture, replace lecture.videoUrl with our proxy URL: /video/<token>
+      const lecturesWithProxy = lecturesArr.map((lec, idx) => {
+        const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
+        const b64Token = Buffer.from(rawToken).toString('base64url');
+        return {
+          ...lec,
+          videoUrl: `/video/${b64Token}`, // Proxy URL
+        };
+      });
 
-    return {
-      key: topicKey,
-      name: topic.name,
-      lectures: lecturesWithProxy,
-      notes: normalize(topic.notes),
-      dpps: normalize(topic.dpps)
-    };
-  });
+      return {
+        key: topicKey,
+        name: topicObj.name,
+        lectures: lecturesWithProxy,
+        notes: normalize(topicObj.notes),
+        dpps: normalize(topicObj.dpps),
+      };
+    }
+  );
 
   res.json({ topics });
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 7. PROXY ENDPOINT: GET /video/:token(*)
-//    - If no “remainder” ⇒ fetch the upstream .m3u8, rewrite segment URIs ⇒ /video/<token>/…
-//    - If “remainder” (e.g. "chunk-0.ts") ⇒ fetch that .ts from the upstream base and stream.
+// 6. PROXY ENDPOINT: GET /video/:token(*)
+//    - If no “remainder” ⇒ fetch the upstream .m3u8, rewrite segment URIs ⇒ “/video/<token>/<segment>”
+//    - If “remainder” present ⇒ fetch that segment (.ts) from upstream and stream with correct Content-Type.
 // ─────────────────────────────────────────────────────────────────
 
 app.get('/video/:token(*)', async (req, res) => {
-  const raw = req.params.token;
-  // raw might be "<base64Token>" or "<base64Token>/chunk-0.ts"
-  const [maybeToken, ...rest] = raw.split('/');
-  const remainderPath = rest.join('/'); // e.g. "chunk-0.ts" or "" if none
-
-  // 1. Lookup the token in our in-memory map
-  if (!videoMap[maybeToken]) {
-    return res.status(404).send('Video not found');
-  }
-  const { url: upstreamUrl, mimeType } = videoMap[maybeToken];
-
-  // 2. Determine the actual URL to fetch from the upstream service
-  let targetUrl;
-  if (!remainderPath) {
-    // No remainder ⇒ fetch the .m3u8 playlist itself
-    targetUrl = upstreamUrl;
-  } else {
-    // Remainder present ⇒ fetch a .ts segment under the same directory
-    const upstreamParsed = new URL(upstreamUrl);
-    // Remove the trailing "/something.m3u8" from the path, append the segment name
-    const basePath = upstreamParsed.pathname.replace(/\/[^/]*\.m3u8$/, '/');
-    upstreamParsed.pathname = basePath + remainderPath;
-    targetUrl = upstreamParsed.toString();
-  }
-
   try {
+    const raw = req.params.token;
+    // raw might look like "<base64Token>" or "<base64Token>/chunk-0.ts"
+    const [maybeToken, ...rest] = raw.split('/');
+    let remainderPath = rest.join('/'); // e.g. "chunk-0.ts" or "" if none
+
+    // Strip any leading slashes in remainderPath to avoid “//segment.ts”
+    remainderPath = remainderPath.replace(/^\/+/, '');
+
+    // 1. Lookup the token in our in-memory map
+    const entry = videoMap[maybeToken];
+    if (!entry) {
+      return res.status(404).send('Video not found');
+    }
+    const { url: upstreamUrl, mimeType } = entry;
+
+    // 2. Determine the actual upstream URL to fetch
+    let targetUrl;
+    if (!remainderPath) {
+      // No remainder ⇒ fetch the .m3u8 playlist itself
+      targetUrl = upstreamUrl;
+    } else {
+      // Remainder present ⇒ fetch a .ts (or other) segment under the same directory
+      const upstreamParsed = new URL(upstreamUrl);
+      // Remove the trailing “/<something>.m3u8” from the path, keep the base directory
+      const basePath = upstreamParsed.pathname.replace(/\/[^/]*\.m3u8$/, '/');
+      // Append the cleaned remainderPath (no leading slash)
+      upstreamParsed.pathname = basePath + remainderPath;
+      targetUrl = upstreamParsed.toString();
+    }
+
     // 3. Fetch from upstream, getting a streaming response
     const upstreamRes = await axios.get(targetUrl, { responseType: 'stream' });
 
-    // 4. If this is the playlist itself (mimeType = HLS + no remainder),
-    //    buffer it, rewrite segment URIs, and send it back
+    // 4. If this is the HLS playlist itself (mimeType = HLS + no remainder),
+    //    buffer it, rewrite each URI to our proxy, and send back
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
 
       let playlistText = '';
       upstreamRes.data.setEncoding('utf8');
-      upstreamRes.data.on('data', chunk => {
+      upstreamRes.data.on('data', (chunk) => {
         playlistText += chunk;
       });
       upstreamRes.data.on('end', () => {
         const rewritten = playlistText
           .split('\n')
-          .map(line => {
+          .map((line) => {
             const trimmed = line.trim();
             if (!trimmed || trimmed.startsWith('#')) return line;
-            // Rewrite “chunk-0.ts” ⇒ “/video/<token>/chunk-0.ts”
+            // Rewrite “chunk-0.ts” → “/video/<token>/chunk-0.ts”
             return `/video/${maybeToken}/${trimmed}`;
           })
           .join('\n');
         res.send(rewritten);
       });
     } else {
-      // 5. Otherwise (TS segment or other), forward with the correct content-type
-      //    Prefer the actual upstream Content-Type, fallback to our stored mimeType
-      const actualContentType = upstreamRes.headers['content-type'] || mimeType;
+      // 5. Otherwise (TS segment or any other file), forward stream with correct Content-Type
+      const actualContentType =
+        upstreamRes.headers['content-type'] || mimeType;
       res.setHeader('Content-Type', actualContentType);
       upstreamRes.data.pipe(res);
     }
   } catch (err) {
-    console.error('Error in /video proxy:', err.message);
+    console.error('Error in /video proxy:', err);
     res.status(500).send('Proxy error');
   }
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 8. FALLBACK FOR UNKNOWN ROUTES
+// 7. FALLBACK FOR UNKNOWN ROUTES
 // ─────────────────────────────────────────────────────────────────
 
 app.use((req, res) => {
@@ -251,7 +255,7 @@ app.use((req, res) => {
 });
 
 // ─────────────────────────────────────────────────────────────────
-// 9. START SERVER
+// 8. START SERVER
 // ─────────────────────────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
