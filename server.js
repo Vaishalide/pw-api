@@ -1,16 +1,15 @@
 // server.js
 
 const express = require('express');
-const axios   = require('axios');
+const axios = require('axios');
 const { URL } = require('url');
-const data    = require('./data.json');
-const cors    = require('cors');
+const data = require('./data.json');
+const cors = require('cors');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Build videoMap
 const videoMap = {};
 Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
   const subjects = batchObj.subjects || {};
@@ -36,20 +35,19 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
   });
 });
 
-// Endpoint: GET /data/batches
 app.get('/data/batches', (req, res) => {
-  const limit  = parseInt(req.query.limit, 10)  || 10;
+  const limit = parseInt(req.query.limit, 10) || 10;
   const offset = parseInt(req.query.offset, 10) || 0;
 
   const allBatchKeys = Object.keys(data.batches || {});
   const totalBatches = allBatchKeys.length;
-  const pageKeys     = allBatchKeys.slice(offset, offset + limit);
+  const pageKeys = allBatchKeys.slice(offset, offset + limit);
 
   const page = pageKeys.map(key => {
     const batchObj = data.batches[key];
     return {
       key,
-      name:  batchObj.name,
+      name: batchObj.name,
       image: batchObj.image
     };
   });
@@ -58,7 +56,6 @@ app.get('/data/batches', (req, res) => {
   res.json({ total: totalBatches, offset, limit, batches: page });
 });
 
-// Endpoint: GET /data/batches/search
 app.get('/data/batches/search', (req, res) => {
   const q = String(req.query.q || '').trim().toLowerCase();
   if (!q) return res.json({ results: [] });
@@ -70,7 +67,7 @@ app.get('/data/batches/search', (req, res) => {
     })
     .map(([key, batchObj]) => ({
       key,
-      name:  batchObj.name,
+      name: batchObj.name,
       image: batchObj.image
     }));
 
@@ -78,10 +75,9 @@ app.get('/data/batches/search', (req, res) => {
   res.json({ results: matches });
 });
 
-// Endpoint: GET /data/batches/:batchId/subjects
 app.get('/data/batches/:batchId/subjects', (req, res) => {
   const batchId = req.params.batchId;
-  const batch   = data.batches?.[batchId];
+  const batch = data.batches?.[batchId];
 
   if (!batch || !batch.subjects) {
     return res.status(404).json({ error: 'Batch not found or has no subjects' });
@@ -95,7 +91,6 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
   res.json({ subjects });
 });
 
-// Endpoint: GET /data/batches/:batchId/subjects/:subjectId/topics
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
   const topicObj = data.batches?.[batchId]?.subjects?.[subjectId]?.topics;
@@ -134,7 +129,6 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   res.json({ topics });
 });
 
-// Proxy Endpoint: GET /video/:token(*)
 app.get('/video/:token(*)', async (req, res) => {
   const raw = req.params.token;
   const [maybeToken, ...rest] = raw.split('/');
@@ -161,22 +155,25 @@ app.get('/video/:token(*)', async (req, res) => {
 
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
+      res.setHeader('Cache-Control', 'no-store'); // Disable cache
       let playlistText = '';
       upstreamRes.data.setEncoding('utf8');
       upstreamRes.data.on('data', chunk => {
         playlistText += chunk;
       });
       upstreamRes.data.on('end', () => {
+        console.log('Original Playlist:\n', playlistText);
         const rewritten = playlistText
           .split('\n')
           .map(line => {
             const trimmed = line.trim();
             if (trimmed === '' || trimmed.startsWith('#')) return line;
-            if (trimmed === 'jarvis.ts') return ''; // Skip jarvis.ts
+            if (trimmed.includes('jarvis.ts')) return ''; // Skip jarvis.ts segment
             return `/video/${maybeToken}/${trimmed}`;
           })
-          .filter(line => line !== '') // Remove blank lines
+          .filter(line => line !== '')
           .join('\n');
+        console.log('Rewritten Playlist:\n', rewritten);
         res.send(rewritten);
       });
     } else {
@@ -189,12 +186,10 @@ app.get('/video/:token(*)', async (req, res) => {
   }
 });
 
-// Fallback
 app.use((req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });
 });
 
-// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
