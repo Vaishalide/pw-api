@@ -153,7 +153,7 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
         const b64Token = Buffer.from(rawToken).toString('base64url');
         return {
           ...lec,
-          videoUrl: `/video/${b64Token}`, // Proxy URL
+          videoUrl: `https://testing-453c50579f45.herokuapp.com/video/${b64Token}`, // Proxy URL
         };
       });
 
