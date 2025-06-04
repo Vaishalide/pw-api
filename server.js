@@ -12,33 +12,33 @@ const app = express();
 // ─────────────────────────────────────────────────────────────────
 
 // Allowed origins for CORS (adjust to your deployment domain)
-const allowedOrigins = [
-  'https://pw-thor-6781512f6f22.herokuapp.com',
-  'https://pwthor.site',
-  'pwthor.site',
-  'https://po.com',
-  'http://po.com',
-  'https://xyz.com',
-  'http://xyz.com'
-];
+///const allowedOrigins = [
+////  'https://pw-thor-6781512f6f22.herokuapp.com',
+//  'https://pwthor.site',
+///  'pwthor.site',
+/////  'https://po.com',
+////  'http://po.com',
+////  'https://xyz.com',
+//  'http://xyz.com'
+///];
 
-app.use((req, res, next) => {
-  const origin = req.headers.origin;
-  if (allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-  } else {
-    // If you want to allow non‐browser clients, you could call next() even when origin is not in this list.
-    return res.status(403).json({ error: 'Forbidden' });
-  }
-});
+//app.use((req, res, next) => {
+//  const origin = req.headers.origin;
+//  if (allowedOrigins.includes(origin)) {
+//    res.setHeader('Access-Control-Allow-Origin', origin);
+///    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+////    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+//    next();
+///  } else {
+////    // If you want to allow non‐browser clients, you could call next() even when origin is not in this list.
+////    return res.status(403).json({ error: 'Forbidden' });
+//  }
+//});
 
-app.options('*', (req, res) => {
+//app.options('*', (req, res) => {
   // Respond to preflight CORS requests
-  res.sendStatus(200);
-});
+//  res.sendStatus(200);
+//});
 
 app.use(express.json());
 
