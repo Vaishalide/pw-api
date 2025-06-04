@@ -15,7 +15,7 @@ const app = express();
 const allowedOrigins = [
   'https://pw-thor-6781512f6f22.herokuapp.com',
   'https://pwthor.site',
-  'http://pwthor.site',
+  'pwthor.site',
   'https://po.com',
   'http://po.com',
   'https://xyz.com',
