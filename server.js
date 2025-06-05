@@ -1,5 +1,3 @@
-// server.js
-
 const express = require('express');
 const axios = require('axios');
 const { URL } = require('url');
@@ -8,14 +6,10 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
-// ─────────────────────────────────────────────────────────────────
-// 1. MIDDLEWARE (CORS, JSON parsing, etc.)
-// ─────────────────────────────────────────────────────────────────
 
-// Allowed origins for CORS (adjust to your deployment domain)
 const allowedOrigins = [
-'https://pw-thor-6781512f6f22.herokuapp.com',
- 'https://pwthor.site',
+  'https://pw-thor-6781512f6f22.herokuapp.com',
+  'https://pwthor.site',
   'pwthor.site',
   'https://po.com',
   'http://po.com',
@@ -31,15 +25,11 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     next();
   } else {
-    // If you want to allow non‐browser clients, you could call next() even when origin is not in this list.
     return res.status(403).json({ telegram: '@pw_thor' });
   }
 });
 
-app.options('*', (req, res) => {
-  // Respond to preflight CORS requests
-  res.sendStatus(200);
-});
+app.options('*', (req, res) => res.sendStatus(200));
 app.use(express.json());
 
 const videoMap = {};
@@ -51,7 +41,6 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
       const lecturesArr = Array.isArray(topicObj.lectures)
         ? topicObj.lectures
         : Object.values(topicObj.lectures || {});
-
       lecturesArr.forEach((lec, idx) => {
         if (!lec.videoUrl) return;
         const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
@@ -70,11 +59,9 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
 app.get('/data/batches', (req, res) => {
   const limit = parseInt(req.query.limit, 10) || 10;
   const offset = parseInt(req.query.offset, 10) || 0;
-
   const allBatchKeys = Object.keys(data.batches || {});
   const totalBatches = allBatchKeys.length;
   const pageKeys = allBatchKeys.slice(offset, offset + limit);
-
   const page = pageKeys.map(key => {
     const batchObj = data.batches[key];
     return {
@@ -83,7 +70,6 @@ app.get('/data/batches', (req, res) => {
       image: batchObj.image
     };
   });
-
   res.setHeader('Cache-Control', 'public, max-age=300');
   res.json({ total: totalBatches, offset, limit, batches: page });
 });
@@ -91,7 +77,6 @@ app.get('/data/batches', (req, res) => {
 app.get('/data/batches/search', (req, res) => {
   const q = String(req.query.q || '').trim().toLowerCase();
   if (!q) return res.json({ results: [] });
-
   const matches = Object.entries(data.batches || {})
     .filter(([key, batchObj]) => {
       const nameLower = String(batchObj.name || '').toLowerCase();
@@ -102,7 +87,6 @@ app.get('/data/batches/search', (req, res) => {
       name: batchObj.name,
       image: batchObj.image
     }));
-
   res.setHeader('Cache-Control', 'public, max-age=30');
   res.json({ results: matches });
 });
@@ -110,23 +94,19 @@ app.get('/data/batches/search', (req, res) => {
 app.get('/data/batches/:batchId/subjects', (req, res) => {
   const batchId = req.params.batchId;
   const batch = data.batches?.[batchId];
-
   if (!batch || !batch.subjects) {
     return res.status(404).json({ error: 'Batch not found or has no subjects' });
   }
-
   const subjects = Object.entries(batch.subjects).map(([key, subj]) => ({
     key,
     name: subj.name
   }));
-
   res.json({ subjects });
 });
 
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
   const topicObj = data.batches?.[batchId]?.subjects?.[subjectId]?.topics;
-
   if (!topicObj) {
     return res.status(404).json({ error: 'Subject or topics not found' });
   }
@@ -139,16 +119,14 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
 
   const topics = Object.entries(topicObj).map(([topicKey, topic]) => {
     const lecturesArr = normalize(topic.lectures);
-
     const lecturesWithProxy = lecturesArr.map((lec, idx) => {
       const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
       const b64Token = Buffer.from(rawToken).toString('base64url');
       return {
         ...lec,
-        videoUrl: `https://pw-api-75332756c41b.herokuapp.com/video/${b64Token}`
+        videoUrl: `https://testing-453c50579f45.herokuapp.com/video/${b64Token}`
       };
     });
-
     return {
       key: topicKey,
       name: topic.name,
@@ -172,6 +150,20 @@ app.get('/video/:token(*)', async (req, res) => {
 
   const { url: upstreamUrl, mimeType } = videoMap[maybeToken];
 
+  // Proxy enc.key file
+  if (remainderPath === 'enc.key') {
+    try {
+      const keyUrl = new URL(upstreamUrl);
+      const keyProxyUrl = keyUrl.toString().replace(/\.m3u8$/, '/enc.key');
+      const keyRes = await axios.get(keyProxyUrl, { responseType: 'arraybuffer' });
+      res.setHeader('Content-Type', 'application/octet-stream');
+      return res.send(Buffer.from(keyRes.data));
+    } catch (err) {
+      console.error('Error proxying enc.key:', err.message);
+      return res.status(500).send('Key proxy error');
+    }
+  }
+
   let targetUrl;
   if (!remainderPath) {
     targetUrl = upstreamUrl;
@@ -187,25 +179,26 @@ app.get('/video/:token(*)', async (req, res) => {
 
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
-      res.setHeader('Cache-Control', 'no-store'); // Disable cache
+      res.setHeader('Cache-Control', 'no-store');
       let playlistText = '';
       upstreamRes.data.setEncoding('utf8');
       upstreamRes.data.on('data', chunk => {
         playlistText += chunk;
       });
       upstreamRes.data.on('end', () => {
-        console.log('Original Playlist:\n', playlistText);
         const rewritten = playlistText
           .split('\n')
           .map(line => {
             const trimmed = line.trim();
+            if (trimmed.startsWith('#EXT-X-KEY:')) {
+              return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
+            }
             if (trimmed === '' || trimmed.startsWith('#')) return line;
-            if (trimmed.includes('jarvis.ts')) return ''; // Skip jarvis.ts segment
+            if (trimmed.includes('jarvis.ts')) return '';
             return `/video/${maybeToken}/${trimmed}`;
           })
           .filter(line => line !== '')
           .join('\n');
-        console.log('Rewritten Playlist:\n', rewritten);
         res.send(rewritten);
       });
     } else {
