@@ -150,16 +150,23 @@ app.get('/video/:token(*)', async (req, res) => {
 
   const { url: upstreamUrl, mimeType } = videoMap[maybeToken];
 
-  // Proxy enc.key file
+  // 🔐 Securely handle .key request
   if (remainderPath === 'enc.key') {
     try {
-      const keyUrl = new URL(upstreamUrl);
-      const keyProxyUrl = keyUrl.toString().replace(/\.m3u8$/, '/enc.key');
-      const keyRes = await axios.get(keyProxyUrl, { responseType: 'arraybuffer' });
+      const m3u8Res = await axios.get(upstreamUrl);
+      const playlist = m3u8Res.data;
+      const keyLine = playlist.split('\n').find(line => line.startsWith('#EXT-X-KEY:'));
+      if (!keyLine) throw new Error('No EXT-X-KEY line found in playlist');
+      const match = keyLine.match(/URI="([^"]+)"/);
+      if (!match) throw new Error('No URI in EXT-X-KEY line');
+      const actualKeyUrl = match[1];
+      const resolvedKeyUrl = new URL(actualKeyUrl, upstreamUrl).toString();
+
+      const keyRes = await axios.get(resolvedKeyUrl, { responseType: 'arraybuffer' });
       res.setHeader('Content-Type', 'application/octet-stream');
       return res.send(Buffer.from(keyRes.data));
     } catch (err) {
-      console.error('Error proxying enc.key:', err.message);
+      console.error('Error fetching enc.key:', err.message);
       return res.status(500).send('Key proxy error');
     }
   }
@@ -191,7 +198,7 @@ app.get('/video/:token(*)', async (req, res) => {
           .map(line => {
             const trimmed = line.trim();
             if (trimmed.startsWith('#EXT-X-KEY:')) {
-              return trimmed.replace(/URI="([^"]+)"/, `URI="https://testing-453c50579f45.herokuapp.com/video/${maybeToken}/enc.key"`);
+              return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
             }
             if (trimmed === '' || trimmed.startsWith('#')) return line;
             if (trimmed.includes('jarvis.ts')) return '';
