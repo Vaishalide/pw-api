@@ -191,7 +191,7 @@ app.get('/video/:token(*)', async (req, res) => {
           .map(line => {
             const trimmed = line.trim();
             if (trimmed.startsWith('#EXT-X-KEY:')) {
-              return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
+              return trimmed.replace(/URI="([^"]+)"/, `URI="https://testing-453c50579f45.herokuapp.com/video/${maybeToken}/enc.key"`);
             }
             if (trimmed === '' || trimmed.startsWith('#')) return line;
             if (trimmed.includes('jarvis.ts')) return '';
