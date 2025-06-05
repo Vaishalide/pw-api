@@ -8,6 +8,38 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
+// ─────────────────────────────────────────────────────────────────
+// 1. MIDDLEWARE (CORS, JSON parsing, etc.)
+// ─────────────────────────────────────────────────────────────────
+
+// Allowed origins for CORS (adjust to your deployment domain)
+const allowedOrigins = [
+'https://pw-thor-6781512f6f22.herokuapp.com',
+ 'https://pwthor.site',
+  'pwthor.site',
+  'https://po.com',
+  'http://po.com',
+  'https://xyz.com',
+  'http://xyz.com'
+];
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+  } else {
+    // If you want to allow non‐browser clients, you could call next() even when origin is not in this list.
+    return res.status(403).json({ telegram: '@pw_thor' });
+  }
+});
+
+app.options('*', (req, res) => {
+  // Respond to preflight CORS requests
+  res.sendStatus(200);
+});
 app.use(express.json());
 
 const videoMap = {};
@@ -113,7 +145,7 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
       const b64Token = Buffer.from(rawToken).toString('base64url');
       return {
         ...lec,
-        videoUrl: `https://testing-453c50579f45.herokuapp.com/video/${b64Token}`
+        videoUrl: `https://pw-api-75332756c41b.herokuapp.com/video/${b64Token}`
       };
     });
 
