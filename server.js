@@ -182,7 +182,32 @@ app.get('/video/:token(*)', async (req, res) => {
   }
 
   try {
-    const upstreamRes = await axios.get(targetUrl, { responseType: 'stream' });
+   const upstreamRes = await axios({
+  url: targetUrl,
+  method: 'GET',
+  responseType: 'stream',
+  headers: {
+    Range: req.headers.range || 'bytes=0-',
+  },
+  validateStatus: status => status < 500,
+});
+res.setHeader('Access-Control-Allow-Origin', '*');
+res.setHeader('Accept-Ranges', 'bytes');
+res.setHeader('Cache-Control', 'public, max-age=600');
+
+if (upstreamRes.headers['content-length']) {
+  res.setHeader('Content-Length', upstreamRes.headers['content-length']);
+}
+if (upstreamRes.headers['content-type']) {
+  res.setHeader('Content-Type', upstreamRes.headers['content-type']);
+}
+if (upstreamRes.headers['content-range']) {
+  res.status(206); // Partial Content
+  res.setHeader('Content-Range', upstreamRes.headers['content-range']);
+}
+
+upstreamRes.data.pipe(res);
+
 
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
