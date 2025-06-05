@@ -32,7 +32,12 @@ app.use((req, res, next) => {
 app.options('*', (req, res) => res.sendStatus(200));
 app.use(express.json());
 
+///////////////////////////////////////////
+// 1) BUILD videoMap FOR ALL QUALITIES  //
+///////////////////////////////////////////
 const videoMap = {};
+const QUALITIES = [720, 480, 360, 240];
+
 Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
   const subjects = batchObj.subjects || {};
   Object.entries(subjects).forEach(([subjectId, subjObj]) => {
@@ -41,20 +46,35 @@ Object.entries(data.batches || {}).forEach(([batchId, batchObj]) => {
       const lecturesArr = Array.isArray(topicObj.lectures)
         ? topicObj.lectures
         : Object.values(topicObj.lectures || {});
+
       lecturesArr.forEach((lec, idx) => {
         if (!lec.videoUrl) return;
-        const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
-        const b64Token = Buffer.from(rawToken).toString('base64url');
-        videoMap[b64Token] = {
-          url: lec.videoUrl,
-          mimeType: lec.videoUrl.endsWith('.m3u8')
-            ? 'application/vnd.apple.mpegurl'
-            : 'video/MP2T'
-        };
+
+        QUALITIES.forEach((quality) => {
+          // Replace "/hls/720/" with "/hls/<quality>/"
+          const upstreamUrl = lec.videoUrl.replace(
+            /\/hls\/720\//,
+            `/hls/${quality}/`
+          );
+
+          const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}__${quality}`;
+          const b64Token = Buffer.from(rawToken).toString('base64url');
+
+          videoMap[b64Token] = {
+            url: upstreamUrl,
+            mimeType: upstreamUrl.endsWith('.m3u8')
+              ? 'application/vnd.apple.mpegurl'
+              : 'video/MP2T'
+          };
+        });
       });
     });
   });
 });
+
+///////////////////////////////////////////
+// 2) EXISTING ENDPOINTS (UNCHANGED)     //
+///////////////////////////////////////////
 
 app.get('/data/batches', (req, res) => {
   const limit = parseInt(req.query.limit, 10) || 10;
@@ -104,6 +124,10 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
   res.json({ subjects });
 });
 
+/////////////////////////////////////////////////////////////
+// 3) UPDATE `/data/batches/:batchId/subjects/:subjectId/topics` //
+//    TO EMIT FOUR PROXY URLs PER LECTURE                    //
+/////////////////////////////////////////////////////////////
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
   const topicObj = data.batches?.[batchId]?.subjects?.[subjectId]?.topics;
@@ -119,14 +143,29 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
 
   const topics = Object.entries(topicObj).map(([topicKey, topic]) => {
     const lecturesArr = normalize(topic.lectures);
+
     const lecturesWithProxy = lecturesArr.map((lec, idx) => {
-      const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}`;
-      const b64Token = Buffer.from(rawToken).toString('base64url');
+      if (!lec.videoUrl) {
+        return { ...lec };
+      }
+
+      // Generate one token per quality, in the same order as QUALITIES
+      const tokensByQuality = QUALITIES.map((quality) => {
+        const rawToken = `${batchId}__${subjectId}__${topicKey}__${idx}__${quality}`;
+        return Buffer.from(rawToken).toString('base64url');
+      });
+
+      // Build four proxy URLs using the same host as before:
       return {
-        ...lec,
-        videoUrl: `https://pw-api-75332756c41b.herokuapp.com/video/${b64Token}`
+        title: lec.title,
+        thumbnail: lec.thumbnail,
+        videoUrl:  `https://testing-453c50579f45.herokuapp.com/video/${tokensByQuality[0]}`, // 720p
+        videoUrl1: `https://testing-453c50579f45.herokuapp.com/video/${tokensByQuality[1]}`, // 480p
+        videoUrl2: `https://testing-453c50579f45.herokuapp.com/video/${tokensByQuality[2]}`, // 360p
+        videoUrl3: `https://testing-453c50579f45.herokuapp.com/video/${tokensByQuality[3]}`  // 240p
       };
     });
+
     return {
       key: topicKey,
       name: topic.name,
@@ -139,6 +178,9 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   res.json({ topics });
 });
 
+///////////////////////////////////////////////////////////
+// 4) KEEP THE `/video/:token` PROXY HANDLER UNCHANGED    //
+///////////////////////////////////////////////////////////
 app.get('/video/:token(*)', async (req, res) => {
   const raw = req.params.token;
   const [maybeToken, ...rest] = raw.split('/');
@@ -150,7 +192,7 @@ app.get('/video/:token(*)', async (req, res) => {
 
   const { url: upstreamUrl, mimeType } = videoMap[maybeToken];
 
-  // 🔐 Securely handle .key request
+  // Handle encrypted key fetching
   if (remainderPath === 'enc.key') {
     try {
       const m3u8Res = await axios.get(upstreamUrl);
@@ -198,7 +240,10 @@ app.get('/video/:token(*)', async (req, res) => {
           .map(line => {
             const trimmed = line.trim();
             if (trimmed.startsWith('#EXT-X-KEY:')) {
-              return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
+              return trimmed.replace(
+                /URI="([^"]+)"/,
+                `URI="/video/${maybeToken}/enc.key"`
+              );
             }
             if (trimmed === '' || trimmed.startsWith('#')) return line;
             if (trimmed.includes('jarvis.ts')) return '';
