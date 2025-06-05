@@ -7,29 +7,29 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-//const allowedOrigins = [
-//  'https://pw-thor-6781512f6f22.herokuapp.com',
-//  'https://pwthor.site',
-//  'pwthor.site',
-//  'https://po.com',
-///  'http://po.com',
-//  'https://xyz.com',
-//  'http://xyz.com'
-//];
+const allowedOrigins = [
+  'https://pw-thor-6781512f6f22.herokuapp.com',
+  'https://pwthor.site',
+  'pwthor.site',
+  'https://po.com',
+  'http://po.com',
+  'https://xyz.com',
+  'http://xyz.com'
+];
 
-//app.use((req, res, next) => {
- /// const origin = req.headers.origin;
-//  if (allowedOrigins.includes(origin)) {
- //   res.setHeader('Access-Control-Allow-Origin', origin);
- //   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
-  //  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
- //   next();
- // } else {
-//    return res.status(403).json({ telegram: '@pw_thor' });
-//  }
-//});
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+  } else {
+    return res.status(403).json({ telegram: '@pw_thor' });
+  }
+});
 
-//app.options('*', (req, res) => res.sendStatus(200));
+app.options('*', (req, res) => res.sendStatus(200));
 app.use(express.json());
 
 const videoMap = {};
