@@ -64,7 +64,11 @@ app.get('/data/batches', (req, res) => {
   const pageKeys = allBatchKeys.slice(offset, offset + limit);
   const page = pageKeys.map(key => {
     const batchObj = data.batches[key];
-    return { key, name: batchObj.name, image: batchObj.image };
+    return {
+      key,
+      name: batchObj.name,
+      image: batchObj.image
+    };
   });
   res.setHeader('Cache-Control', 'public, max-age=300');
   res.json({ total: totalBatches, offset, limit, batches: page });
@@ -73,12 +77,16 @@ app.get('/data/batches', (req, res) => {
 app.get('/data/batches/search', (req, res) => {
   const q = String(req.query.q || '').trim().toLowerCase();
   if (!q) return res.json({ results: [] });
-  const matches = Object.entries(data.batches || {}).filter(([key, batchObj]) => {
-    const nameLower = String(batchObj.name || '').toLowerCase();
-    return nameLower.includes(q) || key.toLowerCase().includes(q);
-  }).map(([key, batchObj]) => ({
-    key, name: batchObj.name, image: batchObj.image
-  }));
+  const matches = Object.entries(data.batches || {})
+    .filter(([key, batchObj]) => {
+      const nameLower = String(batchObj.name || '').toLowerCase();
+      return nameLower.includes(q) || key.toLowerCase().includes(q);
+    })
+    .map(([key, batchObj]) => ({
+      key,
+      name: batchObj.name,
+      image: batchObj.image
+    }));
   res.setHeader('Cache-Control', 'public, max-age=30');
   res.json({ results: matches });
 });
@@ -90,7 +98,8 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
     return res.status(404).json({ error: 'Batch not found or has no subjects' });
   }
   const subjects = Object.entries(batch.subjects).map(([key, subj]) => ({
-    key, name: subj.name
+    key,
+    name: subj.name
   }));
   res.json({ subjects });
 });
@@ -98,7 +107,9 @@ app.get('/data/batches/:batchId/subjects', (req, res) => {
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
   const { batchId, subjectId } = req.params;
   const topicObj = data.batches?.[batchId]?.subjects?.[subjectId]?.topics;
-  if (!topicObj) return res.status(404).json({ error: 'Subject or topics not found' });
+  if (!topicObj) {
+    return res.status(404).json({ error: 'Subject or topics not found' });
+  }
 
   const normalize = input => {
     if (Array.isArray(input)) return input;
@@ -124,61 +135,42 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', (req, res) => {
       dpps: normalize(topic.dpps)
     };
   });
+
   res.json({ topics });
 });
 
-// Multi-quality HLS proxy
-app.get('/video/:token/:quality/:file(*)', async (req, res) => {
-  const { token, quality, file } = req.params;
-  if (!videoMap[token]) return res.status(404).send('Video not found');
-
-  const { url: upstreamUrl, mimeType } = videoMap[token];
-  const qualityUrl = upstreamUrl.replace('/720/', `/${quality}/`);
-  const upstreamParsed = new URL(qualityUrl);
-  const basePath = upstreamParsed.pathname.replace(/\/[^/]*\.m3u8$/, '/');
-  upstreamParsed.pathname = basePath + file;
-  const targetUrl = upstreamParsed.toString();
-
-  try {
-    const upstreamRes = await axios.get(targetUrl, { responseType: 'stream' });
-
-    if (file.endsWith('.m3u8')) {
-      res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
-      res.setHeader('Cache-Control', 'no-store');
-      let playlistText = '';
-      upstreamRes.data.setEncoding('utf8');
-      upstreamRes.data.on('data', chunk => { playlistText += chunk; });
-      upstreamRes.data.on('end', () => {
-        const rewritten = playlistText.split('\n').map(line => {
-          const trimmed = line.trim();
-          if (trimmed.startsWith('#EXT-X-KEY:')) {
-            return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${token}/enc.key"`);
-          }
-          if (trimmed === '' || trimmed.startsWith('#')) return line;
-          if (trimmed.includes('jarvis.ts')) return '';
-          return `/video/${token}/${quality}/${trimmed}`;
-        }).filter(line => line !== '').join('\n');
-        res.send(rewritten);
-      });
-    } else {
-      res.setHeader('Content-Type', mimeType);
-      upstreamRes.data.pipe(res);
-    }
-  } catch (err) {
-    console.error('Proxy error:', err.message);
-    res.status(500).send('Proxy error');
-  }
-});
-
-// Single URL fallback HLS proxy
 app.get('/video/:token(*)', async (req, res) => {
   const raw = req.params.token;
   const [maybeToken, ...rest] = raw.split('/');
   const remainderPath = rest.join('/');
 
-  if (!videoMap[maybeToken]) return res.status(404).send('Video not found');
+  if (!videoMap[maybeToken]) {
+    return res.status(404).send('Video not found');
+  }
 
   const { url: upstreamUrl, mimeType } = videoMap[maybeToken];
+
+  // 🔐 Securely handle .key request
+  if (remainderPath === 'enc.key') {
+    try {
+      const m3u8Res = await axios.get(upstreamUrl);
+      const playlist = m3u8Res.data;
+      const keyLine = playlist.split('\n').find(line => line.startsWith('#EXT-X-KEY:'));
+      if (!keyLine) throw new Error('No EXT-X-KEY line found in playlist');
+      const match = keyLine.match(/URI="([^"]+)"/);
+      if (!match) throw new Error('No URI in EXT-X-KEY line');
+      const actualKeyUrl = match[1];
+      const resolvedKeyUrl = new URL(actualKeyUrl, upstreamUrl).toString();
+
+      const keyRes = await axios.get(resolvedKeyUrl, { responseType: 'arraybuffer' });
+      res.setHeader('Content-Type', 'application/octet-stream');
+      return res.send(Buffer.from(keyRes.data));
+    } catch (err) {
+      console.error('Error fetching enc.key:', err.message);
+      return res.status(500).send('Key proxy error');
+    }
+  }
+
   let targetUrl;
   if (!remainderPath) {
     targetUrl = upstreamUrl;
@@ -193,21 +185,27 @@ app.get('/video/:token(*)', async (req, res) => {
     const upstreamRes = await axios.get(targetUrl, { responseType: 'stream' });
 
     if (mimeType === 'application/vnd.apple.mpegurl' && !remainderPath) {
-      res.setHeader('Content-Type', mimeType);
+      res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
       res.setHeader('Cache-Control', 'no-store');
       let playlistText = '';
       upstreamRes.data.setEncoding('utf8');
-      upstreamRes.data.on('data', chunk => { playlistText += chunk; });
+      upstreamRes.data.on('data', chunk => {
+        playlistText += chunk;
+      });
       upstreamRes.data.on('end', () => {
-        const rewritten = playlistText.split('\n').map(line => {
-          const trimmed = line.trim();
-          if (trimmed.startsWith('#EXT-X-KEY:')) {
-            return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
-          }
-          if (trimmed === '' || trimmed.startsWith('#')) return line;
-          if (trimmed.includes('jarvis.ts')) return '';
-          return `/video/${maybeToken}/${trimmed}`;
-        }).filter(line => line !== '').join('\n');
+        const rewritten = playlistText
+          .split('\n')
+          .map(line => {
+            const trimmed = line.trim();
+            if (trimmed.startsWith('#EXT-X-KEY:')) {
+              return trimmed.replace(/URI="([^"]+)"/, `URI="/video/${maybeToken}/enc.key"`);
+            }
+            if (trimmed === '' || trimmed.startsWith('#')) return line;
+            if (trimmed.includes('jarvis.ts')) return '';
+            return `/video/${maybeToken}/${trimmed}`;
+          })
+          .filter(line => line !== '')
+          .join('\n');
         res.send(rewritten);
       });
     } else {
@@ -215,7 +213,7 @@ app.get('/video/:token(*)', async (req, res) => {
       upstreamRes.data.pipe(res);
     }
   } catch (err) {
-    console.error('Proxy error:', err.message);
+    console.error('Error in /video proxy:', err.message);
     res.status(500).send('Proxy error');
   }
 });
@@ -225,4 +223,6 @@ app.use((req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`✅ Server live on ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
