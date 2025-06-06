@@ -7,10 +7,10 @@ from telethon.tl.types import KeyboardButtonCallback
 
 # ----------------------------------------------------------------
 # Read API ID & hash from Replit secrets (environment variables)
-api_id   = int(os.getenv("API_ID", 0))
-api_hash = os.getenv("API_HASH", "")
+api_id   = '766935295b488f5bd8e2d19c79fdf85a'
+api_hash = '766935295b488f5bd8e2d19c79fdf85a'
 # Replace this with your saved session string (you can also store it in a secret if you like):
-SESSION_STRING = os.getenv("SESSION_STRING", "")
+SESSION_STRING = '1AZWarzgBu1xg1S9oXM6badiCudJ0Dt4oUZvhfy5kcBCECh4od19ZVxtouvn8XtmVsJnDFSUtfAi65D_dqCBjV4h_omIUbaav7BPoAIxbK1a5jsfec4lvdE3iolyVb9sEMQpMOpseVJtAaB6hYhTIiT4nqSgIVkbLjL9oZtfytaTPcsV9a0RZHsRGSpDIGEYl3t0rF091f4iaeECfMo42RZFvM8uFyBZUYSz7-K1wQgEet4d7t7OPuLdr4jmkYCrLQyUhiT_-vIqj2h1Ue6EixPVVe1TH_BVRIKFbTzKgCL297jwaa_2CvNzzwsWuCRfytqLt9X1mV6zp077V0jVGdPwr7Os5IDM='
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
