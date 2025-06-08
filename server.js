@@ -124,26 +124,33 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
 
     const topics = Object.entries(topicsObj).map(([topicKey, topic]) => {
       const lecturesArr = normalize(topic.lectures);
+
       const lecturesWithProxy = lecturesArr.map((lec, idx) => {
         if (!lec.videoUrl) return { ...lec };
 
-        const tokens = QUALITIES.map(q => Buffer.from(`${batchId}__${subjectId}__${topicKey}__${idx}__${q}`).toString('base64url'));
+        const tokens = QUALITIES.map(quality => {
+          const raw = `${batchId}__${subjectId}__${topicKey}__${idx}__${quality}`;
+          return Buffer.from(raw).toString('base64url');
+        });
 
-        // ✅ Register in videoMap
-        tokens.forEach(token => {
-          videoMap[token] = {
-            url: lec.videoUrl,
-            mimeType: 'application/vnd.apple.mpegurl'
+        // Register each quality's token in videoMap with updated video URL
+        QUALITIES.forEach((quality, i) => {
+          const upstreamUrl = lec.videoUrl.replace(/\/hls\/720\//, `/hls/${quality}/`);
+          videoMap[tokens[i]] = {
+            url: upstreamUrl,
+            mimeType: upstreamUrl.endsWith('.m3u8')
+              ? 'application/vnd.apple.mpegurl'
+              : 'video/MP2T'
           };
         });
 
         return {
           title: lec.title,
           thumbnail: lec.thumbnail,
-          videoUrl: `https://testing-453c50579f45.herokuapp.com/video/${tokens[0]}`,
-          videoUrl1: `https://testing-453c50579f45.herokuapp.com/video/${tokens[1]}`,
-          videoUrl2: `https://testing-453c50579f45.herokuapp.com/video/${tokens[2]}`,
-          videoUrl3: `https://testing-453c50579f45.herokuapp.com/video/${tokens[3]}`
+          videoUrl:  `https://testing-453c50579f45.herokuapp.com/video/${tokens[0]}`, // 720p
+          videoUrl1: `https://testing-453c50579f45.herokuapp.com/video/${tokens[1]}`, // 480p
+          videoUrl2: `https://testing-453c50579f45.herokuapp.com/video/${tokens[2]}`, // 360p
+          videoUrl3: `https://testing-453c50579f45.herokuapp.com/video/${tokens[3]}`  // 240p
         };
       });
 
@@ -161,6 +168,7 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
     res.status(500).json({ error: 'Failed to load topics' });
   }
 });
+
 
 app.get('/video/:token(*)', async (req, res) => {
   const raw = req.params.token;
