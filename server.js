@@ -1,4 +1,3 @@
-// server.js — MongoDB-powered version with jarvis.ts filtering
 const express = require('express');
 const axios = require('axios');
 const { URL } = require('url');
@@ -129,6 +128,14 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
         if (!lec.videoUrl) return { ...lec };
 
         const tokens = QUALITIES.map(q => Buffer.from(`${batchId}__${subjectId}__${topicKey}__${idx}__${q}`).toString('base64url'));
+
+        // ✅ Register in videoMap
+        tokens.forEach(token => {
+          videoMap[token] = {
+            url: lec.videoUrl,
+            mimeType: 'application/vnd.apple.mpegurl'
+          };
+        });
 
         return {
           title: lec.title,
