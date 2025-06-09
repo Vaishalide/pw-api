@@ -10,14 +10,22 @@ app.use(cors());
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://fasejo7264:wsXzyCB4DN8c3pUa@cluster0.kh8tnzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const DB_NAME = 'telegramjson';
 const COLLECTION = 'batches';
-let db = null;
 
-MongoClient.connect(MONGO_URI, { useUnifiedTopology: true })
-  .then(client => {
-    db = client.db(DB_NAME);
-    console.log('✅ Connected to MongoDB');
-  })
-  .catch(err => console.error('❌ MongoDB connection error:', err));
+let mongoClient;
+async function getDb() {
+  if (!mongoClient) {
+    mongoClient = new MongoClient(MONGO_URI, {
+      maxPoolSize: 200,
+      minPoolSize: 10,
+      waitQueueTimeoutMS: 5000,
+      serverSelectionTimeoutMS: 5000,
+      socketTimeoutMS: 10000,
+    });
+    await mongoClient.connect();
+    console.log('✅ MongoDB connected with pooling');
+  }
+  return mongoClient.db(DB_NAME);
+}
 
 const QUALITIES = [720, 480, 360, 240];
 const videoMap = {};
@@ -49,9 +57,9 @@ app.use(express.json());
 
 app.get('/data/batches', async (req, res) => {
   try {
+    const db = await getDb();
     const limit = parseInt(req.query.limit) || 10;
     const offset = parseInt(req.query.offset) || 0;
-
     const collection = db.collection(COLLECTION);
     const total = await collection.countDocuments();
     const batches = await collection.find().skip(offset).limit(limit).toArray();
@@ -74,6 +82,7 @@ app.get('/data/batches/search', async (req, res) => {
   if (!q) return res.json({ results: [] });
 
   try {
+    const db = await getDb();
     const collection = db.collection(COLLECTION);
     const docs = await collection.find({
       $or: [
@@ -96,17 +105,12 @@ app.get('/data/batches/search', async (req, res) => {
 });
 
 app.get('/data/batches/:batchId/subjects', async (req, res) => {
-  const batchId = req.params.batchId;
   try {
-    const batch = await db.collection(COLLECTION).findOne({ _id: batchId });
-    if (!batch || !batch.subjects) {
-      return res.status(404).json({ error: 'Batch not found or has no subjects' });
-    }
+    const db = await getDb();
+    const batch = await db.collection(COLLECTION).findOne({ _id: req.params.batchId });
+    if (!batch || !batch.subjects) return res.status(404).json({ error: 'Batch not found or has no subjects' });
 
-    const subjects = Object.entries(batch.subjects).map(([key, subj]) => ({
-      key,
-      name: subj.name
-    }));
+    const subjects = Object.entries(batch.subjects).map(([key, subj]) => ({ key, name: subj.name }));
     res.json({ subjects });
   } catch (e) {
     res.status(500).json({ error: 'Subject lookup failed' });
@@ -114,8 +118,9 @@ app.get('/data/batches/:batchId/subjects', async (req, res) => {
 });
 
 app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) => {
-  const { batchId, subjectId } = req.params;
   try {
+    const db = await getDb();
+    const { batchId, subjectId } = req.params;
     const batch = await db.collection(COLLECTION).findOne({ _id: batchId });
     const topicsObj = batch?.subjects?.[subjectId]?.topics;
     if (!topicsObj) return res.status(404).json({ error: 'Subject or topics not found' });
@@ -133,24 +138,21 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
           return Buffer.from(raw).toString('base64url');
         });
 
-        // Register each quality's token in videoMap with updated video URL
         QUALITIES.forEach((quality, i) => {
           const upstreamUrl = lec.videoUrl.replace(/\/hls\/720\//, `/hls/${quality}/`);
           videoMap[tokens[i]] = {
             url: upstreamUrl,
-            mimeType: upstreamUrl.endsWith('.m3u8')
-              ? 'application/vnd.apple.mpegurl'
-              : 'video/MP2T'
+            mimeType: upstreamUrl.endsWith('.m3u8') ? 'application/vnd.apple.mpegurl' : 'video/MP2T'
           };
         });
 
         return {
           title: lec.title,
           thumbnail: lec.thumbnail,
-          videoUrl:  `https://testing-453c50579f45.herokuapp.com/video/${tokens[0]}`, // 720p
-          videoUrl1: `https://testing-453c50579f45.herokuapp.com/video/${tokens[1]}`, // 480p
-          videoUrl2: `https://testing-453c50579f45.herokuapp.com/video/${tokens[2]}`, // 360p
-          videoUrl3: `https://testing-453c50579f45.herokuapp.com/video/${tokens[3]}`  // 240p
+          videoUrl:  `https://testing-453c50579f45.herokuapp.com/video/${tokens[0]}`,
+          videoUrl1: `https://testing-453c50579f45.herokuapp.com/video/${tokens[1]}`,
+          videoUrl2: `https://testing-453c50579f45.herokuapp.com/video/${tokens[2]}`,
+          videoUrl3: `https://testing-453c50579f45.herokuapp.com/video/${tokens[3]}`
         };
       });
 
@@ -168,7 +170,6 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
     res.status(500).json({ error: 'Failed to load topics' });
   }
 });
-
 
 app.get('/video/:token(*)', async (req, res) => {
   const raw = req.params.token;
