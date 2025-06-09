@@ -34,8 +34,48 @@ app.use((req, res, next) => {
     return res.status(403).json({ telegram: '@pw_thor' });
   }
 });
-
 app.options('*', (req, res) => res.sendStatus(200));
+
+/**
+ * Helper: load all batch records, normalizing either:
+ *  - many documents each with {_id, name, image, subjects}
+ *  - or one document with { batches: { batchKey: { name, image, subjects } } }
+ */
+async function loadAllBatches(collection) {
+  const docs = await collection.find().toArray();
+
+  // If there's exactly one doc and it has .batches wrapper, use that
+  if (docs.length === 1 && docs[0].batches && typeof docs[0].batches === 'object') {
+    return Object.entries(docs[0].batches).map(([key, data]) => ({
+      key,
+      name: data.name,
+      image: data.image,
+      raw: data
+    }));
+  }
+
+  // Otherwise assume each doc is already one batch
+  return docs.map(doc => ({
+    key: doc._id,
+    name: doc.name,
+    image: doc.image,
+    raw: doc
+  }));
+}
+
+/**
+ * Helper: load a single batch by ID, normalizing wrapper if needed
+ */
+async function loadBatchById(collection, batchId) {
+  // First, try direct lookup (_id)
+  const direct = await collection.findOne({ _id: batchId });
+  if (direct) return direct;
+
+  // Fallback: wrapper style
+  // find the wrapper doc that has this key under .batches
+  const wrapper = await collection.findOne({ [`batches.${batchId}`]: { $exists: true } });
+  return wrapper?.batches?.[batchId] || null;
+}
 
 // GET /data/batches
 app.get('/data/batches', async (req, res) => {
@@ -44,48 +84,68 @@ app.get('/data/batches', async (req, res) => {
     const offset = parseInt(req.query.offset, 10) || 0;
 
     const db = await getDb();
-    const collection = db.collection(COLLECTION);
-    const total = await collection.countDocuments();
-    const batches = await collection.find().skip(offset).limit(limit).toArray();
+    const coll = db.collection(COLLECTION);
 
-    const result = batches.map(doc => ({
-      key: doc._id,
-      name: doc.name,
-      image: doc.image
-    }));
+    const all = await loadAllBatches(coll);
+    const total = all.length;
+    const slice = all.slice(offset, offset + limit);
+
+    const batches = slice.map(b => ({ key: b.key, name: b.name, image: b.image }));
 
     res.setHeader('Cache-Control', 'public, max-age=300');
-    res.json({ total, offset, limit, batches: result });
+    res.json({ total, offset, limit, batches });
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: 'Failed to fetch batches' });
   }
 });
 
-// GET /data/batches/search
+// GET /data/batches/search?q=
 app.get('/data/batches/search', async (req, res) => {
   const q = String(req.query.q || '').trim();
   if (!q) return res.json({ results: [] });
 
   try {
     const db = await getDb();
-    const collection = db.collection(COLLECTION);
+    const coll = db.collection(COLLECTION);
     const regex = new RegExp(q, 'i');
-    const docs = await collection.find({
-      $or: [
-        { name: regex },
-        { _id: regex }
-      ]
+
+    // search both wrapper style and direct docs
+    const directMatches = await coll.find({
+      $or: [{ name: regex }, { _id: regex }]
     }).toArray();
 
-    const matches = docs.map(doc => ({
-      key: doc._id,
-      name: doc.name,
-      image: doc.image
-    }));
+    // wrapper-style search
+    const wrapper = await coll.findOne({ batches: { $exists: true } });
+    let wrapperMatches = [];
+    if (wrapper) {
+      wrapperMatches = Object.entries(wrapper.batches)
+        .filter(([, data]) => regex.test(data.name) || regex.test(dataKey))
+        .map(([dataKey, data]) => ({
+          key: dataKey,
+          name: data.name,
+          image: data.image
+        }));
+    }
+
+    const seen = new Set();
+    const results = [];
+
+    directMatches.forEach(doc => {
+      if (!seen.has(doc._id)) {
+        seen.add(doc._id);
+        results.push({ key: doc._id, name: doc.name, image: doc.image });
+      }
+    });
+    wrapperMatches.forEach(w => {
+      if (!seen.has(w.key)) {
+        seen.add(w.key);
+        results.push(w);
+      }
+    });
 
     res.setHeader('Cache-Control', 'public, max-age=30');
-    res.json({ results: matches });
+    res.json({ results });
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: 'Search failed' });
@@ -97,7 +157,9 @@ app.get('/data/batches/:batchId/subjects', async (req, res) => {
   const { batchId } = req.params;
   try {
     const db = await getDb();
-    const batch = await db.collection(COLLECTION).findOne({ _id: batchId });
+    const coll = db.collection(COLLECTION);
+    const batch = await loadBatchById(coll, batchId);
+
     if (!batch || !batch.subjects) {
       return res.status(404).json({ error: 'Batch not found or has no subjects' });
     }
@@ -118,7 +180,9 @@ app.get('/data/batches/:batchId/subjects/:subjectId/topics', async (req, res) =>
   const { batchId, subjectId } = req.params;
   try {
     const db = await getDb();
-    const batch = await db.collection(COLLECTION).findOne({ _id: batchId });
+    const coll = db.collection(COLLECTION);
+    const batch = await loadBatchById(coll, batchId);
+
     const topicsObj = batch?.subjects?.[subjectId]?.topics;
     if (!topicsObj) {
       return res.status(404).json({ error: 'Subject or topics not found' });
