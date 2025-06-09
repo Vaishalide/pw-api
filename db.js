@@ -1,7 +1,7 @@
 // db.js
 const { MongoClient } = require('mongodb');
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://playerzoneproowner:5KwRcJnoXEyNRD8D@cluster0.w3ryplr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://fasejo7264:wsXzyCB4DN8c3pUa@cluster0.kh8tnzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const DB_NAME = 'telegramjson';
 
 let client = null;
