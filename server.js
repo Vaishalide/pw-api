@@ -83,6 +83,23 @@ app.get("/api/proxy/lectures", async (req, res) => {
   }
 });
 
+// Proxy: Today Class
+app.get("/api/proxy/todayclass", async (req, res) => {
+  const batchUrl = req.query.batchId;
+  if (!batchUrl) return res.status(400).json({ error: "Missing batchId" });
+
+  try {
+    const response = await axios.get(`${PYTHON_API}/api/todayclass`, {
+      params: { url: batchUrl }
+    });
+
+    res.json(response.data);
+  } catch (error) {
+    console.error("Failed to fetch todayclass:", error.message);
+    res.status(500).json({ error: "Failed to fetch todayclass" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
 });
