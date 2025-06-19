@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // URL of your Flask API hosted on Replit
-const PYTHON_API = "https://5f129b41-01f2-4d5a-8f1c-6dcb49be4165-00-8xnq81j897xt.pike.replit.dev"; // CHANGE THIS
+const PYTHON_API = "https://api-data-3273d6dd6260.herokuapp.com"; // CHANGE THIS
 
 app.use(cors());
 app.use(express.static("public")); // if you serve static HTML from here
