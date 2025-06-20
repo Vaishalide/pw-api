@@ -93,12 +93,21 @@ app.get("/api/proxy/todayclass", async (req, res) => {
       params: { url: batchUrl }
     });
 
-    res.json(response.data);
+    const cleaned = response.data.map(cls => {
+      const cleanedItem = { ...cls };
+      if (cleanedItem.thumbnail === null) {
+        delete cleanedItem.thumbnail;
+      }
+      return cleanedItem;
+    });
+
+    res.json(cleaned);
   } catch (error) {
     console.error("Failed to fetch todayclass:", error.message);
     res.status(500).json({ error: "Failed to fetch todayclass" });
   }
 });
+
 
 app.listen(PORT, () => {
   console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
