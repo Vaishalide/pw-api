@@ -95,11 +95,19 @@ app.get("/api/proxy/todayclass", async (req, res) => {
 
     const cleaned = response.data.map(cls => {
       const cleanedItem = { ...cls };
+
+      // Replace rarestudy thumbnail if matched
+      if (cleanedItem.thumbnail === "https://rarestudy.site/static/rarestudy.jpg") {
+        cleanedItem.thumbnail = "https://res.cloudinary.com/dfpbytn7c/image/upload/v1749008680/IMG_20250604_091231_088_th95bg.jpg";
+      }
+
+      // Remove null thumbnail and assign image
       if (cleanedItem.thumbnail === null) {
         delete cleanedItem.thumbnail;
       } else {
-        cleanedItem.image = cleanedItem.thumbnail; // ✅ Map correctly
+        cleanedItem.image = cleanedItem.thumbnail;
       }
+
       return cleanedItem;
     });
 
@@ -109,6 +117,7 @@ app.get("/api/proxy/todayclass", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch todayclass" });
   }
 });
+
 
 app.listen(PORT, () => {
   console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
