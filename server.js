@@ -97,6 +97,8 @@ app.get("/api/proxy/todayclass", async (req, res) => {
       const cleanedItem = { ...cls };
       if (cleanedItem.thumbnail === null) {
         delete cleanedItem.thumbnail;
+      } else {
+        cleanedItem.image = cleanedItem.thumbnail; // ✅ Map correctly
       }
       return cleanedItem;
     });
@@ -107,7 +109,6 @@ app.get("/api/proxy/todayclass", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch todayclass" });
   }
 });
-
 
 app.listen(PORT, () => {
   console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
