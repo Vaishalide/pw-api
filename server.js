@@ -69,6 +69,7 @@ app.get("/api/proxy/chapters", async (req, res) => {
   }
 });
 
+
 // Proxy: Lectures
 app.get("/api/proxy/lectures", async (req, res) => {
   const chapterUrl = replaceHostToBackend(req.query.chapterId);
@@ -78,12 +79,20 @@ app.get("/api/proxy/lectures", async (req, res) => {
     const response = await axios.get(`${PYTHON_API}/api/lectures`, {
       params: { url: chapterUrl }
     });
+
     const lectures = response.data.map(lecture => {
       if (lecture.thumbnail) {
         lecture.image = lecture.thumbnail;
       }
+
+      // ✅ Remove 'rarestudy.site' prefix from YouTube URLs
+      if (typeof lecture.url === "string" && lecture.url.includes("youtube.com")) {
+        lecture.url = lecture.url.replace("https://rarestudy.site", "");
+      }
+
       return lecture;
     });
+
     res.json(lectures);
   } catch (error) {
     console.error(error.message);
