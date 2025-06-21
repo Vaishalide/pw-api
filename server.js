@@ -10,8 +10,8 @@ const PYTHON_API = "https://api-data-3273d6dd6260.herokuapp.com";
 app.use(cors());
 app.use(express.static("public"));
 
-const replaceHostToFrontend = url => url.replace("rarestudy.site", "pwthor.site");
-const replaceHostToBackend = url => url.replace("pwthor.site", "rarestudy.site");
+const replaceHostToFrontend = url => url.replace("https://rarestudy.site", "fetch");
+const replaceHostToBackend = url => url.replace("fetch", "https://rarestudy.site");
 
 // Proxy: Batches
 app.get("/api/proxy/batches", async (req, res) => {
