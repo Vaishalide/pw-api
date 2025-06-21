@@ -180,6 +180,23 @@ app.get("/api/proxy/dpplecture", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch DPP lectures" });
   }
 });
+// Proxy: Video Data
+app.get("/api/proxy/video", async (req, res) => {
+  const videoUrl = replaceHostToBackend(req.query.url);
+  if (!videoUrl) return res.status(400).json({ error: "Missing url" });
+
+  try {
+    const response = await axios.get(`${PYTHON_API}/api/video`, {
+      params: { url: videoUrl }
+    });
+
+    // Pass through exact response data (can be object or string)
+    res.json(response.data);
+  } catch (error) {
+    console.error("Failed to fetch video data:", error.message);
+    res.status(500).json({ error: "Failed to fetch video data" });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
