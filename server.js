@@ -125,6 +125,7 @@ app.get("/api/proxy/todayclass", async (req, res) => {
     const cleaned = response.data.map(cls => {
       const cleanedItem = { ...cls };
 
+      // Thumbnail/image setup
       if (cleanedItem.thumbnail === "https://rarestudy.site/static/rarestudy.jpg") {
         cleanedItem.thumbnail = "https://res.cloudinary.com/dfpbytn7c/image/upload/v1749008680/IMG_20250604_091231_088_th95bg.jpg";
       }
@@ -133,6 +134,22 @@ app.get("/api/proxy/todayclass", async (req, res) => {
         delete cleanedItem.thumbnail;
       } else {
         cleanedItem.image = cleanedItem.thumbnail;
+      }
+
+      // ✅ URL cleaning logic like in /lectures
+      if (
+        typeof cleanedItem.url === "string" &&
+        cleanedItem.url.startsWith("https://rarestudy.site")
+      ) {
+        const trimmedUrl = cleanedItem.url.replace("https://rarestudy.site", "");
+
+        if (trimmedUrl.startsWith("https//www.youtube.com/")) {
+          cleanedItem.url = trimmedUrl.replace("https//", "https://");
+        } else if (trimmedUrl.startsWith("https://www.youtube.com/")) {
+          cleanedItem.url = trimmedUrl;
+        } else {
+          cleanedItem.url = "fetch" + trimmedUrl;
+        }
       }
 
       return cleanedItem;
@@ -144,6 +161,7 @@ app.get("/api/proxy/todayclass", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch todayclass" });
   }
 });
+
 
 // Proxy: Notes
 app.get("/api/proxy/notes", async (req, res) => {
