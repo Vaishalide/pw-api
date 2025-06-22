@@ -85,9 +85,20 @@ app.get("/api/proxy/lectures", async (req, res) => {
         lecture.image = lecture.thumbnail;
       }
 
-      // ✅ Remove 'rarestudy.site' prefix from YouTube URLs
-      if (typeof lecture.url === "string" && lecture.url.includes("youtube.com")) {
+      // Case 1: Clean YouTube links like https://rarestudy.site/youtube.com/...
+      if (
+        typeof lecture.url === "string" &&
+        lecture.url.includes("https://rarestudy.site/youtube.com")
+      ) {
         lecture.url = lecture.url.replace("https://rarestudy.site", "");
+      }
+
+      // Case 2: Convert non-YouTube rarestudy.site links to fetch format
+      else if (
+        typeof lecture.url === "string" &&
+        lecture.url.includes("https://rarestudy.site")
+      ) {
+        lecture.url = replaceHostToFrontend(lecture.url);
       }
 
       return lecture;
@@ -95,7 +106,7 @@ app.get("/api/proxy/lectures", async (req, res) => {
 
     res.json(lectures);
   } catch (error) {
-    console.error(error.message);
+    console.error("Failed to fetch lectures:", error.message);
     res.status(500).json({ error: "Failed to fetch lectures" });
   }
 });
