@@ -87,16 +87,17 @@ app.get("/api/proxy/lectures", async (req, res) => {
 
       if (
         typeof lecture.url === "string" &&
-        lecture.url.startsWith("https://rarestudy.site/")
+        lecture.url.startsWith("https://rarestudy.site")
       ) {
-        const trimmedUrl = lecture.url.replace("https://rarestudy.site/", "");
+        const trimmedUrl = lecture.url.replace("https://rarestudy.site", "");
 
-        // ✅ If YouTube URL is embedded inside rarestudy.site, extract it cleanly
-        if (trimmedUrl.startsWith("https://www.youtube.com/")) {
+        if (trimmedUrl.startsWith("https//www.youtube.com/")) {
+          // Fix missing colon in https
+          lecture.url = trimmedUrl.replace("https//", "https://");
+        } else if (trimmedUrl.startsWith("https://www.youtube.com/")) {
           lecture.url = trimmedUrl;
         } else {
-          // ✅ Otherwise convert to fetch URL
-          lecture.url = "fetch/" + trimmedUrl;
+          lecture.url = "fetch" + trimmedUrl;
         }
       }
 
