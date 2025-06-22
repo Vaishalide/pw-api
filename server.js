@@ -23,7 +23,7 @@ app.get("/api/proxy/batches", async (req, res) => {
     const batches = response.data.map(batch => ({
       name: batch.name,
       image: defaultImage, // ✅ Override with custom image
-      url: `/api/pw/subjects?batchId=${encodeURIComponent(replaceHostToFrontend(batch.url))}`
+      url: `/api/proxy/subjects?batchId=${encodeURIComponent(replaceHostToFrontend(batch.url))}`
     }));
 
     res.json(batches);
