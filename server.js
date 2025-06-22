@@ -85,20 +85,19 @@ app.get("/api/proxy/lectures", async (req, res) => {
         lecture.image = lecture.thumbnail;
       }
 
-      // Case 1: Clean YouTube links like https://rarestudy.site/youtube.com/...
       if (
         typeof lecture.url === "string" &&
-        lecture.url.includes("https://rarestudy.site/youtube.com")
+        lecture.url.startsWith("https://rarestudy.site/")
       ) {
-        lecture.url = lecture.url.replace("https://rarestudy.site", "");
-      }
+        const trimmedUrl = lecture.url.replace("https://rarestudy.site/", "");
 
-      // Case 2: Convert non-YouTube rarestudy.site links to fetch format
-      else if (
-        typeof lecture.url === "string" &&
-        lecture.url.includes("https://rarestudy.site")
-      ) {
-        lecture.url = replaceHostToFrontend(lecture.url);
+        // ✅ If YouTube URL is embedded inside rarestudy.site, extract it cleanly
+        if (trimmedUrl.startsWith("https://www.youtube.com/")) {
+          lecture.url = trimmedUrl;
+        } else {
+          // ✅ Otherwise convert to fetch URL
+          lecture.url = "fetch/" + trimmedUrl;
+        }
       }
 
       return lecture;
@@ -110,6 +109,7 @@ app.get("/api/proxy/lectures", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch lectures" });
   }
 });
+
 
 // Proxy: Today Class
 app.get("/api/proxy/todayclass", async (req, res) => {
