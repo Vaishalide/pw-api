@@ -17,17 +17,22 @@ const replaceHostToBackend = url => url.replace("fetch", "https://rarestudy.site
 app.get("/api/proxy/batches", async (req, res) => {
   try {
     const response = await axios.get(`${PYTHON_API}/api/batches`);
+
+    const defaultImage = "https://res.cloudinary.com/dfpbytn7c/image/upload/v1749008680/IMG_20250604_091231_088_th95bg.jpg";
+
     const batches = response.data.map(batch => ({
       name: batch.name,
-      image: batch.image,
+      image: defaultImage, // ✅ Override with custom image
       url: `/api/proxy/subjects?batchId=${encodeURIComponent(replaceHostToFrontend(batch.url))}`
     }));
+
     res.json(batches);
   } catch (error) {
     console.error(error.message);
     res.status(500).json({ error: "Failed to fetch batches" });
   }
 });
+
 
 // Proxy: Subjects
 app.get("/api/proxy/subjects", async (req, res) => {
