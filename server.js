@@ -3,13 +3,13 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const VALID_TOKEN = "MY_SECRET_APP_KEY_12345";  // <-- Use the same value in MainActivity
+const VALID_TOKEN = "abcdef@2005#";  // <-- Use the same value in MainActivity
 
 app.use(cors());
 
 // --- Cookie profiles for multiple sites ---
 const COOKIE_PROFILES = {
-  streamfiles: {
+  cw: {
     domain: ".streamfiles.eu.org",
     cookies: {
       verified_task: "dHJ1ZQ==",
