@@ -9,14 +9,14 @@ app.use(cors());
 
 // --- Cookie profiles for multiple sites ---
 const COOKIE_PROFILES = {
-  cw: {
-     domain: "jindal4free.pages.dev",
-  cookies: {
-    lastVerificationTimeMs: "1764547200000",
-    verification_token: "949a0657dd0aa9c1da9be54db1f653243adde21d"
+ cw: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/cw"
   },
-  target_url: "https://jindal4free.pages.dev/"
-},
   nt: {
     domain: ".streamfiles.eu.org",
     cookies: {
