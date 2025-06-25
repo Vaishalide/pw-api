@@ -23,7 +23,7 @@ const COOKIE_PROFILES = {
       verified_task: "dHJ1ZQ==",
       countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
     },
-    target_url: "https://others.streamfiles.eu.org/nt"
+    target_url: "https://others.streamfiles.eu.org/nt/"
   },
   apni: {
     domain: ".streamfiles.eu.org",
