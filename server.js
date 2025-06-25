@@ -8,7 +8,7 @@ const COOKIE_DATA = {
   domain: ".streamfiles.eu.org",
   cookies: {
     verified_task: "dHJ1ZQ==",
-    countdown_end_time: "MTc1MDgyMjgzNzQ5Nw=="
+    countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
   },
   target_url: "https://others.streamfiles.eu.org/cw",
   timestamp: () => Date.now()  // for dynamic freshness
