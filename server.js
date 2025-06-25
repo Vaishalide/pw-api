@@ -98,7 +98,7 @@ const COOKIE_PROFILES = {
   }
 };
 
- --- Token check middleware ---
+// --- Token check middleware ---
 app.use('/api/cookies/:site', (req, res, next) => {
   const token = req.header("X-App-Token");
   if (token !== VALID_TOKEN) {
