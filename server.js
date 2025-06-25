@@ -1,247 +1,71 @@
-const express = require("express");
-const axios = require("axios");
-const cors = require("cors");
+const express = require('express');
+const request = require('request');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Backend API
-const PYTHON_API = "https://api-data-3273d6dd6260.herokuapp.com";
+// Proxy target
+const TARGET_URL = "https://others.streamfiles.eu.org/cw";
+const DOMAIN_COOKIE = ".streamfiles.eu.org";
 
+// Cookies to inject
+const CUSTOM_COOKIES = [
+  "verified_task=dHJ1ZQ==; path=/; domain=" + DOMAIN_COOKIE,
+  "countdown_end_time=MTc1MDgyMjgzNzQ5Nw==; path=/; domain=" + DOMAIN_COOKIE
+];
+
+// Shared secret token for API access
+const API_TOKEN = "abc123securetoken";
+
+// Middleware
 app.use(cors());
-app.use(express.static("public"));
+app.use(bodyParser.json());
 
-const replaceHostToFrontend = url => url.replace("https://rarestudy.site", "fetch");
-const replaceHostToBackend = url => url.replace("fetch", "https://rarestudy.site");
-
-// Proxy: Batches
-app.get("/api/proxy/batches", async (req, res) => {
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/batches`);
-
-    const defaultImage = "https://res.cloudinary.com/dfpbytn7c/image/upload/v1749008680/IMG_20250604_091231_088_th95bg.jpg";
-
-    const batches = response.data.map(batch => ({
-      name: batch.name,
-      image: defaultImage, // ✅ Override with custom image
-      url: `/api/proxy/subjects?batchId=${encodeURIComponent(replaceHostToFrontend(batch.url))}`
-    }));
-
-    res.json(batches);
-  } catch (error) {
-    console.error(error.message);
-    res.status(500).json({ error: "Failed to fetch batches" });
-  }
+// Proxy route with cookie injection
+app.get('/', (req, res) => {
+  request({
+    url: TARGET_URL,
+    headers: {
+      'User-Agent': req.headers['user-agent'] || 'Mozilla/5.0',
+      'Cookie': CUSTOM_COOKIES.join('; ')
+    }
+  })
+    .on('response', function (response) {
+      // Prevent caching
+      res.set({
+        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0',
+        'Surrogate-Control': 'no-store',
+        'Content-Type': response.headers['content-type']
+      });
+    })
+    .pipe(res);
 });
 
-
-// Proxy: Subjects
-app.get("/api/proxy/subjects", async (req, res) => {
-  const batchUrl = replaceHostToBackend(req.query.batchId);
-  if (!batchUrl) return res.status(400).json({ error: "Missing batchId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/subjects`, {
-      params: { url: batchUrl }
-    });
-    const subjects = response.data.map(subject => ({
-      name: subject.name,
-      url: `/api/proxy/chapters?subjectId=${encodeURIComponent(replaceHostToFrontend(subject.url))}`
-    }));
-    res.json(subjects);
-  } catch (error) {
-    console.error(error.message);
-    res.status(500).json({ error: "Failed to fetch subjects" });
+// Token-authenticated API middleware
+app.use('/api', (req, res, next) => {
+  const token = req.query.token || (req.headers['authorization'] || '').split(' ')[1];
+  if (token !== API_TOKEN) {
+    return res.status(401).json({ error: "Unauthorized" });
   }
+  next();
 });
 
-// Proxy: Chapters
-app.get("/api/proxy/chapters", async (req, res) => {
-  const subjectUrl = replaceHostToBackend(req.query.subjectId);
-  if (!subjectUrl) return res.status(400).json({ error: "Missing subjectId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/chapters`, {
-      params: { url: subjectUrl }
-    });
-    const chapters = response.data.map(chapter => ({
-      name: chapter.name,
-      url: `/api/proxy/lectures?chapterId=${encodeURIComponent(replaceHostToFrontend(chapter.url))}`
-    }));
-    res.json(chapters);
-  } catch (error) {
-    console.error(error.message);
-    res.status(500).json({ error: "Failed to fetch chapters" });
-  }
+// POST /api/event endpoint
+app.post('/api/event', (req, res) => {
+  console.log("📥 Event received:", req.body);
+  res.json({ status: 'ok', received: req.body });
 });
 
-
-// Proxy: Lectures
-app.get("/api/proxy/lectures", async (req, res) => {
-  const chapterUrl = replaceHostToBackend(req.query.chapterId);
-  if (!chapterUrl) return res.status(400).json({ error: "Missing chapterId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/lectures`, {
-      params: { url: chapterUrl }
-    });
-
-    const lectures = response.data.map(lecture => {
-      if (lecture.thumbnail) {
-        lecture.image = lecture.thumbnail;
-      }
-
-      if (
-        typeof lecture.url === "string" &&
-        lecture.url.startsWith("https://rarestudy.site")
-      ) {
-        const trimmedUrl = lecture.url.replace("https://rarestudy.site", "");
-
-        if (trimmedUrl.startsWith("https//www.youtube.com/")) {
-          // Fix missing colon in https
-          lecture.url = trimmedUrl.replace("https//", "https://");
-        } else if (trimmedUrl.startsWith("https://www.youtube.com/")) {
-          lecture.url = trimmedUrl;
-        } else {
-          lecture.url = "fetch" + trimmedUrl;
-        }
-      }
-
-      return lecture;
-    });
-
-    res.json(lectures);
-  } catch (error) {
-    console.error("Failed to fetch lectures:", error.message);
-    res.status(500).json({ error: "Failed to fetch lectures" });
-  }
+// Optional ping endpoint
+app.get('/api/ping', (req, res) => {
+  res.json({ status: 'online', time: Date.now() });
 });
 
-
-// Proxy: Today Class
-app.get("/api/proxy/todayclass", async (req, res) => {
-  const batchUrl = replaceHostToBackend(req.query.batchId);
-  if (!batchUrl) return res.status(400).json({ error: "Missing batchId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/todayclass`, {
-      params: { url: batchUrl }
-    });
-
-    const cleaned = response.data.map(cls => {
-      const cleanedItem = { ...cls };
-
-      // Thumbnail/image setup
-      if (cleanedItem.thumbnail === "https://rarestudy.site/static/rarestudy.jpg") {
-        cleanedItem.thumbnail = "https://res.cloudinary.com/dfpbytn7c/image/upload/v1749008680/IMG_20250604_091231_088_th95bg.jpg";
-      }
-
-      if (cleanedItem.thumbnail === null) {
-        delete cleanedItem.thumbnail;
-      } else {
-        cleanedItem.image = cleanedItem.thumbnail;
-      }
-
-      // ✅ URL cleaning logic like in /lectures
-      if (
-        typeof cleanedItem.url === "string" &&
-        cleanedItem.url.startsWith("https://rarestudy.site")
-      ) {
-        const trimmedUrl = cleanedItem.url.replace("https://rarestudy.site", "");
-
-        if (trimmedUrl.startsWith("https//www.youtube.com/")) {
-          cleanedItem.url = trimmedUrl.replace("https//", "https://");
-        } else if (trimmedUrl.startsWith("https://www.youtube.com/")) {
-          cleanedItem.url = trimmedUrl;
-        } else {
-          cleanedItem.url = "fetch" + trimmedUrl;
-        }
-      }
-
-      return cleanedItem;
-    });
-
-    res.json(cleaned);
-  } catch (error) {
-    console.error("Failed to fetch todayclass:", error.message);
-    res.status(500).json({ error: "Failed to fetch todayclass" });
-  }
-});
-
-
-// Proxy: Notes
-app.get("/api/proxy/notes", async (req, res) => {
-  const chapterUrl = replaceHostToBackend(req.query.chapterId);
-  if (!chapterUrl) return res.status(400).json({ error: "Missing chapterId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/notes`, {
-      params: { url: chapterUrl }
-    });
-    res.json(response.data);
-  } catch (error) {
-    console.error("Failed to fetch notes:", error.message);
-    res.status(500).json({ error: "Failed to fetch notes" });
-  }
-});
-
-// Proxy: DPP Notes
-app.get("/api/proxy/dppnotes", async (req, res) => {
-  const dppUrl = replaceHostToBackend(req.query.chapterId);
-  if (!dppUrl) return res.status(400).json({ error: "Missing chapterId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/DppNotes`, {
-      params: { url: dppUrl }
-    });
-    res.json(response.data);
-  } catch (error) {
-    console.error("Failed to fetch DPP notes:", error.message);
-    res.status(500).json({ error: "Failed to fetch DPP notes" });
-  }
-});
-
-// Proxy: DPP Lecture Videos
-app.get("/api/proxy/dpplecture", async (req, res) => {
-  const dppUrl = replaceHostToBackend(req.query.chapterId);
-  if (!dppUrl) return res.status(400).json({ error: "Missing chapterId" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/DppVideos`, {
-      params: { url: dppUrl }
-    });
-
-    const lectures = response.data.map(item => {
-      const lecture = { ...item };
-      if (lecture.thumbnail) {
-        lecture.image = lecture.thumbnail;
-      }
-      return lecture;
-    });
-
-    res.json(lectures);
-  } catch (error) {
-    console.error("Failed to fetch DPP lectures:", error.message);
-    res.status(500).json({ error: "Failed to fetch DPP lectures" });
-  }
-});
-// Proxy: Video Data
-app.get("/api/proxy/video", async (req, res) => {
-  const videoUrl = replaceHostToBackend(req.query.url);
-  if (!videoUrl) return res.status(400).json({ error: "Missing url" });
-
-  try {
-    const response = await axios.get(`${PYTHON_API}/api/video`, {
-      params: { url: videoUrl }
-    });
-
-    // Pass through exact response data (can be object or string)
-    res.json(response.data);
-  } catch (error) {
-    console.error("Failed to fetch video data:", error.message);
-    res.status(500).json({ error: "Failed to fetch video data" });
-  }
-});
-
+// Start the server
 app.listen(PORT, () => {
-  console.log(`✅ Node.js proxy server running at http://localhost:${PORT}`);
+  console.log(`🚀 Proxy server running at http://localhost:${PORT}`);
 });
