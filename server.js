@@ -74,13 +74,13 @@ const COOKIE_PROFILES = {
     target_url: "https://others.streamfiles.eu.org/motion"
   },
   pw: {
-    domain: ".rarestudy.site",
-    cookies: {
-      "next-login": "success",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://rarestudy.site/batches"
+  domain: ".rarestudy.site",
+  cookies: {
+    "next-login": "success",
+    countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
   },
+  target_url: "https://rarestudy.site/batches"
+},
   nishat: {
     domain: ".rarestudy.site",
     cookies: {
