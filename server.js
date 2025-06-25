@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const VALID_TOKEN = "abcdef@2005#";  // <-- Use the same value in MainActivity
+//const VALID_TOKEN = "abcdef@2005#";  // <-- Use the same value in MainActivity
 
 app.use(cors());
 
@@ -99,13 +99,13 @@ const COOKIE_PROFILES = {
 };
 
 // --- Token check middleware ---
-app.use('/api/cookies/:site', (req, res, next) => {
-  const token = req.header("X-App-Token");
-  if (token !== VALID_TOKEN) {
-    return res.status(403).json({ error: "Unauthorized" });
-  }
-  next();
-});
+//app.use('/api/cookies/:site', (req, res, next) => {
+//  const token = req.header("X-App-Token");
+//  if (token !== VALID_TOKEN) {
+//    return res.status(403).json({ error: "Unauthorized" });
+//  }
+//  next();
+//});
 
 // --- Dynamic cookie API ---
 app.get('/api/cookies/:site', (req, res) => {
