@@ -1,32 +1,58 @@
-const express = require('express');
-const cors = require('cors');
+const express = require("express");
+const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Original cookie data
-const COOKIE_DATA = {
-  domain: ".streamfiles.eu.org",
-  cookies: {
-    verified_task: "dHJ1ZQ==",
-    countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-  },
-  target_url: "https://others.streamfiles.eu.org/cw",
-  timestamp: () => Date.now()  // for dynamic freshness
-};
+const VALID_TOKEN = "MY_SECRET_APP_KEY_12345";  // <-- Use the same value in MainActivity
 
 app.use(cors());
 
-// JSON API that returns cookie data in real-time
-app.get('/api/cookies', (req, res) => {
+// --- Cookie profiles for multiple sites ---
+const COOKIE_PROFILES = {
+  streamfiles: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/cw"
+  },
+  pwthor: {
+    domain: ".pwthor.site",
+    cookies: {
+      login: "success"
+    },
+    target_url: "https://example.pwthor.site/home"
+  }
+};
+
+// --- Token check middleware ---
+app.use('/api/cookies/:site', (req, res, next) => {
+  const token = req.header("X-App-Token");
+  if (token !== VALID_TOKEN) {
+    return res.status(403).json({ error: "Unauthorized" });
+  }
+  next();
+});
+
+// --- Dynamic cookie API ---
+app.get('/api/cookies/:site', (req, res) => {
+  const { site } = req.params;
+  const profile = COOKIE_PROFILES[site];
+
+  if (!profile) {
+    return res.status(404).json({ error: "Site profile not found" });
+  }
+
   res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   res.json({
-    domain: COOKIE_DATA.domain,
-    cookies: COOKIE_DATA.cookies,
-    target_url: COOKIE_DATA.target_url,
-    timestamp: COOKIE_DATA.timestamp()
+    domain: profile.domain,
+    cookies: profile.cookies,
+    target_url: profile.target_url,
+    timestamp: Date.now()
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Cookie JSON API running at http://localhost:${PORT}/api/cookies`);
+  console.log(`Server running on port ${PORT}`);
 });
