@@ -17,6 +17,78 @@ const COOKIE_PROFILES = {
     },
     target_url: "https://others.streamfiles.eu.org/cw"
   },
+  nt: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/nt"
+  },
+  apni: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/apni-kaksha/index.php"
+  },
+  IIT: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/iit"
+  },
+  kd: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/kdlive"
+  },
+   baba: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/educationbaba"
+  },
+   kgs: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/kgs"
+  },
+  motion: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/motion"
+  },
+  pw: {
+    domain: ".rarestudy.site",
+    cookies: {
+      next-login: "success",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://rarestudy.site/batches"
+  },
+  nishat: {
+    domain: ".rarestudy.site",
+    cookies: {
+      next-login: "success",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://rarestudy.site/batches"
+  },
   pwthor: {
     domain: ".pwthor.site",
     cookies: {
