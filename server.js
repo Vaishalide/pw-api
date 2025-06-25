@@ -17,7 +17,7 @@ const COOKIE_PROFILES = {
     },
     target_url: "https://others.streamfiles.eu.org/cw"
   },
-  nt: {
+  next: {
     domain: ".streamfiles.eu.org",
     cookies: {
       verified_task: "dHJ1ZQ==",
