@@ -25,6 +25,30 @@ const COOKIE_PROFILES = {
     },
     target_url: "https://others.streamfiles.eu.org/nt/"
   },
+ allen: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/allen/"
+  },
+  vidya: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/vidyakul/"
+  },
+ vidya: {
+    domain: ".streamfiles.eu.org",
+    cookies: {
+      verified_task: "dHJ1ZQ==",
+      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
+    },
+    target_url: "https://others.streamfiles.eu.org/vidyakul/"
+  },
   apni: {
     domain: ".streamfiles.eu.org",
     cookies: {
@@ -71,7 +95,7 @@ const COOKIE_PROFILES = {
       verified_task: "dHJ1ZQ==",
       countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
     },
-    target_url: "https://others.streamfiles.eu.org/motion"
+    target_url: "https://others.streamfiles.eu.org/motion/"
   },
   pw: {
   domain: ".rarestudy.site",
