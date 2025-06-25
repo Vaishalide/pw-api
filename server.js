@@ -84,7 +84,7 @@ const COOKIE_PROFILES = {
   nishat: {
     domain: ".rarestudy.site",
     cookies: {
-      next-login: "success",
+      "next-login": "success",
       countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
     },
     target_url: "https://rarestudy.site/batches"
