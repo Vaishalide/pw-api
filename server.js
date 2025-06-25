@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 const COOKIE_DATA = {
   domain: ".streamfiles.eu.org",
   cookies: {
-    verified_task: "dHJ1ZQ==",
+    verified_task: "d",
     countdown_end_time: "MTc1MDgyMjgzNzQ5Nw=="
   },
   target_url: "https://others.streamfiles.eu.org/cw",
