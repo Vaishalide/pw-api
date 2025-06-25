@@ -81,7 +81,7 @@ const COOKIE_PROFILES = {
   },
   target_url: "https://rarestudy.site/batches"
 },
-  nishat: {
+  nishant: {
     domain: ".rarestudy.site",
     cookies: {
       "next-login": "success",
