@@ -27,28 +27,36 @@ function generateToken() {
 app.get('/get-proxy', (req, res) => {
   const originalUrl = req.query.url;
   if (!originalUrl) {
-    return res.status(400).json({ status: "error", error: 'Missing ?url=' });
+    return res.status(400).json({ error: 'Missing ?url=' });
   }
 
   try {
+   const parsed = new URL(originalUrl);
+const lastSlash = parsed.pathname.lastIndexOf('/');
+const basePath = parsed.pathname.substring(0, lastSlash + 1);
+parsed.pathname = basePath;
+const baseUrl = parsed.toString();
+
     const token = generateToken();
     const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
 
-    // ✅ store full signed URL (with all query params)
-    activeStreams.set(token, { baseUrl: originalUrl, expiresAt });
+    activeStreams.set(token, { baseUrl, expiresAt });
 
     res.json({
-      status: "success",
-      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
-      expires_in: 10800
-    });
-  } catch (e) {
-    return res.status(400).json({ status: "error", error: "Invalid URL" });
-  }
+  status: "success",
+  m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
+  expires_in: 10800
 });
 
 
+  } catch (e) {
+    return res.status(400).json({ 
+  status: "error", 
+  error: "Invalid URL" 
+});
 
+  }
+});
 
 // ✅ Stream proxy handler
 app.use('/stream/:token/*', (req, res) => {
@@ -65,8 +73,8 @@ app.use('/stream/:token/*', (req, res) => {
     return res.status(410).json({ error: 'Token expired' });
   }
 
-const parsedUrl = new URL(stream.baseUrl); // already complete and correct
-
+  const targetUrl = stream.baseUrl + filePath;
+  const parsedUrl = new URL(targetUrl);
   const lib = parsedUrl.protocol === 'https:' ? https : http;
 
  const options = {
