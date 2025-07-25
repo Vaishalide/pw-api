@@ -24,38 +24,36 @@ function generateToken() {
 }
 
 // ✅ Generate temporary proxy URL
-// ✅ Generate temporary proxy URL
 app.get('/get-proxy', (req, res) => {
   const originalUrl = req.query.url;
   if (!originalUrl) {
-    return res.status(400).json({ status: "error", error: 'Missing ?url=' });
+    return res.status(400).json({ status: "error", error: "Missing ?url=" });
   }
 
   try {
     const token = generateToken();
-    const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
+    const expiresAt = Date.now() + 3 * 60 * 60 * 1000;
 
-    // ✅ Store full original URL, including path + query
+    // ✅ store original signed full URL with query and filename
     activeStreams.set(token, { fullUrl: originalUrl, expiresAt });
 
     res.json({
       status: "success",
-      m3u8_url: `https://${req.get('host')}/stream/${token}`,
+      m3u8_url: `https://${req.get("host")}/stream/${token}`,
       expires_in: 10800
     });
   } catch (e) {
-    return res.status(400).json({ status: "error", error: "Invalid URL" });
+    res.status(400).json({ status: "error", error: "Invalid URL" });
   }
 });
 
 
 
-// ✅ Stream proxy handler
-app.use('/stream/:token/*', (req, res) => {
-  const { token } = req.params;
-  const filePath = req.params[0];
 
+app.get('/stream/:token', (req, res) => {
+  const { token } = req.params;
   const stream = activeStreams.get(token);
+
   if (!stream) {
     return res.status(404).json({ error: 'Invalid or expired token' });
   }
@@ -65,61 +63,49 @@ app.use('/stream/:token/*', (req, res) => {
     return res.status(410).json({ error: 'Token expired' });
   }
 
-  try {
-    const parsedBase = new URL(stream.fullUrl);
+  const parsedUrl = new URL(stream.fullUrl); // fully signed URL with filename + query
 
-    // Replace filename in path with new filePath
-    const basePath = parsedBase.pathname.substring(0, parsedBase.pathname.lastIndexOf('/') + 1);
-    const fullUrl = parsedBase.origin + basePath + filePath + parsedBase.search;
+  const lib = parsedUrl.protocol === 'https:' ? https : http;
 
-    const parsedUrl = new URL(fullUrl);
-    const lib = parsedUrl.protocol === 'https:' ? https : http;
+  const options = {
+    hostname: parsedUrl.hostname,
+    port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+    path: parsedUrl.pathname + parsedUrl.search,
+    method: 'GET',
+    headers: {
+      'User-Agent': 'Mozilla/5.0',
+      'Accept': '*/*',
+      'Connection': 'keep-alive',
+      'Referer': parsedUrl.origin,
+      'Origin': parsedUrl.origin
+    }
+  };
 
-    const options = {
-      hostname: parsedUrl.hostname,
-      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
-      path: parsedUrl.pathname + parsedUrl.search,
-      method: 'GET',
-      headers: {
-        'User-Agent': 'Mozilla/5.0',
-        'Accept': '*/*',
-        'Connection': 'keep-alive',
-        'Referer': parsedUrl.origin,
-        'Origin': parsedUrl.origin
+  const requestFn = parsedUrl.protocol === 'https:' ? https.request : http.request;
+
+  const proxyReq = requestFn(options, (proxyRes) => {
+    res.status(proxyRes.statusCode);
+
+    for (const [key, value] of Object.entries(proxyRes.headers)) {
+      if (!key.toLowerCase().startsWith('access-control-')) {
+        res.setHeader(key, value);
       }
-    };
+    }
 
-    const requestFn = parsedUrl.protocol === 'https:' ? https.request : http.request;
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-    const proxyReq = requestFn(options, (proxyRes) => {
-      res.status(proxyRes.statusCode);
+    proxyRes.pipe(res);
+  });
 
-      for (const [key, value] of Object.entries(proxyRes.headers)) {
-        if (!key.toLowerCase().startsWith('access-control-')) {
-          res.setHeader(key, value);
-        }
-      }
+  proxyReq.on('error', (err) => {
+    console.error('Proxy request failed:', err.message);
+    res.status(500).json({ error: 'Proxy fetch failed' });
+  });
 
-      res.setHeader('Access-Control-Allow-Origin', '*');
-      res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-      res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-
-      proxyRes.pipe(res);
-    });
-
-    proxyReq.on('error', (err) => {
-      console.error('Proxy request failed:', err.message);
-      res.status(500).json({ error: 'Proxy fetch failed' });
-    });
-
-    proxyReq.end();
-
-  } catch (err) {
-    console.error("Invalid URL:", err);
-    return res.status(500).json({ error: "Internal proxy URL parsing error" });
-  }
+  proxyReq.end();
 });
-
 
 
 // ✅ Optional: Debug all tokens
