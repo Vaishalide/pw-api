@@ -1,154 +1,110 @@
-const express = require("express");
-const cors = require("cors");
-const app = express();
-const PORT = process.env.PORT || 3000;
+// server.js
+const express = require('express');
+const crypto = require('crypto');
+const cors = require('cors');
+const https = require('https');
+const http = require('http');
+const { URL } = require('url');
 
-const VALID_TOKEN = "abcdef@2005#";  // <-- Use the same value in MainActivity
+const app = express();
+const activeStreams = new Map();
 
 app.use(cors());
 
-// --- Cookie profiles for multiple sites ---
-const COOKIE_PROFILES = {
- cw: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/cw"
-  },
-  next: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/nt/"
-  },
- allen: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/allen/"
-  },
-  vidya: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/vidyakul/"
-  },
- vidya: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/vidyakul/"
-  },
-  apni: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/apni-kaksha/index.php"
-  },
-  IIT: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/iit"
-  },
-  kd: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/kdlive"
-  },
-   baba: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/educationbaba"
-  },
-   kgs: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/kgs"
-  },
-  motion: {
-    domain: ".streamfiles.eu.org",
-    cookies: {
-      verified_task: "dHJ1ZQ==",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://others.streamfiles.eu.org/motion/"
-  },
-  pw: {
-  domain: ".rarestudy.site",
-  cookies: {
-    "next-login": "success",
-    countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-  },
-  target_url: "https://rarestudy.site/batches"
-},
-  nishant: {
-    domain: ".rarestudy.site",
-    cookies: {
-      "next-login": "success",
-      countdown_end_time: "MTc2NDU0NzIwMDAwMA=="
-    },
-    target_url: "https://rarestudy.site/batches"
-  },
-  pwthor: {
-    domain: ".pwthor.site",
-    cookies: {
-      login: "success"
-    },
-    target_url: "https://example.pwthor.site/home"
-  }
-};
+function generateToken() {
+  return crypto.randomBytes(16).toString('hex');
+}
 
-// --- Token check middleware ---
-app.use('/api/cookies/:site', (req, res, next) => {
-  const token = req.header("X-App-Token");
-  if (token !== VALID_TOKEN) {
-    return res.status(403).json({ error: "Unauthorized" });
+// Generate temporary proxy URL
+app.get('/get-proxy', (req, res) => {
+  const originalUrl = req.query.url;
+  if (!originalUrl) {
+    return res.status(400).json({ error: 'Missing ?url=' });
   }
- next();
+
+  try {
+    const baseUrl = originalUrl.replace(/\/[^\/?#]+(\?.*)?$/, '/'); // Keep full signed path
+    const token = generateToken();
+    const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
+
+    activeStreams.set(token, { baseUrl, expiresAt });
+
+    res.json({
+      proxy_url: `${req.protocol}://${req.get('host')}/stream/${token}/master.mpd`,
+      expires_in: 10800 // seconds
+    });
+  } catch (e) {
+    res.status(400).json({ error: 'Invalid URL' });
+  }
 });
 
-// --- Dynamic cookie API ---
-app.get('/api/cookies/:site', (req, res) => {
-  const { site } = req.params;
-  const profile = COOKIE_PROFILES[site];
+// Serve MPD & segment content using token
+app.use('/stream/:token/*', (req, res) => {
+  const { token } = req.params;
+  const filePath = req.params[0];
 
-  if (!profile) {
-    return res.status(404).json({ error: "Site profile not found" });
+  console.log(`🔍 Incoming request with token: ${token}`);
+  console.log(`📦 Active tokens:`, Array.from(activeStreams.keys()));
+
+  const stream = activeStreams.get(token);
+
+  if (!stream) {
+    console.warn(`❌ Token not found: ${token}`);
+    return res.status(404).json({ error: 'Invalid or expired token' });
   }
 
-  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
-  res.json({
-    domain: profile.domain,
-    cookies: profile.cookies,
-    target_url: profile.target_url,
-    timestamp: Date.now()
+  if (Date.now() > stream.expiresAt) {
+    activeStreams.delete(token);
+    console.warn(`⏰ Token expired: ${token}`);
+    return res.status(410).json({ error: 'Token expired' });
+  }
+
+  const targetUrl = stream.baseUrl + filePath;
+  console.log(`[Proxy] ${req.originalUrl} → ${targetUrl}`);
+
+  const parsedUrl = new URL(targetUrl);
+  const lib = parsedUrl.protocol === 'https:' ? https : http;
+
+  const proxyReq = lib.get(parsedUrl, (proxyRes) => {
+    res.status(proxyRes.statusCode);
+    for (const [key, value] of Object.entries(proxyRes.headers)) {
+      res.setHeader(key, value);
+    }
+    proxyRes.pipe(res);
+  });
+
+  proxyReq.on('error', (err) => {
+    console.error('Proxy request failed:', err.message);
+    res.status(500).json({ error: 'Proxy fetch failed' });
   });
 });
 
+// Optional: List tokens
+app.get('/_debug/tokens', (req, res) => {
+  const all = [];
+  for (const [token, value] of activeStreams.entries()) {
+    all.push({
+      token,
+      baseUrl: value.baseUrl,
+      expiresAt: value.expiresAt,
+      expiresInSeconds: Math.floor((value.expiresAt - Date.now()) / 1000)
+    });
+  }
+  res.json(all);
+});
+
+// Cleanup expired tokens
+setInterval(() => {
+  const now = Date.now();
+  for (const [token, { expiresAt }] of activeStreams.entries()) {
+    if (now > expiresAt) {
+      activeStreams.delete(token);
+      console.log(`[Cleanup] Expired token removed: ${token}`);
+    }
+  }
+}, 10 * 60 * 1000);
+
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
