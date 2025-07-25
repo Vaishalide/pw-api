@@ -31,7 +31,12 @@ app.get('/get-proxy', (req, res) => {
   }
 
   try {
-    const baseUrl = originalUrl.replace(/\/[^\/?#]+(\?.*)?$/, '/'); // Keep full path
+   const parsed = new URL(originalUrl);
+const lastSlash = parsed.pathname.lastIndexOf('/');
+const basePath = parsed.pathname.substring(0, lastSlash + 1);
+parsed.pathname = basePath;
+const baseUrl = parsed.toString();
+
     const token = generateToken();
     const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
 
