@@ -70,29 +70,47 @@ app.use('/stream/:token/*', (req, res) => {
   const parsedUrl = new URL(targetUrl);
   const lib = parsedUrl.protocol === 'https:' ? https : http;
 
-  const proxyReq = lib.get(parsedUrl, (proxyRes) => {
-    res.status(proxyRes.statusCode);
+ const options = {
+  hostname: parsedUrl.hostname,
+  port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+  path: parsedUrl.pathname + parsedUrl.search,
+  method: 'GET',
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+                  '(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'Referer': parsedUrl.origin,
+    'Origin': parsedUrl.origin,
+  }
+};
 
-    // ✅ Filter out original CORS headers
-    for (const [key, value] of Object.entries(proxyRes.headers)) {
-      if (!key.toLowerCase().startsWith('access-control-')) {
-        res.setHeader(key, value);
-      }
+const requestFn = parsedUrl.protocol === 'https:' ? https.request : http.request;
+
+const proxyReq = requestFn(options, (proxyRes) => {
+  res.status(proxyRes.statusCode);
+
+  for (const [key, value] of Object.entries(proxyRes.headers)) {
+    if (!key.toLowerCase().startsWith('access-control-')) {
+      res.setHeader(key, value);
     }
+  }
 
-    // ✅ Inject your own permissive CORS headers
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-    proxyRes.pipe(res);
-  });
-
-  proxyReq.on('error', (err) => {
-    console.error('Proxy request failed:', err.message);
-    res.status(500).json({ error: 'Proxy fetch failed' });
-  });
+  proxyRes.pipe(res);
 });
+
+proxyReq.on('error', (err) => {
+  console.error('Proxy request failed:', err.message);
+  res.status(500).json({ error: 'Proxy fetch failed' });
+});
+
+proxyReq.end(); // Important: End the request
+
 
 // ✅ Optional: Debug all tokens
 app.get('/_debug/tokens', (req, res) => {
