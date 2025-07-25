@@ -73,8 +73,12 @@ app.use('/stream/:token/*', (req, res) => {
     return res.status(410).json({ error: 'Token expired' });
   }
 
-  const targetUrl = stream.baseUrl + filePath;
-  const parsedUrl = new URL(targetUrl);
+  const targetUrl = new URL(stream.baseUrl);
+targetUrl.pathname += filePath;
+targetUrl.search = req._parsedUrl.search || ''; // preserve signed query
+
+  const parsedUrl = new URL(targetUrl.toString());
+
   const lib = parsedUrl.protocol === 'https:' ? https : http;
 
  const options = {
