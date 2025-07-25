@@ -43,12 +43,18 @@ const baseUrl = parsed.toString();
     activeStreams.set(token, { baseUrl, expiresAt });
 
     res.json({
+  status: "success",
   m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
-  expires_in: 10800 // seconds
+  expires_in: 10800
 });
 
+
   } catch (e) {
-    res.status(400).json({ error: 'Invalid URL' });
+    return res.status(400).json({ 
+  status: "error", 
+  error: "Invalid URL" 
+});
+
   }
 });
 
