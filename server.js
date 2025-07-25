@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const crypto = require('crypto');
 const cors = require('cors');
@@ -9,13 +8,22 @@ const { URL } = require('url');
 const app = express();
 const activeStreams = new Map();
 
+// ✅ Allow all CORS requests globally (optional)
 app.use(cors());
+
+// ✅ Handle CORS preflight requests
+app.options('*', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.sendStatus(200);
+});
 
 function generateToken() {
   return crypto.randomBytes(16).toString('hex');
 }
 
-// Generate temporary proxy URL
+// ✅ Generate temporary proxy URL
 app.get('/get-proxy', (req, res) => {
   const originalUrl = req.query.url;
   if (!originalUrl) {
@@ -23,7 +31,7 @@ app.get('/get-proxy', (req, res) => {
   }
 
   try {
-    const baseUrl = originalUrl.replace(/\/[^\/?#]+(\?.*)?$/, '/'); // Keep full signed path
+    const baseUrl = originalUrl.replace(/\/[^\/?#]+(\?.*)?$/, '/'); // Keep full path
     const token = generateToken();
     const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
 
@@ -38,38 +46,40 @@ app.get('/get-proxy', (req, res) => {
   }
 });
 
-// Serve MPD & segment content using token
+// ✅ Stream proxy handler
 app.use('/stream/:token/*', (req, res) => {
   const { token } = req.params;
   const filePath = req.params[0];
 
-  console.log(`🔍 Incoming request with token: ${token}`);
-  console.log(`📦 Active tokens:`, Array.from(activeStreams.keys()));
-
   const stream = activeStreams.get(token);
-
   if (!stream) {
-    console.warn(`❌ Token not found: ${token}`);
     return res.status(404).json({ error: 'Invalid or expired token' });
   }
 
   if (Date.now() > stream.expiresAt) {
     activeStreams.delete(token);
-    console.warn(`⏰ Token expired: ${token}`);
     return res.status(410).json({ error: 'Token expired' });
   }
 
   const targetUrl = stream.baseUrl + filePath;
-  console.log(`[Proxy] ${req.originalUrl} → ${targetUrl}`);
-
   const parsedUrl = new URL(targetUrl);
   const lib = parsedUrl.protocol === 'https:' ? https : http;
 
   const proxyReq = lib.get(parsedUrl, (proxyRes) => {
     res.status(proxyRes.statusCode);
+
+    // ✅ Filter out original CORS headers
     for (const [key, value] of Object.entries(proxyRes.headers)) {
-      res.setHeader(key, value);
+      if (!key.toLowerCase().startsWith('access-control-')) {
+        res.setHeader(key, value);
+      }
     }
+
+    // ✅ Inject your own permissive CORS headers
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
     proxyRes.pipe(res);
   });
 
@@ -79,7 +89,7 @@ app.use('/stream/:token/*', (req, res) => {
   });
 });
 
-// Optional: List tokens
+// ✅ Optional: Debug all tokens
 app.get('/_debug/tokens', (req, res) => {
   const all = [];
   for (const [token, value] of activeStreams.entries()) {
@@ -93,7 +103,7 @@ app.get('/_debug/tokens', (req, res) => {
   res.json(all);
 });
 
-// Cleanup expired tokens
+// ✅ Auto-remove expired tokens
 setInterval(() => {
   const now = Date.now();
   for (const [token, { expiresAt }] of activeStreams.entries()) {
@@ -102,8 +112,9 @@ setInterval(() => {
       console.log(`[Cleanup] Expired token removed: ${token}`);
     }
   }
-}, 10 * 60 * 1000);
+}, 10 * 60 * 1000); // Every 10 minutes
 
+// ✅ Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
