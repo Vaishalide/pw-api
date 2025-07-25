@@ -43,7 +43,7 @@ const baseUrl = parsed.toString();
     activeStreams.set(token, { baseUrl, expiresAt });
 
     res.json({
-  proxy_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
+  m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
   expires_in: 10800 // seconds
 });
 
