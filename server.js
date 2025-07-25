@@ -48,14 +48,7 @@ app.get('/get-proxy', (req, res) => {
 });
 
 
-  } catch (e) {
-    return res.status(400).json({ 
-  status: "error", 
-  error: "Invalid URL" 
-});
 
-  }
-});
 
 // ✅ Stream proxy handler
 app.use('/stream/:token/*', (req, res) => {
