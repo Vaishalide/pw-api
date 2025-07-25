@@ -109,7 +109,8 @@ proxyReq.on('error', (err) => {
   res.status(500).json({ error: 'Proxy fetch failed' });
 });
 
-proxyReq.end(); // Important: End the request
+proxyReq.end(); // ✅ Move this INSIDE the route handler
+});
 
 
 // ✅ Optional: Debug all tokens
