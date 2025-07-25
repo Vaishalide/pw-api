@@ -43,9 +43,10 @@ const baseUrl = parsed.toString();
     activeStreams.set(token, { baseUrl, expiresAt });
 
     res.json({
-      proxy_url: `${req.protocol}://${req.get('host')}/stream/${token}/master.mpd`,
-      expires_in: 10800 // seconds
-    });
+  proxy_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
+  expires_in: 10800 // seconds
+});
+
   } catch (e) {
     res.status(400).json({ error: 'Invalid URL' });
   }
