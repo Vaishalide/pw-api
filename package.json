@@ -1,18 +1,22 @@
 {
-  "name": "cookie-proxy-server",
+  "name": "dash-proxy-server",
   "version": "1.0.0",
-  "description": "A proxy server to inject cookies and relay requests to a target site.",
+  "description": "A simple DASH proxy server that generates temporary token-based access to media files.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": ["proxy", "cookies", "nodejs", "android", "webview"],
-  "author": "dipesh",
+  "keywords": [
+    "dash",
+    "proxy",
+    "streaming",
+    "video",
+    "express"
+  ],
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "request": "^2.88.2"
+    "express": "^4.18.2"
   }
 }
