@@ -1,4 +1,4 @@
-// -----------------------------------------------------------------------------
+/ -----------------------------------------------------------------------------
 // Dependencies
 // -----------------------------------------------------------------------------
 const express = require('express');
@@ -6,133 +6,146 @@ const cors = require('cors');
 const https = require('https');
 const http = require('http');
 const { URL } = require('url');
-const jwt = require('jsonwebtoken'); // ✅ Import the JSON Web Token library
+const { EncryptJWT, jwtDecrypt } = require('jose');
+const crypto = require('crypto');
 
 // -----------------------------------------------------------------------------
-// Environment Variable Check
+// Environment & Security Setup
 // -----------------------------------------------------------------------------
-// For security, the JWT secret is loaded from an environment variable.
-// It's crucial to set this in your hosting environment (e.g., Heroku Config Vars).
 if (!process.env.JWT_SECRET) {
   console.error("FATAL ERROR: JWT_SECRET environment variable is not set.");
-  process.exit(1); // Exit if the secret key is not configured.
+  process.exit(1);
 }
+
+const secretKey = crypto.createHash('sha256').update(process.env.JWT_SECRET).digest();
+const alg = 'dir';
+const enc = 'A256GCM';
+
+// -----------------------------------------------------------------------------
+// CORS Configuration
+// -----------------------------------------------------------------------------
+// ✅ Define a whitelist of allowed origins for better security.
+// Add any domains that should be allowed to use your proxy.
+const allowedOrigins = [
+  'https://pwthor.site',
+  'https://www.pwjarvis.com', // Added based on previous error logs
+  // Add other origins for local development if needed:
+  // 'http://localhost:3000',
+  // 'http://127.0.0.1:5500'
+];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (e.g., mobile apps, curl)
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('This origin is not allowed by CORS'));
+    }
+  },
+};
 
 // -----------------------------------------------------------------------------
 // Express App Setup
 // -----------------------------------------------------------------------------
 const app = express();
+// ✅ Use the new, more specific CORS options
+app.use(cors(corsOptions));
+// ✅ Handle preflight requests with the same options
+app.options('*', cors(corsOptions));
 
-// ✅ Allow all CORS requests. This is necessary for the client-side player
-// to fetch the stream from a different origin.
-app.use(cors());
-
-// ✅ Handle CORS preflight (OPTIONS) requests. This is a standard part of CORS.
-app.options('*', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  res.sendStatus(204); // No Content
-});
 
 // -----------------------------------------------------------------------------
 // Endpoint: /get-proxy
-// Generates a temporary, signed JWT for a given stream URL.
+// Generates a temporary, ENCRYPTED JWE token.
 // -----------------------------------------------------------------------------
-app.get('/get-proxy', (req, res) => {
+app.get('/get-proxy', async (req, res) => {
   const originalUrl = req.query.url;
   if (!originalUrl) {
     return res.status(400).json({ status: "error", error: 'Missing required query parameter: ?url=' });
   }
 
   try {
-    // 1. Parse the original URL to extract the base path.
-    // This prevents the full file path from being in the token.
     const parsed = new URL(originalUrl);
     const lastSlash = parsed.pathname.lastIndexOf('/');
     const basePath = parsed.pathname.substring(0, lastSlash + 1);
     parsed.pathname = basePath;
-    const baseUrl = parsed.toString(); // e.g., "https://videostream.com/path/to/vids/"
+    const baseUrl = parsed.toString();
 
-    // 2. Create the JWT payload.
-    // This is the data that will be securely stored inside the token.
-    const payload = { baseUrl };
+    const token = await new EncryptJWT({ baseUrl })
+      .setProtectedHeader({ alg, enc })
+      .setIssuedAt()
+      .setExpirationTime('3h')
+      .encrypt(secretKey);
 
-    // 3. Sign the token.
-    // This creates the JWT string, signing it with your secret key.
-    // The library automatically adds the 'expiresIn' claim.
-    const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '3h' });
-    const expiresInSeconds = 3 * 60 * 60; // 3 hours
+    const expiresInSeconds = 3 * 60 * 60;
 
-    // 4. Send the response to the client.
-    // The client will use this URL to request the stream segments.
     res.json({
       status: "success",
-      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`, // Or .m3u8
+      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
       expires_in: expiresInSeconds
     });
 
   } catch (e) {
-    console.error("URL Parsing Error:", e.message);
+    console.error("URL Parsing or Encryption Error:", e.message);
     return res.status(400).json({ status: "error", error: "Invalid URL provided" });
   }
 });
 
 // -----------------------------------------------------------------------------
 // Middleware: /stream/:token/*
-// Verifies the JWT and proxies the request to the original media server.
+// Decrypts the JWE and proxies the request.
 // -----------------------------------------------------------------------------
-app.use('/stream/:token/*', (req, res) => {
+app.use('/stream/:token/*', async (req, res) => {
   const { token } = req.params;
-  const filePath = req.params[0]; // The rest of the path after the token
+  const filePath = req.params[0];
 
   try {
-    // 1. Verify the JWT.
-    // `jwt.verify` checks the signature AND the expiration time.
-    // If the token is invalid or expired, it will throw an error.
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const { payload: decoded } = await jwtDecrypt(token, secretKey);
 
-    // 2. Construct the full target URL.
-    // The `baseUrl` is securely retrieved from the decoded token payload.
     const targetUrl = decoded.baseUrl + filePath;
     const parsedUrl = new URL(targetUrl);
     const lib = parsedUrl.protocol === 'https:' ? https : http;
 
-    // 3. Set up the proxy request options.
     const options = {
       hostname: parsedUrl.hostname,
       port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
       path: parsedUrl.pathname + parsedUrl.search,
       method: 'GET',
       headers: {
-        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0', // Pass through user-agent
+        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0',
         'Referer': parsedUrl.origin,
         'Origin': parsedUrl.origin,
       }
     };
 
-    // 4. Create and send the proxy request.
     const proxyReq = lib.request(options, (proxyRes) => {
-      // Pass back the status code and headers from the origin server.
-      res.writeHead(proxyRes.statusCode, proxyRes.headers);
-      // Pipe the response body (the video/audio data) directly to the client.
+      // ✅ **CORS FIX**: Manually set status and filter headers.
+      // This prevents the upstream server's CORS headers from overwriting ours.
+      res.statusCode = proxyRes.statusCode;
+      Object.keys(proxyRes.headers).forEach((key) => {
+        const lowerCaseKey = key.toLowerCase();
+        // We ignore the upstream server's CORS headers and content encoding (as it can cause issues).
+        if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
+          res.setHeader(key, proxyRes.headers[key]);
+        }
+      });
+      
       proxyRes.pipe(res);
     });
 
     proxyReq.on('error', (err) => {
       console.error('Proxy request failed:', err.message);
       if (!res.headersSent) {
-        res.status(502).json({ status: "error", error: 'Proxy request failed' }); // Bad Gateway
+        res.status(502).json({ status: "error", error: 'Proxy request failed' });
       }
     });
 
     proxyReq.end();
 
   } catch (err) {
-    // This block catches errors from `jwt.verify`.
-    // e.g., TokenExpiredError, JsonWebTokenError (malformed token).
     console.warn(`[Auth] Rejected token: ${err.name} - ${err.message}`);
-    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' }); // Unauthorized
+    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' });
   }
 });
 
@@ -141,5 +154,5 @@ app.use('/stream/:token/*', (req, res) => {
 // -----------------------------------------------------------------------------
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Proxy server running on http://localhost:${PORT}`);
+  console.log(`🚀 Encrypted proxy server running on http://localhost:${PORT}`);
 });
