@@ -1,17 +1,23 @@
-/ -----------------------------------------------------------------------------
-// Dependencies
 // -----------------------------------------------------------------------------
-const express = require('express');
-const cors = require('cors');
-const https = require('https');
-const http = require('http');
-const { URL } = require('url');
-const { EncryptJWT, jwtDecrypt } = require('jose');
-const crypto = require('crypto');
+// Dependencies (Using ES Module 'import' syntax)
+// -----------------------------------------------------------------------------
+import express from 'express';
+import cors from 'cors';
+import https from 'https';
+import http from 'http';
+import { URL } from 'url';
+import { EncryptJWT, jwtDecrypt } from 'jose';
+import crypto from 'crypto';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 // -----------------------------------------------------------------------------
 // Environment & Security Setup
 // -----------------------------------------------------------------------------
+// Since we are using ES Modules, __dirname is not available. This is how we get it.
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 if (!process.env.JWT_SECRET) {
   console.error("FATAL ERROR: JWT_SECRET environment variable is not set.");
   process.exit(1);
@@ -24,19 +30,16 @@ const enc = 'A256GCM';
 // -----------------------------------------------------------------------------
 // CORS Configuration
 // -----------------------------------------------------------------------------
-// ✅ Define a whitelist of allowed origins for better security.
-// Add any domains that should be allowed to use your proxy.
 const allowedOrigins = [
   'https://pwthor.site',
-  'https://www.pwjarvis.com', // Added based on previous error logs
+  'https://www.pwjarvis.com',
   // Add other origins for local development if needed:
-  // 'http://localhost:3000',
-  // 'http://127.0.0.1:5500'
+  'http://localhost:3000',
+  'http://127.0.0.1:5500'
 ];
 
 const corsOptions = {
   origin: (origin, callback) => {
-    // Allow requests with no origin (e.g., mobile apps, curl)
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
@@ -49,15 +52,11 @@ const corsOptions = {
 // Express App Setup
 // -----------------------------------------------------------------------------
 const app = express();
-// ✅ Use the new, more specific CORS options
 app.use(cors(corsOptions));
-// ✅ Handle preflight requests with the same options
 app.options('*', cors(corsOptions));
-
 
 // -----------------------------------------------------------------------------
 // Endpoint: /get-proxy
-// Generates a temporary, ENCRYPTED JWE token.
 // -----------------------------------------------------------------------------
 app.get('/get-proxy', async (req, res) => {
   const originalUrl = req.query.url;
@@ -94,7 +93,6 @@ app.get('/get-proxy', async (req, res) => {
 
 // -----------------------------------------------------------------------------
 // Middleware: /stream/:token/*
-// Decrypts the JWE and proxies the request.
 // -----------------------------------------------------------------------------
 app.use('/stream/:token/*', async (req, res) => {
   const { token } = req.params;
@@ -120,12 +118,9 @@ app.use('/stream/:token/*', async (req, res) => {
     };
 
     const proxyReq = lib.request(options, (proxyRes) => {
-      // ✅ **CORS FIX**: Manually set status and filter headers.
-      // This prevents the upstream server's CORS headers from overwriting ours.
       res.statusCode = proxyRes.statusCode;
       Object.keys(proxyRes.headers).forEach((key) => {
         const lowerCaseKey = key.toLowerCase();
-        // We ignore the upstream server's CORS headers and content encoding (as it can cause issues).
         if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
           res.setHeader(key, proxyRes.headers[key]);
         }
@@ -154,5 +149,5 @@ app.use('/stream/:token/*', async (req, res) => {
 // -----------------------------------------------------------------------------
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Encrypted proxy server running on http://localhost:${PORT}`);
+  console.log(`🚀 Encrypted proxy server (ESM) running on http://localhost:${PORT}`);
 });
