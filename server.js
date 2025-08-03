@@ -4,149 +4,111 @@ const cors = require('cors');
 const https = require('https');
 const http = require('http');
 const { URL } = require('url');
+const { createClient } = require('redis'); // ✅ 1. Import Redis client
 
 const app = express();
-const activeStreams = new Map();
 
-// ✅ Allow all CORS requests globally (optional)
-app.use(cors());
-
-// ✅ Handle CORS preflight requests
-app.options('*', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  res.sendStatus(200);
+// ✅ 2. Create and connect the Redis client
+// It automatically uses the REDIS_URL from Heroku's environment variables.
+const redisClient = createClient({
+  url: process.env.REDIS_URL
 });
+
+redisClient.on('error', (err) => console.log('Redis Client Error', err));
+redisClient.connect();
+
+// The token will expire in 3 hours (in seconds)
+const TOKEN_EXPIRATION_SECONDS = 3 * 60 * 60; 
+
+app.use(cors());
+app.options('*', cors()); // Simplifies CORS preflight handling
 
 function generateToken() {
   return crypto.randomBytes(16).toString('hex');
 }
 
-// ✅ Generate temporary proxy URL
-app.get('/get-proxy', (req, res) => {
+// ✅ Generate temporary proxy URL using Redis
+app.get('/get-proxy', async (req, res) => { // 👈 Note: async function
   const originalUrl = req.query.url;
   if (!originalUrl) {
     return res.status(400).json({ error: 'Missing ?url=' });
   }
 
   try {
-   const parsed = new URL(originalUrl);
-const lastSlash = parsed.pathname.lastIndexOf('/');
-const basePath = parsed.pathname.substring(0, lastSlash + 1);
-parsed.pathname = basePath;
-const baseUrl = parsed.toString();
+    const parsed = new URL(originalUrl);
+    const lastSlash = parsed.pathname.lastIndexOf('/');
+    const basePath = parsed.pathname.substring(0, lastSlash + 1);
+    parsed.pathname = basePath;
+    const baseUrl = parsed.toString();
 
     const token = generateToken();
-    const expiresAt = Date.now() + 3 * 60 * 60 * 1000; // 3 hours
 
-    activeStreams.set(token, { baseUrl, expiresAt });
+    // ✅ 3. Store the base URL in Redis with an expiration time
+    await redisClient.set(token, baseUrl, {
+      EX: TOKEN_EXPIRATION_SECONDS // Set expiration directly in Redis
+    });
 
     res.json({
-  status: "success",
-  m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
-  expires_in: 10800
-});
-
+      status: "success",
+      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
+      expires_in: TOKEN_EXPIRATION_SECONDS
+    });
 
   } catch (e) {
-    return res.status(400).json({ 
-  status: "error", 
-  error: "Invalid URL" 
-});
-
+    return res.status(400).json({ status: "error", error: "Invalid URL" });
   }
 });
 
-// ✅ Stream proxy handler
-app.use('/stream/:token/*', (req, res) => {
+// ✅ Stream proxy handler using Redis
+app.use('/stream/:token/*', async (req, res) => { // 👈 Note: async function
   const { token } = req.params;
   const filePath = req.params[0];
 
-  const stream = activeStreams.get(token);
-  if (!stream) {
+  // ✅ 4. Retrieve the base URL from Redis
+  const baseUrl = await redisClient.get(token);
+
+  if (!baseUrl) {
+    // If the key doesn't exist, it's either invalid or expired automatically
     return res.status(404).json({ error: 'Invalid or expired token' });
   }
 
-  if (Date.now() > stream.expiresAt) {
-    activeStreams.delete(token);
-    return res.status(410).json({ error: 'Token expired' });
-  }
-
-  const targetUrl = stream.baseUrl + filePath;
+  const targetUrl = baseUrl + filePath;
   const parsedUrl = new URL(targetUrl);
   const lib = parsedUrl.protocol === 'https:' ? https : http;
 
- const options = {
-  hostname: parsedUrl.hostname,
-  port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
-  path: parsedUrl.pathname + parsedUrl.search,
-  method: 'GET',
-  headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-                  '(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
-    'Accept': '*/*',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Referer': parsedUrl.origin,
-    'Origin': parsedUrl.origin,
-  }
-};
-
-const requestFn = parsedUrl.protocol === 'https:' ? https.request : http.request;
-
-const proxyReq = requestFn(options, (proxyRes) => {
-  res.status(proxyRes.statusCode);
-
-  for (const [key, value] of Object.entries(proxyRes.headers)) {
-    if (!key.toLowerCase().startsWith('access-control-')) {
-      res.setHeader(key, value);
+  const options = {
+    hostname: parsedUrl.hostname,
+    port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+    path: parsedUrl.pathname + parsedUrl.search,
+    method: 'GET',
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+      'Referer': parsedUrl.origin,
+      'Origin': parsedUrl.origin
     }
-  }
+  };
 
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  const proxyReq = lib.request(options, (proxyRes) => {
+    // Forward the headers from the target to the client
+    res.writeHead(proxyRes.statusCode, proxyRes.headers);
+    proxyRes.pipe(res);
+  });
 
-  proxyRes.pipe(res);
-});
-
-proxyReq.on('error', (err) => {
-  console.error('Proxy request failed:', err.message);
-  res.status(500).json({ error: 'Proxy fetch failed' });
-});
-
-proxyReq.end(); // ✅ Move this INSIDE the route handler
-});
-
-
-// ✅ Optional: Debug all tokens
-app.get('/_debug/tokens', (req, res) => {
-  const all = [];
-  for (const [token, value] of activeStreams.entries()) {
-    all.push({
-      token,
-      baseUrl: value.baseUrl,
-      expiresAt: value.expiresAt,
-      expiresInSeconds: Math.floor((value.expiresAt - Date.now()) / 1000)
-    });
-  }
-  res.json(all);
-});
-
-// ✅ Auto-remove expired tokens
-setInterval(() => {
-  const now = Date.now();
-  for (const [token, { expiresAt }] of activeStreams.entries()) {
-    if (now > expiresAt) {
-      activeStreams.delete(token);
-      console.log(`[Cleanup] Expired token removed: ${token}`);
+  proxyReq.on('error', (err) => {
+    console.error('Proxy request failed:', err.message);
+    if (!res.headersSent) {
+      res.status(500).json({ error: 'Proxy fetch failed' });
     }
-  }
-}, 10 * 60 * 1000); // Every 10 minutes
+  });
 
-// ✅ Start server
+  proxyReq.end();
+});
+
+// The setInterval cleanup function is no longer needed.
+// Redis handles the token expiration automatically. ✨
+
+// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running on port ${PORT}`);
 });
