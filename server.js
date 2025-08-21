@@ -59,91 +59,110 @@ app.options('*', cors(corsOptions));
 // Endpoint: /get-proxy
 // -----------------------------------------------------------------------------
 app.get('/get-proxy', async (req, res) => {
-  const originalUrl = req.query.url;
-  if (!originalUrl) {
-    return res.status(400).json({ status: "error", error: 'Missing required query parameter: ?url=' });
-  }
+  const originalUrl = req.query.url;
+  if (!originalUrl) {
+    return res.status(400).json({ status: "error", error: 'Missing required query parameter: ?url=' });
+  }
 
-  try {
-    const parsed = new URL(originalUrl);
-    const lastSlash = parsed.pathname.lastIndexOf('/');
-    const basePath = parsed.pathname.substring(0, lastSlash + 1);
-    parsed.pathname = basePath;
-    const baseUrl = parsed.toString();
+  try {
+    const parsed = new URL(originalUrl);
+    
+    // --- START: MODIFICATION ---
+    // 1. Extract the original query string
+    const queryString = parsed.search;
 
-    const token = await new EncryptJWT({ baseUrl })
-      .setProtectedHeader({ alg, enc })
-      .setIssuedAt()
-      .setExpirationTime('3h')
-      .encrypt(secretKey);
+    // 2. Build the base URL without the file name or query string
+    const lastSlash = parsed.pathname.lastIndexOf('/');
+    const basePath = parsed.pathname.substring(0, lastSlash + 1);
+    const baseUrl = `${parsed.protocol}//${parsed.host}${basePath}`;
 
-    const expiresInSeconds = 3 * 60 * 60;
+    // 3. Encrypt both the baseUrl and the queryString into the JWT payload
+    const token = await new EncryptJWT({ baseUrl, queryString })
+    // --- END: MODIFICATION ---
+      .setProtectedHeader({ alg, enc })
+      .setIssuedAt()
+      .setExpirationTime('3h')
+      .encrypt(secretKey);
 
-    res.json({
-      status: "success",
-      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
-      expires_in: expiresInSeconds
-    });
+    const expiresInSeconds = 3 * 60 * 60;
 
-  } catch (e) {
-    console.error("URL Parsing or Encryption Error:", e.message);
-    return res.status(400).json({ status: "error", error: "Invalid URL provided" });
-  }
+    res.json({
+      status: "success",
+      m3u8_url: `https://${req.get('host')}/stream/${token}/master.mpd`,
+      expires_in: expiresInSeconds
+    });
+
+  } catch (e) {
+    console.error("URL Parsing or Encryption Error:", e.message);
+    return res.status(400).json({ status: "error", error: "Invalid URL provided" });
+  }
 });
-
 // -----------------------------------------------------------------------------
 // Middleware: /stream/:token/*
 // -----------------------------------------------------------------------------
 app.use('/stream/:token/*', async (req, res) => {
-  const { token } = req.params;
-  const filePath = req.params[0];
+  const { token } = req.params;
+  const filePath = req.params[0];
 
-  try {
-    const { payload: decoded } = await jwtDecrypt(token, secretKey);
+  try {
+    // --- START: MODIFICATION ---
+    // 1. Decrypt the token and get both baseUrl and queryString from the payload
+    const { payload: decoded } = await jwtDecrypt(token, secretKey);
+    const { baseUrl, queryString } = decoded;
 
-    const targetUrl = decoded.baseUrl + filePath;
-    const parsedUrl = new URL(targetUrl);
-    const lib = parsedUrl.protocol === 'https:' ? https : http;
+    if (!baseUrl || queryString === undefined) { // Check if queryString exists (can be empty string)
+        return res.status(400).json({ status: "error", error: 'Malformed token payload' });
+    }
 
-    const options = {
-      hostname: parsedUrl.hostname,
-      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
-      path: parsedUrl.pathname + parsedUrl.search,
-      method: 'GET',
-      headers: {
-        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0',
-        'Referer': parsedUrl.origin,
-        'Origin': parsedUrl.origin,
-      }
-    };
+    // 2. Construct the target URL without the query string for now
+    const targetUrl = baseUrl + filePath;
+    const parsedUrl = new URL(targetUrl);
+    // --- END: MODIFICATION ---
 
-    const proxyReq = lib.request(options, (proxyRes) => {
-      res.statusCode = proxyRes.statusCode;
-      Object.keys(proxyRes.headers).forEach((key) => {
-        const lowerCaseKey = key.toLowerCase();
-        if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
-          res.setHeader(key, proxyRes.headers[key]);
-        }
-      });
-      
-      proxyRes.pipe(res);
-    });
+    const lib = parsedUrl.protocol === 'https:' ? https : http;
 
-    proxyReq.on('error', (err) => {
-      console.error('Proxy request failed:', err.message);
-      if (!res.headersSent) {
-        res.status(502).json({ status: "error", error: 'Proxy request failed' });
-      }
-    });
+    const options = {
+      hostname: parsedUrl.hostname,
+      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+      // --- START: MODIFICATION ---
+      // 3. Append the stored queryString to the path
+      path: parsedUrl.pathname + queryString,
+      // --- END: MODIFICATION ---
+      method: 'GET',
+      headers: {
+        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0',
+        'Referer': parsedUrl.origin,
+        'Origin': parsedUrl.origin,
+      }
+    };
 
-    proxyReq.end();
+    const proxyReq = lib.request(options, (proxyRes) => {
+      // ... (rest of the code is unchanged)
+      res.statusCode = proxyRes.statusCode;
+      Object.keys(proxyRes.headers).forEach((key) => {
+        const lowerCaseKey = key.toLowerCase();
+        if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
+          res.setHeader(key, proxyRes.headers[key]);
+        }
+      });
+      
+      proxyRes.pipe(res);
+    });
 
-  } catch (err) {
-    console.warn(`[Auth] Rejected token: ${err.name} - ${err.message}`);
-    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' });
-  }
+    proxyReq.on('error', (err) => {
+      console.error('Proxy request failed:', err.message);
+      if (!res.headersSent) {
+        res.status(502).json({ status: "error", error: 'Proxy request failed' });
+      }
+    });
+
+    proxyReq.end();
+
+  } catch (err) {
+    console.warn(`[Auth] Rejected token: ${err.name} - ${err.message}`);
+    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' });
+  }
 });
-
 // -----------------------------------------------------------------------------
 // Server Start
 // -----------------------------------------------------------------------------
