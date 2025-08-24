@@ -30,30 +30,14 @@ const enc = 'A256GCM';
 // -----------------------------------------------------------------------------
 // CORS Configuration
 // -----------------------------------------------------------------------------
-const allowedOrigins = [
-  'https://pwthor.site',
-  'https://www.pwjarvis.com',
-  // Add other origins for local development if needed:
-  'http://localhost:3000',
-  'http://127.0.0.1:5500'
-];
 
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('This origin is not allowed by CORS'));
-    }
-  },
-};
+
 
 // -----------------------------------------------------------------------------
 // Express App Setup
 // -----------------------------------------------------------------------------
 const app = express();
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+app.use(cors());
 
 // -----------------------------------------------------------------------------
 // Endpoint: /get-proxy
