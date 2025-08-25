@@ -104,7 +104,7 @@ if (cluster.isPrimary) {
 
       res.json({
         status: "success",
-        manifest_url: `https://${req.get('host')}${proxyUrlPath}`,
+        m3u8_url: `https://${req.get('host')}${proxyUrlPath}`,
         expires_in: expiresInSeconds
       });
 
