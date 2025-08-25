@@ -101,67 +101,73 @@ app.get('/get-proxy', async (req, res) => {
 // Middleware: /stream/:token/*
 // -----------------------------------------------------------------------------
 app.use('/stream/:token/*', async (req, res) => {
-  const { token } = req.params;
-  const filePath = req.params[0];
+  const { token } = req.params;
+  const filePath = req.params[0];
 
-  try {
-    // --- START: MODIFICATION ---
-    // 1. Decrypt the token and get both baseUrl and queryString from the payload
-    const { payload: decoded } = await jwtDecrypt(token, secretKey);
+  try {
+    const { payload: decoded } = await jwtDecrypt(token, secretKey);
     const { baseUrl, queryString } = decoded;
 
-    if (!baseUrl || queryString === undefined) { // Check if queryString exists (can be empty string)
-        return res.status(400).json({ status: "error", error: 'Malformed token payload' });
+    if (!baseUrl || queryString === undefined) {
+      return res.status(400).json({ status: "error", error: 'Malformed token payload' });
     }
 
-    // 2. Construct the target URL without the query string for now
-    const targetUrl = baseUrl + filePath;
-    const parsedUrl = new URL(targetUrl);
-    // --- END: MODIFICATION ---
+    const targetUrl = baseUrl + filePath;
+    const parsedUrl = new URL(targetUrl);
+    const lib = parsedUrl.protocol === 'https:' ? https : http;
 
-    const lib = parsedUrl.protocol === 'https:' ? https : http;
+    // --- START: FIX ---
+    // Create a headers object to forward from the client's request
+    const forwardedHeaders = {
+        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0',
+        'Referer': parsedUrl.origin,
+        'Origin': parsedUrl.origin,
+    };
 
-    const options = {
-      hostname: parsedUrl.hostname,
-      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
-      // --- START: MODIFICATION ---
-      // 3. Append the stored queryString to the path
-      path: parsedUrl.pathname + queryString,
-      // --- END: MODIFICATION ---
-      method: 'GET',
-      headers: {
-        'User-Agent': req.get('User-Agent') || 'Mozilla/5.0',
-        'Referer': parsedUrl.origin,
-        'Origin': parsedUrl.origin,
-      }
-    };
+    // CRITICAL: Forward the Range header for video seeking and chunking
+    if (req.headers.range) {
+        forwardedHeaders['Range'] = req.headers.range;
+    }
+    // --- END: FIX ---
 
-    const proxyReq = lib.request(options, (proxyRes) => {
-      // ... (rest of the code is unchanged)
-      res.statusCode = proxyRes.statusCode;
-      Object.keys(proxyRes.headers).forEach((key) => {
-        const lowerCaseKey = key.toLowerCase();
-        if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
-          res.setHeader(key, proxyRes.headers[key]);
-        }
-      });
-      
-      proxyRes.pipe(res);
-    });
+    const options = {
+      hostname: parsedUrl.hostname,
+      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+      path: parsedUrl.pathname + queryString,
+      method: 'GET',
+      headers: forwardedHeaders // Use the new headers object
+    };
 
-    proxyReq.on('error', (err) => {
-      console.error('Proxy request failed:', err.message);
-      if (!res.headersSent) {
-        res.status(502).json({ status: "error", error: 'Proxy request failed' });
-      }
-    });
+    const proxyReq = lib.request(options, (proxyRes) => {
+      // Forward the status code from the original server (e.g., 206 Partial Content)
+      res.statusCode = proxyRes.statusCode;
 
-    proxyReq.end();
+      // Forward headers from the original server back to the client
+      Object.keys(proxyRes.headers).forEach((key) => {
+        // Prevent CORS issues and let the browser handle decompression
+        const lowerCaseKey = key.toLowerCase();
+        if (!lowerCaseKey.startsWith('access-control-') && lowerCaseKey !== 'content-encoding') {
+          res.setHeader(key, proxyRes.headers[key]);
+        }
+      });
+      
+      // Pipe the data directly through, making it a true stream
+      proxyRes.pipe(res);
+    });
 
-  } catch (err) {
-    console.warn(`[Auth] Rejected token: ${err.name} - ${err.message}`);
-    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' });
-  }
+    proxyReq.on('error', (err) => {
+      console.error('Proxy request failed:', err.message);
+      if (!res.headersSent) {
+        res.status(502).json({ status: "error", error: 'Proxy request failed' });
+      }
+    });
+
+    proxyReq.end();
+
+  } catch (err) {
+    console.warn(`[Auth] Rejected token: ${err.name} - ${err.message}`);
+    return res.status(401).json({ status: "error", error: 'Token is invalid or has expired' });
+  }
 });
 // -----------------------------------------------------------------------------
 // Server Start
